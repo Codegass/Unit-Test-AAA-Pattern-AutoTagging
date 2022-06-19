@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+StringAnyBufferAggregatorTest,testBufferAggregate,NEW org.apache.druid.query.aggregation.TestObjectColumnSelector<java.lang.String>(String[]),0
+StringAnyBufferAggregatorTest,testBufferAggregate,"NEW org.apache.druid.query.aggregation.any.StringAnyAggregatorFactory(String, String, Integer)",0
+StringAnyBufferAggregatorTest,testBufferAggregate,"NEW org.apache.druid.query.aggregation.any.StringAnyBufferAggregator(BaseObjectColumnValueSelector, int)",0
+StringAnyBufferAggregatorTest,testBufferAggregate,org.apache.druid.query.aggregation.any.StringAnyAggregatorFactory.getMaxIntermediateSize(),0
+StringAnyBufferAggregatorTest,testBufferAggregate,"org.apache.druid.query.aggregation.any.StringAnyBufferAggregator.init(ByteBuffer, int)",0
+StringAnyBufferAggregatorTest,testBufferAggregate,"     org.apache.druid.query.aggregation.BufferAggregator.aggregate(ByteBuffer, int)",1
+StringAnyBufferAggregatorTest,testBufferAggregate,     TEST org.apache.druid.query.aggregation.TestObjectColumnSelector.increment(),0
+StringAnyBufferAggregatorTest,testBufferAggregate,"org.apache.druid.query.aggregation.any.StringAnyBufferAggregator.get(ByteBuffer, int)",2
+StringAnyBufferAggregatorTest,testBufferAggregate,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

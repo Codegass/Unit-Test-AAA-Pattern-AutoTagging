@@ -1,0 +1,19 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.post.ConstantPostAggregator(String, Number)",0
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.datasketches.tuple.ArrayOfDoublesSketchToMeansPostAggregator(String, PostAggregator)",0
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertFalse(boolean),2
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertTrue(boolean),2
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.post.ConstantPostAggregator(String, Number)",0
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.datasketches.tuple.ArrayOfDoublesSketchToMeansPostAggregator(String, PostAggregator)",0
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertTrue(boolean),2
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.post.ConstantPostAggregator(String, Number)",0
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.datasketches.tuple.ArrayOfDoublesSketchToMeansPostAggregator(String, PostAggregator)",0
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertFalse(boolean),2
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.post.ConstantPostAggregator(String, Number)",0
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.datasketches.tuple.ArrayOfDoublesSketchToMeansPostAggregator(String, PostAggregator)",0
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertFalse(boolean),2
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.post.ConstantPostAggregator(String, Number)",0
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.datasketches.tuple.ArrayOfDoublesSketchToStringPostAggregator(String, PostAggregator)",0
+ArrayOfDoublesSketchToMeansPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertFalse(boolean),2

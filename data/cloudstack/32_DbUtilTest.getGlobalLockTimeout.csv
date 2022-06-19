@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DbUtilTest,getGlobalLockTimeout,"com.cloud.utils.db.DbUtil.getGlobalLock(String, int)",1
+DbUtilTest,getGlobalLockTimeout,ASSERT org.junit.Assert.assertFalse(boolean),2
+DbUtilTest,getGlobalLockTimeout,ASSERT org.junit.Assert.assertTrue(boolean),2

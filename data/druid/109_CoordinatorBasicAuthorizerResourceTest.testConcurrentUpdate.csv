@@ -1,0 +1,25 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"org.apache.druid.security.basic.authorization.endpoint.BasicAuthorizerResource.createUser(HttpServletRequest, String, String)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"NEW org.apache.druid.server.security.Resource(String, ResourceType)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"NEW org.apache.druid.server.security.ResourceAction(Resource, Action)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"NEW org.apache.druid.server.security.Resource(String, ResourceType)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"NEW org.apache.druid.server.security.ResourceAction(Resource, Action)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"NEW org.apache.druid.server.security.Resource(String, ResourceType)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"NEW org.apache.druid.server.security.ResourceAction(Resource, Action)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"org.apache.druid.security.basic.authorization.endpoint.BasicAuthorizerResource.createRole(HttpServletRequest, String, String)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"org.apache.druid.security.basic.authorization.endpoint.BasicAuthorizerResource.setRolePermissions(HttpServletRequest, String, String, List<ResourceAction>)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"org.apache.druid.java.util.common.concurrent.Execs.multiThreaded(int, String)",0
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"org.apache.druid.security.basic.authorization.endpoint.BasicAuthorizerResource.assignRoleToUser(HttpServletRequest, String, String, String)",1
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"     org.apache.druid.security.basic.authorization.endpoint.BasicAuthorizerResource.getUser(HttpServletRequest, String, String, String, String)",2
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,     org.apache.druid.security.basic.authorization.entity.BasicAuthorizerUserFull.getRoles(),2
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,     org.apache.druid.security.basic.authorization.entity.BasicAuthorizerRole.getName(),2
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,ASSERT org.junit.Assert.fail(String),2
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"org.apache.druid.security.basic.authorization.endpoint.BasicAuthorizerResource.unassignRoleFromUser(HttpServletRequest, String, String, String)",1
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,TEST org.apache.druid.security.authorization.CoordinatorBasicAuthorizerResourceTest.getRoleNamesAssignedToUser(String),2
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CoordinatorBasicAuthorizerResourceTest,testConcurrentUpdate,ASSERT org.junit.Assert.fail(String),2

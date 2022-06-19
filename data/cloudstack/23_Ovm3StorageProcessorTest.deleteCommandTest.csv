@@ -1,0 +1,129 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+Ovm3StorageProcessorTest,deleteCommandTest,     TEST com.cloud.hypervisor.ovm3.resources.helpers.Ovm3ConfigurationTest.getParams(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"     NEW com.cloud.hypervisor.ovm3.resources.helpers.Ovm3Configuration(Map<String,Object>)",0
+Ovm3StorageProcessorTest,deleteCommandTest,          NEW com.cloud.hypervisor.ovm3.objects.ConnectionTest(),0
+Ovm3StorageProcessorTest,deleteCommandTest,          com.cloud.hypervisor.ovm3.objects.Connection.getHostName(),0
+Ovm3StorageProcessorTest,deleteCommandTest,          com.cloud.hypervisor.ovm3.objects.Connection.setIp(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,"                    TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.brack(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,                         TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.methodResponseWrap(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrap(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrap(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrap(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrap(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.NetworkTest.getDiscoverNetwork(),0
+Ovm3StorageProcessorTest,deleteCommandTest,                    TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.methodResponseWrap(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.LinuxTest.getDiscoverHw(),0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrapWrapper(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.LinuxTest.getDiscoverserver(),0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrapWrapper(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.LinuxTest.getDiscoverFs(),0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrapWrapper(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrapWrapper(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrapWrapper(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XenTest.getMultipleVmsListXML(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XenTest.getSingleVmListXML(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XenTest.getSingleVmConfigXML(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"                    TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrap(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.getNil(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.getNil(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.getNil(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.getNil(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.getNil(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.getNil(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.getNil(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrap(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrap(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrap(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.CloudStackPluginTest.getDomrExecXml(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrap(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.CloudStackPluginTest.getDomuStatsXml(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.CloudStackPluginTest.getDom0StorageCheckXml(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrap(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.simpleResponseWrap(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,"               TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setMethodResponse(String, String)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               TEST com.cloud.hypervisor.ovm3.objects.CloudStackPluginTest.getDom0StorageCheckXml(),0
+Ovm3StorageProcessorTest,deleteCommandTest,     com.cloud.hypervisor.ovm3.resources.Ovm3HypervisorResource.setConnection(Connection),0
+Ovm3StorageProcessorTest,deleteCommandTest,     com.cloud.hypervisor.ovm3.resources.helpers.Ovm3Configuration.getAgentName(),0
+Ovm3StorageProcessorTest,deleteCommandTest,     TEST com.cloud.hypervisor.ovm3.resources.helpers.Ovm3ConfigurationTest.getParams(),0
+Ovm3StorageProcessorTest,deleteCommandTest,"     com.cloud.hypervisor.ovm3.resources.Ovm3HypervisorResource.configure(String, Map<String,Object>)",0
+Ovm3StorageProcessorTest,deleteCommandTest,               ASSERT org.junit.Assert.assertNotNull(Object),0
+Ovm3StorageProcessorTest,deleteCommandTest,"               ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.hypervisor.ovm3.objects.OvmObject.newUuid(),0
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.hypervisor.ovm3.objects.OvmObject.newUuid(),0
+Ovm3StorageProcessorTest,deleteCommandTest,TEST com.cloud.hypervisor.ovm3.objects.LinuxTest.getRepoId(),0
+Ovm3StorageProcessorTest,deleteCommandTest,TEST com.cloud.hypervisor.ovm3.objects.LinuxTest.getVirtualDisksDir(),0
+Ovm3StorageProcessorTest,deleteCommandTest,     NEW org.apache.cloudstack.storage.to.VolumeObjectTO(),0
+Ovm3StorageProcessorTest,deleteCommandTest,     NEW com.cloud.agent.api.to.NfsTO(),0
+Ovm3StorageProcessorTest,deleteCommandTest,     com.cloud.agent.api.to.NfsTO.setUuid(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,     com.cloud.agent.api.to.NfsTO.setUrl(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,     org.apache.cloudstack.storage.to.VolumeObjectTO.setDataStore(DataStoreTO),0
+Ovm3StorageProcessorTest,deleteCommandTest,     org.apache.cloudstack.storage.to.VolumeObjectTO.setPath(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,     org.apache.cloudstack.storage.to.VolumeObjectTO.setUuid(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,NEW org.apache.cloudstack.storage.command.DeleteCommand(DataTO),1
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.hypervisor.ovm3.resources.Ovm3HypervisorResource.executeRequest(Command),1
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.agent.api.Answer.getResult(),2
+Ovm3StorageProcessorTest,deleteCommandTest,          ASSERT org.junit.Assert.assertNotNull(Object),2
+Ovm3StorageProcessorTest,deleteCommandTest,"          ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.hypervisor.ovm3.objects.OvmObject.newUuid(),0
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.hypervisor.ovm3.objects.OvmObject.newUuid(),0
+Ovm3StorageProcessorTest,deleteCommandTest,TEST com.cloud.hypervisor.ovm3.objects.LinuxTest.getRemote(),0
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.hypervisor.ovm3.objects.OvmObject.newUuid(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,TEST com.cloud.hypervisor.ovm3.objects.LinuxTest.getRemote(),0
+Ovm3StorageProcessorTest,deleteCommandTest,     NEW org.apache.cloudstack.storage.to.TemplateObjectTO(),0
+Ovm3StorageProcessorTest,deleteCommandTest,     NEW com.cloud.agent.api.to.NfsTO(),0
+Ovm3StorageProcessorTest,deleteCommandTest,     com.cloud.agent.api.to.NfsTO.setUuid(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,     com.cloud.agent.api.to.NfsTO.setUrl(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,     org.apache.cloudstack.storage.to.TemplateObjectTO.setDataStore(DataStoreTO),0
+Ovm3StorageProcessorTest,deleteCommandTest,     org.apache.cloudstack.storage.to.TemplateObjectTO.setPath(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,     org.apache.cloudstack.storage.to.TemplateObjectTO.setUuid(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,NEW org.apache.cloudstack.storage.command.DeleteCommand(DataTO),1
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.hypervisor.ovm3.resources.Ovm3HypervisorResource.executeRequest(Command),1
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.agent.api.Answer.getResult(),2
+Ovm3StorageProcessorTest,deleteCommandTest,     ASSERT org.junit.Assert.assertNotNull(Object),2
+Ovm3StorageProcessorTest,deleteCommandTest,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.hypervisor.ovm3.objects.OvmObject.newUuid(),0
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.hypervisor.ovm3.objects.OvmObject.newUuid(),0
+Ovm3StorageProcessorTest,deleteCommandTest,TEST com.cloud.hypervisor.ovm3.objects.LinuxTest.getRemote(),0
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.hypervisor.ovm3.objects.OvmObject.newUuid(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,TEST com.cloud.hypervisor.ovm3.objects.LinuxTest.getRemote(),0
+Ovm3StorageProcessorTest,deleteCommandTest,     NEW org.apache.cloudstack.storage.to.SnapshotObjectTO(),0
+Ovm3StorageProcessorTest,deleteCommandTest,     NEW com.cloud.agent.api.to.NfsTO(),0
+Ovm3StorageProcessorTest,deleteCommandTest,     com.cloud.agent.api.to.NfsTO.setUuid(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,     com.cloud.agent.api.to.NfsTO.setUrl(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,     org.apache.cloudstack.storage.to.SnapshotObjectTO.setDataStore(DataStoreTO),0
+Ovm3StorageProcessorTest,deleteCommandTest,     org.apache.cloudstack.storage.to.SnapshotObjectTO.setPath(String),0
+Ovm3StorageProcessorTest,deleteCommandTest,NEW org.apache.cloudstack.storage.command.DeleteCommand(DataTO),1
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.hypervisor.ovm3.resources.Ovm3HypervisorResource.executeRequest(Command),1
+Ovm3StorageProcessorTest,deleteCommandTest,com.cloud.agent.api.Answer.getResult(),2
+Ovm3StorageProcessorTest,deleteCommandTest,"TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicBooleanTest(boolean, boolean)",2

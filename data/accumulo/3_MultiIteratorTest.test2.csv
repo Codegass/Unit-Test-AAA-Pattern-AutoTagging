@@ -1,0 +1,32 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MultiIteratorTest,test2,               NEW org.apache.hadoop.io.Text(String),0
+MultiIteratorTest,test2,"          NEW org.apache.accumulo.core.data.Key(Text, long)",0
+MultiIteratorTest,test2,     org.apache.accumulo.core.data.Key.setDeleted(boolean),0
+MultiIteratorTest,test2,     NEW org.apache.accumulo.core.data.Value(byte[]),0
+MultiIteratorTest,test2,"TEST org.apache.accumulo.core.iterators.system.MultiIteratorTest.newKeyValue(TreeMap<Key,Value>, int, long, boolean, String)",0
+MultiIteratorTest,test2,"          NEW org.apache.accumulo.core.iterators.SortedMapIterator(SortedMap<Key,Value>)",0
+MultiIteratorTest,test2,"          NEW org.apache.accumulo.core.iterators.system.MultiIterator(List<SortedKeyValueIterator<Key,Value>>, boolean)",0
+MultiIteratorTest,test2,"          NEW org.apache.accumulo.core.data.Range(Text, boolean, Text, boolean)",0
+MultiIteratorTest,test2,"          org.apache.accumulo.core.iterators.SortedKeyValueIterator.seek(Range, Collection<ByteSequence>, boolean)",0
+MultiIteratorTest,test2,"          NEW org.apache.accumulo.core.iterators.system.MultiIterator(List<SortedKeyValueIterator<Key,Value>>, Range)",0
+MultiIteratorTest,test2,"          org.apache.accumulo.core.iterators.system.MultiIterator.seek(Range, Collection<ByteSequence>, boolean)",1
+MultiIteratorTest,test2,"          NEW org.apache.accumulo.core.data.Range(Key, Key)",0
+MultiIteratorTest,test2,"          org.apache.accumulo.core.iterators.system.MultiIterator.seek(Range, Collection<ByteSequence>, boolean)",1
+MultiIteratorTest,test2,          NEW org.apache.accumulo.core.data.Range(),0
+MultiIteratorTest,test2,"          org.apache.accumulo.core.iterators.system.MultiIterator.seek(Range, Collection<ByteSequence>, boolean)",1
+MultiIteratorTest,test2,          org.apache.accumulo.core.iterators.system.HeapIterator.hasTop(),0
+MultiIteratorTest,test2,"          TEST org.apache.accumulo.core.iterators.system.MultiIteratorTest.newKey(int, long)",0
+MultiIteratorTest,test2,          org.apache.accumulo.core.iterators.system.HeapIterator.getTopKey(),0
+MultiIteratorTest,test2,"          ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+MultiIteratorTest,test2,"          TEST org.apache.accumulo.core.iterators.system.MultiIteratorTest.newKey(int, long)",0
+MultiIteratorTest,test2,          org.apache.accumulo.core.iterators.system.HeapIterator.getTopKey(),2
+MultiIteratorTest,test2,"          ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+MultiIteratorTest,test2,          org.apache.accumulo.core.iterators.system.HeapIterator.getTopValue(),2
+MultiIteratorTest,test2,          org.apache.accumulo.core.data.Value.toString(),2
+MultiIteratorTest,test2,"          ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+MultiIteratorTest,test2,          org.apache.accumulo.core.iterators.system.HeapIterator.next(),2
+MultiIteratorTest,test2,"          ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+MultiIteratorTest,test2,"     TEST org.apache.accumulo.core.iterators.system.MultiIteratorTest.verify(int, int, Key, Text, Text, boolean, boolean, List<TreeMap<Key,Value>>)",2
+MultiIteratorTest,test2,          NEW org.apache.hadoop.io.Text(String),0
+MultiIteratorTest,test2,"     NEW org.apache.accumulo.core.data.Key(Text, long)",0
+MultiIteratorTest,test2,"TEST org.apache.accumulo.core.iterators.system.MultiIteratorTest.verify(int, Key, List<TreeMap<Key,Value>>)",2

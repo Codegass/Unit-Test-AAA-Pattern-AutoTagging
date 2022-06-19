@@ -1,0 +1,34 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"NEW org.apache.druid.client.DruidServer(String, String, String, long, ServerType, String, int)",0
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,org.apache.druid.client.DruidServer.addDataSegment(DataSegment),0
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,org.apache.druid.client.DruidServer.addDataSegment(DataSegment),0
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,org.apache.druid.client.DruidServer.addDataSegment(DataSegment),0
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,org.apache.druid.client.CoordinatorServerView.getInventory(),0
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,MOCK org.easymock.EasyMock.expect(Collection<DruidServer>),0
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.client.DruidServer>>.andReturn(Collection<DruidServer>),0
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.client.DruidServer>>.atLeastOnce(),0
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,MOCK org.easymock.EasyMock.replay(Object[]),0
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"NEW org.apache.druid.server.http.DataSourcesResource(CoordinatorServerView, SegmentsMetadataManager, MetadataRuleManager, IndexingServiceClient, AuthorizerMapper, DruidCoordinator)",0
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"org.apache.druid.server.http.DataSourcesResource.getServedSegmentsInInterval(String, String, String, String)",1
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"org.apache.druid.server.http.DataSourcesResource.getServedSegmentsInInterval(String, String, String, String)",1
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"org.apache.druid.server.http.DataSourcesResource.getServedSegmentsInInterval(String, String, String, String)",1
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,org.apache.druid.timeline.DataSegment.getId(),2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"org.apache.druid.server.http.DataSourcesResource.getServedSegmentsInInterval(String, String, String, String)",1
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,org.apache.druid.timeline.DataSegment.getId(),2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,org.apache.druid.timeline.DataSegment.getId(),2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"org.apache.druid.server.http.DataSourcesResource.getServedSegmentsInInterval(String, String, String, String)",1
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,org.apache.druid.timeline.DataSegment.getInterval(),2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,ASSERT org.junit.Assert.assertTrue(boolean),2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,org.apache.druid.timeline.DataSegment.getInterval(),2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"org.apache.druid.server.http.DataSourcesResource.getServedSegmentsInInterval(String, String, String, String)",1
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,org.apache.druid.timeline.DataSegment.getInterval(),2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,org.apache.druid.timeline.DataSegment.getId(),2
+DataSourcesResourceTest,testGetServedSegmentsInIntervalInDataSource,MOCK org.easymock.EasyMock.verify(Object[]),2

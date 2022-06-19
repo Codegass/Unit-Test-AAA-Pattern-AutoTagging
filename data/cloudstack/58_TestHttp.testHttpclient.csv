@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TestHttp,testHttpclient,NEW org.apache.http.client.methods.HttpHead(String),1
+TestHttp,testHttpclient,NEW org.apache.http.impl.client.DefaultHttpClient(),0
+TestHttp,testHttpclient,NEW org.apache.http.client.methods.HttpGet(String),1
+TestHttp,testHttpclient,"ASSERT junit.framework.Assert.assertEquals(long, long)",2

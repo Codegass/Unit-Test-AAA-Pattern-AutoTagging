@@ -1,0 +1,35 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.timeline.DataSegment.builder(),0
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.timeline.DataSegment.Builder.dataSource(String),0
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.java.util.common.Intervals.of(String),0
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.timeline.DataSegment.Builder.interval(Interval),0
+LoadQueuePeonTest,testFailAssign,"     org.apache.druid.timeline.DataSegment.Builder.loadSpec(Map<String,Object>)",0
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.timeline.DataSegment.Builder.version(String),0
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.timeline.DataSegment.Builder.dimensions(List<String>),0
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.timeline.DataSegment.Builder.metrics(List<String>),0
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.timeline.partition.NoneShardSpec.instance(),0
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.timeline.DataSegment.Builder.shardSpec(ShardSpec),0
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.timeline.DataSegment.Builder.binaryVersion(Integer),0
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.timeline.DataSegment.Builder.size(long),0
+LoadQueuePeonTest,testFailAssign,     org.apache.druid.timeline.DataSegment.Builder.build(),0
+LoadQueuePeonTest,testFailAssign,org.apache.druid.java.util.common.concurrent.Execs.scheduledSingleThreaded(String),0
+LoadQueuePeonTest,testFailAssign,org.apache.druid.java.util.common.concurrent.Execs.singleThreaded(String),0
+LoadQueuePeonTest,testFailAssign,NEW org.joda.time.Duration(long),0
+LoadQueuePeonTest,testFailAssign,NEW org.joda.time.Duration(Object),0
+LoadQueuePeonTest,testFailAssign,"NEW org.apache.druid.server.coordinator.TestDruidCoordinatorConfig(Duration, Duration, Duration, Duration, Duration, Duration, int, Duration)",0
+LoadQueuePeonTest,testFailAssign,"NEW org.apache.druid.server.coordinator.CuratorLoadQueuePeon(CuratorFramework, String, ObjectMapper, ScheduledExecutorService, ExecutorService, DruidCoordinatorConfig)",0
+LoadQueuePeonTest,testFailAssign,org.apache.druid.server.coordinator.LoadQueuePeon.start(),1
+LoadQueuePeonTest,testFailAssign,NEW anonymous(),0
+LoadQueuePeonTest,testFailAssign,NEW anonymous(),0
+LoadQueuePeonTest,testFailAssign,"org.apache.druid.server.coordinator.LoadQueuePeon.loadSegment(DataSegment, LoadPeonCallback)",1
+LoadQueuePeonTest,testFailAssign,org.apache.druid.timeline.DataSegment.getId(),2
+LoadQueuePeonTest,testFailAssign,org.apache.druid.timeline.SegmentId.toString(),2
+LoadQueuePeonTest,testFailAssign,ASSERT org.junit.Assert.assertTrue(boolean),2
+LoadQueuePeonTest,testFailAssign,ASSERT org.junit.Assert.assertNotNull(Object),2
+LoadQueuePeonTest,testFailAssign,org.apache.druid.server.coordination.SegmentChangeRequestLoad.getSegment(),2
+LoadQueuePeonTest,testFailAssign,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+LoadQueuePeonTest,testFailAssign,ASSERT org.junit.Assert.assertTrue(boolean),2
+LoadQueuePeonTest,testFailAssign,org.apache.druid.server.coordinator.LoadQueuePeon.getSegmentsToLoad(),2
+LoadQueuePeonTest,testFailAssign,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LoadQueuePeonTest,testFailAssign,org.apache.druid.server.coordinator.LoadQueuePeon.getLoadQueueSize(),2
+LoadQueuePeonTest,testFailAssign,"ASSERT org.junit.Assert.assertEquals(long, long)",2

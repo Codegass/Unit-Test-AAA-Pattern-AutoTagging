@@ -1,0 +1,57 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MutationTest,testMultipleReadFieldsCalls,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+MutationTest,testMultipleReadFieldsCalls,NEW org.apache.accumulo.core.security.ColumnVisibility(String),0
+MutationTest,testMultipleReadFieldsCalls,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+MutationTest,testMultipleReadFieldsCalls,NEW org.apache.accumulo.core.security.ColumnVisibility(String),0
+MutationTest,testMultipleReadFieldsCalls,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+MutationTest,testMultipleReadFieldsCalls,NEW org.apache.accumulo.core.security.ColumnVisibility(String),0
+MutationTest,testMultipleReadFieldsCalls,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.size(),0
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.numBytes(),0
+MutationTest,testMultipleReadFieldsCalls,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+MutationTest,testMultipleReadFieldsCalls,NEW org.apache.accumulo.core.security.ColumnVisibility(String),0
+MutationTest,testMultipleReadFieldsCalls,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, long, CharSequence)",0
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.size(),0
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.numBytes(),0
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.write(DataOutput),0
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.write(DataOutput),0
+MutationTest,testMultipleReadFieldsCalls,NEW org.apache.accumulo.core.data.Mutation(),0
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.readFields(DataInput),1
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.getRow(),2
+MutationTest,testMultipleReadFieldsCalls,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.size(),2
+MutationTest,testMultipleReadFieldsCalls,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.numBytes(),2
+MutationTest,testMultipleReadFieldsCalls,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.getUpdates(),2
+MutationTest,testMultipleReadFieldsCalls,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.getUpdates(),2
+MutationTest,testMultipleReadFieldsCalls,     org.apache.accumulo.core.data.ColumnUpdate.getColumnFamily(),2
+MutationTest,testMultipleReadFieldsCalls,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+MutationTest,testMultipleReadFieldsCalls,     org.apache.accumulo.core.data.ColumnUpdate.getColumnQualifier(),2
+MutationTest,testMultipleReadFieldsCalls,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+MutationTest,testMultipleReadFieldsCalls,     org.apache.accumulo.core.data.ColumnUpdate.getColumnVisibility(),2
+MutationTest,testMultipleReadFieldsCalls,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+MutationTest,testMultipleReadFieldsCalls,     org.apache.accumulo.core.data.ColumnUpdate.hasTimestamp(),2
+MutationTest,testMultipleReadFieldsCalls,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+MutationTest,testMultipleReadFieldsCalls,     org.apache.accumulo.core.data.ColumnUpdate.getTimestamp(),2
+MutationTest,testMultipleReadFieldsCalls,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+MutationTest,testMultipleReadFieldsCalls,     org.apache.accumulo.core.data.ColumnUpdate.isDeleted(),2
+MutationTest,testMultipleReadFieldsCalls,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+MutationTest,testMultipleReadFieldsCalls,     org.apache.accumulo.core.data.ColumnUpdate.getValue(),2
+MutationTest,testMultipleReadFieldsCalls,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.getUpdates(),2
+MutationTest,testMultipleReadFieldsCalls,"TEST org.apache.accumulo.core.data.MutationTest.verifyColumnUpdate(ColumnUpdate, String, String, String, long, boolean, boolean, String)",2
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.getUpdates(),2
+MutationTest,testMultipleReadFieldsCalls,"TEST org.apache.accumulo.core.data.MutationTest.verifyColumnUpdate(ColumnUpdate, String, String, String, long, boolean, boolean, String)",2
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.readFields(DataInput),1
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.getRow(),2
+MutationTest,testMultipleReadFieldsCalls,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.size(),2
+MutationTest,testMultipleReadFieldsCalls,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.numBytes(),2
+MutationTest,testMultipleReadFieldsCalls,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.getUpdates(),2
+MutationTest,testMultipleReadFieldsCalls,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+MutationTest,testMultipleReadFieldsCalls,org.apache.accumulo.core.data.Mutation.getUpdates(),2
+MutationTest,testMultipleReadFieldsCalls,"TEST org.apache.accumulo.core.data.MutationTest.verifyColumnUpdate(ColumnUpdate, String, String, String, long, boolean, boolean, String)",2

@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RouterDeploymentDefinitionTest,testFindOfferingIdDefault,com.cloud.network.dao.NetworkVO.getNetworkOfferingId(),0
+RouterDeploymentDefinitionTest,testFindOfferingIdDefault,com.cloud.utils.db.GenericDao.findById(Long),0
+RouterDeploymentDefinitionTest,testFindOfferingIdDefault,com.cloud.offerings.NetworkOfferingVO.getServiceOfferingId(),0
+RouterDeploymentDefinitionTest,testFindOfferingIdDefault,"com.cloud.service.dao.ServiceOfferingDao.findDefaultSystemOffering(String, Boolean)",0
+RouterDeploymentDefinitionTest,testFindOfferingIdDefault,com.cloud.storage.DiskOfferingVO.getId(),0
+RouterDeploymentDefinitionTest,testFindOfferingIdDefault,org.cloud.network.router.deployment.RouterDeploymentDefinition.findServiceOfferingId(),1
+RouterDeploymentDefinitionTest,testFindOfferingIdDefault,"ASSERT junit.framework.Assert.assertEquals(String, long, long)",2

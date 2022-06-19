@@ -1,0 +1,88 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+IndexMergerTestBase,testDisjointDimMerge,     NEW org.apache.druid.segment.incremental.IncrementalIndex.Builder(),0
+IndexMergerTestBase,testDisjointDimMerge,     NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.setSimpleTestingIndexSchema(AggregatorFactory[]),0
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.setMaxRowCount(int),0
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.buildOnheap(),0
+IndexMergerTestBase,testDisjointDimMerge,"          NEW org.apache.druid.data.input.MapBasedInputRow(long, List<String>, Map<String,Object>)",0
+IndexMergerTestBase,testDisjointDimMerge,          org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),0
+IndexMergerTestBase,testDisjointDimMerge,"TEST org.apache.druid.segment.IndexMergerTestBase.getSingleDimIndex(String, List<String>)",0
+IndexMergerTestBase,testDisjointDimMerge,     NEW org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder(),0
+IndexMergerTestBase,testDisjointDimMerge,"               NEW org.apache.druid.data.input.impl.StringDimensionSchema(String, MultiValueHandling, Boolean)",0
+IndexMergerTestBase,testDisjointDimMerge,"     NEW org.apache.druid.data.input.impl.DimensionsSpec(List<DimensionSchema>, List<String>, List<SpatialDimensionSchema>)",0
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.withDimensionsSpec(DimensionsSpec),0
+IndexMergerTestBase,testDisjointDimMerge,     NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.withMetrics(AggregatorFactory[]),0
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.build(),0
+IndexMergerTestBase,testDisjointDimMerge,     NEW org.apache.druid.segment.incremental.IncrementalIndex.Builder(),0
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.setIndexSchema(IncrementalIndexSchema),0
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.setMaxRowCount(int),0
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.buildOnheap(),0
+IndexMergerTestBase,testDisjointDimMerge,"     NEW org.apache.druid.data.input.MapBasedInputRow(long, List<String>, Map<String,Object>)",0
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),0
+IndexMergerTestBase,testDisjointDimMerge,"org.apache.druid.segment.IndexMerger.persist(IncrementalIndex, File, IndexSpec, SegmentWriteOutMediumFactory)",0
+IndexMergerTestBase,testDisjointDimMerge,org.apache.druid.segment.IndexIO.loadIndex(File),0
+IndexMergerTestBase,testDisjointDimMerge,     NEW anonymous(),0
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.java.util.common.io.Closer.register(),0
+IndexMergerTestBase,testDisjointDimMerge,"     org.apache.druid.java.util.common.logger.Logger.warn(Throwable, String, Object[])",0
+IndexMergerTestBase,testDisjointDimMerge,"org.apache.druid.segment.IndexMerger.persist(IncrementalIndex, File, IndexSpec, SegmentWriteOutMediumFactory)",0
+IndexMergerTestBase,testDisjointDimMerge,org.apache.druid.segment.IndexIO.loadIndex(File),0
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.CloserRule.closeLater(QueryableIndex),0
+IndexMergerTestBase,testDisjointDimMerge,"org.apache.druid.segment.IndexMerger.mergeQueryableIndex(List<QueryableIndex>, boolean, AggregatorFactory[], File, IndexSpec, SegmentWriteOutMediumFactory)",1
+IndexMergerTestBase,testDisjointDimMerge,org.apache.druid.segment.IndexIO.loadIndex(File),0
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.CloserRule.closeLater(QueryableIndex),0
+IndexMergerTestBase,testDisjointDimMerge,NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+IndexMergerTestBase,testDisjointDimMerge,NEW org.apache.druid.segment.QueryableIndexIndexableAdapter(QueryableIndex),2
+IndexMergerTestBase,testDisjointDimMerge,org.apache.druid.segment.QueryableIndexIndexableAdapter.getRows(),2
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.TimeAndDimsIterator.moveToNext(),2
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.RowIterator.getPointer(),2
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.TimeAndDimsPointer.getDimensionNamesToValuesForDebug(),2
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.TimeAndDimsPointer.getMetricNamesToValuesForDebug(),2
+IndexMergerTestBase,testDisjointDimMerge,"     NEW org.apache.druid.segment.DebugRow(Map<String,Object>, Map<String,Object>)",2
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.TimeAndDimsIterator.close(),2
+IndexMergerTestBase,testDisjointDimMerge,org.apache.druid.segment.QueryableIndexIndexableAdapter.getDimensionNames(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.DebugRow.dimensionValues(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.DebugRow.metricValues(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.DebugRow.dimensionValues(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.DebugRow.metricValues(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.DebugRow.dimensionValues(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.DebugRow.metricValues(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.DebugRow.dimensionValues(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.DebugRow.metricValues(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.DebugRow.dimensionValues(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,TEST org.apache.druid.segment.DebugRow.metricValues(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,org.apache.druid.segment.QueryableIndexIndexableAdapter.getCapabilities(String),2
+IndexMergerTestBase,testDisjointDimMerge,org.apache.druid.segment.column.ColumnCapabilities.hasBitmapIndexes(),2
+IndexMergerTestBase,testDisjointDimMerge,ASSERT org.junit.Assert.assertTrue(boolean),2
+IndexMergerTestBase,testDisjointDimMerge,"org.apache.druid.segment.QueryableIndexIndexableAdapter.getBitmapIndex(String, String)",2
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.data.BitmapValues.size(),2
+IndexMergerTestBase,testDisjointDimMerge,"     ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+IndexMergerTestBase,testDisjointDimMerge,     org.apache.druid.segment.data.BitmapValues.iterator(),2
+IndexMergerTestBase,testDisjointDimMerge,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,"org.apache.druid.segment.QueryableIndexIndexableAdapter.getBitmapIndex(String, String)",2
+IndexMergerTestBase,testDisjointDimMerge,"TEST org.apache.druid.segment.IndexMergerTestBase.checkBitmapIndex(List<Integer>, BitmapValues)",2
+IndexMergerTestBase,testDisjointDimMerge,"org.apache.druid.segment.QueryableIndexIndexableAdapter.getBitmapIndex(String, String)",2
+IndexMergerTestBase,testDisjointDimMerge,"TEST org.apache.druid.segment.IndexMergerTestBase.checkBitmapIndex(List<Integer>, BitmapValues)",2
+IndexMergerTestBase,testDisjointDimMerge,org.apache.druid.segment.QueryableIndexIndexableAdapter.getCapabilities(String),2
+IndexMergerTestBase,testDisjointDimMerge,org.apache.druid.segment.column.ColumnCapabilities.hasBitmapIndexes(),2
+IndexMergerTestBase,testDisjointDimMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexMergerTestBase,testDisjointDimMerge,"org.apache.druid.segment.QueryableIndexIndexableAdapter.getBitmapIndex(String, String)",2
+IndexMergerTestBase,testDisjointDimMerge,"TEST org.apache.druid.segment.IndexMergerTestBase.checkBitmapIndex(List<Integer>, BitmapValues)",2
+IndexMergerTestBase,testDisjointDimMerge,"org.apache.druid.segment.QueryableIndexIndexableAdapter.getBitmapIndex(String, String)",2
+IndexMergerTestBase,testDisjointDimMerge,"TEST org.apache.druid.segment.IndexMergerTestBase.checkBitmapIndex(List<Integer>, BitmapValues)",2
+IndexMergerTestBase,testDisjointDimMerge,"org.apache.druid.segment.QueryableIndexIndexableAdapter.getBitmapIndex(String, String)",2
+IndexMergerTestBase,testDisjointDimMerge,"TEST org.apache.druid.segment.IndexMergerTestBase.checkBitmapIndex(List<Integer>, BitmapValues)",2
+IndexMergerTestBase,testDisjointDimMerge,"org.apache.druid.segment.QueryableIndexIndexableAdapter.getBitmapIndex(String, String)",2
+IndexMergerTestBase,testDisjointDimMerge,"TEST org.apache.druid.segment.IndexMergerTestBase.checkBitmapIndex(List<Integer>, BitmapValues)",2

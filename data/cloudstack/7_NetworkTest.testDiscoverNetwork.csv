@@ -1,0 +1,41 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NetworkTest,testDiscoverNetwork,"          TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.brack(String, String)",0
+NetworkTest,testDiscoverNetwork,               TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.methodResponseWrap(String),0
+NetworkTest,testDiscoverNetwork,TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setResult(String),0
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.discoverNetwork(),1
+NetworkTest,testDiscoverNetwork,     ASSERT org.junit.Assert.assertNotNull(Object),2
+NetworkTest,testDiscoverNetwork,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NetworkTest,testDiscoverNetwork,     TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.methodResponseWrap(String),0
+NetworkTest,testDiscoverNetwork,TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setResult(String),0
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.discoverNetwork(),1
+NetworkTest,testDiscoverNetwork,"     TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicBooleanTest(boolean, boolean)",2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.getBridgeByIp(String),2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.Interface.getName(),2
+NetworkTest,testDiscoverNetwork,     ASSERT org.junit.Assert.assertNotNull(Object),2
+NetworkTest,testDiscoverNetwork,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.getBridgeByName(String),2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.Interface.getAddress(),2
+NetworkTest,testDiscoverNetwork,"TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicStringTest(String, String)",2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.getInterfaceByName(String),2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.Interface.getMac(),2
+NetworkTest,testDiscoverNetwork,"TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicStringTest(String, String)",2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.getBridgeByIp(String),2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.OvmObject.getSuccess(),2
+NetworkTest,testDiscoverNetwork,"TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicBooleanTest(boolean, boolean)",2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.getBridgeByName(String),2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.OvmObject.getSuccess(),2
+NetworkTest,testDiscoverNetwork,"TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicBooleanTest(boolean, boolean)",2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.getInterfaceByIp(String),2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.Interface.getName(),2
+NetworkTest,testDiscoverNetwork,"TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicStringTest(String, String)",2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.getInterfaceByName(String),2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.Interface.getAddress(),2
+NetworkTest,testDiscoverNetwork,"TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicStringTest(String, String)",2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.getInterfaceByName(String),2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.Interface.getBroadcast(),2
+NetworkTest,testDiscoverNetwork,"TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicStringTest(String, String)",2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.getInterfaceByName(String),2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.Interface.getMac(),2
+NetworkTest,testDiscoverNetwork,"TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicStringTest(String, String)",2
+NetworkTest,testDiscoverNetwork,com.cloud.hypervisor.ovm3.objects.Network.getPhysicalByBridgeName(String),2
+NetworkTest,testDiscoverNetwork,"TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicStringTest(String, String)",2

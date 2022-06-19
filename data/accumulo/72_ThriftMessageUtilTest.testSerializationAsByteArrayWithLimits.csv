@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ThriftMessageUtilTest,testSerializationAsByteArrayWithLimits,"org.apache.accumulo.core.util.ThriftMessageUtil.serialize(TBase<?,?>)",1
+ThriftMessageUtilTest,testSerializationAsByteArrayWithLimits,NEW org.apache.accumulo.core.securityImpl.thrift.TAuthenticationTokenIdentifier(),2
+ThriftMessageUtilTest,testSerializationAsByteArrayWithLimits,"org.apache.accumulo.core.util.ThriftMessageUtil.deserialize(byte[], int, int, TAuthenticationTokenIdentifier)",2
+ThriftMessageUtilTest,testSerializationAsByteArrayWithLimits,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

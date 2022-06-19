@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InMemoryEventBusTest,testUnsubscribe,NEW org.apache.cloudstack.mom.inmemory.InMemoryEventBus(),0
+InMemoryEventBusTest,testUnsubscribe,"org.apache.cloudstack.mom.inmemory.InMemoryEventBus.subscribe(EventTopic, EventSubscriber)",0
+InMemoryEventBusTest,testUnsubscribe,ASSERT org.junit.Assert.assertNotNull(Object),0
+InMemoryEventBusTest,testUnsubscribe,com.cloud.utils.UuidUtils.validateUUID(String),0
+InMemoryEventBusTest,testUnsubscribe,ASSERT org.junit.Assert.assertTrue(boolean),0
+InMemoryEventBusTest,testUnsubscribe,ASSERT org.junit.Assert.assertTrue(boolean),0
+InMemoryEventBusTest,testUnsubscribe,org.apache.cloudstack.mom.inmemory.InMemoryEventBus.totalSubscribers(),1
+InMemoryEventBusTest,testUnsubscribe,"org.apache.cloudstack.mom.inmemory.InMemoryEventBus.unsubscribe(UUID, EventSubscriber)",1
+InMemoryEventBusTest,testUnsubscribe,ASSERT org.junit.Assert.assertTrue(boolean),2
+InMemoryEventBusTest,testUnsubscribe,org.apache.cloudstack.mom.inmemory.InMemoryEventBus.totalSubscribers(),2

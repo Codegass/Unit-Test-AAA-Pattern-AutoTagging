@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+OrcHadoopInputRowParserTest,testDate1900,     org.apache.druid.indexer.HadoopDruidIndexerConfig.fromFile(File),0
+OrcHadoopInputRowParserTest,testDate1900,NEW org.apache.hadoop.conf.Configuration(),0
+OrcHadoopInputRowParserTest,testDate1900,org.apache.druid.indexer.HadoopDruidIndexerConfig.intoConfiguration(Job),0
+OrcHadoopInputRowParserTest,testDate1900,org.apache.druid.indexer.path.StaticPathSpec.getPaths(),0
+OrcHadoopInputRowParserTest,testDate1900,     NEW org.apache.hadoop.fs.Path(URI),0
+OrcHadoopInputRowParserTest,testDate1900,"     NEW org.apache.hadoop.mapred.FileSplit(Path, long, long, String[])",0
+OrcHadoopInputRowParserTest,testDate1900,     NEW org.apache.hadoop.mapred.JobConf(Configuration),0
+OrcHadoopInputRowParserTest,testDate1900,org.apache.druid.indexer.HadoopDruidIndexerConfig.getPathSpec(),0
+OrcHadoopInputRowParserTest,testDate1900,org.apache.druid.indexer.HadoopDruidIndexerConfig.getParser(),0
+OrcHadoopInputRowParserTest,testDate1900,org.apache.druid.data.input.impl.InputRowParser.parseBatch(Object),1
+OrcHadoopInputRowParserTest,testDate1900,org.apache.druid.data.input.InputRow.getDimensions(),2
+OrcHadoopInputRowParserTest,testDate1900,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+OrcHadoopInputRowParserTest,testDate1900,org.apache.druid.data.input.Row.getDimension(String),2
+OrcHadoopInputRowParserTest,testDate1900,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+OrcHadoopInputRowParserTest,testDate1900,org.apache.druid.java.util.common.DateTimes.of(String),2
+OrcHadoopInputRowParserTest,testDate1900,org.apache.druid.data.input.Row.getTimestamp(),2
+OrcHadoopInputRowParserTest,testDate1900,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

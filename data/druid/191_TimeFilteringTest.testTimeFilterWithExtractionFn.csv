@@ -1,0 +1,137 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.extraction.MapLookupExtractor(Map<String,String>, boolean)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.lookup.LookupExtractionFn(LookupExtractor, boolean, String, Boolean, Boolean)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.filter.SelectorDimFilter(String, String, ExtractionFn)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,                    org.apache.druid.query.filter.DimFilter.optimize(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,                    org.apache.druid.query.filter.DimFilter.toFilter(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,                    org.apache.druid.segment.filter.Filters.toCnf(Filter),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"                    org.apache.druid.segment.CursorFactory.makeCursors(Filter, Interval, VirtualColumns, Granularity, boolean, QueryMetrics<?>)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               org.apache.druid.java.util.common.guava.Sequences.map(Sequence<Cursor>, Function<? super Cursor,? extends List<String>>)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.Cursor.getColumnSelectorFactory(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.ColumnSelectorFactory.makeDimensionSelector(DimensionSpec),1
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.Cursor.isDone(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.DimensionSelector.getRow(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.data.IndexedInts.size(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.data.IndexedInts.get(int),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.Cursor.advance(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.java.util.common.guava.Sequence.toList(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"                    org.apache.druid.segment.CursorFactory.makeVectorCursor(Filter, Interval, VirtualColumns, boolean, int, QueryMetrics<?>)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorCursor.getColumnSelectorFactory(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorColumnSelectorFactory.makeSingleValueDimensionSelector(DimensionSpec),1
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorCursor.isDone(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.SingleValueDimensionVectorSelector.getRowVector(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorCursor.advance(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               NEW anonymous(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.filter.Filter.makeMatcher(ColumnSelectorFactory),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeCursorSequence(Filter),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               org.apache.druid.java.util.common.guava.Sequences.map(Sequence<Cursor>, Function<? super Cursor,? extends List<String>>)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.Cursor.getColumnSelectorFactory(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.ColumnSelectorFactory.makeDimensionSelector(DimensionSpec),1
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.Cursor.isDone(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.DimensionSelector.getRow(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.data.IndexedInts.size(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.data.IndexedInts.get(int),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.Cursor.advance(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.java.util.common.guava.Sequence.toList(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               NEW anonymous(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.filter.Filter.makeMatcher(ColumnSelectorFactory),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.filter.Filter.makeVectorMatcher(VectorColumnSelectorFactory),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.filter.Filter.canVectorizeMatcher(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeVectorCursor(Filter),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorCursor.getColumnSelectorFactory(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorColumnSelectorFactory.makeSingleValueDimensionSelector(DimensionSpec),1
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorCursor.isDone(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.SingleValueDimensionVectorSelector.getRowVector(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorCursor.advance(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeCursorSequence(Filter),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               org.apache.druid.java.util.common.guava.Sequences.map(Sequence<Cursor>, Function<? super Cursor,? extends Aggregator>)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,                    org.apache.druid.query.filter.DimFilter.optimize(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               NEW org.apache.druid.query.aggregation.FilteredAggregatorFactory(AggregatorFactory, DimFilter)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.Cursor.getColumnSelectorFactory(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.aggregation.FilteredAggregatorFactory.factorize(ColumnSelectorFactory),1
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.Cursor.isDone(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.Cursor.advance(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.aggregation.Aggregator.aggregate(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.java.util.common.guava.Sequence.toList(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.aggregation.Aggregator.getLong(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"          ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.filter.Filter.canVectorizeMatcher(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeVectorCursor(Filter),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               TEST org.apache.druid.segment.filter.BaseFilterTest.maybeOptimize(DimFilter),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               NEW org.apache.druid.query.aggregation.FilteredAggregatorFactory(AggregatorFactory, DimFilter)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorCursor.getColumnSelectorFactory(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.aggregation.FilteredAggregatorFactory.factorizeVector(VectorColumnSelectorFactory),1
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               org.apache.druid.query.aggregation.VectorAggregator.init(ByteBuffer, int)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               org.apache.druid.query.aggregation.VectorAggregator.init(ByteBuffer, int)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorCursor.isDone(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorCursor.advance(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               org.apache.druid.query.aggregation.VectorAggregator.aggregate(ByteBuffer, int, int, int)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               org.apache.druid.query.aggregation.VectorAggregator.aggregate(ByteBuffer, int, int[], int[], int)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               org.apache.druid.query.aggregation.VectorAggregator.get(ByteBuffer, int)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               org.apache.druid.query.aggregation.VectorAggregator.get(ByteBuffer, int)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"          ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.column.RowSignature.builder(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.StorageAdapter.getAvailableDimensions(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.StorageAdapter.getAvailableMetrics(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.StorageAdapter.getColumnCapabilities(String),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.column.ColumnCapabilities.getType(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               org.apache.druid.segment.column.RowSignature.Builder.add(String, ValueType)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               NEW org.apache.druid.common.guava.SettableSupplier<org.apache.druid.data.input.InputRow>(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.RowAdapters.standardRow(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.common.guava.SettableSupplier<org.apache.druid.data.input.InputRow>.get(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.column.RowSignature.Builder.build(),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,"               org.apache.druid.segment.RowBasedColumnSelectorFactory.create(RowAdapter<InputRow>, Supplier<InputRow>, RowSignature, boolean)",0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.segment.VirtualColumns.wrap(ColumnSelectorFactory),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.filter.Filter.makeMatcher(ColumnSelectorFactory),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.common.guava.SettableSupplier.set(InputRow),0
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.query.filter.ValueMatcher.matches(),1
+TimeFilteringTest,testTimeFilterWithExtractionFn,               org.apache.druid.data.input.Row.getRaw(String),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.filter.SelectorDimFilter(String, String, ExtractionFn)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"TEST org.apache.druid.segment.filter.BaseFilterTest.assertFilterMatches(DimFilter, List<String>)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.filter.BoundDimFilter(String, String, String, Boolean, Boolean, Boolean, ExtractionFn, StringComparator)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"TEST org.apache.druid.segment.filter.BaseFilterTest.assertFilterMatches(DimFilter, List<String>)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.filter.BoundDimFilter(String, String, String, Boolean, Boolean, Boolean, ExtractionFn, StringComparator)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"TEST org.apache.druid.segment.filter.BaseFilterTest.assertFilterMatches(DimFilter, List<String>)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.filter.InDimFilter(String, Collection<String>, ExtractionFn)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"TEST org.apache.druid.segment.filter.BaseFilterTest.assertFilterMatches(DimFilter, List<String>)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.filter.InDimFilter(String, Collection<String>, ExtractionFn)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"TEST org.apache.druid.segment.filter.BaseFilterTest.assertFilterMatches(DimFilter, List<String>)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,org.apache.druid.js.JavaScriptConfig.getEnabledInstance(),2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.filter.JavaScriptDimFilter(String, String, ExtractionFn, JavaScriptConfig)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"     TEST org.apache.druid.segment.filter.BaseFilterTest.assertFilterMatches(DimFilter, List<String>, boolean)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.filter.RegexDimFilter(String, String, ExtractionFn)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"TEST org.apache.druid.segment.filter.BaseFilterTest.assertFilterMatches(DimFilter, List<String>)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.search.ContainsSearchQuerySpec(String, boolean)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"NEW org.apache.druid.query.filter.SearchQueryDimFilter(String, SearchQuerySpec, ExtractionFn)",2
+TimeFilteringTest,testTimeFilterWithExtractionFn,"TEST org.apache.druid.segment.filter.BaseFilterTest.assertFilterMatches(DimFilter, List<String>)",2

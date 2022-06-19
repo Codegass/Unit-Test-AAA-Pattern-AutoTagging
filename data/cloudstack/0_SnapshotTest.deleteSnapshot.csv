@@ -1,0 +1,54 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SnapshotTest,deleteSnapshot,          TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getPrimaryStorageUrl(),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.PrimaryDataStoreDao.findPoolByName(String),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.getId(),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.engine.subsystem.api.storage.DataStoreManager.getPrimaryDataStore(long),0
+SnapshotTest,deleteSnapshot,          NEW org.apache.cloudstack.storage.datastore.db.StoragePoolVO(),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setClusterId(Long),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setDataCenterId(long),0
+SnapshotTest,deleteSnapshot,          TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getPrimaryStorageUrl(),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setHostAddress(String),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setPath(String),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setPort(int),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setName(String),0
+SnapshotTest,deleteSnapshot,          TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getPrimaryStorageUuid(),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setUuid(String),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setStatus(StoragePoolStatus),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setPoolType(StoragePoolType),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setPodId(Long),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setScope(ScopeType),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setStorageProviderName(String),0
+SnapshotTest,deleteSnapshot,          com.cloud.utils.db.GenericDao.persist(StoragePoolVO),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.storage.datastore.db.StoragePoolVO.getId(),0
+SnapshotTest,deleteSnapshot,          org.apache.cloudstack.engine.subsystem.api.storage.DataStoreManager.getPrimaryDataStore(long),0
+SnapshotTest,deleteSnapshot,     org.apache.cloudstack.engine.subsystem.api.storage.DataStore.getId(),0
+SnapshotTest,deleteSnapshot,     org.apache.cloudstack.engine.subsystem.api.storage.DataStoreManager.getPrimaryDataStore(long),0
+SnapshotTest,deleteSnapshot,     com.cloud.storage.VMTemplateVO.getId(),0
+SnapshotTest,deleteSnapshot,     org.apache.cloudstack.engine.subsystem.api.storage.DataStore.getId(),0
+SnapshotTest,deleteSnapshot,"          NEW com.cloud.storage.VolumeVO(Type, String, long, long, long, long, ProvisioningType, long, Long, Long, String)",0
+SnapshotTest,deleteSnapshot,          com.cloud.storage.VolumeVO.setDataCenterId(long),0
+SnapshotTest,deleteSnapshot,          com.cloud.storage.VolumeVO.setPoolId(Long),0
+SnapshotTest,deleteSnapshot,          com.cloud.utils.db.GenericDao.persist(VolumeVO),0
+SnapshotTest,deleteSnapshot,     com.cloud.storage.VolumeVO.getId(),0
+SnapshotTest,deleteSnapshot,     org.apache.cloudstack.engine.subsystem.api.storage.VolumeDataFactory.getVolume(long),0
+SnapshotTest,deleteSnapshot,     com.cloud.storage.VMTemplateVO.getId(),0
+SnapshotTest,deleteSnapshot,"     org.apache.cloudstack.engine.subsystem.api.storage.TemplateDataFactory.getTemplate(long, DataStoreRole)",0
+SnapshotTest,deleteSnapshot,"     org.apache.cloudstack.engine.subsystem.api.storage.VolumeService.createVolumeFromTemplateAsync(VolumeInfo, long, TemplateInfo)",0
+SnapshotTest,deleteSnapshot,     org.apache.cloudstack.framework.async.AsyncCallFuture.get(),0
+SnapshotTest,deleteSnapshot,     org.apache.cloudstack.storage.command.CommandResult.isSuccess(),0
+SnapshotTest,deleteSnapshot,     ASSERT junit.framework.Assert.assertTrue(boolean),0
+SnapshotTest,deleteSnapshot,     org.apache.cloudstack.engine.subsystem.api.storage.VolumeService.VolumeApiResult.getVolume(),0
+SnapshotTest,deleteSnapshot,     com.cloud.storage.Volume.getDataCenterId(),0
+SnapshotTest,deleteSnapshot,     org.apache.cloudstack.engine.subsystem.api.storage.DataObject.getId(),0
+SnapshotTest,deleteSnapshot,     org.apache.cloudstack.engine.subsystem.api.storage.DataObject.getSize(),0
+SnapshotTest,deleteSnapshot,"     NEW com.cloud.storage.SnapshotVO(long, long, long, Long, Long, String, short, String, long, Long, Long, HypervisorType, LocationType)",0
+SnapshotTest,deleteSnapshot,     com.cloud.utils.db.GenericDao.persist(SnapshotVO),0
+SnapshotTest,deleteSnapshot,com.cloud.storage.SnapshotVO.getId(),0
+SnapshotTest,deleteSnapshot,org.apache.cloudstack.engine.subsystem.api.storage.DataObject.getDataStore(),0
+SnapshotTest,deleteSnapshot,"org.apache.cloudstack.engine.subsystem.api.storage.SnapshotDataFactory.getSnapshot(long, DataStore)",0
+SnapshotTest,deleteSnapshot,"org.apache.cloudstack.engine.subsystem.api.storage.StorageStrategyFactory.getSnapshotStrategy(Snapshot, SnapshotOperation)",0
+SnapshotTest,deleteSnapshot,org.apache.cloudstack.engine.subsystem.api.storage.SnapshotStrategy.takeSnapshot(SnapshotInfo),0
+SnapshotTest,deleteSnapshot,ASSERT org.testng.AssertJUnit.assertNotNull(Object),0
+SnapshotTest,deleteSnapshot,"org.apache.cloudstack.engine.subsystem.api.storage.SnapshotStrategy.canHandle(Snapshot, SnapshotOperation)",0
+SnapshotTest,deleteSnapshot,org.apache.cloudstack.engine.subsystem.api.storage.DataObject.getId(),0
+SnapshotTest,deleteSnapshot,org.apache.cloudstack.engine.subsystem.api.storage.SnapshotStrategy.deleteSnapshot(Long),1

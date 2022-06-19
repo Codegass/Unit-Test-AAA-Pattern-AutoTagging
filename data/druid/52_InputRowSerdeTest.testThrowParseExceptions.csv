@@ -1,0 +1,17 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InputRowSerdeTest,testThrowParseExceptions,"NEW org.apache.druid.data.input.MapBasedInputRow(long, List<String>, Map<String,Object>)",0
+InputRowSerdeTest,testThrowParseExceptions,"NEW org.apache.druid.query.aggregation.DoubleSumAggregatorFactory(String, String)",0
+InputRowSerdeTest,testThrowParseExceptions,"NEW org.apache.druid.query.aggregation.DoubleSumAggregatorFactory(String, String)",0
+InputRowSerdeTest,testThrowParseExceptions,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+InputRowSerdeTest,testThrowParseExceptions,"NEW org.apache.druid.query.aggregation.hyperloglog.HyperUniquesAggregatorFactory(String, String)",0
+InputRowSerdeTest,testThrowParseExceptions,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+InputRowSerdeTest,testThrowParseExceptions,NEW org.apache.druid.data.input.impl.StringDimensionSchema(String),0
+InputRowSerdeTest,testThrowParseExceptions,NEW org.apache.druid.data.input.impl.StringDimensionSchema(String),0
+InputRowSerdeTest,testThrowParseExceptions,NEW org.apache.druid.data.input.impl.LongDimensionSchema(String),0
+InputRowSerdeTest,testThrowParseExceptions,NEW org.apache.druid.data.input.impl.FloatDimensionSchema(String),0
+InputRowSerdeTest,testThrowParseExceptions,NEW org.apache.druid.data.input.impl.DoubleDimensionSchema(String),0
+InputRowSerdeTest,testThrowParseExceptions,"NEW org.apache.druid.data.input.impl.DimensionsSpec(List<DimensionSchema>, List<String>, List<SpatialDimensionSchema>)",0
+InputRowSerdeTest,testThrowParseExceptions,org.apache.druid.indexer.InputRowSerde.getTypeHelperMap(DimensionsSpec),0
+InputRowSerdeTest,testThrowParseExceptions,"org.apache.druid.indexer.InputRowSerde.toBytes(Map<String,IndexSerdeTypeHelper>, InputRow, AggregatorFactory[])",1
+InputRowSerdeTest,testThrowParseExceptions,org.apache.druid.indexer.InputRowSerde.SerializeResult.getParseExceptionMessages(),2
+InputRowSerdeTest,testThrowParseExceptions,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

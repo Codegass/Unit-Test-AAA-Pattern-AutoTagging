@@ -1,0 +1,71 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MultiValuedDimensionTest,testGroupByExpressionAuto,org.apache.druid.query.groupby.GroupByQuery.builder(),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,org.apache.druid.query.groupby.GroupByQuery.Builder.setDataSource(String),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,NEW org.apache.druid.query.spec.LegacySegmentSpec(Object),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,org.apache.druid.query.groupby.GroupByQuery.Builder.setQuerySegmentSpec(QuerySegmentSpec),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,org.apache.druid.query.groupby.GroupByQuery.Builder.setGranularity(Granularity),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,"NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+MultiValuedDimensionTest,testGroupByExpressionAuto,org.apache.druid.query.groupby.GroupByQuery.Builder.setDimensions(DimensionSpec[]),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,"NEW org.apache.druid.segment.virtual.ExpressionVirtualColumn(String, String, ValueType, ExprMacroTable)",0
+MultiValuedDimensionTest,testGroupByExpressionAuto,org.apache.druid.query.groupby.GroupByQuery.Builder.setVirtualColumns(VirtualColumn[]),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,org.apache.druid.query.groupby.GroupByQuery.Builder.setAggregatorSpecs(AggregatorFactory[]),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,"org.apache.druid.query.groupby.GroupByQuery.Builder.setContext(Map<String,Object>)",0
+MultiValuedDimensionTest,testGroupByExpressionAuto,org.apache.druid.query.groupby.GroupByQuery.Builder.build(),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,org.apache.druid.timeline.SegmentId.dummy(String),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,"NEW org.apache.druid.segment.QueryableIndexSegment(QueryableIndex, SegmentId)",0
+MultiValuedDimensionTest,testGroupByExpressionAuto,org.apache.druid.timeline.SegmentId.dummy(String),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,"NEW org.apache.druid.segment.IncrementalIndexSegment(IncrementalIndex, SegmentId)",0
+MultiValuedDimensionTest,testGroupByExpressionAuto,     org.apache.druid.java.util.common.concurrent.Execs.directExecutor(),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,     NEW anonymous(),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,"     NEW org.apache.druid.query.FinalizeResultsQueryRunner(QueryRunner, QueryToolChest)",0
+MultiValuedDimensionTest,testGroupByExpressionAuto,     org.apache.druid.query.QueryRunnerFactory.createRunner(Segment),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,          NEW anonymous(),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,          org.apache.druid.query.context.ResponseContext.createEmpty(),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          org.apache.druid.query.QueryRunner.run(QueryPlus<ResultRow>, ResponseContext)",1
+MultiValuedDimensionTest,testGroupByExpressionAuto,          NEW anonymous(),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          org.apache.druid.java.util.common.guava.Sequence.toYielder(Object, YieldingAccumulator<Object,ResultRow>)",0
+MultiValuedDimensionTest,testGroupByExpressionAuto,          org.apache.druid.java.util.common.guava.YieldingAccumulator.yield(),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,"               NEW org.apache.druid.java.util.common.IAE(String, Object[])",0
+MultiValuedDimensionTest,testGroupByExpressionAuto,               org.apache.druid.query.QueryToolChest.getBaseResultType(),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,          org.apache.druid.query.QueryPlus.getQuery(),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,          org.apache.druid.query.aggregation.MetricManipulatorFns.deserializing(),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          org.apache.druid.query.QueryToolChest.makePreComputeManipulatorFn(Query, MetricManipulationFn)",0
+MultiValuedDimensionTest,testGroupByExpressionAuto,          org.apache.druid.java.util.common.guava.Sequences.simple(Iterable<Object>),0
+MultiValuedDimensionTest,testGroupByExpressionAuto,     org.apache.druid.query.QueryPlus.wrap(Query<Object>),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,     org.apache.druid.java.util.common.DateTimes.of(String),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,          org.apache.druid.query.groupby.GroupByQuery.getResultRowSizeWithPostAggregators(),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,          org.apache.druid.query.groupby.ResultRow.create(int),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,          org.apache.druid.query.groupby.GroupByQuery.getResultRowHasTimestamp(),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          org.apache.druid.query.groupby.ResultRow.set(int, Object)",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,          org.apache.druid.query.groupby.GroupByQuery.getResultRowSignature(),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,          org.apache.druid.segment.column.RowSignature.indexOf(String),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          org.apache.druid.query.groupby.ResultRow.set(int, Object)",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"TEST org.apache.druid.query.groupby.GroupByQueryRunnerTestHelper.createExpectedRow(GroupByQuery, String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"TEST org.apache.druid.query.groupby.GroupByQueryRunnerTestHelper.createExpectedRow(GroupByQuery, String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"TEST org.apache.druid.query.groupby.GroupByQueryRunnerTestHelper.createExpectedRow(GroupByQuery, String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"TEST org.apache.druid.query.groupby.GroupByQueryRunnerTestHelper.createExpectedRow(GroupByQuery, String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"TEST org.apache.druid.query.groupby.GroupByQueryRunnerTestHelper.createExpectedRow(GroupByQuery, String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"TEST org.apache.druid.query.groupby.GroupByQueryRunnerTestHelper.createExpectedRow(GroupByQuery, String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"TEST org.apache.druid.query.groupby.GroupByQueryRunnerTestHelper.createExpectedRow(GroupByQuery, String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,org.apache.druid.java.util.common.guava.Sequence.toList(),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,               org.apache.druid.query.groupby.ResultRow.length(),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,               org.apache.druid.query.groupby.ResultRow.length(),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"               ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,               org.apache.druid.query.groupby.ResultRow.length(),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,               org.apache.druid.query.groupby.ResultRow.get(int),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,               org.apache.druid.query.groupby.ResultRow.get(int),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"               ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          TEST org.apache.druid.segment.TestHelper.assertRow(String, ResultRow, ResultRow)",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,          ASSERT org.junit.Assert.fail(String),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,          ASSERT org.junit.Assert.fail(String),2
+MultiValuedDimensionTest,testGroupByExpressionAuto,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+MultiValuedDimensionTest,testGroupByExpressionAuto,          ASSERT org.junit.Assert.fail(String),2

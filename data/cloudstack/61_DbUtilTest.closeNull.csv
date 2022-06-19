@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DbUtilTest,closeNull,com.cloud.utils.db.DbUtil.closeStatement(Statement),1
+DbUtilTest,closeNull,com.cloud.utils.db.DbUtil.closeConnection(Connection),1
+DbUtilTest,closeNull,com.cloud.utils.db.DbUtil.closeResultSet(ResultSet),1

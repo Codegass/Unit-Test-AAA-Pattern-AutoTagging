@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ResultMergerTest,testArrayMergerIllegalArgumentException,org.apache.dubbo.rpc.cluster.merger.ArrayMerger.merge(Object[][]),1
+ResultMergerTest,testArrayMergerIllegalArgumentException,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ResultMergerTest,testArrayMergerIllegalArgumentException,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

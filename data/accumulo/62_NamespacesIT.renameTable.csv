@@ -1,0 +1,76 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.namespaceOperations(),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.NamespaceOperations.create(String),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.namespaceOperations(),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.NamespaceOperations.create(String),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.namespaceOperations(),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.NamespaceOperations.exists(String),0
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertTrue(boolean),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.namespaceOperations(),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.NamespaceOperations.exists(String),0
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertTrue(boolean),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),0
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),0
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),0
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),0
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),0
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+NamespacesIT,renameTable,"org.apache.accumulo.core.client.admin.TableOperations.rename(String, String)",1
+NamespacesIT,renameTable,ASSERT org.junit.Assert.fail(),2
+NamespacesIT,renameTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NamespacesIT,renameTable,org.apache.accumulo.core.clientImpl.thrift.ThriftTableOperationException.getOp(),2
+NamespacesIT,renameTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NamespacesIT,renameTable,org.apache.accumulo.core.clientImpl.thrift.ThriftTableOperationException.getType(),2
+NamespacesIT,renameTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+NamespacesIT,renameTable,"org.apache.accumulo.core.client.admin.TableOperations.rename(String, String)",1
+NamespacesIT,renameTable,ASSERT org.junit.Assert.fail(),2
+NamespacesIT,renameTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NamespacesIT,renameTable,org.apache.accumulo.core.clientImpl.thrift.ThriftTableOperationException.getOp(),2
+NamespacesIT,renameTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NamespacesIT,renameTable,org.apache.accumulo.core.clientImpl.thrift.ThriftTableOperationException.getType(),2
+NamespacesIT,renameTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),2
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertTrue(boolean),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),2
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),2
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),2
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),2
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+NamespacesIT,renameTable,"org.apache.accumulo.core.client.admin.TableOperations.rename(String, String)",1
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),2
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),2
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),2
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertTrue(boolean),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),2
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+NamespacesIT,renameTable,org.apache.accumulo.core.client.admin.TableOperations.exists(String),2
+NamespacesIT,renameTable,ASSERT org.junit.Assert.assertFalse(boolean),2

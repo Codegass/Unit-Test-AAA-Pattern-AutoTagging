@@ -1,0 +1,21 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CallContextTest,testGetContextParameter,org.apache.cloudstack.context.CallContext.current(),0
+CallContextTest,testGetContextParameter,org.apache.cloudstack.context.CallContext.getContextParameter(Object),1
+CallContextTest,testGetContextParameter,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+CallContextTest,testGetContextParameter,org.apache.cloudstack.context.CallContext.getContextParameters(),1
+CallContextTest,testGetContextParameter,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+CallContextTest,testGetContextParameter,"org.apache.cloudstack.context.CallContext.putContextParameter(Object, Object)",0
+CallContextTest,testGetContextParameter,org.apache.cloudstack.context.CallContext.getContextParameter(Object),1
+CallContextTest,testGetContextParameter,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+CallContextTest,testGetContextParameter,org.apache.cloudstack.context.CallContext.getContextParameters(),1
+CallContextTest,testGetContextParameter,"ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+CallContextTest,testGetContextParameter,"org.apache.cloudstack.context.CallContext.putContextParameter(Object, Object)",0
+CallContextTest,testGetContextParameter,org.apache.cloudstack.context.CallContext.getContextParameter(Object),1
+CallContextTest,testGetContextParameter,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+CallContextTest,testGetContextParameter,org.apache.cloudstack.context.CallContext.getContextParameters(),1
+CallContextTest,testGetContextParameter,"ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+CallContextTest,testGetContextParameter,"org.apache.cloudstack.context.CallContext.putContextParameter(Object, Object)",0
+CallContextTest,testGetContextParameter,org.apache.cloudstack.context.CallContext.getContextParameter(Object),1
+CallContextTest,testGetContextParameter,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+CallContextTest,testGetContextParameter,org.apache.cloudstack.context.CallContext.getContextParameters(),1
+CallContextTest,testGetContextParameter,"ASSERT org.junit.Assert.assertEquals(String, long, long)",2

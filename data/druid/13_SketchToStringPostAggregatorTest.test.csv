@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SketchToStringPostAggregatorTest,test,NEW org.apache.druid.query.aggregation.TestObjectColumnSelector(Object[]),0
+SketchToStringPostAggregatorTest,test,"NEW org.apache.druid.query.aggregation.datasketches.theta.SketchAggregator(BaseObjectColumnValueSelector, int)",0
+SketchToStringPostAggregatorTest,test,org.apache.druid.query.aggregation.Aggregator.get(),0
+SketchToStringPostAggregatorTest,test,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",0
+SketchToStringPostAggregatorTest,test,"NEW org.apache.druid.query.aggregation.datasketches.theta.SketchToStringPostAggregator(String, PostAggregator)",0
+SketchToStringPostAggregatorTest,test,"org.apache.druid.query.aggregation.PostAggregator.compute(Map<String,Object>)",1
+SketchToStringPostAggregatorTest,test,ASSERT org.junit.Assert.assertNotNull(Object),2
+SketchToStringPostAggregatorTest,test,ASSERT org.junit.Assert.assertTrue(boolean),2

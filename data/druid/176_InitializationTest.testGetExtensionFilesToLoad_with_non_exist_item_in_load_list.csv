@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InitializationTest,testGetExtensionFilesToLoad_with_non_exist_item_in_load_list,@EXPECTED java.lang.Class<org.apache.druid.java.util.common.ISE>,0
+InitializationTest,testGetExtensionFilesToLoad_with_non_exist_item_in_load_list,NEW anonymous(),0
+InitializationTest,testGetExtensionFilesToLoad_with_non_exist_item_in_load_list,org.apache.druid.initialization.Initialization.getExtensionFilesToLoad(ExtensionsConfig),1

@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CloudObjectLocationTest,testBucketName,ExpectedException org.junit.rules.ExpectedException.expect(Class<? extends Throwable>),0
+CloudObjectLocationTest,testBucketName,"NEW org.apache.druid.data.input.impl.CloudObjectLocation(String, String)",1
+CloudObjectLocationTest,testBucketName,org.apache.druid.data.input.impl.CloudObjectLocation.toUri(String),2
+CloudObjectLocationTest,testBucketName,NEW org.apache.druid.data.input.impl.CloudObjectLocation(URI),2
+CloudObjectLocationTest,testBucketName,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

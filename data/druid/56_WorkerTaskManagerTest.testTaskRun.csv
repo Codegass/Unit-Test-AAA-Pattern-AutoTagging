@@ -1,0 +1,136 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+WorkerTaskManagerTest,testTaskRun,"     NEW org.apache.druid.indexing.common.task.NoopTask(String, String, String, long, long, String, FirehoseFactory, Map<String,Object>)",0
+WorkerTaskManagerTest,testTaskRun,TEST org.apache.druid.indexing.worker.WorkerTaskManagerTest.createNoopTask(String),0
+WorkerTaskManagerTest,testTaskRun,TEST org.apache.druid.indexing.worker.WorkerTaskManagerTest.createNoopTask(String),0
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getAssignedTaskDir(),0
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getCompletedTaskDir(),0
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getAssignedTaskDir(),0
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),0
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getCompletedTaskDir(),0
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),0
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),0
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.success(String),0
+WorkerTaskManagerTest,testTaskRun,"org.apache.druid.indexing.worker.TaskAnnouncement.create(Task, TaskStatus, TaskLocation)",0
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.start(),1
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getCompletedTasks(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.isSuccess(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertTrue(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getCompletedTasks(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getCompletedTasks(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.isSuccess(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertTrue(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getCompletedTaskDir(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertTrue(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getAssignedTaskDir(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertFalse(boolean),2
+WorkerTaskManagerTest,testTaskRun,"NEW org.apache.druid.server.coordination.ChangeRequestHistory.Counter(long, long)",2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getChangesSince(Counter),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.isResetCounter(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertFalse(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.getRequests(),2
+WorkerTaskManagerTest,testTaskRun,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.Metadata.isDisabled(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertFalse(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.getRequests(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.getRequests(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.getRequests(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.isSuccess(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertTrue(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.isSuccess(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertTrue(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.getId(),2
+WorkerTaskManagerTest,testTaskRun,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.assignTask(Task),0
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getCompletedTasks(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getCompletedTasks(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.isSuccess(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertTrue(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getCompletedTaskDir(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertTrue(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getAssignedTaskDir(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertFalse(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.getCounter(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerTaskManager.getChangesSince(Counter),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.isResetCounter(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertFalse(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.getRequests(),2
+WorkerTaskManagerTest,testTaskRun,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.getRequests(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.getId(),2
+WorkerTaskManagerTest,testTaskRun,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.isRunnable(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertTrue(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskLocation(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskLocation.getHost(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertNull(Object),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.getRequests(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.getId(),2
+WorkerTaskManagerTest,testTaskRun,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.isRunnable(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertTrue(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskLocation(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskLocation.getHost(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertNull(Object),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.getRequests(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.getId(),2
+WorkerTaskManagerTest,testTaskRun,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.isRunnable(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertTrue(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskLocation(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskLocation.getHost(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertNotNull(Object),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.server.coordination.ChangeRequestsSnapshot.getRequests(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.common.task.Task.getId(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.getId(),2
+WorkerTaskManagerTest,testTaskRun,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskStatus(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskStatus.isSuccess(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertTrue(boolean),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.WorkerHistoryItem.TaskUpdate.getTaskAnnouncement(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexing.worker.TaskAnnouncement.getTaskLocation(),2
+WorkerTaskManagerTest,testTaskRun,org.apache.druid.indexer.TaskLocation.getHost(),2
+WorkerTaskManagerTest,testTaskRun,ASSERT org.junit.Assert.assertNotNull(Object),2

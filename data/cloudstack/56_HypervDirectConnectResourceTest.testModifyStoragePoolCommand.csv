@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+HypervDirectConnectResourceTest,testModifyStoragePoolCommand,     ASSERT org.junit.Assert.assertTrue(boolean),0
+HypervDirectConnectResourceTest,testModifyStoragePoolCommand,"     NEW org.apache.cloudstack.storage.datastore.db.StoragePoolVO(StoragePoolType, String, int, String)",0
+HypervDirectConnectResourceTest,testModifyStoragePoolCommand,"NEW com.cloud.agent.api.ModifyStoragePoolCommand(boolean, StoragePool, String)",1
+HypervDirectConnectResourceTest,testModifyStoragePoolCommand,com.cloud.hypervisor.hyperv.resource.HypervDirectConnectResource.executeRequest(Command),1
+HypervDirectConnectResourceTest,testModifyStoragePoolCommand,com.cloud.agent.api.Answer.getResult(),2
+HypervDirectConnectResourceTest,testModifyStoragePoolCommand,ASSERT org.junit.Assert.assertTrue(boolean),2
+HypervDirectConnectResourceTest,testModifyStoragePoolCommand,"NEW com.cloud.agent.api.DeleteStoragePoolCommand(StoragePool, String)",2
+HypervDirectConnectResourceTest,testModifyStoragePoolCommand,com.cloud.hypervisor.hyperv.resource.HypervDirectConnectResource.executeRequest(Command),2
+HypervDirectConnectResourceTest,testModifyStoragePoolCommand,com.cloud.agent.api.Answer.getResult(),2
+HypervDirectConnectResourceTest,testModifyStoragePoolCommand,ASSERT org.junit.Assert.assertTrue(boolean),2

@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,com.cloud.dc.DataCenter.getNetworkType(),0
+RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,com.cloud.deploy.DeployDestination.getPod(),0
+RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,org.cloud.network.router.deployment.RouterDeploymentDefinition.planDeploymentRouters(),1
+RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,com.cloud.network.dao.NetworkVO.getId(),2
+RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,"com.cloud.vm.dao.DomainRouterDao.listByNetworkAndPodAndRole(long, long, Role)",2

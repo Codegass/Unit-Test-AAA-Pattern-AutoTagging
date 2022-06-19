@@ -1,0 +1,41 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+OverlordResourceTest,testGetTasksFilterPendingState,"     NEW org.apache.druid.server.security.AuthenticationResult(String, String, String, Map<String,Object>)",0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.EasyMock.expect(Object),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.EasyMock.expect(Object),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.atLeastOnce(),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.EasyMock.expect(Object),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.atLeastOnce(),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.EasyMock.expectLastCall(),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.EasyMock.expectLastCall(),0
+OverlordResourceTest,testGetTasksFilterPendingState,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+OverlordResourceTest,testGetTasksFilterPendingState,org.apache.druid.indexing.overlord.TaskRunner.getPendingTasks(),0
+OverlordResourceTest,testGetTasksFilterPendingState,MOCK org.easymock.EasyMock.expect(Collection<? extends TaskRunnerWorkItem>),0
+OverlordResourceTest,testGetTasksFilterPendingState,"NEW org.apache.druid.indexing.overlord.http.OverlordResourceTest.MockTaskRunnerWorkItem(String, ListenableFuture<TaskStatus>)",0
+OverlordResourceTest,testGetTasksFilterPendingState,"NEW org.apache.druid.indexing.overlord.http.OverlordResourceTest.MockTaskRunnerWorkItem(String, ListenableFuture<TaskStatus>)",0
+OverlordResourceTest,testGetTasksFilterPendingState,MOCK org.easymock.IExpectationSetters<java.util.Collection<? extends org.apache.druid.indexing.overlord.TaskRunnerWorkItem>>.andReturn(Collection<? extends TaskRunnerWorkItem>),0
+OverlordResourceTest,testGetTasksFilterPendingState,org.apache.druid.indexing.overlord.TaskStorageQueryAdapter.getActiveTaskInfo(String),0
+OverlordResourceTest,testGetTasksFilterPendingState,"MOCK org.easymock.EasyMock.expect(List<TaskInfo<Task,TaskStatus>>)",0
+OverlordResourceTest,testGetTasksFilterPendingState,org.apache.druid.indexer.TaskStatus.success(String),0
+OverlordResourceTest,testGetTasksFilterPendingState,"     NEW anonymous(String, String, Map<String,Object>)",0
+OverlordResourceTest,testGetTasksFilterPendingState,"NEW org.apache.druid.indexer.TaskInfo(String, DateTime, Object, String, Object)",0
+OverlordResourceTest,testGetTasksFilterPendingState,org.apache.druid.indexer.TaskStatus.success(String),0
+OverlordResourceTest,testGetTasksFilterPendingState,"TEST org.apache.druid.indexing.overlord.http.OverlordResourceTest.getTaskWithIdAndDatasource(String, String)",0
+OverlordResourceTest,testGetTasksFilterPendingState,"NEW org.apache.druid.indexer.TaskInfo(String, DateTime, Object, String, Object)",0
+OverlordResourceTest,testGetTasksFilterPendingState,org.apache.druid.indexer.TaskStatus.success(String),0
+OverlordResourceTest,testGetTasksFilterPendingState,"TEST org.apache.druid.indexing.overlord.http.OverlordResourceTest.getTaskWithIdAndDatasource(String, String)",0
+OverlordResourceTest,testGetTasksFilterPendingState,"NEW org.apache.druid.indexer.TaskInfo(String, DateTime, Object, String, Object)",0
+OverlordResourceTest,testGetTasksFilterPendingState,org.apache.druid.indexer.TaskStatus.success(String),0
+OverlordResourceTest,testGetTasksFilterPendingState,"TEST org.apache.druid.indexing.overlord.http.OverlordResourceTest.getTaskWithIdAndDatasource(String, String)",0
+OverlordResourceTest,testGetTasksFilterPendingState,"NEW org.apache.druid.indexer.TaskInfo(String, DateTime, Object, String, Object)",0
+OverlordResourceTest,testGetTasksFilterPendingState,"MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexer.TaskInfo<org.apache.druid.indexing.common.task.Task,org.apache.druid.indexer.TaskStatus>>>.andStubReturn(List<TaskInfo<Task,TaskStatus>>)",0
+OverlordResourceTest,testGetTasksFilterPendingState,MOCK org.easymock.EasyMock.replay(Object[]),0
+OverlordResourceTest,testGetTasksFilterPendingState,"org.apache.druid.indexing.overlord.http.OverlordResource.getTasks(String, String, String, Integer, String, HttpServletRequest)",1
+OverlordResourceTest,testGetTasksFilterPendingState,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+OverlordResourceTest,testGetTasksFilterPendingState,org.apache.druid.indexer.TaskStatusPlus.getId(),2
+OverlordResourceTest,testGetTasksFilterPendingState,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+OverlordResourceTest,testGetTasksFilterPendingState,org.apache.druid.indexer.TaskStatusPlus.getDataSource(),2

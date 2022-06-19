@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CompressionUtilsTest,testZeroRemainingInputStream,NEW org.apache.druid.java.util.common.CompressionUtilsTest.ZeroRemainingInputStream(InputStream),1
+CompressionUtilsTest,testZeroRemainingInputStream,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+CompressionUtilsTest,testZeroRemainingInputStream,NEW org.apache.druid.java.util.common.CompressionUtilsTest.ZeroRemainingInputStream(InputStream),1
+CompressionUtilsTest,testZeroRemainingInputStream,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+CompressionUtilsTest,testZeroRemainingInputStream,NEW org.apache.druid.java.util.common.CompressionUtilsTest.ZeroRemainingInputStream(InputStream),1
+CompressionUtilsTest,testZeroRemainingInputStream,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+CompressionUtilsTest,testZeroRemainingInputStream,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+CompressionUtilsTest,testZeroRemainingInputStream,NEW org.apache.druid.java.util.common.CompressionUtilsTest.ZeroRemainingInputStream(InputStream),1
+CompressionUtilsTest,testZeroRemainingInputStream,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+CompressionUtilsTest,testZeroRemainingInputStream,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CompressionUtilsTest,testZeroRemainingInputStream,"ASSERT org.junit.Assert.assertArrayEquals(String, byte[], byte[])",2

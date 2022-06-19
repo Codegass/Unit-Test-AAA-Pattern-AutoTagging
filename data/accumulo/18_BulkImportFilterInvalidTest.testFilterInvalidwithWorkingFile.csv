@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BulkImportFilterInvalidTest,testFilterInvalidwithWorkingFile,org.apache.accumulo.core.file.FileOperations.getBulkWorkingFiles(),0
+BulkImportFilterInvalidTest,testFilterInvalidwithWorkingFile,org.apache.accumulo.core.file.FileOperations.getBulkWorkingFiles(),0
+BulkImportFilterInvalidTest,testFilterInvalidwithWorkingFile,"NEW org.apache.hadoop.fs.Path(Path, String)",0
+BulkImportFilterInvalidTest,testFilterInvalidwithWorkingFile,"NEW org.apache.hadoop.fs.Path(Path, String)",0
+BulkImportFilterInvalidTest,testFilterInvalidwithWorkingFile,org.apache.accumulo.core.clientImpl.bulk.BulkImport.filterInvalid(FileStatus[]),1
+BulkImportFilterInvalidTest,testFilterInvalidwithWorkingFile,"ASSERT org.junit.Assert.assertEquals(long, long)",2

@@ -1,0 +1,40 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.sql.SqlLifecycleFactory.factorize(),0
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"org.apache.druid.sql.SqlLifecycle.runSimple(String, Map<String,Object>, List<SqlParameter>, AuthenticationResult)",1
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.java.util.common.guava.Sequence.toList(),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.common.config.NullHandling.replaceWithDefault(),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"ASSERT org.junit.Assert.assertArrayEquals(Object[], Object[])",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.builder(),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.builder(),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setDataSource(String),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.sql.calcite.filtration.Filtration.eternity(),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setInterval(QuerySegmentSpec),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setGranularity(Granularity),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setDimensions(DimensionSpec[]),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"NEW org.apache.druid.query.aggregation.DoubleSumAggregatorFactory(String, String)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setAggregatorSpecs(List<AggregatorFactory>),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"org.apache.druid.query.groupby.GroupByQuery.Builder.setContext(Map<String,Object>)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.build(),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,NEW org.apache.druid.query.QueryDataSource(Query),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setDataSource(DataSource),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.sql.calcite.filtration.Filtration.eternity(),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setInterval(QuerySegmentSpec),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setGranularity(Granularity),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"NEW org.apache.druid.query.aggregation.DoubleSumAggregatorFactory(String, String)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchAggregatorFactory(String, String, Integer)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setAggregatorSpecs(AggregatorFactory[]),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"NEW org.apache.druid.query.aggregation.post.ArithmeticPostAggregator(String, String, List<PostAggregator>)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"     NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchToQuantilePostAggregator(String, PostAggregator, double)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setPostAggregatorSpecs(List<PostAggregator>),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"org.apache.druid.query.groupby.GroupByQuery.Builder.setContext(Map<String,Object>)",2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.build(),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,TEST org.apache.druid.sql.calcite.util.QueryLogHook.getRecordedQueries(),2
+DoublesSketchSqlAggregatorTest,testQuantileOnInnerQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

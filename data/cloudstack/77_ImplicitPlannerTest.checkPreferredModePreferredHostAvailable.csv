@@ -1,0 +1,59 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,NEW com.cloud.deploy.DeploymentPlanner.ExcludeList(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.user.AccountVO.getId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.user.AccountVO.getAccountId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.VirtualMachineProfileImpl.getOwner(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.VirtualMachineProfileImpl.getVirtualMachine(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.VirtualMachineProfileImpl.getId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.utils.db.GenericDao.findById(Long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.VMInstanceVO.getAccountId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.VMInstanceVO.getDataCenterId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.utils.db.GenericDao.findById(Long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.deploy.DataCenterDeployment.getDataCenterId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.deploy.DataCenterDeployment.getClusterId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.deploy.DataCenterDeployment.getPodId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     org.apache.cloudstack.framework.config.dao.ConfigurationDao.getValue(String),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.VirtualMachineProfileImpl.getServiceOffering(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.storage.DiskOfferingVO.getId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.VirtualMachineProfileImpl.getServiceOfferingId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.service.ServiceOfferingVO.getCpu(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.service.ServiceOfferingVO.getSpeed(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.service.ServiceOfferingVO.getRamSize(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,"     com.cloud.capacity.dao.CapacityDao.listClustersInZoneOrPodByHostCapacities(long, int, long, short, boolean)",0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,"     NEW com.cloud.utils.Pair<java.util.List<java.lang.Long>,java.util.Map<java.lang.Long,java.lang.Double>>(List<Long>, Map<Long,Double>)",0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,"     com.cloud.capacity.dao.CapacityDao.orderClustersByAggregateCapacity(long, short, boolean)",0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,"     com.cloud.dc.dao.ClusterDao.listDisabledClusters(long, Long)",0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.dc.dao.ClusterDao.listClustersWithDisabledPods(long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     org.apache.cloudstack.resourcedetail.ResourceDetailsDao.listDetailsKeyPairs(long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.host.HostVO.getId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.host.HostVO.getId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.host.HostVO.getId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.resource.ResourceManager.listAllHostsInCluster(long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.resource.ResourceManager.listAllHostsInCluster(long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.resource.ResourceManager.listAllHostsInCluster(long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.VMInstanceVO.getAccountId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.UserVmVO.getServiceOfferingId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.VMInstanceVO.getAccountId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.UserVmVO.getServiceOfferingId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.VMInstanceVO.getAccountId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.UserVmVO.getServiceOfferingId(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.dao.VMInstanceDao.listUpByHostId(Long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.dao.VMInstanceDao.listUpByHostId(Long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.dao.VMInstanceDao.listUpByHostId(Long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.dao.VMInstanceDao.listByLastHostId(Long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.dao.VMInstanceDao.listByLastHostId(Long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.vm.dao.VMInstanceDao.listByLastHostId(Long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.utils.db.GenericDao.findByIdIncludingRemoved(Long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.service.ServiceOfferingVO.getDeploymentPlanner(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.utils.component.ComponentLifecycleBase.getName(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.utils.db.GenericDao.findByIdIncludingRemoved(Long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,     com.cloud.service.ServiceOfferingVO.getDeploymentPlanner(),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,com.cloud.deploy.DeploymentPlanner.ExcludeList.addHost(long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,com.cloud.deploy.DeploymentPlanner.ExcludeList.addHost(long),0
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,"com.cloud.deploy.ImplicitDedicationPlanner.orderClusters(VirtualMachineProfile, DeploymentPlan, ExcludeList)",1
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,ASSERT org.junit.Assert.fail(String),2
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,com.cloud.deploy.DeploymentPlanner.ExcludeList.getHostsToAvoid(),2
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2
+ImplicitPlannerTest,checkPreferredModePreferredHostAvailable,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2

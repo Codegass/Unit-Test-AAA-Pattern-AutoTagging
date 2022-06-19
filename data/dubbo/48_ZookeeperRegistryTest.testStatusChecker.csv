@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ZookeeperRegistryTest,testStatusChecker,NEW org.apache.dubbo.registry.status.RegistryStatusChecker(),0
+ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.registry.status.RegistryStatusChecker.check(),1
+ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.common.status.Status.getLevel(),2
+ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.registry.support.AbstractRegistryFactory.getRegistry(URL),2
+ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.registry.status.RegistryStatusChecker.check(),1
+ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.common.status.Status.getLevel(),2
+ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.registry.RegistryService.register(URL),2
+ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.registry.status.RegistryStatusChecker.check(),1
+ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.common.status.Status.getLevel(),2

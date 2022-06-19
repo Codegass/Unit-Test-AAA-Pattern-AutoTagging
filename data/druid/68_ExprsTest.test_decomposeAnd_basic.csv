@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ExprsTest,test_decomposeAnd_basic,NEW org.apache.druid.math.expr.IdentifierExpr(String),0
+ExprsTest,test_decomposeAnd_basic,NEW org.apache.druid.math.expr.IdentifierExpr(String),0
+ExprsTest,test_decomposeAnd_basic,"NEW org.apache.druid.math.expr.BinAndExpr(String, Expr, Expr)",0
+ExprsTest,test_decomposeAnd_basic,NEW org.apache.druid.math.expr.IdentifierExpr(String),0
+ExprsTest,test_decomposeAnd_basic,NEW org.apache.druid.math.expr.IdentifierExpr(String),0
+ExprsTest,test_decomposeAnd_basic,"NEW org.apache.druid.math.expr.BinAndExpr(String, Expr, Expr)",0
+ExprsTest,test_decomposeAnd_basic,"NEW org.apache.druid.math.expr.BinAndExpr(String, Expr, Expr)",0
+ExprsTest,test_decomposeAnd_basic,org.apache.druid.math.expr.Exprs.decomposeAnd(Expr),1
+ExprsTest,test_decomposeAnd_basic,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+ExprsTest,test_decomposeAnd_basic,"ASSERT org.junit.Assert.assertThat(Expr, Matcher<? super Expr>)",2
+ExprsTest,test_decomposeAnd_basic,org.apache.druid.math.expr.IdentifierExpr.getIdentifier(),2
+ExprsTest,test_decomposeAnd_basic,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

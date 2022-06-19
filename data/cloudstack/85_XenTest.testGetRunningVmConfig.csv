@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+XenTest,testGetRunningVmConfig,TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setResult(String),0
+XenTest,testGetRunningVmConfig,com.cloud.hypervisor.ovm3.objects.Xen.getRunningVmConfig(String),1
+XenTest,testGetRunningVmConfig,com.cloud.hypervisor.ovm3.objects.Xen.Vm.getVmRootDiskPoolId(),2
+XenTest,testGetRunningVmConfig,     ASSERT org.junit.Assert.assertNotNull(Object),2
+XenTest,testGetRunningVmConfig,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+XenTest,testGetRunningVmConfig,com.cloud.hypervisor.ovm3.objects.Xen.Vm.getVncPort(),2
+XenTest,testGetRunningVmConfig,     ASSERT org.junit.Assert.assertNotNull(Object),2
+XenTest,testGetRunningVmConfig,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+XenTest,testGetRunningVmConfig,com.cloud.hypervisor.ovm3.objects.Xen.Vm.getVncAddress(),2
+XenTest,testGetRunningVmConfig,"TEST com.cloud.hypervisor.ovm3.objects.XmlTestResultTest.basicStringTest(String, String)",2

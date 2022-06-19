@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+Hessian2SerializationTest,test_intArray_withType,"org.apache.dubbo.common.serialize.Serialization.serialize(URL, OutputStream)",1
+Hessian2SerializationTest,test_intArray_withType,org.apache.dubbo.common.serialize.ObjectOutput.writeObject(Object),0
+Hessian2SerializationTest,test_intArray_withType,org.apache.dubbo.common.serialize.DataOutput.flushBuffer(),0
+Hessian2SerializationTest,test_intArray_withType,"org.apache.dubbo.common.serialize.Serialization.deserialize(URL, InputStream)",1
+Hessian2SerializationTest,test_intArray_withType,"ASSERT org.junit.jupiter.api.Assertions.assertArrayEquals(int[], int[])",2
+Hessian2SerializationTest,test_intArray_withType,org.apache.dubbo.common.serialize.ObjectInput.readObject(),2
+Hessian2SerializationTest,test_intArray_withType,org.apache.dubbo.common.serialize.ObjectInput.readObject(Class<int[]>),2
+Hessian2SerializationTest,test_intArray_withType,ASSERT org.junit.jupiter.api.Assertions.fail(),2

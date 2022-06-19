@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SecurityGroupRulesCmdTest,testCompressStringifiedRules,com.cloud.agent.api.SecurityGroupRulesCmd.compressStringifiedRules(),1
+SecurityGroupRulesCmdTest,testCompressStringifiedRules,ASSERT org.junit.Assert.assertTrue(boolean),2

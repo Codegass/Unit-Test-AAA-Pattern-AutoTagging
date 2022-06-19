@@ -1,0 +1,21 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,     NEW org.apache.druid.segment.incremental.IncrementalIndex.Builder(),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.setSimpleTestingIndexSchema(AggregatorFactory[]),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.setMaxRowCount(int),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.buildOnheap(),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,"     NEW org.apache.druid.data.input.MapBasedInputRow(long, List<String>, Map<String,Object>)",0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,     org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,"     NEW org.apache.druid.data.input.MapBasedInputRow(long, List<String>, Map<String,Object>)",0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,     org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,"org.apache.druid.segment.IndexMerger.persist(IncrementalIndex, File, IndexSpec, SegmentWriteOutMediumFactory)",0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,org.apache.druid.segment.IndexIO.loadIndex(File),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,     NEW anonymous(),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,     org.apache.druid.java.util.common.io.Closer.register(),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,"     org.apache.druid.java.util.common.logger.Logger.warn(Throwable, String, Object[])",0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,NEW org.apache.druid.segment.QueryableIndexIndexableAdapter(QueryableIndex),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,"org.apache.druid.segment.IndexableAdapter.getBitmapValues(String, int)",1
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,org.apache.druid.segment.IndexableAdapter.getDimValueLookup(String),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,org.apache.druid.segment.data.Indexed.size(),0
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,"org.apache.druid.segment.IndexableAdapter.getBitmapValues(String, int)",1
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,org.apache.druid.segment.data.BitmapValues.size(),2
+QueryableIndexIndexableAdapterTest,testGetBitmapIndex,"ASSERT org.junit.Assert.assertEquals(long, long)",2

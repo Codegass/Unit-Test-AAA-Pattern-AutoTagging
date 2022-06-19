@@ -1,0 +1,200 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CachingClusteredClientTest,testTimeSeriesWithFilter,"NEW org.apache.druid.query.filter.SelectorDimFilter(String, String, ExtractionFn)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"NEW org.apache.druid.query.filter.BoundDimFilter(String, String, String, Boolean, Boolean, Boolean, ExtractionFn, StringComparator)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,NEW org.apache.druid.query.filter.OrDimFilter(DimFilter[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"NEW org.apache.druid.query.filter.InDimFilter(String, Collection<String>, ExtractionFn)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"NEW org.apache.druid.query.filter.BoundDimFilter(String, String, String, Boolean, Boolean, Boolean, ExtractionFn, StringComparator)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"NEW org.apache.druid.query.filter.BoundDimFilter(String, String, String, Boolean, Boolean, Boolean, ExtractionFn, StringComparator)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,NEW org.apache.druid.query.filter.AndDimFilter(DimFilter[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,NEW org.apache.druid.query.filter.AndDimFilter(DimFilter[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.query.Druids.newTimeseriesQueryBuilder(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.query.Druids.TimeseriesQueryBuilder.dataSource(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.query.Druids.TimeseriesQueryBuilder.intervals(QuerySegmentSpec),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.query.Druids.TimeseriesQueryBuilder.filters(DimFilter),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.query.Druids.TimeseriesQueryBuilder.granularity(Granularity),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.query.Druids.TimeseriesQueryBuilder.aggregators(List<AggregatorFactory>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.query.Druids.TimeseriesQueryBuilder.postAggregators(List<PostAggregator>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"org.apache.druid.query.Druids.TimeseriesQueryBuilder.context(Map<String,Object>)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     NEW anonymous(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     org.apache.druid.query.QueryPlus.getQuery(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     org.apache.druid.query.QueryPlus.getQuery(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     org.apache.druid.query.Query.getIntervals(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"     org.apache.druid.client.CachingClusteredClient.getQueryRunnerForIntervals(Query<Object>, Iterable<Interval>)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,NEW org.apache.druid.query.timeseries.TimeseriesQueryQueryToolChest(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"NEW org.apache.druid.query.FinalizeResultsQueryRunner(QueryRunner, QueryToolChest)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"     NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"     NEW org.apache.druid.query.timeseries.TimeseriesResultValue(Map<String,Object>)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"     NEW org.apache.druid.query.Result<org.apache.druid.query.timeseries.TimeseriesResultValue>(DateTime, TimeseriesResultValue)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,TEST org.apache.druid.client.CachingClusteredClientTest.makeTimeResults(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.query.Druids.TimeseriesQueryBuilder.randomQueryId(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.query.Druids.TimeseriesQueryBuilder.build(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.Intervals.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,TEST org.apache.druid.client.CachingClusteredClientTest.makeTimeResults(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.Intervals.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,TEST org.apache.druid.client.CachingClusteredClientTest.makeTimeResults(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.Intervals.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,TEST org.apache.druid.client.CachingClusteredClientTest.makeTimeResults(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.Intervals.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,TEST org.apache.druid.client.CachingClusteredClientTest.makeTimeResults(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.Intervals.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,TEST org.apache.druid.client.CachingClusteredClientTest.makeTimeResults(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.Intervals.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,TEST org.apache.druid.client.CachingClusteredClientTest.makeTimeResults(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.Intervals.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,TEST org.apache.druid.client.CachingClusteredClientTest.makeTimeResults(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.Intervals.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,TEST org.apache.druid.client.CachingClusteredClientTest.makeTimeResults(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.Intervals.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,TEST org.apache.druid.client.CachingClusteredClientTest.makeTimeResults(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.Intervals.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,org.apache.druid.java.util.common.DateTimes.of(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,TEST org.apache.druid.client.CachingClusteredClientTest.makeTimeResults(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"     NEW org.joda.time.Interval(ReadableInstant, ReadableInstant)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          NEW org.apache.druid.timeline.VersionedIntervalTimeline<java.lang.String,org.apache.druid.client.selector.ServerSelector>(Comparator<? super String>)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,               MOCK org.easymock.EasyMock.createMock(Class<?>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          NEW org.apache.druid.client.CachingClusteredClientTest.ServerExpectations(DruidServer, QueryRunner)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          NEW org.apache.druid.timeline.partition.SingleDimensionShardSpec(String, String, String, int, Integer)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          NEW org.apache.druid.timeline.partition.SingleDimensionShardSpec(String, String, String, int, Integer)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,               MOCK org.easymock.EasyMock.createMock(Class<?>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.timeline.SegmentId.dummy(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          NEW org.apache.druid.client.CachingClusteredClientTest.ServerExpectation<java.lang.Object>(SegmentId, Interval, DataSegment, ShardSpec, Iterable<Result<Object>>)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          TEST org.apache.druid.client.CachingClusteredClientTest.ServerExpectations.addExpectation(ServerExpectation),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.timeline.DataSegment.getSize(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          MOCK org.easymock.EasyMock.expect(Long),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          MOCK org.easymock.IExpectationSetters<java.lang.Long>.andReturn(Long),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          MOCK org.easymock.IExpectationSetters<java.lang.Long>.anyTimes(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          MOCK org.easymock.EasyMock.replay(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,               NEW org.apache.druid.client.CachingClusteredClientTest.ServerExpectation<T>.MyDataSegment(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          NEW org.apache.druid.client.selector.RandomServerSelectorStrategy(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          NEW org.apache.druid.client.selector.HighestPriorityTierSelectorStrategy(ServerSelectorStrategy),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          NEW org.apache.druid.client.selector.ServerSelector(DataSegment, TierSelectorStrategy)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          NEW org.apache.druid.client.selector.QueryableDruidServer(DruidServer, QueryRunner)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.client.selector.ServerSelector.getSegment(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          org.apache.druid.client.selector.ServerSelector.addServerAndUpdateSegment(QueryableDruidServer, DataSegment)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          MOCK org.easymock.EasyMock.reset(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.timeline.DataSegment.getShardSpec(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          MOCK org.easymock.EasyMock.expect(ShardSpec),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          MOCK org.easymock.IExpectationSetters<org.apache.druid.timeline.partition.ShardSpec>.andReturn(ShardSpec),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          MOCK org.easymock.IExpectationSetters<org.apache.druid.timeline.partition.ShardSpec>.anyTimes(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.timeline.partition.ShardSpec.createChunk(ServerSelector),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          org.apache.druid.timeline.VersionedIntervalTimeline.add(Interval, String, PartitionChunk<ServerSelector>)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     org.apache.druid.client.TimelineServerView.getQueryRunner(DruidServer),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     MOCK org.easymock.EasyMock.expect(QueryRunner<Object>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     TEST org.apache.druid.client.CachingClusteredClientTest.ServerExpectations.getQueryRunner(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     MOCK org.easymock.IExpectationSetters<org.apache.druid.query.QueryRunner<java.lang.Object>>.andReturn(QueryRunner<Object>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"     MOCK org.easymock.IExpectationSetters.times(int, int)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     MOCK org.easymock.Capture.newInstance(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     MOCK org.easymock.Capture.newInstance(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     TEST org.apache.druid.client.CachingClusteredClientTest.ServerExpectations.getQueryRunner(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     TEST org.apache.druid.client.CachingClusteredClientTest.ServerExpectation.getSegmentId(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     TEST org.apache.druid.client.CachingClusteredClientTest.ServerExpectation.getResults(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     MOCK org.easymock.EasyMock.capture(Capture<>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     MOCK org.easymock.EasyMock.capture(Capture<>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     MOCK org.easymock.EasyMock.expect(Sequence),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     NEW anonymous(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     MOCK org.easymock.IExpectationSetters<org.apache.druid.java.util.common.guava.Sequence>.andAnswer(IAnswer<? extends Sequence>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"     MOCK org.easymock.IExpectationSetters<org.apache.druid.java.util.common.guava.Sequence>.times(int, int)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.query.BaseQuery.getQuerySegmentSpec(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.query.spec.MultipleSpecificSegmentSpec.getDescriptors(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.query.SegmentDescriptor.getInterval(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.timeline.SegmentId.dummy(String),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.query.Result.getTimestamp(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.timeline.SegmentId.toString(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.query.SegmentDescriptor.getInterval(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          NEW org.apache.druid.query.BySegmentResultValueClass(List, String, Interval)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          NEW org.apache.druid.query.Result(DateTime, Object)",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"          NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.java.util.common.guava.Sequences.simple(Iterable<Result<TimeseriesResultValue>>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     MOCK org.easymock.Capture<>.getValue(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     org.apache.druid.query.QueryPlus.getQuery(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,"     NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     NEW anonymous(),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          MOCK org.easymock.EasyMock.replay(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          MOCK org.easymock.EasyMock.verify(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          MOCK org.easymock.EasyMock.reset(Object[]),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     org.apache.druid.query.Query.withQuerySegmentSpec(QuerySegmentSpec),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,     org.apache.druid.query.QueryPlus.wrap(Query<Object>),0
+CachingClusteredClientTest,testTimeSeriesWithFilter,          org.apache.druid.java.util.common.guava.Sequence.toList(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.groupby.ResultRow.length(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.groupby.ResultRow.length(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.groupby.ResultRow.length(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.groupby.ResultRow.get(int),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.groupby.ResultRow.get(int),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"               TEST org.apache.druid.segment.TestHelper.assertRow(String, ResultRow, ResultRow)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,               org.apache.druid.query.Result.getValue(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.Result.getTimestamp(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.Result.getTimestamp(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.Result.getValue(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.Result.getValue(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.Result.getTimestamp(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.Result.getTimestamp(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                         org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                         org.apache.druid.data.input.Row.getTimestamp(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                         org.apache.druid.data.input.Row.getTimestamp(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                         ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                         org.apache.druid.data.input.MapBasedRow.getEvent(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                         org.apache.druid.data.input.MapBasedRow.getEvent(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                         org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                         ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                         org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                         ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                         org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                         ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"               TEST org.apache.druid.segment.TestHelper.assertTimeseriesResultValue(String, Result, Result)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,               org.apache.druid.query.Result.getValue(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.Result.getValue(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.Result.getValue(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.topn.TopNResultValue.getValue(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.Result.getTimestamp(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.topn.TopNResultValue.getValue(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.Result.getTimestamp(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,                    org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    TEST org.apache.druid.segment.TestHelper.assertRow(String, Row, Row)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"               TEST org.apache.druid.segment.TestHelper.assertTopNResultValue(String, Result, Result)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"                    ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"               TEST org.apache.druid.segment.TestHelper.assertResult(String, Result<?>, Result)",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,               ASSERT org.junit.Assert.fail(String),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,               ASSERT org.junit.Assert.fail(String),2
+CachingClusteredClientTest,testTimeSeriesWithFilter,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CachingClusteredClientTest,testTimeSeriesWithFilter,               ASSERT org.junit.Assert.fail(String),2

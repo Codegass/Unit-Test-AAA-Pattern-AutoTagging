@@ -1,0 +1,64 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ServerContextTest,testSasl,org.apache.accumulo.core.conf.ClientProperty.getKey(),0
+ServerContextTest,testSasl,org.apache.accumulo.core.conf.ClientProperty.getKey(),0
+ServerContextTest,testSasl,org.apache.accumulo.core.clientImpl.ClientConfConverter.toAccumuloConf(Properties),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+ServerContextTest,testSasl,org.apache.accumulo.core.conf.AccumuloConfiguration.getBoolean(Property),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.expect(Boolean),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+ServerContextTest,testSasl,NEW org.apache.accumulo.core.client.security.tokens.PasswordToken(CharSequence),0
+ServerContextTest,testSasl,org.apache.accumulo.core.client.security.tokens.PasswordToken.write(DataOutput),0
+ServerContextTest,testSasl,NEW org.apache.accumulo.server.security.SystemCredentials.SystemToken(),0
+ServerContextTest,testSasl,org.apache.accumulo.core.client.security.tokens.PasswordToken.readFields(DataInput),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+ServerContextTest,testSasl,org.apache.accumulo.server.conf.ServerConfigurationFactory.getSystemConfiguration(),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.expect(AccumuloConfiguration),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<org.apache.accumulo.core.conf.AccumuloConfiguration>.andReturn(AccumuloConfiguration),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<org.apache.accumulo.core.conf.AccumuloConfiguration>.anyTimes(),0
+ServerContextTest,testSasl,org.apache.accumulo.server.conf.ServerConfigurationFactory.getSiteConfiguration(),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.expect(SiteConfiguration),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<org.apache.accumulo.core.conf.SiteConfiguration>.andReturn(SiteConfiguration),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<org.apache.accumulo.core.conf.SiteConfiguration>.anyTimes(),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.createMockBuilder(Class<?>),0
+ServerContextTest,testSasl,MOCK org.easymock.IMockBuilder<java.lang.Object>.addMockedMethod(String),0
+ServerContextTest,testSasl,MOCK org.easymock.IMockBuilder<java.lang.Object>.addMockedMethod(String),0
+ServerContextTest,testSasl,MOCK org.easymock.IMockBuilder<java.lang.Object>.addMockedMethod(String),0
+ServerContextTest,testSasl,MOCK org.easymock.IMockBuilder<java.lang.Object>.addMockedMethod(String),0
+ServerContextTest,testSasl,MOCK org.easymock.IMockBuilder<java.lang.Object>.createMock(),0
+ServerContextTest,testSasl,org.apache.accumulo.server.ServerContext.enforceKerberosLogin(),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.expectLastCall(),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+ServerContextTest,testSasl,org.apache.accumulo.server.ServerContext.getConfiguration(),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.expect(AccumuloConfiguration),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<org.apache.accumulo.core.conf.AccumuloConfiguration>.andReturn(AccumuloConfiguration),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<org.apache.accumulo.core.conf.AccumuloConfiguration>.anyTimes(),0
+ServerContextTest,testSasl,org.apache.accumulo.server.ServerContext.getServerConfFactory(),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.expect(ServerConfigurationFactory),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<org.apache.accumulo.server.conf.ServerConfigurationFactory>.andReturn(ServerConfigurationFactory),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<org.apache.accumulo.server.conf.ServerConfigurationFactory>.anyTimes(),0
+ServerContextTest,testSasl,org.apache.accumulo.core.clientImpl.ClientContext.getCredentials(),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.expect(Credentials),0
+ServerContextTest,testSasl,"NEW org.apache.accumulo.core.clientImpl.Credentials(String, AuthenticationToken)",0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<org.apache.accumulo.core.clientImpl.Credentials>.andReturn(Credentials),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<org.apache.accumulo.core.clientImpl.Credentials>.once(),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.anyObject(Class<Property>),0
+ServerContextTest,testSasl,org.apache.accumulo.core.conf.SiteConfiguration.get(Property),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.expect(String),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<java.lang.String>.andAnswer(IAnswer<? extends String>),0
+ServerContextTest,testSasl,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.getCurrentArguments(),0
+ServerContextTest,testSasl,org.apache.accumulo.core.conf.AccumuloConfiguration.get(Property),0
+ServerContextTest,testSasl,org.apache.accumulo.core.conf.AccumuloConfiguration.iterator(),0
+ServerContextTest,testSasl,"MOCK org.easymock.EasyMock.expect(Iterator<Entry<String,String>>)",0
+ServerContextTest,testSasl,org.apache.accumulo.core.conf.AccumuloConfiguration.iterator(),0
+ServerContextTest,testSasl,"MOCK org.easymock.IExpectationSetters<java.util.Iterator<java.util.Map.Entry<java.lang.String,java.lang.String>>>.andAnswer(IAnswer<? extends Iterator<Entry<String,String>>>)",0
+ServerContextTest,testSasl,"MOCK org.easymock.IExpectationSetters<java.util.Iterator<java.util.Map.Entry<java.lang.String,java.lang.String>>>.anyTimes()",0
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.replay(Object[]),0
+ServerContextTest,testSasl,org.apache.accumulo.server.ServerContext.getThriftServerType(),0
+ServerContextTest,testSasl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ServerContextTest,testSasl,org.apache.accumulo.server.ServerContext.getSaslParams(),1
+ServerContextTest,testSasl,"NEW org.apache.accumulo.server.rpc.SaslServerConnectionParams(AccumuloConfiguration, AuthenticationToken)",2
+ServerContextTest,testSasl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ServerContextTest,testSasl,org.apache.accumulo.core.rpc.SaslConnectionParams.getPrincipal(),2
+ServerContextTest,testSasl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ServerContextTest,testSasl,MOCK org.easymock.EasyMock.verify(Object[]),2

@@ -1,0 +1,67 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ResourcePoolTest,testCloseUnblocks,     org.apache.druid.java.util.http.client.pool.ResourceFactory.generate(String),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.EasyMock.expect(String),0
+ResourcePoolTest,testCloseUnblocks,     NEW org.apache.druid.java.util.http.client.pool.ResourcePoolTest.StringIncrementingAnswer(String),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.IExpectationSetters<java.lang.String>.andAnswer(IAnswer<? extends String>),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.IExpectationSetters<java.lang.String>.times(int),0
+ResourcePoolTest,testCloseUnblocks,     org.apache.druid.java.util.http.client.pool.ResourceFactory.generate(String),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.EasyMock.expect(String),0
+ResourcePoolTest,testCloseUnblocks,     NEW org.apache.druid.java.util.http.client.pool.ResourcePoolTest.StringIncrementingAnswer(String),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.IExpectationSetters<java.lang.String>.andAnswer(IAnswer<? extends String>),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.IExpectationSetters<java.lang.String>.times(int),0
+ResourcePoolTest,testCloseUnblocks,     org.apache.druid.java.util.http.client.pool.ResourceFactory.isGood(String),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.EasyMock.expect(Boolean),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.times(int),0
+ResourcePoolTest,testCloseUnblocks,     org.apache.druid.java.util.http.client.pool.ResourceFactory.isGood(String),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.EasyMock.expect(Boolean),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.times(int),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.EasyMock.replay(Object[]),0
+ResourcePoolTest,testCloseUnblocks,     org.apache.druid.java.util.http.client.pool.ResourcePool.take(String),0
+ResourcePoolTest,testCloseUnblocks,     org.apache.druid.java.util.http.client.pool.ResourcePool.take(String),0
+ResourcePoolTest,testCloseUnblocks,     org.apache.druid.java.util.http.client.pool.ResourceContainer.get(),0
+ResourcePoolTest,testCloseUnblocks,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+ResourcePoolTest,testCloseUnblocks,     org.apache.druid.java.util.http.client.pool.ResourceContainer.get(),0
+ResourcePoolTest,testCloseUnblocks,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.EasyMock.verify(Object[]),0
+ResourcePoolTest,testCloseUnblocks,     MOCK org.easymock.EasyMock.reset(Object[]),0
+ResourcePoolTest,testCloseUnblocks,     org.apache.druid.java.util.http.client.pool.ResourceContainer.returnResource(),0
+ResourcePoolTest,testCloseUnblocks,     org.apache.druid.java.util.http.client.pool.ResourceContainer.returnResource(),0
+ResourcePoolTest,testCloseUnblocks,org.apache.druid.java.util.http.client.pool.ResourceFactory.isGood(String),0
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.EasyMock.expect(Boolean),0
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.times(int),0
+ResourcePoolTest,testCloseUnblocks,org.apache.druid.java.util.http.client.pool.ResourceFactory.isGood(String),0
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.EasyMock.expect(Boolean),0
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.times(int),0
+ResourcePoolTest,testCloseUnblocks,org.apache.druid.java.util.http.client.pool.ResourceFactory.close(String),0
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.EasyMock.expectLastCall(),0
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.IExpectationSetters<java.lang.Object>.times(int),0
+ResourcePoolTest,testCloseUnblocks,org.apache.druid.java.util.http.client.pool.ResourceFactory.close(String),0
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.EasyMock.expectLastCall(),0
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.IExpectationSetters<java.lang.Object>.times(int),0
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.EasyMock.replay(Object[]),0
+ResourcePoolTest,testCloseUnblocks,"NEW org.apache.druid.java.util.http.client.pool.ResourcePoolTest.MyThread(CountDownLatch, String)",0
+ResourcePoolTest,testCloseUnblocks,"TEST org.apache.druid.java.util.http.client.pool.ResourcePoolTest.MyThread.waitForValueToBeGotten(long, TimeUnit)",0
+ResourcePoolTest,testCloseUnblocks,"NEW org.apache.druid.java.util.http.client.pool.ResourcePoolTest.MyThread(CountDownLatch, String)",0
+ResourcePoolTest,testCloseUnblocks,"TEST org.apache.druid.java.util.http.client.pool.ResourcePoolTest.MyThread.waitForValueToBeGotten(long, TimeUnit)",0
+ResourcePoolTest,testCloseUnblocks,"NEW org.apache.druid.java.util.http.client.pool.ResourcePoolTest.MyThread(CountDownLatch, String)",0
+ResourcePoolTest,testCloseUnblocks,"TEST org.apache.druid.java.util.http.client.pool.ResourcePoolTest.MyThread.waitForValueToBeGotten(long, TimeUnit)",0
+ResourcePoolTest,testCloseUnblocks,org.apache.druid.java.util.http.client.pool.ResourcePool.ImmediateCreationResourceHolder.close(),1
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.EasyMock.verify(Object[]),2
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.EasyMock.reset(Object[]),2
+ResourcePoolTest,testCloseUnblocks,org.apache.druid.java.util.http.client.pool.ResourceFactory.close(String),2
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.EasyMock.expectLastCall(),2
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.IExpectationSetters<java.lang.Object>.once(),2
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.EasyMock.replay(Object[]),2
+ResourcePoolTest,testCloseUnblocks,"TEST org.apache.druid.java.util.http.client.pool.ResourcePoolTest.MyThread.waitForValueToBeGotten(long, TimeUnit)",2
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.EasyMock.verify(Object[]),2
+ResourcePoolTest,testCloseUnblocks,MOCK org.easymock.EasyMock.reset(Object[]),2
+ResourcePoolTest,testCloseUnblocks,TEST org.apache.druid.java.util.http.client.pool.ResourcePoolTest.MyThread.getValue(),2
+ResourcePoolTest,testCloseUnblocks,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ResourcePoolTest,testCloseUnblocks,TEST org.apache.druid.java.util.http.client.pool.ResourcePoolTest.MyThread.getValue(),2
+ResourcePoolTest,testCloseUnblocks,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ResourcePoolTest,testCloseUnblocks,TEST org.apache.druid.java.util.http.client.pool.ResourcePoolTest.MyThread.getValue(),2
+ResourcePoolTest,testCloseUnblocks,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

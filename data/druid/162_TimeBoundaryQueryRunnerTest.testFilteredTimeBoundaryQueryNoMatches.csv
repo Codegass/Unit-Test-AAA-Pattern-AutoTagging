@@ -1,0 +1,71 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               NEW org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               org.apache.druid.java.util.common.DateTimes.of(String),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.withMinTimestamp(long),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.withQueryGranularity(Granularity),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.withMetrics(AggregatorFactory[]),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.build(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               NEW org.apache.druid.segment.incremental.IncrementalIndex.Builder(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               org.apache.druid.segment.incremental.IncrementalIndex.Builder.setIndexSchema(IncrementalIndexSchema),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               org.apache.druid.segment.incremental.IncrementalIndex.Builder.setMaxRowCount(int),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               org.apache.druid.segment.incremental.IncrementalIndex.Builder.buildOnheap(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"          NEW org.apache.druid.data.input.impl.TimestampSpec(String, String, DateTime)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"          NEW org.apache.druid.data.input.impl.DimensionsSpec(List<DimensionSchema>, List<String>, List<SpatialDimensionSchema>)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"          NEW org.apache.druid.data.input.impl.DelimitedParseSpec(TimestampSpec, DimensionsSpec, String, String, List<String>, boolean, int)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"          NEW org.apache.druid.data.input.impl.StringInputRowParser(ParseSpec, String)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               NEW anonymous(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               org.apache.druid.data.input.impl.StringInputRowParser.parse(String),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"               org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,     TEST org.apache.druid.query.timeboundary.TimeBoundaryQueryRunnerTest.newIndex(String),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"     TEST org.apache.druid.segment.TestIndex.loadIncrementalIndex(IncrementalIndex, CharSource)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.segment.incremental.IncrementalIndex.getInterval(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,               org.apache.druid.timeline.partition.NoneShardSpec.instance(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"               org.apache.druid.timeline.SegmentId.of(String, Interval, String, ShardSpec)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"     NEW org.apache.druid.segment.IncrementalIndexSegment(IncrementalIndex, SegmentId)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"     TEST org.apache.druid.query.timeboundary.TimeBoundaryQueryRunnerTest.makeIdentifier(IncrementalIndex, String)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"     NEW org.apache.druid.segment.IncrementalIndexSegment(IncrementalIndex, SegmentId)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"     NEW org.apache.druid.timeline.VersionedIntervalTimeline<java.lang.String,org.apache.druid.segment.ReferenceCountingSegment>(Comparator<? super String>)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,     org.apache.druid.segment.incremental.IncrementalIndex.getInterval(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,     org.apache.druid.segment.ReferenceCountingSegment.wrapRootGenerationSegment(Segment),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,     NEW org.apache.druid.timeline.partition.SingleElementPartitionChunk<org.apache.druid.segment.ReferenceCountingSegment>(ReferenceCountingSegment),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"     org.apache.druid.timeline.VersionedIntervalTimeline.add(Interval, String, PartitionChunk<ReferenceCountingSegment>)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,     org.apache.druid.segment.incremental.IncrementalIndex.getInterval(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,     org.apache.druid.segment.ReferenceCountingSegment.wrapRootGenerationSegment(Segment),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,     NEW org.apache.druid.timeline.partition.SingleElementPartitionChunk<org.apache.druid.segment.ReferenceCountingSegment>(ReferenceCountingSegment),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"     org.apache.druid.timeline.VersionedIntervalTimeline.add(Interval, String, PartitionChunk<ReferenceCountingSegment>)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"          NEW org.apache.druid.query.FluentQueryRunnerBuilder<T>(QueryToolChest<T,Query<T>>)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          NEW anonymous(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.FluentQueryRunnerBuilder.create(QueryRunner<T>),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.FluentQueryRunnerBuilder.FluentQueryRunner.applyPreMergeDecoration(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.FluentQueryRunnerBuilder.FluentQueryRunner.mergeResults(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.FluentQueryRunnerBuilder.FluentQueryRunner.applyPostMergeDecoration(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.QueryPlus.getQuery(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.Query.getIntervals(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.timeline.VersionedIntervalTimeline.lookup(Interval),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"          org.apache.druid.query.QueryToolChest.filterSegments(Query<T>, List<TimelineObjectHolder>)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.timeline.TimelineObjectHolder.getObject(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.timeline.partition.PartitionHolder.getChunk(int),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.timeline.partition.PartitionChunk.getObject(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.QueryPlus.getQuery(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.timeline.TimelineObjectHolder.getInterval(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.timeline.TimelineObjectHolder.getVersion(),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"          NEW org.apache.druid.query.SegmentDescriptor(Interval, String, int)",0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          NEW org.apache.druid.query.spec.SpecificSegmentSpec(SegmentDescriptor),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.Query.withQuerySegmentSpec(QuerySegmentSpec),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.QueryPlus.withQuery(Query<T>),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.QueryRunnerFactory.createRunner(Segment),0
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"          org.apache.druid.query.QueryRunner.run(QueryPlus<T>, ResponseContext)",1
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.query.Query.getResultOrdering(),2
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,          org.apache.druid.java.util.common.guava.Sequences.simple(Iterable<Sequence<T>>),2
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"          NEW org.apache.druid.java.util.common.guava.MergeSequence<T>(Ordering<? super T>, Sequence<? extends Sequence<? extends T>>)",2
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,org.apache.druid.query.Druids.newTimeBoundaryQueryBuilder(),2
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,org.apache.druid.query.Druids.TimeBoundaryQueryBuilder.dataSource(String),2
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,"org.apache.druid.query.Druids.TimeBoundaryQueryBuilder.filters(String, String)",2
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,org.apache.druid.query.Druids.TimeBoundaryQueryBuilder.build(),2
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,org.apache.druid.query.timeboundary.TimeBoundaryQuery.hasFilters(),2
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,ASSERT org.junit.Assert.assertTrue(boolean),2
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,org.apache.druid.query.QueryPlus.wrap(Query<Result<TimeBoundaryResultValue>>),2
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,org.apache.druid.java.util.common.guava.Sequence.toList(),2
+TimeBoundaryQueryRunnerTest,testFilteredTimeBoundaryQueryNoMatches,ASSERT org.junit.Assert.assertTrue(boolean),2

@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GranularityTest,testIncrementOverSpringForward,org.apache.druid.java.util.common.DateTimes.inferTzFromString(String),0
+GranularityTest,testIncrementOverSpringForward,"NEW org.apache.druid.java.util.common.granularity.PeriodGranularity(Period, DateTime, DateTimeZone)",0
+GranularityTest,testIncrementOverSpringForward,"NEW org.joda.time.DateTime(Object, DateTimeZone)",0
+GranularityTest,testIncrementOverSpringForward,"NEW org.joda.time.DateTime(Object, DateTimeZone)",0
+GranularityTest,testIncrementOverSpringForward,"NEW org.joda.time.Interval(ReadableInstant, ReadableInstant)",0
+GranularityTest,testIncrementOverSpringForward,org.apache.druid.java.util.common.granularity.Granularity.getIterable(Interval),0
+GranularityTest,testIncrementOverSpringForward,"NEW org.joda.time.DateTime(Object, DateTimeZone)",0
+GranularityTest,testIncrementOverSpringForward,"NEW org.joda.time.DateTime(Object, DateTimeZone)",0
+GranularityTest,testIncrementOverSpringForward,"NEW org.joda.time.DateTime(Object, DateTimeZone)",0
+GranularityTest,testIncrementOverSpringForward,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GranularityTest,testIncrementOverSpringForward,org.apache.druid.java.util.common.granularity.PeriodGranularity.bucketStart(DateTime),1

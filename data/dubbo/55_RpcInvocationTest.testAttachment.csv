@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RpcInvocationTest,testAttachment,NEW org.apache.dubbo.rpc.RpcInvocation(),0
+RpcInvocationTest,testAttachment,"org.apache.dubbo.rpc.RpcInvocation.setAttachment(String, String)",1
+RpcInvocationTest,testAttachment,"org.apache.dubbo.rpc.RpcInvocation.setAttachment(String, String)",1
+RpcInvocationTest,testAttachment,"org.apache.dubbo.rpc.RpcInvocation.setAttachment(String, Object)",1
+RpcInvocationTest,testAttachment,org.apache.dubbo.rpc.RpcInvocation.getObjectAttachment(String),2
+RpcInvocationTest,testAttachment,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RpcInvocationTest,testAttachment,org.apache.dubbo.rpc.RpcInvocation.getAttachment(String),2
+RpcInvocationTest,testAttachment,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RpcInvocationTest,testAttachment,org.apache.dubbo.rpc.RpcInvocation.getAttachment(String),2
+RpcInvocationTest,testAttachment,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2
+RpcInvocationTest,testAttachment,org.apache.dubbo.rpc.RpcInvocation.getObjectAttachment(String),2
+RpcInvocationTest,testAttachment,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RpcInvocationTest,testAttachment,org.apache.dubbo.rpc.RpcInvocation.getObjectAttachments(),2
+RpcInvocationTest,testAttachment,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+RpcInvocationTest,testAttachment,"org.apache.dubbo.rpc.RpcInvocation.setObjectAttachments(Map<String,Object>)",1
+RpcInvocationTest,testAttachment,org.apache.dubbo.rpc.RpcInvocation.getObjectAttachments(),2
+RpcInvocationTest,testAttachment,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

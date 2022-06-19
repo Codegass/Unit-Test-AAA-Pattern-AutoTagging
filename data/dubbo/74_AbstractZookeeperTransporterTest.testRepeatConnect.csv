@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractZookeeperTransporterTest,testRepeatConnect,org.apache.dubbo.common.URL.valueOf(String),0
+AbstractZookeeperTransporterTest,testRepeatConnect,org.apache.dubbo.common.URL.valueOf(String),0
+AbstractZookeeperTransporterTest,testRepeatConnect,org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter.connect(URL),1
+AbstractZookeeperTransporterTest,testRepeatConnect,org.apache.dubbo.remoting.zookeeper.ZookeeperClient.getContent(String),2
+AbstractZookeeperTransporterTest,testRepeatConnect,org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter.getZookeeperClientMap(),2
+AbstractZookeeperTransporterTest,testRepeatConnect,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+AbstractZookeeperTransporterTest,testRepeatConnect,org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter.getZookeeperClientMap(),2
+AbstractZookeeperTransporterTest,testRepeatConnect,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+AbstractZookeeperTransporterTest,testRepeatConnect,org.apache.dubbo.remoting.zookeeper.ZookeeperClient.isConnected(),2
+AbstractZookeeperTransporterTest,testRepeatConnect,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+AbstractZookeeperTransporterTest,testRepeatConnect,org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter.connect(URL),1
+AbstractZookeeperTransporterTest,testRepeatConnect,org.apache.dubbo.remoting.zookeeper.ZookeeperClient.getContent(String),2
+AbstractZookeeperTransporterTest,testRepeatConnect,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+AbstractZookeeperTransporterTest,testRepeatConnect,org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter.getZookeeperClientMap(),2
+AbstractZookeeperTransporterTest,testRepeatConnect,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+AbstractZookeeperTransporterTest,testRepeatConnect,org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter.getZookeeperClientMap(),2
+AbstractZookeeperTransporterTest,testRepeatConnect,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

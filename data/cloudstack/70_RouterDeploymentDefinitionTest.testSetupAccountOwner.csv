@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RouterDeploymentDefinitionTest,testSetupAccountOwner,com.cloud.network.NetworkModel.isNetworkSystem(Network),0
+RouterDeploymentDefinitionTest,testSetupAccountOwner,com.cloud.user.AccountService.getAccount(long),0
+RouterDeploymentDefinitionTest,testSetupAccountOwner,org.cloud.network.router.deployment.RouterDeploymentDefinition.setupAccountOwner(),1
+RouterDeploymentDefinitionTest,testSetupAccountOwner,"ASSERT junit.framework.Assert.assertEquals(String, Object, Object)",2

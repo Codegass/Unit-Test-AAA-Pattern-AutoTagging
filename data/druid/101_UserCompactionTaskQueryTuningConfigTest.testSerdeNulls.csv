@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+UserCompactionTaskQueryTuningConfigTest,testSerdeNulls,"NEW org.apache.druid.server.coordinator.UserCompactionTaskQueryTuningConfig(Integer, Long, Long, SplitHintSpec, IndexSpec, Integer, Long, Integer)",1
+UserCompactionTaskQueryTuningConfigTest,testSerdeNulls,ASSERT org.junit.Assert.assertFalse(boolean),2
+UserCompactionTaskQueryTuningConfigTest,testSerdeNulls,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

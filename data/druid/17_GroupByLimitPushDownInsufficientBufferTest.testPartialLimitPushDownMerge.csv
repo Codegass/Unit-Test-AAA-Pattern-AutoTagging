@@ -1,0 +1,65 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,     org.apache.druid.timeline.SegmentId.dummy(String),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,     org.apache.druid.timeline.SegmentId.dummy(String),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"     NEW org.apache.druid.segment.QueryableIndexSegment(QueryableIndex, SegmentId)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,          org.apache.druid.segment.Segment.getDataInterval(),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,          org.apache.druid.query.QueryRunnerFactory.createRunner(Segment),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"          NEW org.apache.druid.query.BySegmentQueryRunner<T>(SegmentId, DateTime, QueryRunner<T>)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"          NEW org.apache.druid.query.FinalizeResultsQueryRunner<T>(QueryRunner<T>, QueryToolChest<T,Query<T>>)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,          org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,     org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,     org.apache.druid.query.QueryToolChest.preMergeQueryDecoration(QueryRunner<ResultRow>),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"org.apache.druid.query.QueryRunnerFactory.mergeRunners(ExecutorService, Iterable<QueryRunner<ResultRow>>)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.QueryToolChest.mergeResults(QueryRunner<ResultRow>),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"NEW org.apache.druid.query.FinalizeResultsQueryRunner(QueryRunner, QueryToolChest)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,     org.apache.druid.timeline.SegmentId.dummy(String),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,     org.apache.druid.timeline.SegmentId.dummy(String),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"     NEW org.apache.druid.segment.QueryableIndexSegment(QueryableIndex, SegmentId)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"     TEST org.apache.druid.query.groupby.GroupByLimitPushDownInsufficientBufferTest.makeQueryRunner(QueryRunnerFactory<ResultRow,GroupByQuery>, SegmentId, Segment)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,     org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,     org.apache.druid.query.QueryToolChest.preMergeQueryDecoration(QueryRunner<ResultRow>),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"org.apache.druid.query.QueryRunnerFactory.mergeRunners(ExecutorService, Iterable<QueryRunner<ResultRow>>)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.QueryToolChest.mergeResults(QueryRunner<ResultRow>),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"NEW org.apache.druid.query.FinalizeResultsQueryRunner(QueryRunner, QueryToolChest)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,NEW anonymous(),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.QueryToolChest.mergeResults(QueryRunner<ResultRow>),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"NEW org.apache.druid.query.FinalizeResultsQueryRunner(QueryRunner, QueryToolChest)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"org.apache.druid.query.QueryRunner.run(QueryPlus<ResultRow>, ResponseContext)",1
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"org.apache.druid.query.QueryRunner.run(QueryPlus<ResultRow>, ResponseContext)",1
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.java.util.common.guava.Sequences.simple(Iterable<Sequence<ResultRow>>),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.QueryPlus.getQuery(),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.Query.getResultOrdering(),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"org.apache.druid.java.util.common.guava.Sequence.flatMerge(Function<? super Sequence<ResultRow>,? extends Sequence<? extends ResultRow>>, Ordering<? super ResultRow>)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"org.apache.druid.java.util.common.Intervals.utc(long, long)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.groupby.GroupByQuery.builder(),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.groupby.GroupByQuery.Builder.setDataSource(String),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.groupby.GroupByQuery.Builder.setQuerySegmentSpec(QuerySegmentSpec),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.groupby.GroupByQuery.Builder.setDimensions(DimensionSpec[]),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.groupby.GroupByQuery.Builder.setAggregatorSpecs(AggregatorFactory[]),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"NEW org.apache.druid.query.groupby.orderby.OrderByColumnSpec(String, Direction)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"NEW org.apache.druid.query.groupby.orderby.DefaultLimitSpec(List<OrderByColumnSpec>, Integer)",0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.groupby.GroupByQuery.Builder.setLimitSpec(LimitSpec),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.groupby.GroupByQuery.Builder.setGranularity(Granularity),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.groupby.GroupByQuery.Builder.build(),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.QueryPlus.wrap(Query<ResultRow>),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.query.context.ResponseContext.createEmpty(),0
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"org.apache.druid.query.QueryRunner.run(QueryPlus<ResultRow>, ResponseContext)",1
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,org.apache.druid.java.util.common.guava.Sequence.toList(),2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,     org.apache.druid.java.util.common.DateTimes.of(String),2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,          org.apache.druid.query.groupby.GroupByQuery.getResultRowSizeWithPostAggregators(),2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,          org.apache.druid.query.groupby.ResultRow.create(int),2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,          org.apache.druid.query.groupby.GroupByQuery.getResultRowHasTimestamp(),2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"          org.apache.druid.query.groupby.ResultRow.set(int, Object)",2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,          org.apache.druid.query.groupby.GroupByQuery.getResultRowSignature(),2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,          org.apache.druid.segment.column.RowSignature.indexOf(String),2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"          org.apache.druid.query.groupby.ResultRow.set(int, Object)",2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"TEST org.apache.druid.query.groupby.GroupByQueryRunnerTestHelper.createExpectedRow(GroupByQuery, String, Object[])",2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"TEST org.apache.druid.query.groupby.GroupByQueryRunnerTestHelper.createExpectedRow(GroupByQuery, String, Object[])",2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GroupByLimitPushDownInsufficientBufferTest,testPartialLimitPushDownMerge,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

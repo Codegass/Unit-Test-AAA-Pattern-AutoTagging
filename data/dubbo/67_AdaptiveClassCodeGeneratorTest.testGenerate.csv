@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AdaptiveClassCodeGeneratorTest,testGenerate,"NEW org.apache.dubbo.common.extension.AdaptiveClassCodeGenerator(Class<?>, String)",0
+AdaptiveClassCodeGeneratorTest,testGenerate,org.apache.dubbo.common.extension.AdaptiveClassCodeGenerator.generate(),1
+AdaptiveClassCodeGeneratorTest,testGenerate,org.apache.dubbo.common.utils.IOUtils.read(Reader),2
+AdaptiveClassCodeGeneratorTest,testGenerate,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

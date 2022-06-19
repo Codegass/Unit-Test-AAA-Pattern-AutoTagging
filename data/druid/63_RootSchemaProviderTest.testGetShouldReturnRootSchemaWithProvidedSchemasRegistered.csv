@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RootSchemaProviderTest,testGetShouldReturnRootSchemaWithProvidedSchemasRegistered,org.apache.druid.sql.calcite.schema.RootSchemaProvider.get(),1
+RootSchemaProviderTest,testGetShouldReturnRootSchemaWithProvidedSchemasRegistered,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RootSchemaProviderTest,testGetShouldReturnRootSchemaWithProvidedSchemasRegistered,ASSERT org.junit.Assert.assertFalse(boolean),2
+RootSchemaProviderTest,testGetShouldReturnRootSchemaWithProvidedSchemasRegistered,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+RootSchemaProviderTest,testGetShouldReturnRootSchemaWithProvidedSchemasRegistered,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RootSchemaProviderTest,testGetShouldReturnRootSchemaWithProvidedSchemasRegistered,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

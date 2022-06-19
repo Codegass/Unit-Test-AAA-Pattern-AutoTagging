@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_customizeAdaptiveKey,org.apache.dubbo.common.extension.ExtensionLoader.getExtensionLoader(Class<SimpleExt>),0
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_customizeAdaptiveKey,org.apache.dubbo.common.extension.ExtensionLoader.getAdaptiveExtension(),1
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_customizeAdaptiveKey,"NEW org.apache.dubbo.common.URL(String, String, int, String, Map<String,String>)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_customizeAdaptiveKey,"TEST org.apache.dubbo.common.extension.ext1.SimpleExt.yell(URL, String)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_customizeAdaptiveKey,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_customizeAdaptiveKey,"org.apache.dubbo.common.URL.addParameter(String, String)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_customizeAdaptiveKey,"TEST org.apache.dubbo.common.extension.ext1.SimpleExt.yell(URL, String)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_customizeAdaptiveKey,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

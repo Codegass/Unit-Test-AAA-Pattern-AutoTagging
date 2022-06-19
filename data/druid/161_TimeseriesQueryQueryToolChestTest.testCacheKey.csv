@@ -1,0 +1,24 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.newTimeseriesQueryBuilder(),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.dataSource(String),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.intervals(String),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.descending(boolean),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.granularity(Granularity),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.aggregators(List<AggregatorFactory>),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.build(),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.newTimeseriesQueryBuilder(),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.dataSource(String),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.intervals(String),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.descending(boolean),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.granularity(Granularity),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+TimeseriesQueryQueryToolChestTest,testCacheKey,NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.aggregators(List<AggregatorFactory>),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.Druids.TimeseriesQueryBuilder.build(),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.timeseries.TimeseriesQueryQueryToolChest.getCacheStrategy(TimeseriesQuery),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.CacheStrategy.computeCacheKey(TimeseriesQuery),1
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.timeseries.TimeseriesQueryQueryToolChest.getCacheStrategy(TimeseriesQuery),0
+TimeseriesQueryQueryToolChestTest,testCacheKey,org.apache.druid.query.CacheStrategy.computeCacheKey(TimeseriesQuery),1
+TimeseriesQueryQueryToolChestTest,testCacheKey,ASSERT org.junit.Assert.assertFalse(boolean),2

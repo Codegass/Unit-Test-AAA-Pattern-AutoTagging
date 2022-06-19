@@ -1,0 +1,67 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.EasyMock.createMock(Class<?>),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          org.apache.accumulo.core.clientImpl.ClientContext.getProperties(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.EasyMock.expect(Properties),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.util.Properties>.andReturn(Properties),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.util.Properties>.anyTimes(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          org.apache.accumulo.core.clientImpl.ClientContext.getZooKeepers(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.EasyMock.expect(String),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          org.apache.accumulo.core.clientImpl.ClientContext.getInstanceName(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.EasyMock.expect(String),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          org.apache.accumulo.core.clientImpl.ClientContext.getZooKeepersSessionTimeOut(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.EasyMock.expect(Integer),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.lang.Integer>.anyTimes(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          org.apache.accumulo.core.clientImpl.ClientContext.getInstanceID(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.EasyMock.expect(String),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          org.apache.accumulo.core.clientImpl.ClientContext.getZooKeeperRoot(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.EasyMock.expect(String),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     MOCK org.easymock.EasyMock.replay(Object[]),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     NEW org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestServerConfigurationFactory(ServerContext),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.createMockContext(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          org.apache.accumulo.server.ServerContext.getServerConfFactory(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.EasyMock.expect(ServerConfigurationFactory),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<org.apache.accumulo.server.conf.ServerConfigurationFactory>.andReturn(ServerConfigurationFactory),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.IExpectationSetters<org.apache.accumulo.server.conf.ServerConfigurationFactory>.anyTimes(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.EasyMock.replay(Object[]),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          org.apache.accumulo.server.master.balancer.HostRegexTableLoadBalancer.init(ServerContext),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,org.apache.accumulo.fate.util.UtilWaitThread.sleep(long),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     NEW org.apache.accumulo.core.master.thrift.TabletServerStatus(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getId(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     org.apache.accumulo.core.data.AbstractId.canonical(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     NEW org.apache.accumulo.core.master.thrift.TableInfo(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getId(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     org.apache.accumulo.core.data.AbstractId.canonical(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     NEW org.apache.accumulo.core.master.thrift.TableInfo(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getId(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     org.apache.accumulo.core.data.AbstractId.canonical(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     NEW org.apache.accumulo.core.master.thrift.TableInfo(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,"     org.apache.accumulo.core.master.thrift.TabletServerStatus.setTableMap(Map<String,TableInfo>)",0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,"     NEW org.apache.accumulo.server.master.state.TServerInstance(String, long)",0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          MOCK org.easymock.EasyMock.createMock(Class<?>),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          NEW anonymous(ClientContext),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getTableName(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getId(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          org.apache.accumulo.core.data.AbstractId.canonical(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getTableName(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getId(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          org.apache.accumulo.core.data.AbstractId.canonical(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getTableName(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getId(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          org.apache.accumulo.core.data.AbstractId.canonical(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getTableName(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getTableName(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,          TEST org.apache.accumulo.server.master.balancer.BaseHostRegexTableLoadBalancerTest.TestTable.getTableName(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     org.apache.accumulo.core.client.admin.TableOperations.tableIdMap(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     org.apache.accumulo.core.master.thrift.TabletServerStatus.getTableMap(),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,     org.apache.accumulo.core.master.thrift.TableInfo.setOnlineTablets(int),0
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,"org.apache.accumulo.server.master.balancer.HostRegexTableLoadBalancer.balance(SortedMap<TServerInstance,TabletServerStatus>, Set<KeyExtent>, List<TabletMigration>)",1
+HostRegexTableLoadBalancerTest,testOutOfBoundsTablets,"ASSERT org.junit.Assert.assertEquals(long, long)",2

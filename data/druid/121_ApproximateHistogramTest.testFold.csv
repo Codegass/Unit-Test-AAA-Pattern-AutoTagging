@@ -1,0 +1,46 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ApproximateHistogramTest,testFold,NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogram(int),0
+ApproximateHistogramTest,testFold,NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogram(int),0
+ApproximateHistogramTest,testFold,NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogram(int),0
+ApproximateHistogramTest,testFold,NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogram(int),0
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.offer(float),0
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.offer(float),0
+ApproximateHistogramTest,testFold,"org.apache.druid.query.aggregation.histogram.ApproximateHistogram.fold(ApproximateHistogram, float[], long[], float[])",1
+ApproximateHistogramTest,testFold,"org.apache.druid.query.aggregation.histogram.ApproximateHistogram.fold(ApproximateHistogram, float[], long[], float[])",1
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.foldFast(ApproximateHistogram),1
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.foldFast(ApproximateHistogram),1
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.positions(),2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertArrayEquals(String, float[], float[], float)",2
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.positions(),2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertArrayEquals(String, float[], float[], float)",2
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.bins(),2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertArrayEquals(String, long[], long[])",2
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.bins(),2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertArrayEquals(String, long[], long[])",2
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.max(),2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertEquals(String, float, float, float)",2
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.max(),2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertEquals(String, float, float, float)",2
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.min(),2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertEquals(String, float, float, float)",2
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.min(),2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertEquals(String, float, float, float)",2
+ApproximateHistogramTest,testFold,     NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogram(int),0
+ApproximateHistogramTest,testFold,     org.apache.druid.query.aggregation.histogram.ApproximateHistogram.offer(float),0
+ApproximateHistogramTest,testFold,"TEST org.apache.druid.query.aggregation.histogram.ApproximateHistogramTest.buildHistogram(int, float[])",0
+ApproximateHistogramTest,testFold,"TEST org.apache.druid.query.aggregation.histogram.ApproximateHistogramTest.buildHistogram(int, float[])",0
+ApproximateHistogramTest,testFold,"org.apache.druid.query.aggregation.histogram.ApproximateHistogram.fold(ApproximateHistogram, float[], long[], float[])",1
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.foldFast(ApproximateHistogram),1
+ApproximateHistogramTest,testFold,"NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogram(int, float[], long[], float, float)",2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ApproximateHistogramTest,testFold,"NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogram(int, float[], long[], float, float)",2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ApproximateHistogramTest,testFold,NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogram(int),2
+ApproximateHistogramTest,testFold,NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogram(int),2
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.offer(float),2
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.offer(float),2
+ApproximateHistogramTest,testFold,"org.apache.druid.query.aggregation.histogram.ApproximateHistogram.fold(ApproximateHistogram, float[], long[], float[])",1
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.positions(),2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertArrayEquals(String, float[], float[], float)",2
+ApproximateHistogramTest,testFold,org.apache.druid.query.aggregation.histogram.ApproximateHistogram.bins(),2
+ApproximateHistogramTest,testFold,"ASSERT org.junit.Assert.assertArrayEquals(String, long[], long[])",2

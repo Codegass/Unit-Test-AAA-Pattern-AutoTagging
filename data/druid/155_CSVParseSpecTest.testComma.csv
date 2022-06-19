@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CSVParseSpecTest,testComma,@EXPECTED java.lang.Class<java.lang.IllegalArgumentException>,0
+CSVParseSpecTest,testComma,"NEW org.apache.druid.data.input.impl.TimestampSpec(String, String, DateTime)",0
+CSVParseSpecTest,testComma,org.apache.druid.data.input.impl.DimensionsSpec.getDefaultSchemas(List<String>),0
+CSVParseSpecTest,testComma,"NEW org.apache.druid.data.input.impl.DimensionsSpec(List<DimensionSchema>, List<String>, List<SpatialDimensionSchema>)",0
+CSVParseSpecTest,testComma,"NEW org.apache.druid.data.input.impl.CSVParseSpec(TimestampSpec, DimensionsSpec, String, List<String>, boolean, int)",1

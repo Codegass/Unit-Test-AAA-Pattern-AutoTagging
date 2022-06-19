@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PairTest,testEqualsObject,"NEW org.apache.accumulo.core.util.Pair<java.lang.Integer,java.lang.String>(Integer, String)",1
+PairTest,testEqualsObject,"NEW org.apache.accumulo.core.util.Pair<java.lang.Integer,java.lang.String>(Integer, String)",1
+PairTest,testEqualsObject,"NEW org.apache.accumulo.core.util.Pair<java.lang.Integer,java.lang.String>(Integer, String)",1
+PairTest,testEqualsObject,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+PairTest,testEqualsObject,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+PairTest,testEqualsObject,"ASSERT org.junit.Assert.assertNotEquals(Object, Object)",2
+PairTest,testEqualsObject,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+PairTest,testEqualsObject,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+PairTest,testEqualsObject,"ASSERT org.junit.Assert.assertNotEquals(Object, Object)",2
+PairTest,testEqualsObject,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+PairTest,testEqualsObject,ASSERT org.junit.Assert.assertNull(Object),2
+PairTest,testEqualsObject,"ASSERT org.junit.Assert.assertNotEquals(Object, Object)",2

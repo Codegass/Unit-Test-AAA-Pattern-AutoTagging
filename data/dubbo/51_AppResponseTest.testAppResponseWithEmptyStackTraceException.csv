@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AppResponseTest,testAppResponseWithEmptyStackTraceException,TEST org.apache.dubbo.rpc.AppResponseTest.buildEmptyStackTraceException(),0
+AppResponseTest,testAppResponseWithEmptyStackTraceException,NEW org.apache.dubbo.rpc.AppResponse(Throwable),0
+AppResponseTest,testAppResponseWithEmptyStackTraceException,org.apache.dubbo.rpc.AppResponse.getException(),1
+AppResponseTest,testAppResponseWithEmptyStackTraceException,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),2
+AppResponseTest,testAppResponseWithEmptyStackTraceException,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

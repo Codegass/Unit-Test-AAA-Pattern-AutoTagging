@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ReferenceCountingResourceHolderTest,testIdiomaticUsage,          org.apache.druid.collections.ReferenceCountingResourceHolder.fromCloseable(Closeable),0
+ReferenceCountingResourceHolderTest,testIdiomaticUsage,          NEW anonymous(),0
+ReferenceCountingResourceHolderTest,testIdiomaticUsage,     org.apache.druid.collections.ReferenceCountingResourceHolder.increment(),1
+ReferenceCountingResourceHolderTest,testIdiomaticUsage,     ASSERT org.junit.Assert.assertFalse(boolean),2
+ReferenceCountingResourceHolderTest,testIdiomaticUsage,     org.apache.druid.collections.ReferenceCountingResourceHolder.close(),2
+ReferenceCountingResourceHolderTest,testIdiomaticUsage,     ASSERT org.junit.Assert.assertTrue(boolean),2

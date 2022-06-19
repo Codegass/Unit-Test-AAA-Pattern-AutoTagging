@@ -1,0 +1,25 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+HdfsDataSegmentKillerTest,testNoStorageDirectory,NEW org.apache.hadoop.conf.Configuration(),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,NEW anonymous(),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,"NEW org.apache.druid.storage.hdfs.HdfsDataSegmentKiller(Configuration, HdfsDataSegmentPusherConfig)",0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,NEW org.apache.hadoop.fs.Path(String),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,"NEW org.apache.hadoop.fs.Path(Path, String)",0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,"NEW org.apache.hadoop.fs.Path(Path, String)",0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,ASSERT org.junit.Assert.assertTrue(boolean),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,"NEW org.apache.hadoop.fs.Path(Path, String)",0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,"NEW org.apache.hadoop.fs.Path(Path, String)",0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,     org.apache.druid.java.util.common.Intervals.of(String),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,     org.apache.druid.timeline.partition.NoneShardSpec.instance(),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,"     NEW org.apache.druid.timeline.DataSegment(String, Interval, String, Map<String,Object>, List<String>, List<String>, ShardSpec, Integer, long)",0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,org.apache.druid.storage.hdfs.HdfsDataSegmentKiller.kill(DataSegment),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,ASSERT org.junit.Assert.assertFalse(boolean),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,ASSERT org.junit.Assert.assertFalse(boolean),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,ASSERT org.junit.Assert.assertTrue(boolean),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,NEW org.apache.hadoop.fs.Path(String),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,ASSERT org.junit.Assert.assertTrue(boolean),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,ASSERT org.junit.Assert.assertTrue(boolean),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,ASSERT org.junit.Assert.assertTrue(boolean),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,ExpectedException org.junit.rules.ExpectedException.expect(Class<? extends Throwable>),1
+HdfsDataSegmentKillerTest,testNoStorageDirectory,ExpectedException org.junit.rules.ExpectedException.expectMessage(String),0
+HdfsDataSegmentKillerTest,testNoStorageDirectory,org.apache.druid.storage.hdfs.HdfsDataSegmentKiller.killAll(),0

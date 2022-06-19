@@ -1,0 +1,25 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ReferenceConfigTest,testReferenceRetry,NEW org.apache.dubbo.config.ApplicationConfig(),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.ApplicationConfig.setName(String),0
+ReferenceConfigTest,testReferenceRetry,NEW org.apache.dubbo.config.RegistryConfig(),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.RegistryConfig.setAddress(String),0
+ReferenceConfigTest,testReferenceRetry,NEW org.apache.dubbo.config.ProtocolConfig(),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.ProtocolConfig.setName(String),0
+ReferenceConfigTest,testReferenceRetry,NEW org.apache.dubbo.config.ReferenceConfig<org.apache.dubbo.config.api.DemoService>(),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.AbstractInterfaceConfig.setApplication(ApplicationConfig),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.AbstractInterfaceConfig.setRegistry(RegistryConfig),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.ReferenceConfigBase.setInterface(String),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.ReferenceConfig.get(),1
+ReferenceConfigTest,testReferenceRetry,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2
+ReferenceConfigTest,testReferenceRetry,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2
+ReferenceConfigTest,testReferenceRetry,NEW org.apache.dubbo.config.ServiceConfig<org.apache.dubbo.config.api.DemoService>(),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.ServiceConfigBase.setInterface(Class<?>),0
+ReferenceConfigTest,testReferenceRetry,NEW org.apache.dubbo.config.provider.impl.DemoServiceImpl(),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.ServiceConfigBase.setRef(DemoService),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.AbstractInterfaceConfig.setApplication(ApplicationConfig),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.AbstractInterfaceConfig.setRegistry(RegistryConfig),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.AbstractServiceConfig.setProtocol(ProtocolConfig),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.ServiceConfig.export(),0
+ReferenceConfigTest,testReferenceRetry,org.apache.dubbo.config.ReferenceConfig.get(),1
+ReferenceConfigTest,testReferenceRetry,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ReferenceConfigTest,testReferenceRetry,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),2

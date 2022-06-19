@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ResultMergerTest,testFloatArrayMerger,org.apache.dubbo.rpc.cluster.merger.MergerFactory.getMerger(Class<float[]>),0
+ResultMergerTest,testFloatArrayMerger,org.apache.dubbo.rpc.cluster.Merger.merge(float[][]),1
+ResultMergerTest,testFloatArrayMerger,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ResultMergerTest,testFloatArrayMerger,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(double, double, double)",2
+ResultMergerTest,testFloatArrayMerger,org.apache.dubbo.rpc.cluster.merger.MergerFactory.getMerger(Class<float[]>),0
+ResultMergerTest,testFloatArrayMerger,org.apache.dubbo.rpc.cluster.Merger.merge(float[][]),1
+ResultMergerTest,testFloatArrayMerger,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ResultMergerTest,testFloatArrayMerger,org.apache.dubbo.rpc.cluster.merger.MergerFactory.getMerger(Class<float[]>),0
+ResultMergerTest,testFloatArrayMerger,org.apache.dubbo.rpc.cluster.Merger.merge(float[][]),1
+ResultMergerTest,testFloatArrayMerger,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

@@ -1,0 +1,74 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getNmsUrl(),2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaNmsUrl.toString(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getVolume(),2
+NexentaUtilTest,testParseNexentaPluginUrl,ASSERT junit.framework.Assert.assertNull(Object),2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStorageType(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStorageHost(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStoragePort(),2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStoragePath(),2
+NexentaUtilTest,testParseNexentaPluginUrl,ASSERT junit.framework.Assert.assertNull(Object),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.isSparseVolumes(),2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getVolumeBlockSize(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getNmsUrl(),2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaNmsUrl.toString(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getVolume(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getVolume(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStorageType(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStoragePort(),2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStorageType(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStoragePort(),2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStorageHost(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStoragePort(),2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStoragePath(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.isSparseVolumes(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getVolumeBlockSize(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getNmsUrl(),2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaNmsUrl.toString(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getVolume(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStorageType(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStorageHost(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStoragePort(),2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getStoragePath(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.isSparseVolumes(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.NexentaPluginParameters.getVolumeBlockSize(),2
+NexentaUtilTest,testParseNexentaPluginUrl,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+NexentaUtilTest,testParseNexentaPluginUrl,ExpectedException org.junit.rules.ExpectedException.expect(Class<? extends Throwable>),2
+NexentaUtilTest,testParseNexentaPluginUrl,ExpectedException org.junit.rules.ExpectedException.expectMessage(String),2
+NexentaUtilTest,testParseNexentaPluginUrl,org.apache.cloudstack.storage.datastore.util.NexentaUtil.parseNexentaPluginUrl(String),1

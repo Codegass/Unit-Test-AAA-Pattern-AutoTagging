@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,org.apache.dubbo.common.URL.valueOf(String),0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,"          org.apache.dubbo.common.URL.addParameter(String, String)",0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,          org.apache.dubbo.common.extension.ExtensionLoader.getExtensionLoader(Class<ProxyFactory>),0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,          org.apache.dubbo.common.extension.ExtensionLoader.getExtension(String),0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,          NEW org.apache.dubbo.rpc.cluster.support.wrapper.MockClusterInvokerTest.HelloService(),0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,"          org.apache.dubbo.rpc.ProxyFactory.getInvoker(IHelloService, Class<IHelloService>, URL)",0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,"          NEW org.apache.dubbo.rpc.cluster.directory.StaticDirectory<org.apache.dubbo.rpc.cluster.support.wrapper.MockClusterInvokerTest.IHelloService>(URL, List<Invoker<IHelloService>>, RouterChain<IHelloService>)",0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,          org.apache.dubbo.rpc.cluster.directory.StaticDirectory.buildRouterChain(),0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,          NEW anonymous(Directory),0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,"          org.apache.dubbo.common.URL.getParameter(String, boolean)",0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,"          NEW org.apache.dubbo.rpc.RpcException(int, String)",0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,          org.apache.dubbo.rpc.Invoker.invoke(Invocation),0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,"          NEW org.apache.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker<org.apache.dubbo.rpc.cluster.support.wrapper.MockClusterInvokerTest.IHelloService>(Directory<IHelloService>, Invoker<IHelloService>)",0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,NEW org.apache.dubbo.rpc.RpcInvocation(),0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,org.apache.dubbo.rpc.RpcInvocation.setMethodName(String),0
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,org.apache.dubbo.rpc.Invoker.invoke(Invocation),1
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,ASSERT org.junit.jupiter.api.Assertions.fail(),2
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,org.apache.dubbo.rpc.RpcException.isBiz(),2
+MockClusterInvokerTest,testMockInvokerFromOverride_Invoke_force_throw,"ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean, String)",2

@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GroupByQueryRunnerTest,testGroupByWithNoResult,     org.apache.druid.query.groupby.GroupByQueryConfig.getDefaultStrategy(),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,     ExpectedException org.junit.rules.ExpectedException.expect(Class<? extends Throwable>),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,     ExpectedException org.junit.rules.ExpectedException.expectMessage(String),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,     org.apache.druid.query.groupby.GroupByQuery.builder(),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,     TEST org.apache.druid.query.groupby.GroupByQueryRunnerTest.makeContext(),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,"     org.apache.druid.query.groupby.GroupByQuery.Builder.overrideContext(Map<String,Object>)",0
+GroupByQueryRunnerTest,testGroupByWithNoResult,org.apache.druid.query.groupby.GroupByQuery.Builder.setDataSource(String),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,org.apache.druid.query.groupby.GroupByQuery.Builder.setQuerySegmentSpec(QuerySegmentSpec),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,"NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+GroupByQueryRunnerTest,testGroupByWithNoResult,org.apache.druid.query.groupby.GroupByQuery.Builder.setDimensions(DimensionSpec[]),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,"NEW org.apache.druid.query.aggregation.first.LongFirstAggregatorFactory(String, String)",0
+GroupByQueryRunnerTest,testGroupByWithNoResult,"NEW org.apache.druid.query.aggregation.last.LongLastAggregatorFactory(String, String)",0
+GroupByQueryRunnerTest,testGroupByWithNoResult,org.apache.druid.query.groupby.GroupByQuery.Builder.setAggregatorSpecs(AggregatorFactory[]),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,org.apache.druid.query.groupby.GroupByQuery.Builder.setGranularity(Granularity),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,org.apache.druid.query.groupby.GroupByQuery.Builder.build(),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,     org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,"     NEW org.apache.druid.query.FinalizeResultsQueryRunner(QueryRunner, QueryToolChest)",0
+GroupByQueryRunnerTest,testGroupByWithNoResult,     org.apache.druid.query.QueryPlus.wrap(Query<T>),0
+GroupByQueryRunnerTest,testGroupByWithNoResult,     org.apache.druid.query.QueryRunner.run(QueryPlus<T>),1
+GroupByQueryRunnerTest,testGroupByWithNoResult,     org.apache.druid.java.util.common.guava.Sequence.toList(),2
+GroupByQueryRunnerTest,testGroupByWithNoResult,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

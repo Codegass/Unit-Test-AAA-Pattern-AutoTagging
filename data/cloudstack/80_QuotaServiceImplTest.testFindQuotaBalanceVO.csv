@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+QuotaServiceImplTest,testFindQuotaBalanceVO,NEW org.joda.time.DateTime(),0
+QuotaServiceImplTest,testFindQuotaBalanceVO,NEW org.apache.cloudstack.quota.vo.QuotaBalanceVO(),0
+QuotaServiceImplTest,testFindQuotaBalanceVO,org.apache.cloudstack.quota.vo.QuotaBalanceVO.setCreditBalance(BigDecimal),0
+QuotaServiceImplTest,testFindQuotaBalanceVO,org.apache.cloudstack.quota.vo.QuotaBalanceVO.setAccountId(Long),0
+QuotaServiceImplTest,testFindQuotaBalanceVO,org.apache.cloudstack.api.response.QuotaResponseBuilder.startOfNextDay(),0
+QuotaServiceImplTest,testFindQuotaBalanceVO,org.apache.cloudstack.api.response.QuotaResponseBuilder.startOfNextDay(Date),0
+QuotaServiceImplTest,testFindQuotaBalanceVO,"org.apache.cloudstack.quota.dao.QuotaBalanceDao.findQuotaBalance(Long, Long, Date, Date)",0
+QuotaServiceImplTest,testFindQuotaBalanceVO,"org.apache.cloudstack.quota.dao.QuotaBalanceDao.lastQuotaBalanceVO(Long, Long, Date)",0
+QuotaServiceImplTest,testFindQuotaBalanceVO,"org.apache.cloudstack.quota.QuotaServiceImpl.findQuotaBalanceVO(Long, String, Long, Date, Date)",1
+QuotaServiceImplTest,testFindQuotaBalanceVO,"org.apache.cloudstack.quota.QuotaServiceImpl.findQuotaBalanceVO(Long, String, Long, Date, Date)",1

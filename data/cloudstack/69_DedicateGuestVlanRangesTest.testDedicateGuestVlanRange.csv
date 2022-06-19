@@ -1,0 +1,61 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     NEW com.cloud.network.dao.PhysicalNetworkVO(long, long, String, String, Long, BroadcastDomainRange, String)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.dao.PhysicalNetworkVO.addIsolationMethod(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     NEW com.cloud.network.dao.AccountGuestVlanMapVO(long, long)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     com.cloud.dc.dao.DataCenterVnetDao.listAllocatedVnetsInRange(long, long, Integer, Integer)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.dao.AccountGuestVlanMapDao.listAccountGuestVlanMapsByPhysicalNetwork(long),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.GenericDao.persist(AccountGuestVlanMapVO),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     com.cloud.utils.db.GenericDao.update(Long, DataCenterVnetVO)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     NEW com.cloud.dc.DataCenterVnetVO(String, long, long)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     com.cloud.dc.dao.DataCenterVnetDao.findVnet(long, String)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.NetworkServiceImpl.dedicateGuestVlanRange(DedicateGuestVlanRangeCmd),1
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     ASSERT junit.framework.Assert.assertNotNull(Object),2
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.close(String),2
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     NEW com.cloud.network.dao.PhysicalNetworkVO(long, long, String, String, Long, BroadcastDomainRange, String)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.dao.PhysicalNetworkVO.addIsolationMethod(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.NetworkServiceImpl.dedicateGuestVlanRange(DedicateGuestVlanRangeCmd),1
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     ASSERT junit.framework.Assert.assertTrue(boolean),2
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.close(String),2
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     NEW com.cloud.network.dao.PhysicalNetworkVO(long, long, String, String, Long, BroadcastDomainRange, String)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.dao.PhysicalNetworkVO.addIsolationMethod(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.NetworkServiceImpl.dedicateGuestVlanRange(DedicateGuestVlanRangeCmd),1
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     ASSERT junit.framework.Assert.assertTrue(boolean),2
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.close(String),2
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     NEW com.cloud.network.dao.PhysicalNetworkVO(long, long, String, String, Long, BroadcastDomainRange, String)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.dao.PhysicalNetworkVO.addIsolationMethod(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     NEW com.cloud.dc.DataCenterVnetVO(String, long, long)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.dc.DataCenterVnetVO.setAccountId(Long),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     com.cloud.dc.dao.DataCenterVnetDao.listAllocatedVnetsInRange(long, long, Integer, Integer)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.NetworkServiceImpl.dedicateGuestVlanRange(DedicateGuestVlanRangeCmd),1
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     ASSERT junit.framework.Assert.assertTrue(boolean),2
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.close(String),2
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     NEW com.cloud.network.dao.PhysicalNetworkVO(long, long, String, String, Long, BroadcastDomainRange, String)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.dao.PhysicalNetworkVO.addIsolationMethod(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     com.cloud.dc.dao.DataCenterVnetDao.listAllocatedVnetsInRange(long, long, Integer, Integer)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     NEW com.cloud.network.dao.AccountGuestVlanMapVO(long, long)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.dao.AccountGuestVlanMapVO.setGuestVlanRange(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.dao.AccountGuestVlanMapDao.listAccountGuestVlanMapsByPhysicalNetwork(long),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.NetworkServiceImpl.dedicateGuestVlanRange(DedicateGuestVlanRangeCmd),1
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     ASSERT junit.framework.Assert.assertTrue(boolean),2
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.close(String),2
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     NEW com.cloud.network.dao.PhysicalNetworkVO(long, long, String, String, Long, BroadcastDomainRange, String)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.dao.PhysicalNetworkVO.addIsolationMethod(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     com.cloud.dc.dao.DataCenterVnetDao.listAllocatedVnetsInRange(long, long, Integer, Integer)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,"     NEW com.cloud.network.dao.AccountGuestVlanMapVO(long, long)",0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.dao.AccountGuestVlanMapVO.setGuestVlanRange(String),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.dao.AccountGuestVlanMapDao.listAccountGuestVlanMapsByPhysicalNetwork(long),0
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.network.NetworkServiceImpl.dedicateGuestVlanRange(DedicateGuestVlanRangeCmd),1
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     ASSERT junit.framework.Assert.assertTrue(boolean),2
+DedicateGuestVlanRangesTest,testDedicateGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.close(String),2

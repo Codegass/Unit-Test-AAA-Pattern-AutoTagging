@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NetworkOrchestratorTest,testDontRemoveDhcpServiceFromDomainRouter,com.cloud.vm.VirtualMachineProfile.getType(),0
+NetworkOrchestratorTest,testDontRemoveDhcpServiceFromDomainRouter,com.cloud.network.dao.NetworkVO.getGuruName(),0
+NetworkOrchestratorTest,testDontRemoveDhcpServiceFromDomainRouter,com.cloud.vm.NicVO.getNetworkId(),0
+NetworkOrchestratorTest,testDontRemoveDhcpServiceFromDomainRouter,com.cloud.utils.db.GenericDao.findById(Long),0
+NetworkOrchestratorTest,testDontRemoveDhcpServiceFromDomainRouter,"org.apache.cloudstack.engine.orchestration.NetworkOrchestrator.removeNic(VirtualMachineProfile, NicVO)",1
+NetworkOrchestratorTest,testDontRemoveDhcpServiceFromDomainRouter,com.cloud.vm.NicVO.setState(State),2
+NetworkOrchestratorTest,testDontRemoveDhcpServiceFromDomainRouter,com.cloud.network.NetworkModel.getElementImplementingProvider(String),2
+NetworkOrchestratorTest,testDontRemoveDhcpServiceFromDomainRouter,com.cloud.network.dao.NetworkVO.getId(),2
+NetworkOrchestratorTest,testDontRemoveDhcpServiceFromDomainRouter,"com.cloud.network.dao.NetworkServiceMapDao.getProviderForServiceInNetwork(long, Service)",2
+NetworkOrchestratorTest,testDontRemoveDhcpServiceFromDomainRouter,com.cloud.vm.NicVO.getNetworkId(),2
+NetworkOrchestratorTest,testDontRemoveDhcpServiceFromDomainRouter,com.cloud.utils.db.GenericDao.findById(Long),2

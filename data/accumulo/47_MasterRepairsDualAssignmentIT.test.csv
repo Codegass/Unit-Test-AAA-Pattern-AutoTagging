@@ -1,0 +1,45 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.Accumulo.newClient(),0
+MasterRepairsDualAssignmentIT,test,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getClientProperties(),0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+MasterRepairsDualAssignmentIT,test,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.AccumuloClient.securityOperations(),0
+MasterRepairsDualAssignmentIT,test,"org.apache.accumulo.core.client.admin.SecurityOperations.grantTablePermission(String, String, TablePermission)",0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.AccumuloClient.securityOperations(),0
+MasterRepairsDualAssignmentIT,test,"org.apache.accumulo.core.client.admin.SecurityOperations.grantTablePermission(String, String, TablePermission)",0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+MasterRepairsDualAssignmentIT,test,NEW org.apache.hadoop.io.Text(String),0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+MasterRepairsDualAssignmentIT,test,"org.apache.accumulo.core.client.admin.TableOperations.addSplits(String, SortedSet<Text>)",0
+MasterRepairsDualAssignmentIT,test,"NEW org.apache.accumulo.server.master.state.MetaDataStateStore(ClientContext, CurrentState)",0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.fate.util.UtilWaitThread.sleep(long),0
+MasterRepairsDualAssignmentIT,test,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getProcesses(),0
+MasterRepairsDualAssignmentIT,test,"org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.killProcess(ServerType, ProcessReference)",0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.fate.util.UtilWaitThread.sleep(long),0
+MasterRepairsDualAssignmentIT,test,"NEW org.apache.accumulo.core.dataImpl.KeyExtent(TableId, Text, Text)",0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.dataImpl.KeyExtent.equals(Object),0
+MasterRepairsDualAssignmentIT,test,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+MasterRepairsDualAssignmentIT,test,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+MasterRepairsDualAssignmentIT,test,"ASSERT org.junit.Assert.assertNotEquals(Object, Object)",0
+MasterRepairsDualAssignmentIT,test,NEW org.apache.accumulo.core.client.BatchWriterConfig(),0
+MasterRepairsDualAssignmentIT,test,"org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String, BatchWriterConfig)",0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.dataImpl.KeyExtent.getMetadataEntry(),0
+MasterRepairsDualAssignmentIT,test,NEW org.apache.accumulo.core.data.Mutation(Text),0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.server.master.state.TServerInstance.putLocation(Mutation),0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),1
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.BatchWriter.close(),0
+MasterRepairsDualAssignmentIT,test,     org.apache.accumulo.server.master.state.MetaDataStateStore.iterator(),0
+MasterRepairsDualAssignmentIT,test,     org.apache.accumulo.fate.util.UtilWaitThread.sleep(long),0
+MasterRepairsDualAssignmentIT,test,NEW org.apache.accumulo.core.client.BatchWriterConfig(),0
+MasterRepairsDualAssignmentIT,test,"org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String, BatchWriterConfig)",0
+MasterRepairsDualAssignmentIT,test,"NEW org.apache.accumulo.core.dataImpl.KeyExtent(TableId, Text, Text)",0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.dataImpl.KeyExtent.getMetadataEntry(),0
+MasterRepairsDualAssignmentIT,test,NEW org.apache.accumulo.core.data.Mutation(Text),1
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.server.master.state.TServerInstance.putLocation(Mutation),0
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),1
+MasterRepairsDualAssignmentIT,test,org.apache.accumulo.core.client.BatchWriter.close(),0
+MasterRepairsDualAssignmentIT,test,"NEW org.apache.accumulo.server.master.state.RootTabletStateStore(ClientContext, CurrentState)",0
+MasterRepairsDualAssignmentIT,test,TEST org.apache.accumulo.test.MasterRepairsDualAssignmentIT.waitForCleanStore(MetaDataStateStore),0

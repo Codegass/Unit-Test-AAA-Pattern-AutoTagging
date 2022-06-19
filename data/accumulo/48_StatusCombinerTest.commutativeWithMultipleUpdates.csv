@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+StatusCombinerTest,commutativeWithMultipleUpdates,org.apache.accumulo.server.replication.StatusUtil.fileCreated(long),0
+StatusCombinerTest,commutativeWithMultipleUpdates,org.apache.accumulo.server.replication.StatusUtil.ingestedUntil(long),0
+StatusCombinerTest,commutativeWithMultipleUpdates,org.apache.accumulo.server.replication.StatusUtil.ingestedUntil(long),0
+StatusCombinerTest,commutativeWithMultipleUpdates,org.apache.accumulo.server.replication.StatusUtil.replicated(long),0
+StatusCombinerTest,commutativeWithMultipleUpdates,org.apache.accumulo.server.replication.StatusUtil.replicated(long),0
+StatusCombinerTest,commutativeWithMultipleUpdates,"org.apache.accumulo.server.replication.StatusCombiner.typedReduce(Key, Iterator<Status>)",1
+StatusCombinerTest,commutativeWithMultipleUpdates,"org.apache.accumulo.server.replication.StatusCombiner.typedReduce(Key, Iterator<Status>)",1
+StatusCombinerTest,commutativeWithMultipleUpdates,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+StatusCombinerTest,commutativeWithMultipleUpdates,"org.apache.accumulo.server.replication.StatusCombiner.typedReduce(Key, Iterator<Status>)",1
+StatusCombinerTest,commutativeWithMultipleUpdates,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+StatusCombinerTest,commutativeWithMultipleUpdates,"org.apache.accumulo.server.replication.StatusCombiner.typedReduce(Key, Iterator<Status>)",1
+StatusCombinerTest,commutativeWithMultipleUpdates,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

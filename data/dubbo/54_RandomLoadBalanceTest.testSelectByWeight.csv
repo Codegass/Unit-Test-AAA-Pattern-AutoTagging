@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RandomLoadBalanceTest,testSelectByWeight,NEW org.apache.dubbo.rpc.cluster.loadbalance.RandomLoadBalance(),0
+RandomLoadBalanceTest,testSelectByWeight,"org.apache.dubbo.rpc.cluster.loadbalance.AbstractLoadBalance.select(List<Invoker<LoadBalanceBaseTest>>, URL, Invocation)",1
+RandomLoadBalanceTest,testSelectByWeight,org.apache.dubbo.common.Node.getUrl(),2
+RandomLoadBalanceTest,testSelectByWeight,org.apache.dubbo.common.URL.getProtocol(),2
+RandomLoadBalanceTest,testSelectByWeight,org.apache.dubbo.common.Node.getUrl(),2
+RandomLoadBalanceTest,testSelectByWeight,org.apache.dubbo.common.URL.getProtocol(),2
+RandomLoadBalanceTest,testSelectByWeight,org.apache.dubbo.common.Node.getUrl(),2
+RandomLoadBalanceTest,testSelectByWeight,org.apache.dubbo.common.URL.getProtocol(),2
+RandomLoadBalanceTest,testSelectByWeight,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int, String)",2

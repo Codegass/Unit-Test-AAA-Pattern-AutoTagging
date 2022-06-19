@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URL.valueOf(String),0
+URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URLBuilder.from(URL),0
+URLBuilderTest,shouldAddParameter,"org.apache.dubbo.common.URLBuilder.addParameter(String, String)",1
+URLBuilderTest,shouldAddParameter,"org.apache.dubbo.common.URLBuilder.addParameter(String, int)",1
+URLBuilderTest,shouldAddParameter,"org.apache.dubbo.common.URLBuilder.addParameter(String, int)",1
+URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URLBuilder.build(),1
+URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URL.getParameter(String),2
+URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URL.getParameter(String),2
+URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URL.getParameter(String),2

@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,TEST org.apache.cloudstack.storage.configdrive.ConfigDriveBuilderTest.getWriteVendorAndNetworkEmptyJsonFileMethod(),0
+ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.writeVendorAndNetworkEmptyJsonFile(File),1
+ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,"org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.writeFile(File, String, String)",2
+ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,"org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.writeFile(File, String, String)",2

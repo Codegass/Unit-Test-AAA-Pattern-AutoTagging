@@ -1,0 +1,40 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AccumuloOutputFormatTest,testBWSettings,NEW org.apache.hadoop.mapred.JobConf(),0
+AccumuloOutputFormatTest,testBWSettings,NEW org.apache.accumulo.core.client.BatchWriterConfig(),0
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxLatency(TimeUnit),0
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertNotEquals(long, long)",0
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getTimeout(TimeUnit),0
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertNotEquals(long, long)",0
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxWriteThreads(),0
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertNotEquals(long, long)",0
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxMemory(),0
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertNotEquals(long, long)",0
+AccumuloOutputFormatTest,testBWSettings,NEW org.apache.accumulo.core.client.BatchWriterConfig(),0
+AccumuloOutputFormatTest,testBWSettings,"org.apache.accumulo.core.client.BatchWriterConfig.setMaxLatency(long, TimeUnit)",0
+AccumuloOutputFormatTest,testBWSettings,"org.apache.accumulo.core.client.BatchWriterConfig.setTimeout(long, TimeUnit)",0
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.setMaxWriteThreads(int),0
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.setMaxMemory(long),0
+AccumuloOutputFormatTest,testBWSettings,"org.apache.accumulo.core.client.mapred.AccumuloOutputFormat.setBatchWriterOptions(JobConf, BatchWriterConfig)",0
+AccumuloOutputFormatTest,testBWSettings,NEW anonymous(),0
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.mapred.AccumuloOutputFormat.getBatchWriterOptions(JobConf),1
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxLatency(TimeUnit),2
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxLatency(TimeUnit),2
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getTimeout(TimeUnit),2
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getTimeout(TimeUnit),2
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxWriteThreads(),2
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxWriteThreads(),2
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxMemory(),2
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxMemory(),2
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxLatency(TimeUnit),2
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getTimeout(TimeUnit),2
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxWriteThreads(),2
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloOutputFormatTest,testBWSettings,org.apache.accumulo.core.client.BatchWriterConfig.getMaxMemory(),2
+AccumuloOutputFormatTest,testBWSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloOutputFormatTest,testBWSettings,"org.apache.accumulo.core.client.mapred.AccumuloOutputFormat.checkOutputSpecs(FileSystem, JobConf)",2

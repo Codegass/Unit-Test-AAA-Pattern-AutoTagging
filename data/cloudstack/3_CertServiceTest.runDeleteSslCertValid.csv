@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CertServiceTest,runDeleteSslCertValid,com.cloud.utils.db.TransactionLegacy.open(String),0
+CertServiceTest,runDeleteSslCertValid,NEW org.apache.cloudstack.network.ssl.CertServiceImpl(),0
+CertServiceTest,runDeleteSslCertValid,"NEW com.cloud.user.AccountVO(String, long, String, short, String)",0
+CertServiceTest,runDeleteSslCertValid,com.cloud.user.AccountService.getAccount(long),0
+CertServiceTest,runDeleteSslCertValid,"NEW com.cloud.domain.DomainVO(String, long, Long, String)",0
+CertServiceTest,runDeleteSslCertValid,com.cloud.utils.db.GenericDao.findByIdIncludingRemoved(Long),0
+CertServiceTest,runDeleteSslCertValid,com.cloud.utils.db.GenericDao.remove(Long),0
+CertServiceTest,runDeleteSslCertValid,com.cloud.utils.db.GenericDao.findById(Long),0
+CertServiceTest,runDeleteSslCertValid,NEW com.cloud.network.dao.SslCertVO(),0
+CertServiceTest,runDeleteSslCertValid,com.cloud.network.dao.LoadBalancerCertMapDao.listByCertId(Long),0
+CertServiceTest,runDeleteSslCertValid,NEW org.apache.cloudstack.network.ssl.CertServiceTest.DeleteSslCertCmdExtn(),0
+CertServiceTest,runDeleteSslCertValid,org.apache.cloudstack.network.ssl.CertServiceImpl.deleteSslCert(DeleteSslCertCmd),1

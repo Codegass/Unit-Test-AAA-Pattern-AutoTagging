@@ -1,0 +1,33 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.EasyMock.expect(Object),0
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.EasyMock.expect(Object),0
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.EasyMock.expect(Object),0
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.EasyMock.expectLastCall(),0
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.IExpectationSetters<java.lang.Object>.times(int),0
+QueryResourceTest,testSecuredCancelQuery,MOCK org.easymock.EasyMock.replay(Object[]),0
+QueryResourceTest,testSecuredCancelQuery,"NEW anonymous(Map<String,Authorizer>)",0
+QueryResourceTest,testSecuredCancelQuery,NEW anonymous(),0
+QueryResourceTest,testSecuredCancelQuery,NEW org.apache.druid.server.security.Access(boolean),0
+QueryResourceTest,testSecuredCancelQuery,NEW org.apache.druid.server.security.Access(boolean),0
+QueryResourceTest,testSecuredCancelQuery,NEW org.apache.druid.query.DefaultGenericQueryMetricsFactory(),0
+QueryResourceTest,testSecuredCancelQuery,NEW org.apache.druid.server.metrics.NoopServiceEmitter(),0
+QueryResourceTest,testSecuredCancelQuery,NEW org.apache.druid.server.security.AuthConfig(),0
+QueryResourceTest,testSecuredCancelQuery,"NEW org.apache.druid.server.QueryLifecycleFactory(QueryToolChestWarehouse, QuerySegmentWalker, GenericQueryMetricsFactory, ServiceEmitter, RequestLogger, AuthConfig, AuthorizerMapper)",0
+QueryResourceTest,testSecuredCancelQuery,NEW org.apache.druid.server.security.AuthConfig(),0
+QueryResourceTest,testSecuredCancelQuery,org.apache.druid.server.ResponseContextConfig.newConfig(boolean),0
+QueryResourceTest,testSecuredCancelQuery,"NEW org.apache.druid.server.QueryResource(QueryLifecycleFactory, ObjectMapper, ObjectMapper, QueryScheduler, AuthConfig, AuthorizerMapper, ResponseContextConfig, DruidNode)",0
+QueryResourceTest,testSecuredCancelQuery,NEW org.apache.druid.jackson.DefaultObjectMapper(),0
+QueryResourceTest,testSecuredCancelQuery,org.apache.druid.java.util.common.concurrent.Execs.singleThreaded(String),0
+QueryResourceTest,testSecuredCancelQuery,NEW anonymous(),0
+QueryResourceTest,testSecuredCancelQuery,"org.apache.druid.server.QueryResource.doPost(InputStream, String, HttpServletRequest)",0
+QueryResourceTest,testSecuredCancelQuery,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+QueryResourceTest,testSecuredCancelQuery,"org.apache.druid.server.QueryScheduler.registerQueryFuture(Query<?>, ListenableFuture<?>)",0
+QueryResourceTest,testSecuredCancelQuery,NEW anonymous(),0
+QueryResourceTest,testSecuredCancelQuery,"org.apache.druid.server.QueryResource.cancelQuery(String, HttpServletRequest)",1
+QueryResourceTest,testSecuredCancelQuery,"ASSERT org.junit.Assert.assertEquals(long, long)",2

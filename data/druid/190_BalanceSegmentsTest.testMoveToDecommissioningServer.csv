@@ -1,0 +1,96 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.client.ImmutableDruidServer.getName(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.expect(String),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.client.ImmutableDruidServer.getTier(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.expect(String),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.client.ImmutableDruidServer.getCurrSize(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.expect(Long),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<java.lang.Long>.andReturn(Long),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<java.lang.Long>.atLeastOnce(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.client.ImmutableDruidServer.getMaxSize(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.expect(Long),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<java.lang.Long>.andReturn(Long),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<java.lang.Long>.atLeastOnce(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,          org.apache.druid.client.ImmutableDruidServer.iterateAllSegments(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,          MOCK org.easymock.EasyMock.expect(Collection<DataSegment>),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,          MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.timeline.DataSegment>>.andReturn(Collection<DataSegment>),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,          MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.timeline.DataSegment>>.anyTimes(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,          org.apache.druid.client.ImmutableDruidServer.getNumSegments(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,          MOCK org.easymock.EasyMock.expect(Integer),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,          MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,          MOCK org.easymock.IExpectationSetters<java.lang.Integer>.anyTimes(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.client.ImmutableDruidServer.getHost(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.expect(String),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.client.ImmutableDruidServer.getType(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.expect(ServerType),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<org.apache.druid.server.coordination.ServerType>.andReturn(ServerType),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<org.apache.druid.server.coordination.ServerType>.anyTimes(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.timeline.DataSegment.getId(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.client.ImmutableDruidServer.getSegment(SegmentId),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.expect(DataSegment),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<org.apache.druid.timeline.DataSegment>.andReturn(DataSegment),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<org.apache.druid.timeline.DataSegment>.anyTimes(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.anyObject(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.client.ImmutableDruidServer.getSegment(SegmentId),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.expect(DataSegment),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<org.apache.druid.timeline.DataSegment>.andReturn(DataSegment),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<org.apache.druid.timeline.DataSegment>.anyTimes(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.replay(Object[]),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,"TEST org.apache.druid.server.coordinator.BalanceSegmentsTest.mockDruidServer(ImmutableDruidServer, String, String, long, long, List<DataSegment>)",0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.EasyMock.replay(Object[]),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.EasyMock.replay(Object[]),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.anyObject(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.anyObject(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.anyObject(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.anyObject(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.anyObject(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,"     org.apache.druid.server.coordinator.DruidCoordinator.moveSegment(DruidCoordinatorRuntimeParams, ImmutableDruidServer, ImmutableDruidServer, DataSegment, LoadPeonCallback)",0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.expectLastCall(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     MOCK org.easymock.EasyMock.replay(Object[]),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.EasyMock.anyObject(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.EasyMock.anyObject(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,"org.apache.druid.server.coordinator.BalancerStrategy.pickSegmentToMove(List<ServerHolder>, Set<String>)",0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.EasyMock.expect(BalancerSegmentHolder),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,"NEW org.apache.druid.server.coordinator.BalancerSegmentHolder(ImmutableDruidServer, DataSegment)",0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.IExpectationSetters<org.apache.druid.server.coordinator.BalancerSegmentHolder>.andReturn(BalancerSegmentHolder),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.IExpectationSetters<org.apache.druid.server.coordinator.BalancerSegmentHolder>.anyTimes(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.EasyMock.anyObject(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.EasyMock.anyObject(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,"org.apache.druid.server.coordinator.BalancerStrategy.findNewSegmentHomeBalancer(DataSegment, List<ServerHolder>)",0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.EasyMock.expect(ServerHolder),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.IExpectationSetters<org.apache.druid.server.coordinator.ServerHolder>.andAnswer(IAnswer<? extends ServerHolder>),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.IExpectationSetters<org.apache.druid.server.coordinator.ServerHolder>.anyTimes(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.EasyMock.getCurrentArguments(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,MOCK org.easymock.EasyMock.replay(Object[]),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,          org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.newBuilder(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,          org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withStartTimeNanos(long),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,          NEW org.apache.druid.server.coordinator.DruidClusterBuilder(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,"     TEST org.apache.druid.server.coordinator.DruidClusterBuilder.addTier(String, ServerHolder[])",0
+BalanceSegmentsTest,testMoveToDecommissioningServer,"          org.apache.druid.server.coordinator.DruidCluster.createDruidClusterFromBuilderInTest(Set<ServerHolder>, Map<String,Iterable<ServerHolder>>, Set<ServerHolder>)",0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withDruidCluster(DruidCluster),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     java.util.List<org.apache.druid.server.coordinator.LoadQueuePeon>.get(int),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,"     org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withLoadManagementPeons(Map<String,LoadQueuePeon>)",0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withUsedSegmentsInTest(Collection<DataSegment>),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.server.coordinator.CoordinatorDynamicConfig.builder(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withMaxSegmentsToMove(int),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.build(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withDynamicConfigs(CoordinatorDynamicConfig),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withBroadcastDatasources(Set<String>),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,     org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withBalancerStrategy(BalancerStrategy),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,"     NEW org.apache.druid.server.coordinator.ServerHolder(ImmutableDruidServer, LoadQueuePeon, boolean)",0
+BalanceSegmentsTest,testMoveToDecommissioningServer,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withBalancerStrategy(BalancerStrategy),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withBroadcastDatasources(Set<String>),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.build(),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,NEW org.apache.druid.server.coordinator.BalanceSegmentsTester(DruidCoordinator),0
+BalanceSegmentsTest,testMoveToDecommissioningServer,org.apache.druid.server.coordinator.duty.BalanceSegments.run(DruidCoordinatorRuntimeParams),1
+BalanceSegmentsTest,testMoveToDecommissioningServer,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.getCoordinatorStats(),2
+BalanceSegmentsTest,testMoveToDecommissioningServer,"org.apache.druid.server.coordinator.CoordinatorStats.getTieredStat(String, String)",2
+BalanceSegmentsTest,testMoveToDecommissioningServer,"ASSERT org.junit.Assert.assertEquals(long, long)",2

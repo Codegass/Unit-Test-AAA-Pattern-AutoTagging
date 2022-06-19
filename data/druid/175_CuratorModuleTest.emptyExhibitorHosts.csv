@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CuratorModuleTest,emptyExhibitorHosts,     org.apache.druid.guice.GuiceInjectors.makeDefaultStartupModules(),0
+CuratorModuleTest,emptyExhibitorHosts,     NEW org.apache.druid.guice.LifecycleModule(),0
+CuratorModuleTest,emptyExhibitorHosts,     NEW org.apache.druid.curator.CuratorModule(),1
+CuratorModuleTest,emptyExhibitorHosts,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+CuratorModuleTest,emptyExhibitorHosts,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2

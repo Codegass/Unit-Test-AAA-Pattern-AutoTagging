@@ -1,0 +1,68 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.eq(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.anyString(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.eq(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(GetShardIteratorResult),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<com.amazonaws.services.kinesis.model.GetShardIteratorResult>.andReturn(GetShardIteratorResult),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<com.amazonaws.services.kinesis.model.GetShardIteratorResult>.once(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.eq(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.anyString(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.eq(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(GetShardIteratorResult),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<com.amazonaws.services.kinesis.model.GetShardIteratorResult>.andReturn(GetShardIteratorResult),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<com.amazonaws.services.kinesis.model.GetShardIteratorResult>.once(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.String>.once(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.String>.once(),0
+KinesisRecordSupplierTest,testPollAfterSeek,     NEW com.amazonaws.services.kinesis.model.GetRecordsRequest(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(GetRecordsResult),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<com.amazonaws.services.kinesis.model.GetRecordsResult>.andReturn(GetRecordsResult),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<com.amazonaws.services.kinesis.model.GetRecordsResult>.once(),0
+KinesisRecordSupplierTest,testPollAfterSeek,"TEST org.apache.druid.indexing.kinesis.KinesisRecordSupplierTest.generateGetRecordsReq(String, int)",0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(GetRecordsResult),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<com.amazonaws.services.kinesis.model.GetRecordsResult>.andReturn(GetRecordsResult),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<com.amazonaws.services.kinesis.model.GetRecordsResult>.once(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(List<Record>),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.util.List<com.amazonaws.services.kinesis.model.Record>>.andReturn(List<Record>),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.util.List<com.amazonaws.services.kinesis.model.Record>>.once(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(List<Record>),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.util.List<com.amazonaws.services.kinesis.model.Record>>.andReturn(List<Record>),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.util.List<com.amazonaws.services.kinesis.model.Record>>.once(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(Long),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.Long>.andReturn(Long),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.Long>.once(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMock.expect(Long),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.Long>.andReturn(Long),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.IExpectationSetters<java.lang.Long>.once(),0
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMockSupport.replayAll(),0
+KinesisRecordSupplierTest,testPollAfterSeek,"org.apache.druid.indexing.seekablestream.common.StreamPartition.of(String, String)",0
+KinesisRecordSupplierTest,testPollAfterSeek,"NEW org.apache.druid.indexing.kinesis.KinesisRecordSupplier(AmazonKinesis, int, int, int, boolean, int, int, int, int, int, boolean)",0
+KinesisRecordSupplierTest,testPollAfterSeek,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.assign(Set<StreamPartition<String>>),0
+KinesisRecordSupplierTest,testPollAfterSeek,"org.apache.druid.indexing.seekablestream.common.StreamPartition.of(String, String)",0
+KinesisRecordSupplierTest,testPollAfterSeek,"org.apache.druid.indexing.kinesis.KinesisRecordSupplier.seek(StreamPartition<String>, String)",0
+KinesisRecordSupplierTest,testPollAfterSeek,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.start(),0
+KinesisRecordSupplierTest,testPollAfterSeek,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.bufferSize(),0
+KinesisRecordSupplierTest,testPollAfterSeek,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.poll(long),1
+KinesisRecordSupplierTest,testPollAfterSeek,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisRecordSupplierTest,testPollAfterSeek,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getPartitionResourcesTimeLag(),2
+KinesisRecordSupplierTest,testPollAfterSeek,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisRecordSupplierTest,testPollAfterSeek,"org.apache.druid.indexing.seekablestream.common.StreamPartition.of(String, String)",0
+KinesisRecordSupplierTest,testPollAfterSeek,"org.apache.druid.indexing.kinesis.KinesisRecordSupplier.seek(StreamPartition<String>, String)",0
+KinesisRecordSupplierTest,testPollAfterSeek,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.start(),0
+KinesisRecordSupplierTest,testPollAfterSeek,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.bufferSize(),0
+KinesisRecordSupplierTest,testPollAfterSeek,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.poll(long),1
+KinesisRecordSupplierTest,testPollAfterSeek,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisRecordSupplierTest,testPollAfterSeek,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getPartitionResourcesTimeLag(),2
+KinesisRecordSupplierTest,testPollAfterSeek,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisRecordSupplierTest,testPollAfterSeek,MOCK org.easymock.EasyMockSupport.verifyAll(),2

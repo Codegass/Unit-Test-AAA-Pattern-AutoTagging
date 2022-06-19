@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,"org.apache.druid.java.util.common.Intervals.utc(long, long)",0
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,"NEW org.apache.druid.query.filter.IntervalDimFilter(String, List<Interval>, ExtractionFn)",0
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,"NEW org.apache.druid.query.aggregation.FilteredAggregatorFactory(AggregatorFactory, DimFilter)",0
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,"org.apache.druid.java.util.common.Intervals.utc(long, long)",0
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,"org.apache.druid.java.util.common.Intervals.utc(long, long)",0
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,"org.apache.druid.java.util.common.Intervals.utc(long, long)",0
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,"     NEW org.apache.druid.query.SegmentDescriptor(Interval, String, int)",0
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,     NEW org.apache.druid.query.PerSegmentQueryOptimizationContext(SegmentDescriptor),0
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,org.apache.druid.query.aggregation.FilteredAggregatorFactory.optimizeForSegment(PerSegmentQueryOptimizationContext),1
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,TEST org.apache.druid.query.topn.PerSegmentQueryOptimizeTest.getOptimizationContext(Interval),2
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,org.apache.druid.query.aggregation.FilteredAggregatorFactory.optimizeForSegment(PerSegmentQueryOptimizationContext),1
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,TEST org.apache.druid.query.topn.PerSegmentQueryOptimizeTest.getOptimizationContext(Interval),2
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,org.apache.druid.query.aggregation.FilteredAggregatorFactory.optimizeForSegment(PerSegmentQueryOptimizationContext),1
+PerSegmentQueryOptimizeTest,testFilteredAggregatorDontOptimizeOnNonTimeColumn,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

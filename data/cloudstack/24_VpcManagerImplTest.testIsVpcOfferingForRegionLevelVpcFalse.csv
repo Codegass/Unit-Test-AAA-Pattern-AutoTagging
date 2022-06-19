@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VpcManagerImplTest,testIsVpcOfferingForRegionLevelVpcFalse,     com.cloud.network.Network.Capability.getName(),0
+VpcManagerImplTest,testIsVpcOfferingForRegionLevelVpcFalse,TEST com.cloud.network.vpc.VpcManagerImplTest.createFakeCapabilityInputMap(),0
+VpcManagerImplTest,testIsVpcOfferingForRegionLevelVpcFalse,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2

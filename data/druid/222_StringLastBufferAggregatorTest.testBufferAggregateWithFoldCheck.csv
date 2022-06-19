@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,NEW org.apache.druid.query.aggregation.TestLongColumnSelector(long[]),0
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,NEW org.apache.druid.query.aggregation.TestObjectColumnSelector<java.lang.String>(String[]),0
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,"NEW org.apache.druid.query.aggregation.last.StringLastAggregatorFactory(String, String, Integer)",0
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,"NEW org.apache.druid.query.aggregation.last.StringLastBufferAggregator(BaseLongColumnValueSelector, BaseObjectColumnValueSelector<?>, int, boolean)",0
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,org.apache.druid.query.aggregation.last.StringLastAggregatorFactory.getMaxIntermediateSize(),0
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,"org.apache.druid.query.aggregation.last.StringLastBufferAggregator.init(ByteBuffer, int)",0
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,"     org.apache.druid.query.aggregation.BufferAggregator.aggregate(ByteBuffer, int)",1
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,     TEST org.apache.druid.query.aggregation.TestLongColumnSelector.increment(),2
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,     TEST org.apache.druid.query.aggregation.TestObjectColumnSelector.increment(),2
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,"org.apache.druid.query.aggregation.last.StringLastBufferAggregator.get(ByteBuffer, int)",2
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+StringLastBufferAggregatorTest,testBufferAggregateWithFoldCheck,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2

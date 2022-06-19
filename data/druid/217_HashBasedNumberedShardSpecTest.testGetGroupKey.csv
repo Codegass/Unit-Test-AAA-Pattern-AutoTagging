@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+HashBasedNumberedShardSpecTest,testGetGroupKey,org.apache.druid.java.util.common.DateTimes.nowUtc(),0
+HashBasedNumberedShardSpecTest,testGetGroupKey,"NEW org.apache.druid.data.input.MapBasedInputRow(DateTime, List<String>, Map<String,Object>)",0
+HashBasedNumberedShardSpecTest,testGetGroupKey,"org.apache.druid.timeline.partition.HashBasedNumberedShardSpec.getGroupKey(List<String>, long, InputRow)",1
+HashBasedNumberedShardSpecTest,testGetGroupKey,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+HashBasedNumberedShardSpecTest,testGetGroupKey,"org.apache.druid.timeline.partition.HashBasedNumberedShardSpec.getGroupKey(List<String>, long, InputRow)",1
+HashBasedNumberedShardSpecTest,testGetGroupKey,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

@@ -1,0 +1,40 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.createMockBuilder(Class<?>),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.IMockBuilder<java.lang.Object>.withConstructor(Class<?>[]),0
+GceAutoScalerTest,testIdToIp,"NEW org.apache.druid.indexing.overlord.autoscaling.gce.GceEnvironmentConfig(int, String, String, String)",0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.IMockBuilder<java.lang.Object>.withArgs(Object[]),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.IMockBuilder<java.lang.Object>.addMockedMethod(String),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.IMockBuilder<java.lang.Object>.createMock(),0
+GceAutoScalerTest,testIdToIp,org.apache.druid.indexing.overlord.autoscaling.gce.GceAutoScaler.createComputeServiceImpl(),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.expect(Compute),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.IExpectationSetters<com.google.api.services.compute.Compute>.andReturn(Compute),0
+GceAutoScalerTest,testIdToIp,org.apache.druid.indexing.overlord.autoscaling.gce.GceAutoScaler.createComputeServiceImpl(),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.expect(Compute),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.IExpectationSetters<com.google.api.services.compute.Compute>.andReturn(Compute),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.replay(Object[]),0
+GceAutoScalerTest,testIdToIp,org.apache.druid.indexing.overlord.autoscaling.gce.GceAutoScaler.idToIpLookup(List<String>),0
+GceAutoScalerTest,testIdToIp,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+GceAutoScalerTest,testIdToIp,     NEW com.google.api.services.compute.model.Instance(),0
+GceAutoScalerTest,testIdToIp,     NEW com.google.api.services.compute.model.NetworkInterface(),0
+GceAutoScalerTest,testIdToIp,"TEST org.apache.druid.indexing.overlord.autoscaling.gce.GceAutoScalerTest.makeInstance(String, String)",0
+GceAutoScalerTest,testIdToIp,NEW com.google.api.services.compute.model.InstanceList(),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.expect(List),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.IExpectationSetters<com.google.api.services.compute.Compute.Instances.List>.andReturn(List),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.expect(InstanceList),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.IExpectationSetters<com.google.api.services.compute.model.InstanceList>.andReturn(InstanceList),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.anyString(),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.expect(List),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.IExpectationSetters<com.google.api.services.compute.Compute.Instances.List>.andReturn(List),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.replay(Object[]),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.expect(List),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.IExpectationSetters<com.google.api.services.compute.Compute.Instances.List>.andReturn(List),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.replay(Object[]),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.expect(Instances),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.IExpectationSetters<com.google.api.services.compute.Compute.Instances>.andReturn(Instances),0
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.replay(Object[]),0
+GceAutoScalerTest,testIdToIp,org.apache.druid.indexing.overlord.autoscaling.gce.GceAutoScaler.idToIpLookup(List<String>),1
+GceAutoScalerTest,testIdToIp,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+GceAutoScalerTest,testIdToIp,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.verify(Object[]),2
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.verify(Object[]),2
+GceAutoScalerTest,testIdToIp,MOCK org.easymock.EasyMock.verify(Object[]),2

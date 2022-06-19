@@ -1,0 +1,59 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,     NEW org.apache.druid.query.groupby.epinephelinae.TestColumnSelectorFactory(),0
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,     TEST org.apache.druid.query.groupby.epinephelinae.GrouperTestUtil.intKeySerde(),0
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"     NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,     NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"     org.apache.druid.query.aggregation.AggregatorAdapters.factorizeBuffered(ColumnSelectorFactory, List<AggregatorFactory>)",0
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"     NEW org.apache.druid.query.groupby.epinephelinae.LimitedBufferHashGrouper<java.lang.Integer>(Supplier<ByteBuffer>, KeySerde<Integer>, AggregatorAdapters, int, float, int, int, boolean)",1
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,     org.apache.druid.query.groupby.epinephelinae.LimitedBufferHashGrouper.init(),1
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"NEW org.apache.druid.data.input.MapBasedRow(long, Map<String,Object>)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,TEST org.apache.druid.query.groupby.epinephelinae.TestColumnSelectorFactory.setRow(Row),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.Grouper.aggregate(Integer),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AggregateResult.isOk(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.common.config.NullHandling.replaceWithDefault(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getGrowthCount(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getSize(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getBuckets(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getMaxSize(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getGrowthCount(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getSize(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getBuckets(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getMaxSize(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.LimitedBufferHashGrouper.getLimit(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"NEW org.apache.druid.data.input.MapBasedRow(long, Map<String,Object>)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,TEST org.apache.druid.query.groupby.epinephelinae.TestColumnSelectorFactory.setRow(Row),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.Grouper.aggregate(Integer),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AggregateResult.isOk(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.common.config.NullHandling.replaceWithDefault(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getGrowthCount(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getSize(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getBuckets(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getMaxSize(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getGrowthCount(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getSize(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getBuckets(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.AbstractBufferHashGrouper.getMaxSize(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.LimitedBufferHashGrouper.getLimit(),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"NEW org.apache.druid.query.groupby.epinephelinae.Grouper.Entry<java.lang.Integer>(Integer, Object[])",2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,org.apache.druid.query.groupby.epinephelinae.LimitedBufferHashGrouper.iterator(boolean),2
+LimitedBufferHashGrouperTest,testLimitAndBufferSwapping,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

@@ -1,0 +1,27 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NiciraNvpApiIT,testCRUDAcl,NEW com.cloud.network.nicira.Acl(),0
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.BaseNiciraNamedEntity.setDisplayName(String),0
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.AccessConfiguration.setLogicalPortEgressRules(List<AclRule>),0
+NiciraNvpApiIT,testCRUDAcl,"NEW com.cloud.network.nicira.AclRule(String, int, String, String, String, String, String, Integer, Integer, Integer, Integer, int, Integer, Integer)",0
+NiciraNvpApiIT,testCRUDAcl,"NEW com.cloud.network.nicira.AclRule(String, int, String, String, String, String, String, Integer, Integer, Integer, Integer, int, Integer, Integer)",0
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.AccessConfiguration.setLogicalPortIngressRules(List<AclRule>),0
+NiciraNvpApiIT,testCRUDAcl,"NEW com.cloud.network.nicira.AclRule(String, int, String, String, String, String, String, Integer, Integer, Integer, Integer, int, Integer, Integer)",0
+NiciraNvpApiIT,testCRUDAcl,"NEW com.cloud.network.nicira.AclRule(String, int, String, String, String, String, String, Integer, Integer, Integer, Integer, int, Integer, Integer)",0
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.BaseNiciraNamedEntity.setTags(List<NiciraNvpTag>),0
+NiciraNvpApiIT,testCRUDAcl,"NEW com.cloud.network.nicira.NiciraNvpTag(String, String)",0
+NiciraNvpApiIT,testCRUDAcl,"NEW com.cloud.network.nicira.NiciraNvpTag(String, String)",0
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.NiciraNvpApi.createAcl(Acl),1
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.BaseNiciraNamedEntity.setDisplayName(String),0
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.BaseNiciraEntity.getUuid(),0
+NiciraNvpApiIT,testCRUDAcl,"com.cloud.network.nicira.NiciraNvpApi.updateAcl(Acl, String)",1
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.NiciraNvpApi.findAcl(),1
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.BaseNiciraEntity.getUuid(),2
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.BaseNiciraEntity.getUuid(),2
+NiciraNvpApiIT,testCRUDAcl,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.BaseNiciraEntity.getUuid(),2
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.NiciraNvpApi.findAcl(String),1
+NiciraNvpApiIT,testCRUDAcl,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+NiciraNvpApiIT,testCRUDAcl,"ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.BaseNiciraEntity.getUuid(),2
+NiciraNvpApiIT,testCRUDAcl,com.cloud.network.nicira.NiciraNvpApi.deleteAcl(String),1
+NiciraNvpApiIT,testCRUDAcl,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2

@@ -1,0 +1,40 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,org.apache.druid.sql.SqlLifecycleFactory.factorize(),0
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"org.apache.druid.sql.SqlLifecycle.runSimple(String, Map<String,Object>, List<SqlParameter>, AuthenticationResult)",1
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,org.apache.druid.java.util.common.guava.Sequence.toList(),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"ASSERT org.junit.Assert.assertArrayEquals(Object[], Object[])",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,org.apache.druid.query.Druids.newTimeseriesQueryBuilder(),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.dataSource(String),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,org.apache.druid.sql.calcite.filtration.Filtration.eternity(),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.intervals(QuerySegmentSpec),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.granularity(Granularity),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.segment.virtual.ExpressionVirtualColumn(String, String, ValueType, ExprMacroTable)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.virtualColumns(VirtualColumn[]),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogramAggregatorFactory(String, String, Integer, Integer, Float, Float, Boolean)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogramAggregatorFactory(String, String, Integer, Integer, Float, Float, Boolean)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogramAggregatorFactory(String, String, Integer, Integer, Float, Float, Boolean)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogramAggregatorFactory(String, String, Integer, Integer, Float, Float, Boolean)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.filter.SelectorDimFilter(String, String, ExtractionFn)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.FilteredAggregatorFactory(AggregatorFactory, DimFilter)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogramAggregatorFactory(String, String, Integer, Integer, Float, Float, Boolean)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.filter.SelectorDimFilter(String, String, ExtractionFn)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,NEW org.apache.druid.query.filter.NotDimFilter(DimFilter),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.FilteredAggregatorFactory(AggregatorFactory, DimFilter)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.ApproximateHistogramAggregatorFactory(String, String, Integer, Integer, Float, Float, Boolean)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.aggregators(List<AggregatorFactory>),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.QuantilePostAggregator(String, String, float)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.QuantilePostAggregator(String, String, float)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.QuantilePostAggregator(String, String, float)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.QuantilePostAggregator(String, String, float)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.QuantilePostAggregator(String, String, float)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.QuantilePostAggregator(String, String, float)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.QuantilePostAggregator(String, String, float)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.QuantilePostAggregator(String, String, float)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"NEW org.apache.druid.query.aggregation.histogram.QuantilePostAggregator(String, String, float)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.postAggregators(PostAggregator[]),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"org.apache.druid.query.Druids.TimeseriesQueryBuilder.context(Map<String,Object>)",2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.build(),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,TEST org.apache.druid.sql.calcite.util.QueryLogHook.getRecordedQueries(),2
+QuantileSqlAggregatorTest,testQuantileOnFloatAndLongs,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

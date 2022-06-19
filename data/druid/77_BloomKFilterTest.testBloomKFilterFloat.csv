@@ -1,0 +1,56 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BloomKFilterTest,testBloomKFilterFloat,NEW org.apache.druid.query.filter.BloomKFilter(long),0
+BloomKFilterTest,testBloomKFilterFloat,"org.apache.druid.query.filter.BloomKFilter.serialize(OutputStream, BloomKFilter)",0
+BloomKFilterTest,testBloomKFilterFloat,"org.apache.druid.query.filter.BloomKFilter.addFloat(ByteBuffer, float)",0
+BloomKFilterTest,testBloomKFilterFloat,NEW org.apache.druid.io.ByteBufferInputStream(ByteBuffer),0
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.deserialize(InputStream),0
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertTrue(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertFalse(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertFalse(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertFalse(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,"org.apache.druid.query.filter.BloomKFilter.addFloat(ByteBuffer, float)",0
+BloomKFilterTest,testBloomKFilterFloat,NEW org.apache.druid.io.ByteBufferInputStream(ByteBuffer),0
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.deserialize(InputStream),0
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertTrue(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertTrue(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertFalse(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertFalse(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,"org.apache.druid.query.filter.BloomKFilter.addFloat(ByteBuffer, float)",0
+BloomKFilterTest,testBloomKFilterFloat,NEW org.apache.druid.io.ByteBufferInputStream(ByteBuffer),0
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.deserialize(InputStream),0
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertTrue(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertTrue(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertTrue(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertFalse(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,"org.apache.druid.query.filter.BloomKFilter.addFloat(ByteBuffer, float)",0
+BloomKFilterTest,testBloomKFilterFloat,NEW org.apache.druid.io.ByteBufferInputStream(ByteBuffer),0
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.deserialize(InputStream),0
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertTrue(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertTrue(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertTrue(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertTrue(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,"org.apache.druid.query.filter.BloomKFilter.addFloat(ByteBuffer, float)",0
+BloomKFilterTest,testBloomKFilterFloat,NEW org.apache.druid.io.ByteBufferInputStream(ByteBuffer),0
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.deserialize(InputStream),0
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertTrue(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.testFloat(float),1
+BloomKFilterTest,testBloomKFilterFloat,ASSERT org.junit.Assert.assertFalse(boolean),2
+BloomKFilterTest,testBloomKFilterFloat,org.apache.druid.query.filter.BloomKFilter.sizeInBytes(),2
+BloomKFilterTest,testBloomKFilterFloat,"ASSERT org.junit.Assert.assertEquals(long, long)",2

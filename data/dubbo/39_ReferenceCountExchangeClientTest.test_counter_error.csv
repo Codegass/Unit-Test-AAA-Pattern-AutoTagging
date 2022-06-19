@@ -1,0 +1,62 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ReferenceCountExchangeClientTest,test_counter_error,     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),0
+ReferenceCountExchangeClientTest,test_counter_error,     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),0
+ReferenceCountExchangeClientTest,test_counter_error,     org.apache.dubbo.common.utils.NetUtils.getAvailablePort(),0
+ReferenceCountExchangeClientTest,test_counter_error,     org.apache.dubbo.common.URL.valueOf(String),0
+ReferenceCountExchangeClientTest,test_counter_error,     org.apache.dubbo.common.URL.valueOf(String),0
+ReferenceCountExchangeClientTest,test_counter_error,     NEW org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.DemoServiceImpl(),0
+ReferenceCountExchangeClientTest,test_counter_error,"          org.apache.dubbo.rpc.ProxyFactory.getInvoker(T, Class<T>, URL)",0
+ReferenceCountExchangeClientTest,test_counter_error,          org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.export(Invoker<T>),0
+ReferenceCountExchangeClientTest,test_counter_error,     NEW org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.HelloServiceImpl(),0
+ReferenceCountExchangeClientTest,test_counter_error,"          org.apache.dubbo.rpc.ProxyFactory.getInvoker(T, Class<T>, URL)",0
+ReferenceCountExchangeClientTest,test_counter_error,          org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.export(Invoker<T>),0
+ReferenceCountExchangeClientTest,test_counter_error,"          org.apache.dubbo.rpc.protocol.AbstractProtocol.refer(Class<>, URL)",0
+ReferenceCountExchangeClientTest,test_counter_error,     org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<IDemoService>),0
+ReferenceCountExchangeClientTest,test_counter_error,     TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.IDemoService.demo(),0
+ReferenceCountExchangeClientTest,test_counter_error,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",0
+ReferenceCountExchangeClientTest,test_counter_error,"     TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.referInvoker(Class<?>, URL)",0
+ReferenceCountExchangeClientTest,test_counter_error,     org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<IHelloService>),0
+ReferenceCountExchangeClientTest,test_counter_error,     TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.IHelloService.hello(),0
+ReferenceCountExchangeClientTest,test_counter_error,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",0
+ReferenceCountExchangeClientTest,test_counter_error,          org.apache.dubbo.common.Node.getUrl(),0
+ReferenceCountExchangeClientTest,test_counter_error,"          org.apache.dubbo.common.URL.getParameter(String, int)",0
+ReferenceCountExchangeClientTest,test_counter_error,                    org.apache.dubbo.rpc.protocol.AsyncToSyncInvoker.getInvoker(),0
+ReferenceCountExchangeClientTest,test_counter_error,                    ASSERT org.junit.jupiter.api.Assertions.fail(String),0
+ReferenceCountExchangeClientTest,test_counter_error,                    TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.getInvokerClientList(Invoker<?>),0
+ReferenceCountExchangeClientTest,test_counter_error,                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),0
+ReferenceCountExchangeClientTest,test_counter_error,          ASSERT org.junit.jupiter.api.Assertions.fail(String),0
+ReferenceCountExchangeClientTest,test_counter_error,     TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.getClient(Invoker<?>),0
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.common.utils.DubboAppender.doStart(),0
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.common.utils.DubboAppender.clear(),0
+ReferenceCountExchangeClientTest,test_counter_error,               org.apache.dubbo.rpc.protocol.AsyncToSyncInvoker.getInvoker(),0
+ReferenceCountExchangeClientTest,test_counter_error,               ASSERT org.junit.jupiter.api.Assertions.fail(String),0
+ReferenceCountExchangeClientTest,test_counter_error,          ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),0
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient.close(),1
+ReferenceCountExchangeClientTest,test_counter_error,TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.IHelloService.hello(),2
+ReferenceCountExchangeClientTest,test_counter_error,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.common.utils.LogUtil.findMessage(String),2
+ReferenceCountExchangeClientTest,test_counter_error,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int, String)",2
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient.close(),1
+ReferenceCountExchangeClientTest,test_counter_error,ASSERT org.junit.jupiter.api.Assertions.fail(),2
+ReferenceCountExchangeClientTest,test_counter_error,TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.IHelloService.hello(),2
+ReferenceCountExchangeClientTest,test_counter_error,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.common.utils.LogUtil.findMessage(String),2
+ReferenceCountExchangeClientTest,test_counter_error,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int, String)",2
+ReferenceCountExchangeClientTest,test_counter_error,TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.IHelloService.hello(),2
+ReferenceCountExchangeClientTest,test_counter_error,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.common.utils.LogUtil.findMessage(String),2
+ReferenceCountExchangeClientTest,test_counter_error,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int, String)",2
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.common.utils.DubboAppender.doStop(),2
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.common.Node.isAvailable(),2
+ReferenceCountExchangeClientTest,test_counter_error,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient.close(),1
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient.isClosed(),2
+ReferenceCountExchangeClientTest,test_counter_error,"ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean, String)",2
+ReferenceCountExchangeClientTest,test_counter_error,org.apache.dubbo.common.Node.isAvailable(),2
+ReferenceCountExchangeClientTest,test_counter_error,"ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean, String)",2
+ReferenceCountExchangeClientTest,test_counter_error,     org.apache.dubbo.common.Node.destroy(),2
+ReferenceCountExchangeClientTest,test_counter_error,     org.apache.dubbo.common.Node.destroy(),2
+ReferenceCountExchangeClientTest,test_counter_error,     org.apache.dubbo.rpc.Exporter.getInvoker(),2
+ReferenceCountExchangeClientTest,test_counter_error,     org.apache.dubbo.common.Node.destroy(),2
+ReferenceCountExchangeClientTest,test_counter_error,     org.apache.dubbo.rpc.Exporter.getInvoker(),2
+ReferenceCountExchangeClientTest,test_counter_error,     org.apache.dubbo.common.Node.destroy(),2

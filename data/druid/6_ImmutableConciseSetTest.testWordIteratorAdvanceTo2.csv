@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ImmutableConciseSetTest,testWordIteratorAdvanceTo2,NEW org.apache.druid.extendedset.intset.ConciseSet(),0
+ImmutableConciseSetTest,testWordIteratorAdvanceTo2,org.apache.druid.extendedset.intset.ConciseSet.add(int),0
+ImmutableConciseSetTest,testWordIteratorAdvanceTo2,org.apache.druid.extendedset.intset.ImmutableConciseSet.newImmutableFromMutable(ConciseSet),0
+ImmutableConciseSetTest,testWordIteratorAdvanceTo2,org.apache.druid.extendedset.intset.ImmutableConciseSet.newWordIterator(),0
+ImmutableConciseSetTest,testWordIteratorAdvanceTo2,org.apache.druid.extendedset.intset.ImmutableConciseSet.WordIterator.advanceTo(int),1
+ImmutableConciseSetTest,testWordIteratorAdvanceTo2,org.apache.druid.extendedset.intset.ImmutableConciseSet.WordIterator.next(),2
+ImmutableConciseSetTest,testWordIteratorAdvanceTo2,"ASSERT junit.framework.Assert.assertEquals(int, int)",2
+ImmutableConciseSetTest,testWordIteratorAdvanceTo2,org.apache.druid.extendedset.intset.ImmutableConciseSet.WordIterator.hasNext(),2
+ImmutableConciseSetTest,testWordIteratorAdvanceTo2,"ASSERT junit.framework.Assert.assertEquals(boolean, boolean)",2

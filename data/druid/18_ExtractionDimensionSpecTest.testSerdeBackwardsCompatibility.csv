@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,NEW org.apache.druid.jackson.DefaultObjectMapper(),0
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,org.apache.druid.query.dimension.ExtractionDimensionSpec.getOutputName(),1
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,org.apache.druid.query.dimension.ExtractionDimensionSpec.getDimension(),1
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,org.apache.druid.query.dimension.ExtractionDimensionSpec.getExtractionFn(),1
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,ASSERT org.junit.Assert.assertNotNull(Object),2
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,ASSERT org.junit.Assert.assertTrue(boolean),2
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,org.apache.druid.query.dimension.ExtractionDimensionSpec.getExtractionFn(),1
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,ASSERT org.junit.Assert.assertTrue(boolean),2
+ExtractionDimensionSpecTest,testSerdeBackwardsCompatibility,org.apache.druid.query.dimension.DimensionSpec.getExtractionFn(),1

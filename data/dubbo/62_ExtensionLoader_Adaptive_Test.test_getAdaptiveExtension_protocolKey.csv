@@ -1,0 +1,21 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,org.apache.dubbo.common.extension.ExtensionLoader.getExtensionLoader(Class<UseProtocolKeyExt>),0
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,org.apache.dubbo.common.extension.ExtensionLoader.getAdaptiveExtension(),1
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,org.apache.dubbo.common.URL.valueOf(String),2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"TEST org.apache.dubbo.common.extension.ext3.UseProtocolKeyExt.echo(URL, String)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"NEW org.apache.dubbo.common.URL(String, String, int, String, Map<String,String>)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"TEST org.apache.dubbo.common.extension.ext3.UseProtocolKeyExt.echo(URL, String)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"org.apache.dubbo.common.URL.addParameter(String, String)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"TEST org.apache.dubbo.common.extension.ext3.UseProtocolKeyExt.echo(URL, String)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"NEW org.apache.dubbo.common.URL(String, String, int, String, Map<String,String>)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"TEST org.apache.dubbo.common.extension.ext3.UseProtocolKeyExt.yell(URL, String)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"org.apache.dubbo.common.URL.addParameter(String, String)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"TEST org.apache.dubbo.common.extension.ext3.UseProtocolKeyExt.yell(URL, String)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,org.apache.dubbo.common.URL.setProtocol(String),2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"TEST org.apache.dubbo.common.extension.ext3.UseProtocolKeyExt.yell(URL, String)",2
+ExtensionLoader_Adaptive_Test,test_getAdaptiveExtension_protocolKey,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

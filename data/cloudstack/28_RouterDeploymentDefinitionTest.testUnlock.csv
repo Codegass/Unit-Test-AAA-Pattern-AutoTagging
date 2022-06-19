@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RouterDeploymentDefinitionTest,testUnlock,org.cloud.network.router.deployment.RouterDeploymentDefinition.unlock(),1
+RouterDeploymentDefinitionTest,testUnlock,com.cloud.utils.db.GenericDao.releaseFromLockTable(Long),2

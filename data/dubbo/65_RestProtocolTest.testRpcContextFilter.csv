@@ -1,0 +1,24 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RestProtocolTest,testRpcContextFilter,NEW org.apache.dubbo.rpc.protocol.rest.DemoServiceImpl(),0
+RestProtocolTest,testRpcContextFilter,     org.apache.dubbo.rpc.model.ServiceRepository.registerService(Class<?>),0
+RestProtocolTest,testRpcContextFilter,     org.apache.dubbo.common.URL.getServiceKey(),0
+RestProtocolTest,testRpcContextFilter,"     org.apache.dubbo.rpc.model.ServiceRepository.registerProvider(String, Object, ServiceDescriptor, ServiceConfigBase<?>, ServiceMetadata)",0
+RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.ProxyFactory.getInvoker(DemoService, Class<DemoService>, URL)",0
+RestProtocolTest,testRpcContextFilter,org.apache.dubbo.rpc.Protocol.export(Invoker<DemoService>),0
+RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.Protocol.refer(Class<DemoService>, URL)",1
+RestProtocolTest,testRpcContextFilter,org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<DemoService>),2
+RestProtocolTest,testRpcContextFilter,org.apache.dubbo.rpc.RpcContext.getContext(),2
+RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.RpcContext.setAttachment(String, String)",2
+RestProtocolTest,testRpcContextFilter,org.apache.dubbo.rpc.RpcContext.getContext(),2
+RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.RpcContext.setAttachment(String, String)",2
+RestProtocolTest,testRpcContextFilter,org.apache.dubbo.rpc.RpcContext.getContext(),2
+RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.RpcContext.setAttachment(String, String)",2
+RestProtocolTest,testRpcContextFilter,org.apache.dubbo.rpc.RpcContext.getContext(),2
+RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.RpcContext.setAttachment(String, String)",2
+RestProtocolTest,testRpcContextFilter,org.apache.dubbo.rpc.RpcContext.getContext(),2
+RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.RpcContext.setAttachment(String, String)",2
+RestProtocolTest,testRpcContextFilter,"TEST org.apache.dubbo.rpc.protocol.rest.DemoService.hello(Integer, Integer)",2
+RestProtocolTest,testRpcContextFilter,TEST org.apache.dubbo.rpc.protocol.rest.DemoServiceImpl.getAttachments(),2
+RestProtocolTest,testRpcContextFilter,org.apache.dubbo.rpc.Exporter.unexport(),2

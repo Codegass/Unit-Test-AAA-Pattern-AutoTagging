@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VfsClassLoaderTest,testFileMonitor,NEW org.apache.accumulo.start.classloader.vfs.providers.VfsClassLoaderTest.MyFileMonitor(),0
+VfsClassLoaderTest,testFileMonitor,NEW org.apache.commons.vfs2.impl.DefaultFileMonitor(FileListener),0
+VfsClassLoaderTest,testFileMonitor,NEW org.apache.hadoop.fs.Path(String),0
+VfsClassLoaderTest,testFileMonitor,"NEW org.apache.hadoop.fs.Path(Path, String)",0
+VfsClassLoaderTest,testFileMonitor,TEST org.apache.accumulo.start.classloader.vfs.providers.VfsClassLoaderTest.MyFileMonitor.isFileCreated(),0
+VfsClassLoaderTest,testFileMonitor,ASSERT org.junit.Assert.assertTrue(boolean),2
+VfsClassLoaderTest,testFileMonitor,NEW org.apache.hadoop.fs.Path(String),0
+VfsClassLoaderTest,testFileMonitor,"NEW org.apache.hadoop.fs.Path(Path, String)",0
+VfsClassLoaderTest,testFileMonitor,TEST org.apache.accumulo.start.classloader.vfs.providers.VfsClassLoaderTest.MyFileMonitor.isFileChanged(),2
+VfsClassLoaderTest,testFileMonitor,ASSERT org.junit.Assert.assertTrue(boolean),2
+VfsClassLoaderTest,testFileMonitor,TEST org.apache.accumulo.start.classloader.vfs.providers.VfsClassLoaderTest.MyFileMonitor.isFileDeleted(),2
+VfsClassLoaderTest,testFileMonitor,ASSERT org.junit.Assert.assertTrue(boolean),2

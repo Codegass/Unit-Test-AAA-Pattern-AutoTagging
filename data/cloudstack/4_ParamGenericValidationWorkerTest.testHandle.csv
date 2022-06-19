@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ParamGenericValidationWorkerTest,testHandle,NEW com.cloud.api.dispatch.FakeCmd(),0
+ParamGenericValidationWorkerTest,testHandle,"NEW com.cloud.user.AccountVO(String, long, String, short, String)",0
+ParamGenericValidationWorkerTest,testHandle,"NEW com.cloud.user.UserVO(long, String, String, String, String, String, String, String, Source)",0
+ParamGenericValidationWorkerTest,testHandle,"org.apache.cloudstack.context.CallContext.register(User, Account)",0
+ParamGenericValidationWorkerTest,testHandle,     NEW com.cloud.api.dispatch.ParamGenericValidationWorker(),0
+ParamGenericValidationWorkerTest,testHandle,     NEW anonymous(String),0
+ParamGenericValidationWorkerTest,testHandle,"     NEW com.cloud.api.dispatch.DispatchTask(BaseCmd, Map)",0
+ParamGenericValidationWorkerTest,testHandle,     com.cloud.api.dispatch.ParamGenericValidationWorker.handle(DispatchTask),1
+ParamGenericValidationWorkerTest,testHandle,org.apache.cloudstack.context.CallContext.unregister(),0
+ParamGenericValidationWorkerTest,testHandle,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2

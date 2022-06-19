@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MergeIntIteratorTest,testOverflow,TEST org.apache.druid.segment.MergeIntIteratorTest.iteratorsFromLists(List<IntList>),0
+MergeIntIteratorTest,testOverflow,org.apache.druid.segment.IntIteratorUtils.mergeAscending(List<IntIterator>),1
+MergeIntIteratorTest,testOverflow,     ASSERT org.junit.Assert.fail(String),2
+MergeIntIteratorTest,testOverflow,TEST org.apache.druid.segment.MergeIntIteratorTest.iteratorsFromLists(List<IntList>),2
+MergeIntIteratorTest,testOverflow,org.apache.druid.segment.IntIteratorUtils.mergeAscending(List<IntIterator>),1
+MergeIntIteratorTest,testOverflow,TEST org.apache.druid.segment.MergeIntIteratorTest.assertAscending(IntIterator),2

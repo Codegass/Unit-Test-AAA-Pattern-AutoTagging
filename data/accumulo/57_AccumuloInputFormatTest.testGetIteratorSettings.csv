@@ -1,0 +1,32 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AccumuloInputFormatTest,testGetIteratorSettings,"NEW org.apache.accumulo.core.client.IteratorSetting(int, String, String)",0
+AccumuloInputFormatTest,testGetIteratorSettings,"NEW org.apache.accumulo.core.client.IteratorSetting(int, String, String)",0
+AccumuloInputFormatTest,testGetIteratorSettings,"NEW org.apache.accumulo.core.client.IteratorSetting(int, String, String)",0
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.hadoop.mapred.AccumuloInputFormat.configure(),0
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.hadoop.mapreduce.InputFormatBuilder.ClientParams.clientProperties(Properties),0
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.hadoop.mapreduce.InputFormatBuilder.TableParams.table(String),0
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.hadoop.mapreduce.InputFormatBuilder.InputFormatOptions.auths(Authorizations),0
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.hadoop.mapreduce.InputFormatBuilder.InputFormatOptions.addIterator(IteratorSetting),0
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.hadoop.mapreduce.InputFormatBuilder.InputFormatOptions.addIterator(IteratorSetting),0
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.hadoop.mapreduce.InputFormatBuilder.InputFormatOptions.addIterator(IteratorSetting),0
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.hadoop.mapreduce.InputFormatBuilder.TableParams.store(JobConf),0
+AccumuloInputFormatTest,testGetIteratorSettings,"org.apache.accumulo.hadoopImpl.mapreduce.lib.InputConfigurator.getIterators(Class<?>, Configuration)",0
+AccumuloInputFormatTest,testGetIteratorSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.core.client.IteratorSetting.getPriority(),2
+AccumuloInputFormatTest,testGetIteratorSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.core.client.IteratorSetting.getIteratorClass(),1
+AccumuloInputFormatTest,testGetIteratorSettings,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.core.client.IteratorSetting.getName(),2
+AccumuloInputFormatTest,testGetIteratorSettings,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.core.client.IteratorSetting.getPriority(),2
+AccumuloInputFormatTest,testGetIteratorSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.core.client.IteratorSetting.getIteratorClass(),1
+AccumuloInputFormatTest,testGetIteratorSettings,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.core.client.IteratorSetting.getName(),2
+AccumuloInputFormatTest,testGetIteratorSettings,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.core.client.IteratorSetting.getPriority(),2
+AccumuloInputFormatTest,testGetIteratorSettings,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.core.client.IteratorSetting.getIteratorClass(),1
+AccumuloInputFormatTest,testGetIteratorSettings,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AccumuloInputFormatTest,testGetIteratorSettings,org.apache.accumulo.core.client.IteratorSetting.getName(),2
+AccumuloInputFormatTest,testGetIteratorSettings,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ServerUtilTest,testCanRun,@EXPECTED java.lang.Class<java.lang.IllegalStateException>,0
+ServerUtilTest,testCanRun,org.apache.accumulo.server.ServerUtil.ensureDataVersionCompatible(int),1

@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MulticastRegistryTest,testAnyHost,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<IllegalStateException>, Executable)",2
+MulticastRegistryTest,testAnyHost,org.apache.dubbo.common.URL.valueOf(String),2
+MulticastRegistryTest,testAnyHost,NEW org.apache.dubbo.registry.multicast.MulticastRegistry(URL),1

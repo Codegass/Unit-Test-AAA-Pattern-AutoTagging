@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DimensionSelectorHavingSpecTest,testNullDimension,@EXPECTED java.lang.Class<java.lang.NullPointerException>,0
+DimensionSelectorHavingSpecTest,testNullDimension,"NEW org.apache.druid.query.groupby.having.DimensionSelectorHavingSpec(String, String, ExtractionFn)",1

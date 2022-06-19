@@ -1,0 +1,15 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,"com.cloud.network.resource.NiciraNvpResource.configure(String, Map<String,Object>)",0
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,"NEW com.cloud.agent.api.to.StaticNatRuleTO(long, String, Integer, Integer, String, Integer, Integer, String, boolean, boolean)",0
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,com.cloud.agent.api.ConfigureStaticNatRulesOnLogicalRouterCommand.getRules(),0
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,com.cloud.agent.api.ConfigureStaticNatRulesOnLogicalRouterCommand.getLogicalRouterUuid(),0
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,"com.cloud.network.resource.NiciraNvpResource.generateStaticNatRulePair(String, String)",0
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,com.cloud.network.nicira.NatRule.setUuid(UUID),0
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,com.cloud.network.nicira.NatRule.setUuid(UUID),0
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,"com.cloud.network.nicira.NiciraNvpApi.createLogicalRouterNatRule(String, NatRule)",0
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,com.cloud.network.nicira.NiciraNvpApi.findNatRulesByLogicalRouterUuid(String),0
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,com.cloud.network.resource.NiciraNvpResource.executeRequest(Command),1
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,com.cloud.agent.api.Answer.getResult(),2
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,ASSERT org.junit.Assert.assertTrue(boolean),2
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,NEW anonymous(),2
+NiciraNvpResourceTest,testConfigureStaticNatRulesOnLogicalRouterRemoveRules,"com.cloud.network.nicira.NiciraNvpApi.deleteLogicalRouterNatRule(String, UUID)",2

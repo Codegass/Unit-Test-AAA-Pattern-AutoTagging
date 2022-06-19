@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DubboAppenderTest,testClear,org.apache.dubbo.common.utils.DubboAppender.doStart(),0
+DubboAppenderTest,testClear,NEW org.apache.dubbo.common.utils.DubboAppender(),0
+DubboAppenderTest,testClear,org.apache.dubbo.common.utils.DubboAppender.clear(),1

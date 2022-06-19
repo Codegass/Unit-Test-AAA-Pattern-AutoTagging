@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,@EXPECTED java.lang.Class<java.lang.IllegalArgumentException>,0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,org.apache.druid.metadata.SqlSegmentsMetadataManager.startPollingDatabasePeriodically(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,org.apache.druid.metadata.SqlSegmentsMetadataManager.poll(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,org.apache.druid.metadata.SqlSegmentsMetadataManager.isPollingDatabasePeriodically(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,ASSERT org.junit.Assert.assertTrue(boolean),0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,          org.apache.druid.java.util.common.Intervals.of(String),0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,          org.apache.druid.timeline.partition.NoneShardSpec.instance(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,"          NEW org.apache.druid.timeline.DataSegment(String, Interval, String, Map<String,Object>, List<String>, List<String>, ShardSpec, Integer, long)",0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,"     TEST org.apache.druid.metadata.SqlSegmentsMetadataManagerTest.createSegment(String, String, String, String, int)",0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,org.apache.druid.metadata.SQLMetadataSegmentPublisher.publishSegment(DataSegment),0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,org.apache.druid.metadata.SQLMetadataSegmentPublisher.publishSegment(DataSegment),0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,org.apache.druid.java.util.common.Intervals.of(String),0
+SqlSegmentsMetadataManagerTest,testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,"org.apache.druid.metadata.SqlSegmentsMetadataManager.markAsUnusedSegmentsInInterval(String, Interval)",1

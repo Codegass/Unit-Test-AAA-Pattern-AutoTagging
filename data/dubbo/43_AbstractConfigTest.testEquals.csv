@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractConfigTest,testEquals,NEW org.apache.dubbo.config.ApplicationConfig(),0
+AbstractConfigTest,testEquals,NEW org.apache.dubbo.config.ApplicationConfig(),0
+AbstractConfigTest,testEquals,org.apache.dubbo.config.ApplicationConfig.setName(String),2
+AbstractConfigTest,testEquals,org.apache.dubbo.config.ApplicationConfig.setName(String),2
+AbstractConfigTest,testEquals,"ASSERT org.junit.jupiter.api.Assertions.assertNotEquals(Object, Object)",2
+AbstractConfigTest,testEquals,org.apache.dubbo.config.ApplicationConfig.setName(String),2
+AbstractConfigTest,testEquals,org.apache.dubbo.config.ApplicationConfig.setName(String),2
+AbstractConfigTest,testEquals,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+AbstractConfigTest,testEquals,NEW org.apache.dubbo.config.ProtocolConfig(),2
+AbstractConfigTest,testEquals,org.apache.dubbo.config.ProtocolConfig.setHost(String),2
+AbstractConfigTest,testEquals,org.apache.dubbo.config.ProtocolConfig.setName(String),2
+AbstractConfigTest,testEquals,NEW org.apache.dubbo.config.ProtocolConfig(),2
+AbstractConfigTest,testEquals,org.apache.dubbo.config.ProtocolConfig.setHost(String),2
+AbstractConfigTest,testEquals,org.apache.dubbo.config.ProtocolConfig.setName(String),2
+AbstractConfigTest,testEquals,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

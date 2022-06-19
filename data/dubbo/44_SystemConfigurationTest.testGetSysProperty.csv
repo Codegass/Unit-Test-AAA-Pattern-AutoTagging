@@ -1,0 +1,17 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SystemConfigurationTest,testGetSysProperty,org.apache.dubbo.common.config.SystemConfiguration.getInternalProperty(String),1
+SystemConfigurationTest,testGetSysProperty,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2
+SystemConfigurationTest,testGetSysProperty,org.apache.dubbo.common.config.Configuration.containsKey(String),2
+SystemConfigurationTest,testGetSysProperty,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2
+SystemConfigurationTest,testGetSysProperty,org.apache.dubbo.common.config.Configuration.getString(String),2
+SystemConfigurationTest,testGetSysProperty,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2
+SystemConfigurationTest,testGetSysProperty,org.apache.dubbo.common.config.Configuration.getProperty(String),2
+SystemConfigurationTest,testGetSysProperty,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2
+SystemConfigurationTest,testGetSysProperty,org.apache.dubbo.common.config.Configuration.containsKey(String),2
+SystemConfigurationTest,testGetSysProperty,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+SystemConfigurationTest,testGetSysProperty,org.apache.dubbo.common.config.SystemConfiguration.getInternalProperty(String),1
+SystemConfigurationTest,testGetSysProperty,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+SystemConfigurationTest,testGetSysProperty,"org.apache.dubbo.common.config.Configuration.getString(String, String)",2
+SystemConfigurationTest,testGetSysProperty,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+SystemConfigurationTest,testGetSysProperty,"org.apache.dubbo.common.config.Configuration.getProperty(String, Object)",2
+SystemConfigurationTest,testGetSysProperty,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

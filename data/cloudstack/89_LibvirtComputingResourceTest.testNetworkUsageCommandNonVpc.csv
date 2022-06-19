@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,"NEW com.cloud.agent.api.NetworkUsageCommand(String, String, boolean, String)",0
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,com.cloud.agent.api.NetworkUsageCommand.getPrivateIP(),0
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,com.cloud.hypervisor.kvm.resource.LibvirtComputingResource.getNetworkStats(String),0
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,com.cloud.agent.api.NetworkUsageCommand.getPrivateIP(),0
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,com.cloud.hypervisor.kvm.resource.LibvirtComputingResource.getNetworkStats(String),0
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,com.cloud.hypervisor.kvm.resource.wrapper.LibvirtRequestWrapper.getInstance(),0
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,ASSERT org.junit.Assert.assertNotNull(Object),0
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,"com.cloud.hypervisor.kvm.resource.wrapper.LibvirtRequestWrapper.execute(Command, ServerResource)",1
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,com.cloud.agent.api.Answer.getResult(),2
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,ASSERT org.junit.Assert.assertTrue(boolean),2
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,com.cloud.agent.api.NetworkUsageCommand.getPrivateIP(),2
+LibvirtComputingResourceTest,testNetworkUsageCommandNonVpc,com.cloud.hypervisor.kvm.resource.LibvirtComputingResource.getNetworkStats(String),2

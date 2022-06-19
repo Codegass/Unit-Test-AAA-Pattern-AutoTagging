@@ -1,0 +1,47 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+KafkaSupervisorTest,testBadMetadataOffsets,               org.apache.druid.indexing.kafka.KafkaConsumerConfigs.getConsumerProperties(),0
+KafkaSupervisorTest,testBadMetadataOffsets,               NEW org.joda.time.Period(Object),0
+KafkaSupervisorTest,testBadMetadataOffsets,               NEW org.joda.time.Period(Object),0
+KafkaSupervisorTest,testBadMetadataOffsets,               NEW org.joda.time.Period(Object),0
+KafkaSupervisorTest,testBadMetadataOffsets,               NEW org.joda.time.Period(Object),0
+KafkaSupervisorTest,testBadMetadataOffsets,"               NEW org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorIOConfig(String, InputFormat, Integer, Integer, Period, Map<String,Object>, Long, Period, Period, Boolean, Period, Period, Period, DateTime)",0
+KafkaSupervisorTest,testBadMetadataOffsets,"               NEW anonymous(HttpClient, ObjectMapper)",0
+KafkaSupervisorTest,testBadMetadataOffsets,"               ASSERT org.junit.Assert.assertEquals(long, long)",0
+KafkaSupervisorTest,testBadMetadataOffsets,"               ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+KafkaSupervisorTest,testBadMetadataOffsets,"               ASSERT org.junit.Assert.assertEquals(long, long)",0
+KafkaSupervisorTest,testBadMetadataOffsets,               NEW org.joda.time.Period(Object),0
+KafkaSupervisorTest,testBadMetadataOffsets,"               NEW org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorTuningConfig(Integer, Long, Integer, Long, Period, File, Integer, IndexSpec, IndexSpec, Boolean, Boolean, Long, Boolean, SegmentWriteOutMediumFactory, Integer, Integer, Long, Period, Period, Period, Period, Boolean, Integer, Integer)",0
+KafkaSupervisorTest,testBadMetadataOffsets,               NEW org.apache.druid.server.metrics.NoopServiceEmitter(),0
+KafkaSupervisorTest,testBadMetadataOffsets,               NEW org.apache.druid.server.metrics.DruidMonitorSchedulerConfig(),0
+KafkaSupervisorTest,testBadMetadataOffsets,               NEW org.apache.druid.indexing.overlord.supervisor.SupervisorStateManagerConfig(),0
+KafkaSupervisorTest,testBadMetadataOffsets,"               NEW org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorSpec(KafkaSupervisorIngestionSpec, DataSchema, KafkaSupervisorTuningConfig, KafkaSupervisorIOConfig, Map<String,Object>, Boolean, TaskStorage, TaskMaster, IndexerMetadataStorageCoordinator, KafkaIndexTaskClientFactory, ObjectMapper, ServiceEmitter, DruidMonitorSchedulerConfig, RowIngestionMetersFactory, SupervisorStateManagerConfig)",0
+KafkaSupervisorTest,testBadMetadataOffsets,"               NEW org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorTest.TestableKafkaSupervisor(TaskStorage, TaskMaster, IndexerMetadataStorageCoordinator, KafkaIndexTaskClientFactory, ObjectMapper, KafkaSupervisorSpec, RowIngestionMetersFactory)",0
+KafkaSupervisorTest,testBadMetadataOffsets,                    TEST org.apache.druid.indexing.kafka.test.TestBroker.getPort(),0
+KafkaSupervisorTest,testBadMetadataOffsets,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+KafkaSupervisorTest,testBadMetadataOffsets,"     NEW org.apache.kafka.clients.admin.NewTopic(String, int, short)",0
+KafkaSupervisorTest,testBadMetadataOffsets,"               TEST org.apache.druid.indexing.kafka.test.TestBroker.commonClientProperties(Map<String,Object>)",0
+KafkaSupervisorTest,testBadMetadataOffsets,"          NEW org.apache.kafka.clients.producer.KafkaProducer<byte[],byte[]>(Map<String,Object>)",0
+KafkaSupervisorTest,testBadMetadataOffsets,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+KafkaSupervisorTest,testBadMetadataOffsets,     org.apache.druid.java.util.common.StringUtils.toUtf8(String),0
+KafkaSupervisorTest,testBadMetadataOffsets,"     NEW org.apache.kafka.clients.producer.ProducerRecord<byte[],byte[]>(String, Integer, byte[], byte[])",0
+KafkaSupervisorTest,testBadMetadataOffsets,org.apache.druid.indexing.overlord.TaskMaster.getTaskRunner(),0
+KafkaSupervisorTest,testBadMetadataOffsets,MOCK org.easymock.EasyMock.expect(Optional<TaskRunner>),0
+KafkaSupervisorTest,testBadMetadataOffsets,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskRunner>>.andReturn(Optional<TaskRunner>),0
+KafkaSupervisorTest,testBadMetadataOffsets,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskRunner>>.anyTimes(),0
+KafkaSupervisorTest,testBadMetadataOffsets,org.apache.druid.indexing.overlord.TaskStorage.getActiveTasksByDatasource(String),0
+KafkaSupervisorTest,testBadMetadataOffsets,MOCK org.easymock.EasyMock.expect(List<Task>),0
+KafkaSupervisorTest,testBadMetadataOffsets,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.common.task.Task>>.andReturn(List<Task>),0
+KafkaSupervisorTest,testBadMetadataOffsets,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.common.task.Task>>.anyTimes(),0
+KafkaSupervisorTest,testBadMetadataOffsets,org.apache.druid.indexing.overlord.IndexerMetadataStorageCoordinator.retrieveDataSourceMetadata(String),0
+KafkaSupervisorTest,testBadMetadataOffsets,MOCK org.easymock.EasyMock.expect(DataSourceMetadata),0
+KafkaSupervisorTest,testBadMetadataOffsets,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers<java.lang.Integer,java.lang.Long>(String, Map<Integer,Long>, Set<Integer>)",0
+KafkaSupervisorTest,testBadMetadataOffsets,"NEW org.apache.druid.indexing.kafka.KafkaDataSourceMetadata(SeekableStreamSequenceNumbers<Integer,Long>)",0
+KafkaSupervisorTest,testBadMetadataOffsets,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.DataSourceMetadata>.andReturn(DataSourceMetadata),0
+KafkaSupervisorTest,testBadMetadataOffsets,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.DataSourceMetadata>.anyTimes(),0
+KafkaSupervisorTest,testBadMetadataOffsets,MOCK org.easymock.EasyMockSupport.replayAll(),0
+KafkaSupervisorTest,testBadMetadataOffsets,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.start(),1
+KafkaSupervisorTest,testBadMetadataOffsets,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.runInternal(),1
+KafkaSupervisorTest,testBadMetadataOffsets,TEST org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorTest.TestableKafkaSupervisor.getStateManager(),2
+KafkaSupervisorTest,testBadMetadataOffsets,org.apache.druid.indexing.overlord.supervisor.SupervisorStateManager.getExceptionEvents(),2
+KafkaSupervisorTest,testBadMetadataOffsets,org.apache.druid.indexing.overlord.supervisor.SupervisorStateManager.ExceptionEvent.getExceptionClass(),2
+KafkaSupervisorTest,testBadMetadataOffsets,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

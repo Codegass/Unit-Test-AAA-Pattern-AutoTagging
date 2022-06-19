@@ -1,0 +1,28 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.EasyMock.reset(Object[]),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.EasyMock.expect(Object),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.EasyMock.expect(Object),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.EasyMock.expect(Object),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.EasyMock.expect(String),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.EasyMock.expect(String),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.EasyMock.expect(String),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.EasyMock.expect(String),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,MOCK org.easymock.EasyMock.replay(Object[]),0
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,"org.apache.druid.server.QueryResource.doPost(InputStream, String, HttpServletRequest)",1
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+QueryResourceTest,testGoodQueryWithNullAcceptHeader,ASSERT org.junit.Assert.assertNotNull(Object),2

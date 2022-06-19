@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PaloAltoResourceTest,shutdownGuestNetwork,"TEST com.cloud.network.resource.MockablePaloAltoResource.setMockContext(HashMap<String,String>)",0
+PaloAltoResourceTest,shutdownGuestNetwork,"com.cloud.network.resource.PaloAltoResource.configure(String, Map<String,Object>)",0
+PaloAltoResourceTest,shutdownGuestNetwork,"NEW com.cloud.agent.api.to.IpAddressTO(long, String, boolean, boolean, boolean, String, String, String, String, Integer, boolean)",0
+PaloAltoResourceTest,shutdownGuestNetwork,NEW com.cloud.agent.api.routing.IpAssocCommand(IpAddressTO[]),0
+PaloAltoResourceTest,shutdownGuestNetwork,"com.cloud.agent.api.routing.NetworkElementCommand.setAccessDetail(String, String)",0
+PaloAltoResourceTest,shutdownGuestNetwork,"com.cloud.agent.api.routing.NetworkElementCommand.setAccessDetail(String, String)",0
+PaloAltoResourceTest,shutdownGuestNetwork,"com.cloud.agent.api.routing.NetworkElementCommand.setAccessDetail(String, String)",0
+PaloAltoResourceTest,shutdownGuestNetwork,com.cloud.network.resource.PaloAltoResource.executeRequest(Command),1
+PaloAltoResourceTest,shutdownGuestNetwork,com.cloud.agent.api.Answer.getResult(),2
+PaloAltoResourceTest,shutdownGuestNetwork,ASSERT org.junit.Assert.assertTrue(boolean),2

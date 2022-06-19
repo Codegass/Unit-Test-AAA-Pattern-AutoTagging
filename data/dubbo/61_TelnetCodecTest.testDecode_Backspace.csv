@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TelnetCodecTest,testDecode_Backspace,               org.apache.dubbo.common.URL.getAddress(),0
+TelnetCodecTest,testDecode_Backspace,"               org.apache.dubbo.common.URL.addParameter(String, String)",0
+TelnetCodecTest,testDecode_Backspace,"               org.apache.dubbo.common.URL.addParameter(String, String)",0
+TelnetCodecTest,testDecode_Backspace,               NEW org.apache.dubbo.remoting.codec.AbstractMockChannel(URL),0
+TelnetCodecTest,testDecode_Backspace,          TEST org.apache.dubbo.remoting.codec.TelnetCodecTest.objectToByte(Object),0
+TelnetCodecTest,testDecode_Backspace,          org.apache.dubbo.remoting.buffer.ChannelBuffers.wrappedBuffer(byte[]),0
+TelnetCodecTest,testDecode_Backspace,"          org.apache.dubbo.remoting.Codec2.decode(Channel, ChannelBuffer)",1
+TelnetCodecTest,testDecode_Backspace,"          ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+TelnetCodecTest,testDecode_Backspace,          TEST org.apache.dubbo.remoting.codec.AbstractMockChannel.getReceivedMessage(),2
+TelnetCodecTest,testDecode_Backspace,"          ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+TelnetCodecTest,testDecode_Backspace,"TEST org.apache.dubbo.remoting.codec.TelnetCodecTest.join(byte[], byte[])",2
+TelnetCodecTest,testDecode_Backspace,"TEST org.apache.dubbo.remoting.codec.TelnetCodecTest.testDecode_assertEquals(Object, Object, Object)",2
+TelnetCodecTest,testDecode_Backspace,"TEST org.apache.dubbo.remoting.codec.TelnetCodecTest.testDecode_assertEquals(Object, Object, Object)",2

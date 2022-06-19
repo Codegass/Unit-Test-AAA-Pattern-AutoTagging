@@ -1,0 +1,2 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ApplicationLoadBalancerTest,deleteNonExistingLoadBalancer,org.apache.cloudstack.network.lb.ApplicationLoadBalancerManagerImpl.deleteApplicationLoadBalancer(long),1

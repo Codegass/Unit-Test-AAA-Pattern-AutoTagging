@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RegistryDirectoryTest,test_Constructor_WithErrorParam,"NEW org.apache.dubbo.registry.integration.RegistryDirectory(Class, URL)",1
+RegistryDirectoryTest,test_Constructor_WithErrorParam,ASSERT org.junit.jupiter.api.Assertions.fail(),2
+RegistryDirectoryTest,test_Constructor_WithErrorParam,"NEW org.apache.dubbo.registry.integration.RegistryDirectory(Class, URL)",1
+RegistryDirectoryTest,test_Constructor_WithErrorParam,ASSERT org.junit.jupiter.api.Assertions.fail(),2
+RegistryDirectoryTest,test_Constructor_WithErrorParam,org.apache.dubbo.common.URL.valueOf(String),2
+RegistryDirectoryTest,test_Constructor_WithErrorParam,"NEW org.apache.dubbo.registry.integration.RegistryDirectory(Class, URL)",1
+RegistryDirectoryTest,test_Constructor_WithErrorParam,ASSERT org.junit.jupiter.api.Assertions.fail(),2

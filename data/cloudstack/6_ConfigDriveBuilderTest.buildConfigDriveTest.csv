@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigDriveBuilderTest,buildConfigDriveTest,TEST org.apache.cloudstack.storage.configdrive.ConfigDriveBuilderTest.getWriteVmMetadataMethod(),0
+ConfigDriveBuilderTest,buildConfigDriveTest,"org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.buildConfigDrive(List<String[]>, String, String)",1
+ConfigDriveBuilderTest,buildConfigDriveTest,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConfigDriveBuilderTest,buildConfigDriveTest,org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.writeVendorAndNetworkEmptyJsonFile(File),0
+ConfigDriveBuilderTest,buildConfigDriveTest,"org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.writeVmMetadata(List<String[]>, String, File)",0
+ConfigDriveBuilderTest,buildConfigDriveTest,org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.linkUserData(String),0
+ConfigDriveBuilderTest,buildConfigDriveTest,"org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.generateAndRetrieveIsoAsBase64Iso(String, String, String)",0

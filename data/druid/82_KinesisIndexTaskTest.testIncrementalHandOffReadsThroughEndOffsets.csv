@@ -1,0 +1,216 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,               NEW com.fasterxml.jackson.databind.ObjectMapper(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.jbl(String, String, String, String, String, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>(String, String, String, List<byte[]>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMockSupport.mock(Class<KinesisRecordSupplier>),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.assign(Set<StreamPartition<String>>),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getEarliestSequenceNumber(StreamPartition<String>),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.expect(String),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.anyString(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"org.apache.druid.indexing.kinesis.KinesisRecordSupplier.seek(StreamPartition<String>, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.anyLong(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.poll(long),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"MOCK org.easymock.EasyMock.expect(List<OrderedPartitionableRecord<String,String>>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>>>.andReturn(List<OrderedPartitionableRecord<String,String>>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>>>.once()",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>>>.andReturn(List<OrderedPartitionableRecord<String,String>>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>>>.once()",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.close(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.IExpectationSetters<java.lang.Object>.once(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMockSupport.mock(Class<KinesisRecordSupplier>),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.assign(Set<StreamPartition<String>>),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getEarliestSequenceNumber(StreamPartition<String>),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.expect(String),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.anyString(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"org.apache.druid.indexing.kinesis.KinesisRecordSupplier.seek(StreamPartition<String>, String)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.anyLong(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.poll(long),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"MOCK org.easymock.EasyMock.expect(List<OrderedPartitionableRecord<String,String>>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>>>.andReturn(List<OrderedPartitionableRecord<String,String>>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>>>.once()",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>>>.andReturn(List<OrderedPartitionableRecord<String,String>>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.seekablestream.common.OrderedPartitionableRecord<java.lang.String,java.lang.String>>>.once()",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.close(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.IExpectationSetters<java.lang.Object>.once(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMockSupport.replayAll(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>, Set<String>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"NEW org.apache.druid.indexing.kinesis.KinesisIndexTaskIOConfig(int, String, SeekableStreamStartSequenceNumbers<String,String>, SeekableStreamEndSequenceNumbers<String,String>, Boolean, DateTime, DateTime, InputFormat, String, Integer, Integer, String, String, boolean)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     NEW org.joda.time.Period(Object),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.kinesis.KinesisIndexTaskTuningConfig(Integer, Long, Integer, Long, Period, File, Integer, IndexSpec, IndexSpec, Boolean, Boolean, Long, Boolean, Boolean, Integer, Integer, Integer, Integer, Integer, SegmentWriteOutMediumFactory, Boolean, Integer, Integer, Integer, Period)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getPartitionSequenceNumberMap(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,               org.apache.druid.segment.indexing.DataSchema.getDataSource(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,               org.apache.druid.segment.indexing.DataSchema.getTimestampSpec(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,               org.apache.druid.segment.indexing.DataSchema.getDimensionsSpec(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,               org.apache.druid.segment.indexing.DataSchema.getAggregators(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,               org.apache.druid.segment.indexing.DataSchema.getGranularitySpec(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,               org.apache.druid.segment.indexing.DataSchema.getTransformSpec(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,               org.apache.druid.segment.indexing.DataSchema.getParserMap(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"               NEW org.apache.druid.segment.indexing.DataSchema(String, TimestampSpec, DimensionsSpec, AggregatorFactory[], GranularitySpec, TransformSpec, Map<String,Object>, ObjectMapper)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"          NEW org.apache.druid.indexing.kinesis.KinesisIndexTaskTest.TestableKinesisIndexTask(String, TaskResource, DataSchema, KinesisIndexTaskTuningConfig, KinesisIndexTaskIOConfig, Map<String,Object>, ChatHandlerProvider, AuthorizerMapper, RowIngestionMetersFactory, AWSCredentialsConfig, AppenderatorsManager)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,TEST org.apache.druid.indexing.kinesis.KinesisIndexTaskTest.TestableKinesisIndexTask.setLocalSupplier(KinesisRecordSupplier),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"TEST org.apache.druid.indexing.kinesis.KinesisIndexTaskTest.createTask(String, DataSchema, KinesisIndexTaskIOConfig, Map<String,Object>)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,TEST org.apache.druid.indexing.kinesis.KinesisIndexTaskTest.TestableKinesisIndexTask.setLocalSupplier(KinesisRecordSupplier),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.indexing.common.task.Task.getId(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.indexer.TaskStatus.running(String),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     org.apache.druid.indexing.overlord.TaskStorage.insert(Task, TaskStatus)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.indexing.overlord.TaskLockbox.syncFromStorage(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.indexing.common.TaskToolboxFactory.build(Task),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     org.apache.druid.indexing.common.task.Task.addToContext(String, Object)",0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.indexing.common.TaskToolbox.getTaskActionClient(),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.indexing.common.task.Task.isReady(TaskActionClient),0
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.indexing.common.task.Task.run(TaskToolbox),1
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     org.apache.druid.java.util.common.logger.Logger.warn(Throwable, String, Object[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.indexing.common.task.Task.getId(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     org.apache.druid.indexer.TaskStatus.failure(String, String)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.runTask(Task),1
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getStatus(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.pause(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getStatus(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getCurrentOffsets(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers.getPartitionSequenceNumberMap(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.setEndOffsets(Map<String,String>, boolean)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.setEndOffsets(Map<String,String>, boolean)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getStatus(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getStatus(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getCurrentOffsets(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers.getPartitionSequenceNumberMap(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getCurrentOffsets(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers.getPartitionSequenceNumberMap(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.setEndOffsets(Map<String,String>, boolean)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.setEndOffsets(Map<String,String>, boolean)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexer.TaskStatus.getStatusCode(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexer.TaskStatus.getStatusCode(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,MOCK org.easymock.EasyMockSupport.verifyAll(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getRowIngestionMeters(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.common.stats.RowIngestionMeters.getProcessed(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getRowIngestionMeters(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.common.stats.RowIngestionMeters.getUnparseable(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getRowIngestionMeters(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,org.apache.druid.indexing.common.stats.RowIngestionMeters.getThrownAway(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     NEW org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.SegmentDescriptorAndExpectedDim1Values(String, int, List<String>[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.sdd(String, int, List<String>[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.sdd(String, int, List<String>[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.sdd(String, int, List<String>[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.sdd(String, int, List<String>[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.sdd(String, int, List<String>[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.sdd(String, int, List<String>[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.sdd(String, int, List<String>[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.segment.indexing.DataSchema.getDataSource(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     org.apache.druid.indexing.overlord.IndexerMetadataStorageCoordinator.retrieveAllUsedSegments(String, Segments)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.timeline.DataSegment.toDescriptor(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.java.util.common.guava.Comparators.intervalsByStartThenEnd(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.SegmentDescriptorAndExpectedDim1Values.getSegmentDescriptor(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.getSegmentDirectory(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.segment.indexing.DataSchema.getDataSource(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.query.SegmentDescriptor.getVersion(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.query.SegmentDescriptor.getVersion(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"          org.apache.druid.utils.CompressionUtils.unzip(ByteSource, File, Predicate<Throwable>, boolean)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          NEW org.apache.druid.indexing.common.TestUtils(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          TEST org.apache.druid.indexing.common.TestUtils.getTestIndexIO(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.segment.IndexIO.loadIndex(File),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.segment.ColumnSelector.getColumnHolder(String),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.segment.column.ColumnHolder.getColumn(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.segment.column.DictionaryEncodedColumn.length(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.segment.column.DictionaryEncodedColumn.getSingleValueRow(int),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,          org.apache.druid.segment.column.DictionaryEncodedColumn.lookupName(int),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     ASSERT org.assertj.core.api.Assertions.assertThat(List<? extends String>),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"NEW org.apache.druid.indexing.kinesis.KinesisDataSourceMetadata(SeekableStreamSequenceNumbers<String,String>)",2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.segment.indexing.DataSchema.getDataSource(),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,     org.apache.druid.indexing.overlord.IndexerMetadataStorageCoordinator.retrieveDataSourceMetadata(String),2
+KinesisIndexTaskTest,testIncrementalHandOffReadsThroughEndOffsets,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

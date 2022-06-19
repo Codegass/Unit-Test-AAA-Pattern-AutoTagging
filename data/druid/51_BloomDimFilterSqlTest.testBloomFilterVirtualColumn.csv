@@ -1,0 +1,106 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,TEST org.apache.druid.sql.calcite.BaseCalciteQueryTest.cannotVectorize(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,NEW org.apache.druid.query.filter.BloomKFilter(long),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.query.filter.BloomKFilter.addString(String),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.guice.BloomFilterSerializersModule.bloomKFilterToBytes(BloomKFilter),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.java.util.common.StringUtils.encodeBase64String(byte[]),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.query.Druids.newTimeseriesQueryBuilder(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.dataSource(String),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.sql.calcite.filtration.Filtration.eternity(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,     NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.intervals(QuerySegmentSpec),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.granularity(Granularity),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,          NEW org.apache.druid.math.expr.ExprMacroTable(List<ExprMacro>),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"     NEW org.apache.druid.segment.virtual.ExpressionVirtualColumn(String, String, ValueType, ExprMacroTable)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.virtualColumns(VirtualColumn[]),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.query.filter.BloomKFilterHolder.fromBloomKFilter(BloomKFilter),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"NEW org.apache.druid.query.filter.BloomDimFilter(String, BloomKFilterHolder, ExtractionFn)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.filters(DimFilter),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,TEST org.apache.druid.sql.calcite.BaseCalciteQueryTest.aggregators(AggregatorFactory[]),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.aggregators(List<AggregatorFactory>),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"org.apache.druid.query.Druids.TimeseriesQueryBuilder.context(Map<String,Object>)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.build(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,          TEST org.apache.druid.sql.calcite.util.QueryLogHook.clearRecordedQueries(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,               org.apache.druid.query.Query.getDataSource(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                    org.apache.druid.query.QueryDataSource.getQuery(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                    TEST org.apache.druid.sql.calcite.BaseCalciteQueryTest.recursivelyOverrideContext(Query<Object>, Map<String,Object>)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                    NEW org.apache.druid.query.QueryDataSource(Query),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                    org.apache.druid.query.DataSource.getChildren(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                    org.apache.druid.query.DataSource.withChildren(List<DataSource>),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                    TEST org.apache.druid.sql.calcite.BaseCalciteQueryTest.recursivelyOverrideContext(DataSource, Map<String,Object>)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,               org.apache.druid.query.Query.withDataSource(DataSource),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"               org.apache.druid.query.Query.withOverriddenContext(Map<String,Object>)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,          ExpectedException org.junit.rules.ExpectedException.expect(Class<? extends Throwable>),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,          ExpectedException org.junit.rules.ExpectedException.expectMessage(String),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                    NEW org.apache.druid.sql.calcite.planner.DruidOperatorTable(Set<SqlAggregator>, Set<SqlOperatorConversion>)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,               TEST org.apache.druid.sql.calcite.util.CalciteTests.createExprMacroTable(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,               TEST org.apache.druid.sql.calcite.util.CalciteTests.getJsonMapper(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                    NEW org.apache.druid.sql.calcite.view.InProcessViewManager(Escalator, DruidViewMacroFactory)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                                   NEW anonymous(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                                   NEW org.apache.druid.query.DefaultGenericQueryMetricsFactory(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                                   NEW org.apache.druid.java.util.emitter.core.NoopEmitter(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                                   NEW org.apache.druid.java.util.emitter.service.ServiceEmitter(String, String, Emitter)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                                   NEW org.apache.druid.server.log.NoopRequestLogger(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                                   NEW org.apache.druid.server.security.AuthConfig(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                                   NEW org.apache.druid.server.QueryLifecycleFactory(QueryToolChestWarehouse, QuerySegmentWalker, GenericQueryMetricsFactory, ServiceEmitter, RequestLogger, AuthConfig, AuthorizerMapper)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                                   org.apache.druid.query.QueryRunnerFactoryConglomerate.findFactory(QueryType),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                                   org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              TEST org.apache.druid.sql.calcite.util.SpecificSegmentsQuerySegmentWalker.getSegments(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              NEW org.apache.druid.sql.calcite.util.TestServerInventoryView(List<DataSegment>),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              MOCK org.easymock.EasyMock.createMock(Class<?>),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              NEW anonymous(SegmentLoader),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                                        NEW org.apache.druid.segment.join.InlineJoinableFactory(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                                        NEW org.apache.druid.segment.join.LookupJoinableFactory(LookupExtractorFactoryContainerProvider),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                                             NEW org.apache.druid.segment.join.MapJoinableFactory(Map<Class<? extends DataSource>,JoinableFactory>)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                              NEW org.apache.druid.sql.calcite.schema.DruidSchema(QueryLifecycleFactory, TimelineServerView, SegmentManager, JoinableFactory, PlannerConfig, ViewManager, Escalator)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              org.apache.druid.sql.calcite.schema.DruidSchema.start(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              org.apache.druid.sql.calcite.schema.DruidSchema.awaitInitialization(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              org.apache.druid.sql.calcite.schema.DruidSchema.stop(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                              NEW org.apache.druid.server.DruidNode(String, String, boolean, Integer, Integer, boolean, boolean)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                              NEW org.apache.druid.sql.calcite.util.CalciteTests.FakeDruidNodeDiscovery(Map<NodeRole,DruidNode>)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                              NEW org.apache.druid.sql.calcite.util.CalciteTests.FakeDruidNodeDiscoveryProvider(Map<NodeRole,FakeDruidNodeDiscovery>)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              NEW org.apache.druid.sql.calcite.util.CalciteTests.FakeHttpClient(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                              NEW org.apache.druid.discovery.DruidLeaderClient(HttpClient, DruidNodeDiscoveryProvider, NodeRole, String, DiscoverySelector<Server>)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              TEST org.apache.druid.sql.calcite.util.CalciteTests.getJsonMapper(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              NEW org.apache.druid.server.coordinator.BytesAccumulatingResponseHandler(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              NEW org.apache.druid.client.BrokerSegmentWatcherConfig(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                              NEW org.apache.druid.sql.calcite.schema.MetadataSegmentView(DruidLeaderClient, ObjectMapper, BytesAccumulatingResponseHandler, BrokerSegmentWatcherConfig, PlannerConfig)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              TEST org.apache.druid.sql.calcite.util.SpecificSegmentsQuerySegmentWalker.getSegments(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              NEW org.apache.druid.sql.calcite.util.TestServerInventoryView(List<DataSegment>),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              NEW org.apache.druid.sql.calcite.util.CalciteTests.FakeServerInventoryView(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              TEST org.apache.druid.sql.calcite.util.CalciteTests.getJsonMapper(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                              NEW org.apache.druid.sql.calcite.schema.SystemSchema(DruidSchema, MetadataSegmentView, TimelineServerView, InventoryView, AuthorizerMapper, DruidLeaderClient, DruidLeaderClient, DruidNodeDiscoveryProvider, ObjectMapper)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                         NEW org.apache.druid.sql.calcite.schema.InformationSchema(SchemaPlus, AuthorizerMapper, String)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                              NEW org.apache.druid.sql.calcite.schema.LookupSchema(LookupExtractorFactoryContainerProvider),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                         NEW anonymous(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                         NEW org.apache.druid.query.DefaultGenericQueryMetricsFactory(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                         NEW org.apache.druid.java.util.emitter.core.NoopEmitter(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                         NEW org.apache.druid.java.util.emitter.service.ServiceEmitter(String, String, Emitter)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                         NEW org.apache.druid.server.log.NoopRequestLogger(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                         NEW org.apache.druid.server.security.AuthConfig(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                         NEW org.apache.druid.server.QueryLifecycleFactory(QueryToolChestWarehouse, QuerySegmentWalker, GenericQueryMetricsFactory, ServiceEmitter, RequestLogger, AuthConfig, AuthorizerMapper)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                         org.apache.druid.query.QueryRunnerFactoryConglomerate.findFactory(QueryType),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                         org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                    NEW org.apache.druid.sql.calcite.planner.PlannerFactory(SchemaPlus, QueryLifecycleFactory, DruidOperatorTable, ExprMacroTable, PlannerConfig, AuthorizerMapper, ObjectMapper, String)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                         NEW org.apache.druid.java.util.emitter.core.NoopEmitter(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                         NEW org.apache.druid.java.util.emitter.service.ServiceEmitter(String, String, Emitter)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                         NEW org.apache.druid.server.log.NoopRequestLogger(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                         NEW org.apache.druid.sql.SqlLifecycleFactory(PlannerFactory, ServiceEmitter, RequestLogger)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                    org.apache.druid.sql.calcite.view.InProcessViewManager.createView(PlannerFactory, String, String)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                    org.apache.druid.sql.calcite.view.InProcessViewManager.createView(PlannerFactory, String, String)",0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                    org.apache.druid.sql.SqlLifecycleFactory.factorize(),0
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"                    org.apache.druid.sql.SqlLifecycle.runSimple(String, Map<String,Object>, List<SqlParameter>, AuthenticationResult)",1
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,                    org.apache.druid.java.util.common.guava.Sequence.toList(),2
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"               org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"               ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"               ASSERT org.junit.Assert.assertArrayEquals(String, Object[], Object[])",2
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,               TEST org.apache.druid.sql.calcite.util.QueryLogHook.getRecordedQueries(),2
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"               ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+BloomDimFilterSqlTest,testBloomFilterVirtualColumn,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2

@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"NEW org.apache.druid.java.util.common.io.smoosh.FileSmoosher(File, int)",0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"org.apache.druid.java.util.common.io.smoosh.FileSmoosher.addWithSmooshedWriter(String, long)",0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,ASSERT junit.framework.Assert.fail(String),0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,ASSERT junit.framework.Assert.assertNotNull(Object),0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"ASSERT junit.framework.Assert.assertEquals(int, int)",0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"org.apache.druid.java.util.common.io.smoosh.FileSmoosher.makeChunkFile(File, int)",0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"ASSERT junit.framework.Assert.assertEquals(Object, Object)",0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,org.apache.druid.java.util.common.io.smoosh.FileSmoosher.metaFile(File),0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"ASSERT junit.framework.Assert.assertEquals(Object, Object)",0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,org.apache.druid.java.util.common.io.smoosh.SmooshedFileMapper.load(File),0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,org.apache.druid.java.util.common.io.smoosh.SmooshedFileMapper.mapFile(String),1
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"ASSERT junit.framework.Assert.assertEquals(int, int)",2
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"ASSERT junit.framework.Assert.assertEquals(int, int)",2
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"ASSERT junit.framework.Assert.assertEquals(int, int)",2
+SmooshedFileMapperTest,testBehaviorWhenReportedSizesLargeAndExceptionIgnored,"ASSERT junit.framework.Assert.assertEquals(int, int)",2

@@ -1,0 +1,27 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,NEW org.apache.druid.indexing.overlord.ObjectMetadata(Object),0
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,NEW org.apache.druid.indexing.overlord.ObjectMetadata(Object),0
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,"org.apache.druid.metadata.IndexerSQLMetadataStorageCoordinator.announceHistoricalSegments(Set<DataSegment>, DataSourceMetadata, DataSourceMetadata)",1
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,org.apache.druid.indexing.overlord.SegmentPublishResult.ok(Set<DataSegment>),2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,TEST org.apache.druid.metadata.TestDerbyConnector.DerbyConnectorRule.metadataTablesConfigSupplier(),2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,org.apache.druid.metadata.MetadataStorageTablesConfig.getSegmentsTable(),2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,org.apache.druid.timeline.DataSegment.getId(),2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,org.apache.druid.timeline.SegmentId.toString(),2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,"org.apache.druid.metadata.SQLMetadataConnector.lookup(String, String, String, String)",2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,"ASSERT org.junit.Assert.assertArrayEquals(byte[], byte[])",2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,NEW org.apache.druid.indexing.overlord.ObjectMetadata(Object),0
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,NEW org.apache.druid.indexing.overlord.ObjectMetadata(Object),0
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,"org.apache.druid.metadata.IndexerSQLMetadataStorageCoordinator.announceHistoricalSegments(Set<DataSegment>, DataSourceMetadata, DataSourceMetadata)",1
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,org.apache.druid.indexing.overlord.SegmentPublishResult.ok(Set<DataSegment>),2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,TEST org.apache.druid.metadata.TestDerbyConnector.DerbyConnectorRule.metadataTablesConfigSupplier(),2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,org.apache.druid.metadata.MetadataStorageTablesConfig.getSegmentsTable(),2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,org.apache.druid.timeline.DataSegment.getId(),2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,org.apache.druid.timeline.SegmentId.toString(),2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,"org.apache.druid.metadata.SQLMetadataConnector.lookup(String, String, String, String)",2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,"ASSERT org.junit.Assert.assertArrayEquals(byte[], byte[])",2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,NEW org.apache.druid.indexing.overlord.ObjectMetadata(Object),0
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,org.apache.druid.metadata.IndexerSQLMetadataStorageCoordinator.retrieveDataSourceMetadata(String),1
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexerSQLMetadataStorageCoordinatorTest,testTransactionalAnnounceSuccess,"ASSERT org.junit.Assert.assertEquals(long, long)",2

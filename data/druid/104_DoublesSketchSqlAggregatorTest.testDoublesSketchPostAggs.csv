@@ -1,0 +1,46 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,org.apache.druid.sql.SqlLifecycleFactory.factorize(),0
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"org.apache.druid.sql.SqlLifecycle.runSimple(String, Map<String,Object>, List<SqlParameter>, AuthenticationResult)",1
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,org.apache.druid.java.util.common.guava.Sequence.toList(),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"ASSERT org.junit.Assert.assertArrayEquals(Object[], Object[])",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,TEST org.apache.druid.sql.calcite.util.QueryLogHook.getRecordedQueries(),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,org.apache.druid.query.Druids.newTimeseriesQueryBuilder(),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.dataSource(String),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,org.apache.druid.sql.calcite.filtration.Filtration.eternity(),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.intervals(QuerySegmentSpec),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.granularity(Granularity),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.segment.virtual.ExpressionVirtualColumn(String, String, ValueType, ExprMacroTable)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.virtualColumns(VirtualColumn[]),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchAggregatorFactory(String, String, Integer)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchAggregatorFactory(String, String, Integer)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchAggregatorFactory(String, String, Integer)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.aggregators(List<AggregatorFactory>),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"     NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchToQuantilePostAggregator(String, PostAggregator, double)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.ExpressionPostAggregator(String, String, String, ExprMacroTable)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchToQuantilePostAggregator(String, PostAggregator, double)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.ExpressionPostAggregator(String, String, String, ExprMacroTable)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchToQuantilePostAggregator(String, PostAggregator, double)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.ExpressionPostAggregator(String, String, String, ExprMacroTable)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchToQuantilePostAggregator(String, PostAggregator, double)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.ExpressionPostAggregator(String, String, String, ExprMacroTable)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchToQuantilesPostAggregator(String, PostAggregator, double[])",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchToHistogramPostAggregator(String, PostAggregator, double[], Integer)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchToRankPostAggregator(String, PostAggregator, double)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchToCDFPostAggregator(String, PostAggregator, double[])",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchToStringPostAggregator(String, PostAggregator)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.postAggregators(PostAggregator[]),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"org.apache.druid.query.Druids.TimeseriesQueryBuilder.context(Map<String,Object>)",2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,org.apache.druid.query.Druids.TimeseriesQueryBuilder.build(),2
+DoublesSketchSqlAggregatorTest,testDoublesSketchPostAggs,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

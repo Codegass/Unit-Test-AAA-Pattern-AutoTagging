@@ -1,0 +1,2 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ApplicationLoadBalancerTest,searchForNonExistingLoadBalancer,org.apache.cloudstack.network.lb.ApplicationLoadBalancerManagerImpl.getApplicationLoadBalancer(long),1

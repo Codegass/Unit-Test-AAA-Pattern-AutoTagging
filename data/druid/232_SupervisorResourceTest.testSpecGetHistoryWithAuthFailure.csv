@@ -1,0 +1,74 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.SupervisorResourceTest.TestSupervisorSpec(String, Supervisor, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.NoopSupervisorSpec(String, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.SupervisorResourceTest.TestSupervisorSpec(String, Supervisor, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.SupervisorResourceTest.TestSupervisorSpec(String, Supervisor, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.NoopSupervisorSpec(String, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.SupervisorResourceTest.TestSupervisorSpec(String, Supervisor, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.SupervisorResourceTest.TestSupervisorSpec(String, Supervisor, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.NoopSupervisorSpec(String, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.SupervisorResourceTest.TestSupervisorSpec(String, Supervisor, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.NoopSupervisorSpec(String, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.SupervisorResourceTest.TestSupervisorSpec(String, Supervisor, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.NoopSupervisorSpec(String, List<String>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,org.apache.druid.indexing.overlord.TaskMaster.getSupervisorManager(),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.EasyMock.expect(Optional<SupervisorManager>),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.supervisor.SupervisorManager>>.andReturn(Optional<SupervisorManager>),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.supervisor.SupervisorManager>>.times(int),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,org.apache.druid.indexing.overlord.supervisor.SupervisorManager.getSupervisorHistory(),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"MOCK org.easymock.EasyMock.expect(Map<String,List<VersionedSupervisorSpec>>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"MOCK org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.util.List<org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec>>>.andReturn(Map<String,List<VersionedSupervisorSpec>>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"MOCK org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.util.List<org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec>>>.times(int)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.EasyMock.expect(Object),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.IExpectationSetters<java.lang.Object>.atLeastOnce(),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.EasyMock.expect(Object),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.IExpectationSetters<java.lang.Object>.atLeastOnce(),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.EasyMock.expect(Object),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.server.security.AuthenticationResult(String, String, String, Map<String,Object>)",0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.IExpectationSetters<java.lang.Object>.atLeastOnce(),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.EasyMock.expectLastCall(),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.EasyMockSupport.replayAll(),0
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"org.apache.druid.indexing.overlord.supervisor.SupervisorResource.specGetHistory(HttpServletRequest, String)",1
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"org.apache.druid.indexing.overlord.supervisor.SupervisorResource.specGetHistory(HttpServletRequest, String)",1
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"org.apache.druid.indexing.overlord.supervisor.SupervisorResource.specGetHistory(HttpServletRequest, String)",1
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.SupervisorResourceTest.TestSupervisorSpec(String, Supervisor, List<String>)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.NoopSupervisorSpec(String, List<String>)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.NoopSupervisorSpec(String, List<String>)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.SupervisorResourceTest.TestSupervisorSpec(String, Supervisor, List<String>)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.NoopSupervisorSpec(String, List<String>)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"NEW org.apache.druid.indexing.overlord.supervisor.VersionedSupervisorSpec(SupervisorSpec, String)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"org.apache.druid.indexing.overlord.supervisor.SupervisorResource.specGetHistory(HttpServletRequest, String)",1
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.EasyMockSupport.resetAll(),2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,org.apache.druid.indexing.overlord.TaskMaster.getSupervisorManager(),2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.EasyMock.expect(Optional<SupervisorManager>),2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.supervisor.SupervisorManager>>.andReturn(Optional<SupervisorManager>),2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.EasyMockSupport.replayAll(),2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"org.apache.druid.indexing.overlord.supervisor.SupervisorResource.specGetHistory(HttpServletRequest, String)",1
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,MOCK org.easymock.EasyMockSupport.verifyAll(),2
+SupervisorResourceTest,testSpecGetHistoryWithAuthFailure,"ASSERT org.junit.Assert.assertEquals(long, long)",2

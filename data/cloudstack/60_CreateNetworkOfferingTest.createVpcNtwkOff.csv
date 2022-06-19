@@ -1,0 +1,2 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CreateNetworkOfferingTest,createVpcNtwkOff,"com.cloud.configuration.ConfigurationManager.createNetworkOffering(String, String, TrafficType, String, boolean, Availability, Integer, Map<Service,Set<Provider>>, boolean, GuestType, boolean, Long, boolean, Map<Service,Map<Capability,String>>, boolean, boolean, Map<Detail,String>, boolean, Integer, boolean, Boolean, List<Long>, List<Long>)",1

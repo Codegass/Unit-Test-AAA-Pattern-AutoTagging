@@ -1,0 +1,24 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,     org.apache.druid.segment.join.lookup.LookupJoinable.wrap(LookupExtractor),0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,     org.apache.druid.math.expr.ExprMacroTable.nil(),0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"     org.apache.druid.segment.join.JoinConditionAnalysis.forExpression(String, String, ExprMacroTable)",0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"     NEW org.apache.druid.segment.join.JoinableClause(String, Joinable, JoinType, JoinConditionAnalysis)",0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"NEW org.apache.druid.query.filter.SelectorDimFilter(String, String, ExtractionFn)",0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,org.apache.druid.query.filter.SelectorDimFilter.toFilter(),0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"     NEW org.apache.druid.segment.join.filter.JoinFilterPreAnalysisKey(JoinFilterRewriteConfig, List<JoinableClause>, VirtualColumns, Filter)",0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,     org.apache.druid.segment.join.filter.JoinFilterAnalyzer.computeJoinFilterPreAnalysis(JoinFilterPreAnalysisKey),0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,org.apache.druid.segment.QueryableIndexSegment.asStorageAdapter(),0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"NEW org.apache.druid.segment.join.HashJoinSegmentStorageAdapter(StorageAdapter, List<JoinableClause>, JoinFilterPreAnalysis)",0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"org.apache.druid.segment.join.HashJoinSegmentStorageAdapter.makeCursors(Filter, Interval, VirtualColumns, Granularity, boolean, QueryMetrics<?>)",0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"          org.apache.druid.java.util.common.guava.Sequence.flatMap(Function<? super Cursor,? extends Sequence<? extends Object[]>>)",1
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,          org.apache.druid.java.util.common.guava.Sequence.toList(),2
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,          org.apache.druid.segment.Cursor.getColumnSelectorFactory(),0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"          org.apache.druid.segment.ColumnProcessors.makeProcessor(String, ColumnProcessorFactory<Supplier<Object>>, ColumnSelectorFactory)",0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,          org.apache.druid.segment.Cursor.isDone(),0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,          org.apache.druid.segment.Cursor.advance(),0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,          org.apache.druid.java.util.common.guava.Sequences.simple(Iterable<Object[]>),0
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"     org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"     ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,"     ASSERT org.junit.Assert.assertArrayEquals(String, Object[], Object[])",2
+HashJoinSegmentStorageAdapterTest,test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,org.apache.druid.common.config.NullHandling.sqlCompatible(),2

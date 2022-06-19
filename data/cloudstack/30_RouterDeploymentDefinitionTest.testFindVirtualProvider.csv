@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RouterDeploymentDefinitionTest,testFindVirtualProvider,com.cloud.network.NetworkModel.getPhysicalNetworkId(Network),0
+RouterDeploymentDefinitionTest,testFindVirtualProvider,"com.cloud.network.dao.PhysicalNetworkServiceProviderDao.findByServiceProvider(long, String)",0
+RouterDeploymentDefinitionTest,testFindVirtualProvider,com.cloud.network.dao.PhysicalNetworkServiceProviderVO.getId(),0
+RouterDeploymentDefinitionTest,testFindVirtualProvider,"com.cloud.network.dao.VirtualRouterProviderDao.findByNspIdAndType(long, Type)",0
+RouterDeploymentDefinitionTest,testFindVirtualProvider,org.cloud.network.router.deployment.RouterDeploymentDefinition.findVirtualProvider(),1
+RouterDeploymentDefinitionTest,testFindVirtualProvider,org.cloud.network.router.deployment.RouterDeploymentDefinition.getVirtualProvider(),2
+RouterDeploymentDefinitionTest,testFindVirtualProvider,"ASSERT junit.framework.Assert.assertEquals(String, Object, Object)",2

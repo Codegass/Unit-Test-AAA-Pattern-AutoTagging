@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PullDependenciesTest,testPullDependencies_root_hadoop_dependencies_dir_bad_state,@EXPECTED java.lang.Class<java.lang.RuntimeException>,0
+PullDependenciesTest,testPullDependencies_root_hadoop_dependencies_dir_bad_state,ASSERT org.junit.Assert.assertTrue(boolean),2
+PullDependenciesTest,testPullDependencies_root_hadoop_dependencies_dir_bad_state,ASSERT org.junit.Assert.assertTrue(boolean),2
+PullDependenciesTest,testPullDependencies_root_hadoop_dependencies_dir_bad_state,org.apache.druid.cli.PullDependencies.run(),1

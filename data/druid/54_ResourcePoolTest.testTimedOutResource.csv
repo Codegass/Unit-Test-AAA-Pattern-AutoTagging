@@ -1,0 +1,36 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+ResourcePoolTest,testTimedOutResource,"NEW org.apache.druid.java.util.http.client.pool.ResourcePoolConfig(int, long)",0
+ResourcePoolTest,testTimedOutResource,"NEW org.apache.druid.java.util.http.client.pool.ResourcePool<java.lang.String,java.lang.String>(ResourceFactory<String,String>, ResourcePoolConfig)",1
+ResourcePoolTest,testTimedOutResource,org.apache.druid.java.util.http.client.pool.ResourceFactory.generate(String),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.EasyMock.expect(String),0
+0,testTimedOutResource,NEW org.apache.druid.java.util.http.client.pool.ResourcePoolTest.StringIncrementingAnswer(String),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.IExpectationSetters<java.lang.String>.andAnswer(IAnswer<? extends String>),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.IExpectationSetters<java.lang.String>.times(int),0
+ResourcePoolTest,testTimedOutResource,org.apache.druid.java.util.http.client.pool.ResourceFactory.isGood(String),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.EasyMock.expect(Boolean),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.times(int),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.EasyMock.replay(Object[]),0
+ResourcePoolTest,testTimedOutResource,org.apache.druid.java.util.http.client.pool.ResourcePool.take(String),0
+ResourcePoolTest,testTimedOutResource,org.apache.druid.java.util.http.client.pool.ResourceContainer.get(),0
+ResourcePoolTest,testTimedOutResource,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.EasyMock.verify(Object[]),2
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.EasyMock.reset(Object[]),2
+ResourcePoolTest,testTimedOutResource,org.apache.druid.java.util.http.client.pool.ResourceContainer.returnResource(),0
+ResourcePoolTest,testTimedOutResource,org.apache.druid.java.util.http.client.pool.ResourceFactory.generate(String),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.EasyMock.expect(String),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.IExpectationSetters<java.lang.String>.times(int),0
+ResourcePoolTest,testTimedOutResource,org.apache.druid.java.util.http.client.pool.ResourceFactory.close(String),0
+ResourcePoolTest,testTimedOutResource,org.apache.druid.java.util.http.client.pool.ResourceFactory.isGood(String),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.EasyMock.expect(Boolean),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.times(int),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.EasyMock.replay(Object[]),0
+ResourcePoolTest,testTimedOutResource,org.apache.druid.java.util.http.client.pool.ResourcePool.take(String),0
+ResourcePoolTest,testTimedOutResource,org.apache.druid.java.util.http.client.pool.ResourceContainer.get(),0
+ResourcePoolTest,testTimedOutResource,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ResourcePoolTest,testTimedOutResource,org.apache.druid.java.util.http.client.pool.ResourceContainer.returnResource(),0
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.EasyMock.verify(Object[]),2
+ResourcePoolTest,testTimedOutResource,MOCK org.easymock.EasyMock.reset(Object[]),0

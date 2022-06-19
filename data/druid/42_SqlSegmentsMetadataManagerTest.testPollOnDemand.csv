@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.metadata.SqlSegmentsMetadataManager.getDataSourcesSnapshot(),0
+SqlSegmentsMetadataManagerTest,testPollOnDemand,ASSERT org.junit.Assert.assertNull(Object),0
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.metadata.SqlSegmentsMetadataManager.useLatestSnapshotIfWithinDelay(),1
+SqlSegmentsMetadataManagerTest,testPollOnDemand,ASSERT org.junit.Assert.assertFalse(boolean),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,ASSERT org.junit.Assert.assertNull(Object),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.metadata.SqlSegmentsMetadataManager.forceOrWaitOngoingDatabasePoll(),1
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.metadata.SqlSegmentsMetadataManager.isPollingDatabasePeriodically(),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,ASSERT org.junit.Assert.assertFalse(boolean),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,ASSERT org.junit.Assert.assertTrue(boolean),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.metadata.SqlSegmentsMetadataManager.getLatestDatabasePoll(),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.metadata.SqlSegmentsMetadataManager.getDataSourcesSnapshot(),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.metadata.SqlSegmentsMetadataManager.retrieveAllDataSourceNames(),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.client.DataSourcesSnapshot.getDataSourcesWithAllUsedSegments(),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.client.ImmutableDruidDataSource.getName(),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.client.DataSourcesSnapshot.getDataSource(String),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.client.ImmutableDruidDataSource.getSegments(),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,org.apache.druid.client.DataSourcesSnapshot.iterateAllUsedSegmentsInSnapshot(),2
+SqlSegmentsMetadataManagerTest,testPollOnDemand,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

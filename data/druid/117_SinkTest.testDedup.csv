@@ -1,0 +1,41 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SinkTest,testDedup,"NEW org.apache.druid.data.input.impl.TimestampSpec(String, String, DateTime)",0
+SinkTest,testDedup,"NEW org.apache.druid.segment.indexing.granularity.UniformGranularitySpec(Granularity, Granularity, List<Interval>)",0
+SinkTest,testDedup,"NEW org.apache.druid.segment.indexing.DataSchema(String, TimestampSpec, DimensionsSpec, AggregatorFactory[], GranularitySpec, TransformSpec)",0
+SinkTest,testDedup,NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+SinkTest,testDedup,org.apache.druid.java.util.common.Intervals.of(String),0
+SinkTest,testDedup,org.apache.druid.java.util.common.DateTimes.nowUtc(),0
+SinkTest,testDedup,NEW org.joda.time.Period(Object),0
+SinkTest,testDedup,"NEW org.apache.druid.segment.indexing.RealtimeTuningConfig(Integer, Long, Period, Period, File, VersioningPolicy, RejectionPolicyFactory, Integer, ShardSpec, IndexSpec, IndexSpec, Boolean, int, int, Boolean, Long, Long, SegmentWriteOutMediumFactory, String)",0
+SinkTest,testDedup,org.apache.druid.segment.indexing.RealtimeTuningConfig.getShardSpec(),0
+SinkTest,testDedup,org.apache.druid.segment.indexing.RealtimeTuningConfig.getMaxRowsInMemory(),0
+SinkTest,testDedup,org.apache.druid.segment.indexing.RealtimeTuningConfig.getMaxBytesInMemory(),0
+SinkTest,testDedup,org.apache.druid.segment.indexing.TuningConfigs.getMaxBytesInMemoryOrDefault(long),0
+SinkTest,testDedup,org.apache.druid.segment.indexing.RealtimeTuningConfig.isReportParseExceptions(),0
+SinkTest,testDedup,org.apache.druid.segment.indexing.RealtimeTuningConfig.getDedupColumn(),0
+SinkTest,testDedup,"NEW org.apache.druid.segment.realtime.plumber.Sink(Interval, DataSchema, ShardSpec, String, int, long, boolean, String)",0
+SinkTest,testDedup,org.apache.druid.java.util.common.DateTimes.of(String),0
+SinkTest,testDedup,"NEW org.apache.druid.data.input.MapBasedInputRow(DateTime, List<String>, Map<String,Object>)",0
+SinkTest,testDedup,"org.apache.druid.segment.realtime.plumber.Sink.add(InputRow, boolean)",1
+SinkTest,testDedup,org.apache.druid.segment.incremental.IncrementalIndexAddResult.getRowCount(),2
+SinkTest,testDedup,ASSERT org.junit.Assert.assertTrue(boolean),2
+SinkTest,testDedup,org.apache.druid.java.util.common.DateTimes.of(String),0
+SinkTest,testDedup,"NEW org.apache.druid.data.input.MapBasedInputRow(DateTime, List<String>, Map<String,Object>)",0
+SinkTest,testDedup,"org.apache.druid.segment.realtime.plumber.Sink.add(InputRow, boolean)",1
+SinkTest,testDedup,org.apache.druid.segment.incremental.IncrementalIndexAddResult.getRowCount(),2
+SinkTest,testDedup,ASSERT org.junit.Assert.assertTrue(boolean),2
+SinkTest,testDedup,org.apache.druid.java.util.common.DateTimes.of(String),0
+SinkTest,testDedup,"NEW org.apache.druid.data.input.MapBasedInputRow(DateTime, List<String>, Map<String,Object>)",0
+SinkTest,testDedup,"org.apache.druid.segment.realtime.plumber.Sink.add(InputRow, boolean)",1
+SinkTest,testDedup,org.apache.druid.segment.incremental.IncrementalIndexAddResult.getRowCount(),2
+SinkTest,testDedup,ASSERT org.junit.Assert.assertTrue(boolean),2
+SinkTest,testDedup,org.apache.druid.java.util.common.DateTimes.of(String),0
+SinkTest,testDedup,"NEW org.apache.druid.data.input.MapBasedInputRow(DateTime, List<String>, Map<String,Object>)",0
+SinkTest,testDedup,"org.apache.druid.segment.realtime.plumber.Sink.add(InputRow, boolean)",1
+SinkTest,testDedup,org.apache.druid.segment.incremental.IncrementalIndexAddResult.getRowCount(),2
+SinkTest,testDedup,ASSERT org.junit.Assert.assertTrue(boolean),2
+SinkTest,testDedup,org.apache.druid.java.util.common.DateTimes.of(String),0
+SinkTest,testDedup,"NEW org.apache.druid.data.input.MapBasedInputRow(DateTime, List<String>, Map<String,Object>)",0
+SinkTest,testDedup,"org.apache.druid.segment.realtime.plumber.Sink.add(InputRow, boolean)",1
+SinkTest,testDedup,org.apache.druid.segment.incremental.IncrementalIndexAddResult.getRowCount(),2
+SinkTest,testDedup,ASSERT org.junit.Assert.assertTrue(boolean),2

@@ -1,0 +1,37 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MemoryOpenHashTableTest,testInsertRepeatedKeys,"     org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.bucketSize(int, int)",0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,"     org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.memoryNeeded(int, int)",0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,"     NEW org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable(WritableMemory, int, int, int, int)",0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,"org.apache.druid.query.groupby.epinephelinae.collection.HashTableUtils.hashMemory(Memory, long, int)",0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,"org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.findBucket(int, Memory, int)",0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.canInsertNewBucket(),0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,ASSERT org.junit.Assert.assertTrue(boolean),0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,"org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.initBucket(int, Memory, int)",1
+MemoryOpenHashTableTest,testInsertRepeatedKeys,org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.bucketMemoryPosition(int),0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.bucketValueOffset(),0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.memory(),0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.bucketMemoryPosition(int),0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.bucketValueOffset(),0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.memory(),0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.memory(),0
+MemoryOpenHashTableTest,testInsertRepeatedKeys,TEST org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTableTest.expectedKey(int),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,TEST org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTableTest.expectedValue(int),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,TEST org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTableTest.expectedKey(int),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,TEST org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTableTest.expectedValue(int),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,TEST org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTableTest.expectedKey(int),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,TEST org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTableTest.expectedValue(int),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,     org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.size(),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,"     ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,          org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.bucketIterator(),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,          org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.memory(),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,          org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.bucketMemoryPosition(int),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,          org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.bucketSize(),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,          org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.keySize(),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,          org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.bucketKeyOffset(),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,          org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.keySize(),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,          org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.valueSize(),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,          org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.bucketValueOffset(),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,          org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTable.valueSize(),2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,"          NEW org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTableTest.ByteBufferPair(ByteBuffer, ByteBuffer)",2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,"     ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+MemoryOpenHashTableTest,testInsertRepeatedKeys,"     NEW org.apache.druid.query.groupby.epinephelinae.collection.MemoryOpenHashTableTest.ByteBufferPair(ByteBuffer, ByteBuffer)",2

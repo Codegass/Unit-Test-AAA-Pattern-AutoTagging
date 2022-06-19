@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ParserTest,testLiteralArraysExplicitLongParseException,ExpectedException org.junit.rules.ExpectedException.expect(Class<? extends Throwable>),0
+ParserTest,testLiteralArraysExplicitLongParseException,ExpectedException org.junit.rules.ExpectedException.expectMessage(String),0
+ParserTest,testLiteralArraysExplicitLongParseException,     org.apache.druid.math.expr.ExprMacroTable.nil(),0
+ParserTest,testLiteralArraysExplicitLongParseException,"     org.apache.druid.math.expr.Parser.parse(String, ExprMacroTable)",1
+ParserTest,testLiteralArraysExplicitLongParseException,"     org.apache.druid.math.expr.Parser.withMap(Map<String,?>)",2
+ParserTest,testLiteralArraysExplicitLongParseException,     org.apache.druid.math.expr.Expr.eval(ObjectBinding),2
+ParserTest,testLiteralArraysExplicitLongParseException,     org.apache.druid.math.expr.ExprEval.value(),2
+ParserTest,testLiteralArraysExplicitLongParseException,"     ASSERT org.junit.Assert.assertArrayEquals(String, Object[], Object[])",2
+ParserTest,testLiteralArraysExplicitLongParseException,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ParserTest,testLiteralArraysExplicitLongParseException,     org.apache.druid.math.expr.ExprMacroTable.nil(),2
+ParserTest,testLiteralArraysExplicitLongParseException,"     org.apache.druid.math.expr.Parser.parse(String, ExprMacroTable, boolean)",2
+ParserTest,testLiteralArraysExplicitLongParseException,     org.apache.druid.math.expr.Expr.stringify(),2
+ParserTest,testLiteralArraysExplicitLongParseException,     org.apache.druid.math.expr.ExprMacroTable.nil(),2
+ParserTest,testLiteralArraysExplicitLongParseException,"     org.apache.druid.math.expr.Parser.parse(String, ExprMacroTable)",1
+ParserTest,testLiteralArraysExplicitLongParseException,"     ASSERT org.junit.Assert.assertArrayEquals(String, Object[], Object[])",2
+ParserTest,testLiteralArraysExplicitLongParseException,"     org.apache.druid.math.expr.Parser.withMap(Map<String,?>)",2
+ParserTest,testLiteralArraysExplicitLongParseException,     org.apache.druid.math.expr.Expr.eval(ObjectBinding),2
+ParserTest,testLiteralArraysExplicitLongParseException,     org.apache.druid.math.expr.ExprEval.value(),2
+ParserTest,testLiteralArraysExplicitLongParseException,     org.apache.druid.math.expr.Expr.stringify(),2
+ParserTest,testLiteralArraysExplicitLongParseException,     org.apache.druid.math.expr.Expr.stringify(),2
+ParserTest,testLiteralArraysExplicitLongParseException,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2

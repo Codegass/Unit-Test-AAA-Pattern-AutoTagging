@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,"     NEW com.cloud.agent.api.to.PortForwardingRuleTO(long, String, int, int, String, int, int, String, boolean, boolean)",0
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,"     NEW com.cloud.agent.api.to.PortForwardingRuleTO(long, String, int, int, String, int, int, String, boolean, boolean)",0
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,     NEW com.cloud.agent.api.routing.SetPortForwardingRulesCommand(List<? extends PortForwardingRuleTO>),0
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,"     com.cloud.agent.api.routing.NetworkElementCommand.setAccessDetail(String, String)",0
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,     com.cloud.agent.api.routing.SetPortForwardingRulesCommand.getAnswersCount(),0
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,"     ASSERT org.junit.Assert.assertEquals(long, long)",0
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,com.cloud.agent.resource.virtualnetwork.VirtualRoutingResource.executeRequest(NetworkElementCommand),1
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,ASSERT org.junit.Assert.assertTrue(boolean),2
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,com.cloud.agent.api.routing.GroupAnswer.getResults(),2
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,com.cloud.agent.api.Answer.getResult(),2
+VirtualRoutingResourceTest,testSetPortForwardingRulesCommand,ASSERT org.junit.Assert.assertTrue(boolean),2

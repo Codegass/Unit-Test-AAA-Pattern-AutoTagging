@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ApolloDynamicConfigurationTest,testGetRule,          ASSERT org.junit.jupiter.api.Assertions.fail(String),0
+ApolloDynamicConfigurationTest,testGetRule,          ASSERT org.junit.jupiter.api.Assertions.fail(String),0
+ApolloDynamicConfigurationTest,testGetRule,NEW org.apache.dubbo.configcenter.support.apollo.ApolloDynamicConfiguration(URL),0
+ApolloDynamicConfigurationTest,testGetRule,"org.apache.dubbo.configcenter.support.apollo.ApolloDynamicConfiguration.getConfig(String, String, long)",1
+ApolloDynamicConfigurationTest,testGetRule,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ApolloDynamicConfigurationTest,testGetRule,"org.apache.dubbo.configcenter.support.apollo.ApolloDynamicConfiguration.getConfig(String, String, long)",1
+ApolloDynamicConfigurationTest,testGetRule,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2

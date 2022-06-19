@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,"NEW org.apache.druid.segment.realtime.appenderator.AppenderatorTester(int, long, boolean)",0
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,TEST org.apache.druid.segment.realtime.appenderator.AppenderatorTester.getAppenderator(),0
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,NEW anonymous(),0
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,org.apache.druid.segment.realtime.appenderator.Appenderator.startJob(),1
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,     org.apache.druid.java.util.common.DateTimes.of(String),0
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,"     NEW org.apache.druid.data.input.MapBasedInputRow(long, List<String>, Map<String,Object>)",0
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,"org.apache.druid.segment.realtime.appenderator.Appenderator.add(SegmentIdWithShardSpec, InputRow, Supplier<Committer>)",1
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,org.apache.druid.common.config.NullHandling.sqlCompatible(),0
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,org.apache.druid.segment.realtime.appenderator.AppenderatorImpl.getBytesCurrentlyInMemory(),1
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,"TEST org.apache.druid.segment.realtime.appenderator.AppenderatorTest.ir(String, String, long)",0
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,"org.apache.druid.segment.realtime.appenderator.Appenderator.add(SegmentIdWithShardSpec, InputRow, Supplier<Committer>)",1
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,org.apache.druid.segment.realtime.appenderator.AppenderatorImpl.getBytesCurrentlyInMemory(),2
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,org.apache.druid.segment.realtime.appenderator.Appenderator.close(),1
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,org.apache.druid.segment.realtime.appenderator.AppenderatorImpl.getRowsInMemory(),2
+AppenderatorTest,testMaxBytesInMemoryInMultipleSinks,"ASSERT org.junit.Assert.assertEquals(long, long)",2

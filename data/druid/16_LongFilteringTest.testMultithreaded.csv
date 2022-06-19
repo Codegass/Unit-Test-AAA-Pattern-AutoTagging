@@ -1,0 +1,239 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+LongFilteringTest,testMultithreaded,"NEW org.apache.druid.query.filter.SelectorDimFilter(String, String, ExtractionFn)",0
+LongFilteringTest,testMultithreaded,               NEW anonymous(),0
+LongFilteringTest,testMultithreaded,                                   org.apache.druid.query.filter.DimFilter.optimize(),0
+LongFilteringTest,testMultithreaded,                                   org.apache.druid.query.filter.DimFilter.toFilter(),0
+LongFilteringTest,testMultithreaded,                                   org.apache.druid.segment.filter.Filters.toCnf(Filter),0
+LongFilteringTest,testMultithreaded,"                                   org.apache.druid.segment.CursorFactory.makeCursors(Filter, Interval, VirtualColumns, Granularity, boolean, QueryMetrics<?>)",0
+LongFilteringTest,testMultithreaded,"                              org.apache.druid.java.util.common.guava.Sequences.map(Sequence<Cursor>, Function<? super Cursor,? extends List<String>>)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.Cursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,"                              NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.ColumnSelectorFactory.makeDimensionSelector(DimensionSpec),1
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.Cursor.isDone(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.DimensionSelector.getRow(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.data.IndexedInts.size(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.data.IndexedInts.get(int),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.Cursor.advance(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.java.util.common.guava.Sequence.toList(),0
+LongFilteringTest,testMultithreaded,"                         ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LongFilteringTest,testMultithreaded,                              TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+LongFilteringTest,testMultithreaded,"                                   org.apache.druid.segment.CursorFactory.makeVectorCursor(Filter, Interval, VirtualColumns, boolean, int, QueryMetrics<?>)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorCursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,"                              NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorColumnSelectorFactory.makeSingleValueDimensionSelector(DimensionSpec),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorCursor.isDone(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.SingleValueDimensionVectorSelector.getRowVector(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorCursor.advance(),0
+LongFilteringTest,testMultithreaded,"                         ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LongFilteringTest,testMultithreaded,                              TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+LongFilteringTest,testMultithreaded,                              NEW anonymous(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.filter.Filter.makeMatcher(ColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,                              TEST org.apache.druid.segment.filter.BaseFilterTest.makeCursorSequence(Filter),0
+LongFilteringTest,testMultithreaded,"                              org.apache.druid.java.util.common.guava.Sequences.map(Sequence<Cursor>, Function<? super Cursor,? extends List<String>>)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.Cursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,"                              NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.ColumnSelectorFactory.makeDimensionSelector(DimensionSpec),1
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.Cursor.isDone(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.DimensionSelector.getRow(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.data.IndexedInts.size(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.data.IndexedInts.get(int),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.Cursor.advance(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.java.util.common.guava.Sequence.toList(),0
+LongFilteringTest,testMultithreaded,"                         ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LongFilteringTest,testMultithreaded,                              TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+LongFilteringTest,testMultithreaded,                              NEW anonymous(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.filter.Filter.makeMatcher(ColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.filter.Filter.makeVectorMatcher(VectorColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.filter.Filter.canVectorizeMatcher(),0
+LongFilteringTest,testMultithreaded,                              TEST org.apache.druid.segment.filter.BaseFilterTest.makeVectorCursor(Filter),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorCursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,"                              NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorColumnSelectorFactory.makeSingleValueDimensionSelector(DimensionSpec),1
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorCursor.isDone(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.SingleValueDimensionVectorSelector.getRowVector(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorCursor.advance(),0
+LongFilteringTest,testMultithreaded,"                         ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LongFilteringTest,testMultithreaded,                              TEST org.apache.druid.segment.filter.BaseFilterTest.makeCursorSequence(Filter),0
+LongFilteringTest,testMultithreaded,"                              org.apache.druid.java.util.common.guava.Sequences.map(Sequence<Cursor>, Function<? super Cursor,? extends Aggregator>)",0
+LongFilteringTest,testMultithreaded,                              NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+LongFilteringTest,testMultithreaded,                                   org.apache.druid.query.filter.DimFilter.optimize(),0
+LongFilteringTest,testMultithreaded,"                              NEW org.apache.druid.query.aggregation.FilteredAggregatorFactory(AggregatorFactory, DimFilter)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.Cursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.aggregation.FilteredAggregatorFactory.factorize(ColumnSelectorFactory),1
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.Cursor.isDone(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.Cursor.advance(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.aggregation.Aggregator.aggregate(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.java.util.common.guava.Sequence.toList(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.aggregation.Aggregator.getLong(),0
+LongFilteringTest,testMultithreaded,"                         ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+LongFilteringTest,testMultithreaded,                              TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.filter.Filter.canVectorizeMatcher(),0
+LongFilteringTest,testMultithreaded,                              TEST org.apache.druid.segment.filter.BaseFilterTest.makeVectorCursor(Filter),0
+LongFilteringTest,testMultithreaded,                              NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+LongFilteringTest,testMultithreaded,                              TEST org.apache.druid.segment.filter.BaseFilterTest.maybeOptimize(DimFilter),0
+LongFilteringTest,testMultithreaded,"                              NEW org.apache.druid.query.aggregation.FilteredAggregatorFactory(AggregatorFactory, DimFilter)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorCursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.aggregation.FilteredAggregatorFactory.factorizeVector(VectorColumnSelectorFactory),1
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),0
+LongFilteringTest,testMultithreaded,"                              org.apache.druid.query.aggregation.VectorAggregator.init(ByteBuffer, int)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),0
+LongFilteringTest,testMultithreaded,"                              org.apache.druid.query.aggregation.VectorAggregator.init(ByteBuffer, int)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorCursor.isDone(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorCursor.advance(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,"                              org.apache.druid.query.aggregation.VectorAggregator.aggregate(ByteBuffer, int, int, int)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,"                              org.apache.druid.query.aggregation.VectorAggregator.aggregate(ByteBuffer, int, int[], int[], int)",0
+LongFilteringTest,testMultithreaded,"                              org.apache.druid.query.aggregation.VectorAggregator.get(ByteBuffer, int)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),0
+LongFilteringTest,testMultithreaded,"                              org.apache.druid.query.aggregation.VectorAggregator.get(ByteBuffer, int)",0
+LongFilteringTest,testMultithreaded,"                              NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+LongFilteringTest,testMultithreaded,"                         ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.column.RowSignature.builder(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.StorageAdapter.getAvailableDimensions(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.StorageAdapter.getAvailableMetrics(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.StorageAdapter.getColumnCapabilities(String),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.column.ColumnCapabilities.getType(),0
+LongFilteringTest,testMultithreaded,"                              org.apache.druid.segment.column.RowSignature.Builder.add(String, ValueType)",0
+LongFilteringTest,testMultithreaded,                              NEW org.apache.druid.common.guava.SettableSupplier<org.apache.druid.data.input.InputRow>(),0
+LongFilteringTest,testMultithreaded,                              TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.RowAdapters.standardRow(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.common.guava.SettableSupplier<org.apache.druid.data.input.InputRow>.get(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.column.RowSignature.Builder.build(),0
+LongFilteringTest,testMultithreaded,"                              org.apache.druid.segment.RowBasedColumnSelectorFactory.create(RowAdapter<InputRow>, Supplier<InputRow>, RowSignature, boolean)",0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.segment.VirtualColumns.wrap(ColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.filter.Filter.makeMatcher(ColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.common.guava.SettableSupplier.set(InputRow),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.query.filter.ValueMatcher.matches(),0
+LongFilteringTest,testMultithreaded,                              org.apache.druid.data.input.Row.getRaw(String),0
+LongFilteringTest,testMultithreaded,"                         ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LongFilteringTest,testMultithreaded,          ASSERT org.junit.Assert.fail(String),2
+LongFilteringTest,testMultithreaded,"NEW org.apache.druid.query.filter.InDimFilter(String, Collection<String>, ExtractionFn)",0
+LongFilteringTest,testMultithreaded,"TEST org.apache.druid.segment.filter.LongFilteringTest.assertFilterMatchesMultithreaded(DimFilter, List<String>)",0
+LongFilteringTest,testMultithreaded,"NEW org.apache.druid.query.filter.InDimFilter(String, Collection<String>, ExtractionFn)",0
+LongFilteringTest,testMultithreaded,"TEST org.apache.druid.segment.filter.LongFilteringTest.assertFilterMatchesMultithreaded(DimFilter, List<String>)",0
+LongFilteringTest,testMultithreaded,"NEW org.apache.druid.query.filter.BoundDimFilter(String, String, String, Boolean, Boolean, Boolean, ExtractionFn, StringComparator)",0
+LongFilteringTest,testMultithreaded,                    org.apache.druid.query.filter.DimFilter.optimize(),0
+LongFilteringTest,testMultithreaded,                    org.apache.druid.query.filter.DimFilter.toFilter(),0
+LongFilteringTest,testMultithreaded,                    org.apache.druid.segment.filter.Filters.toCnf(Filter),0
+LongFilteringTest,testMultithreaded,"                    org.apache.druid.segment.CursorFactory.makeCursors(Filter, Interval, VirtualColumns, Granularity, boolean, QueryMetrics<?>)",0
+LongFilteringTest,testMultithreaded,"               org.apache.druid.java.util.common.guava.Sequences.map(Sequence<Cursor>, Function<? super Cursor,? extends List<String>>)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.Cursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,"               NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.ColumnSelectorFactory.makeDimensionSelector(DimensionSpec),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.Cursor.isDone(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.DimensionSelector.getRow(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.data.IndexedInts.size(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.data.IndexedInts.get(int),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.Cursor.advance(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.java.util.common.guava.Sequence.toList(),0
+LongFilteringTest,testMultithreaded,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LongFilteringTest,testMultithreaded,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+LongFilteringTest,testMultithreaded,"                    org.apache.druid.segment.CursorFactory.makeVectorCursor(Filter, Interval, VirtualColumns, boolean, int, QueryMetrics<?>)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorCursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,"               NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorColumnSelectorFactory.makeSingleValueDimensionSelector(DimensionSpec),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorCursor.isDone(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.SingleValueDimensionVectorSelector.getRowVector(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorCursor.advance(),0
+LongFilteringTest,testMultithreaded,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LongFilteringTest,testMultithreaded,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+LongFilteringTest,testMultithreaded,               NEW anonymous(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.filter.Filter.makeMatcher(ColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeCursorSequence(Filter),0
+LongFilteringTest,testMultithreaded,"               org.apache.druid.java.util.common.guava.Sequences.map(Sequence<Cursor>, Function<? super Cursor,? extends List<String>>)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.Cursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,"               NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.ColumnSelectorFactory.makeDimensionSelector(DimensionSpec),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.Cursor.isDone(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.DimensionSelector.getRow(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.data.IndexedInts.size(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.data.IndexedInts.get(int),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.Cursor.advance(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.java.util.common.guava.Sequence.toList(),0
+LongFilteringTest,testMultithreaded,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LongFilteringTest,testMultithreaded,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+LongFilteringTest,testMultithreaded,               NEW anonymous(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.filter.Filter.makeMatcher(ColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.filter.Filter.makeVectorMatcher(VectorColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.filter.Filter.canVectorizeMatcher(),0
+LongFilteringTest,testMultithreaded,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeVectorCursor(Filter),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorCursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,"               NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorColumnSelectorFactory.makeSingleValueDimensionSelector(DimensionSpec),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorCursor.isDone(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.SingleValueDimensionVectorSelector.getRowVector(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorCursor.advance(),0
+LongFilteringTest,testMultithreaded,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LongFilteringTest,testMultithreaded,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeCursorSequence(Filter),0
+LongFilteringTest,testMultithreaded,"               org.apache.druid.java.util.common.guava.Sequences.map(Sequence<Cursor>, Function<? super Cursor,? extends Aggregator>)",0
+LongFilteringTest,testMultithreaded,               NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+LongFilteringTest,testMultithreaded,                    org.apache.druid.query.filter.DimFilter.optimize(),0
+LongFilteringTest,testMultithreaded,"               NEW org.apache.druid.query.aggregation.FilteredAggregatorFactory(AggregatorFactory, DimFilter)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.Cursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.aggregation.FilteredAggregatorFactory.factorize(ColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.Cursor.isDone(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.Cursor.advance(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.aggregation.Aggregator.aggregate(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.java.util.common.guava.Sequence.toList(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.aggregation.Aggregator.getLong(),0
+LongFilteringTest,testMultithreaded,"          ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+LongFilteringTest,testMultithreaded,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.filter.Filter.canVectorizeMatcher(),0
+LongFilteringTest,testMultithreaded,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeVectorCursor(Filter),0
+LongFilteringTest,testMultithreaded,               NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+LongFilteringTest,testMultithreaded,               TEST org.apache.druid.segment.filter.BaseFilterTest.maybeOptimize(DimFilter),0
+LongFilteringTest,testMultithreaded,"               NEW org.apache.druid.query.aggregation.FilteredAggregatorFactory(AggregatorFactory, DimFilter)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorCursor.getColumnSelectorFactory(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.aggregation.FilteredAggregatorFactory.factorizeVector(VectorColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),0
+LongFilteringTest,testMultithreaded,"               org.apache.druid.query.aggregation.VectorAggregator.init(ByteBuffer, int)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),0
+LongFilteringTest,testMultithreaded,"               org.apache.druid.query.aggregation.VectorAggregator.init(ByteBuffer, int)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorCursor.isDone(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorCursor.advance(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,"               org.apache.druid.query.aggregation.VectorAggregator.aggregate(ByteBuffer, int, int, int)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+LongFilteringTest,testMultithreaded,"               org.apache.druid.query.aggregation.VectorAggregator.aggregate(ByteBuffer, int, int[], int[], int)",0
+LongFilteringTest,testMultithreaded,"               org.apache.druid.query.aggregation.VectorAggregator.get(ByteBuffer, int)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),0
+LongFilteringTest,testMultithreaded,"               org.apache.druid.query.aggregation.VectorAggregator.get(ByteBuffer, int)",0
+LongFilteringTest,testMultithreaded,"               NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+LongFilteringTest,testMultithreaded,"          ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.column.RowSignature.builder(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.StorageAdapter.getAvailableDimensions(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.StorageAdapter.getAvailableMetrics(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.StorageAdapter.getColumnCapabilities(String),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.column.ColumnCapabilities.getType(),0
+LongFilteringTest,testMultithreaded,"               org.apache.druid.segment.column.RowSignature.Builder.add(String, ValueType)",0
+LongFilteringTest,testMultithreaded,               NEW org.apache.druid.common.guava.SettableSupplier<org.apache.druid.data.input.InputRow>(),0
+LongFilteringTest,testMultithreaded,               TEST org.apache.druid.segment.filter.BaseFilterTest.makeFilter(DimFilter),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.RowAdapters.standardRow(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.common.guava.SettableSupplier<org.apache.druid.data.input.InputRow>.get(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.column.RowSignature.Builder.build(),0
+LongFilteringTest,testMultithreaded,"               org.apache.druid.segment.RowBasedColumnSelectorFactory.create(RowAdapter<InputRow>, Supplier<InputRow>, RowSignature, boolean)",0
+LongFilteringTest,testMultithreaded,               org.apache.druid.segment.VirtualColumns.wrap(ColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.filter.Filter.makeMatcher(ColumnSelectorFactory),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.common.guava.SettableSupplier.set(InputRow),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.query.filter.ValueMatcher.matches(),0
+LongFilteringTest,testMultithreaded,               org.apache.druid.data.input.Row.getRaw(String),0
+LongFilteringTest,testMultithreaded,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2

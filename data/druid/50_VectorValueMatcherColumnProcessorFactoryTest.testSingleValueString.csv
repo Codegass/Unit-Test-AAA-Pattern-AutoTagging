@@ -1,0 +1,48 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.EasyMock.expect(Integer),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.anyTimes(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.segment.vector.VectorSizeInspector.getMaxVectorSize(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.EasyMock.expect(Integer),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.anyTimes(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.segment.DimensionDictionarySelector.getValueCardinality(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.EasyMock.expect(Integer),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.anyTimes(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.segment.DimensionDictionarySelector.nameLookupPossibleInAdvance(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.EasyMock.expect(Boolean),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.anyTimes(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.segment.DimensionDictionarySelector.idLookup(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.EasyMock.expect(IdLookup),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<org.apache.druid.segment.IdLookup>.andReturn(IdLookup),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<org.apache.druid.segment.IdLookup>.anyTimes(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.segment.IdLookup.lookupId(String),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.EasyMock.expect(Integer),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.anyTimes(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.segment.IdLookup.lookupId(String),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.EasyMock.expect(Integer),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.anyTimes(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.EasyMock.replay(Object[]),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.query.filter.vector.VectorValueMatcherColumnProcessorFactory.instance(),0
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.query.filter.vector.VectorValueMatcherColumnProcessorFactory.makeSingleValueDimensionProcessor(SingleValueDimensionVectorSelector),1
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,ASSERT org.junit.Assert.assertTrue(boolean),2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.query.filter.vector.VectorValueMatcherFactory.makeMatcher(String),2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,ASSERT org.junit.Assert.assertFalse(boolean),2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.segment.vector.VectorSizeInspector.getMaxVectorSize(),2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.query.filter.vector.VectorValueMatcherFactory.makeMatcher(String),2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,ASSERT org.junit.Assert.assertTrue(boolean),2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.segment.vector.VectorSizeInspector.getMaxVectorSize(),2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,org.apache.druid.segment.vector.VectorSizeInspector.getCurrentVectorSize(),2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+VectorValueMatcherColumnProcessorFactoryTest,testSingleValueString,MOCK org.easymock.EasyMock.verify(Object[]),2

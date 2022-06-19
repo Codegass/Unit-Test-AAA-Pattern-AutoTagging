@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SetNetworkACLCommandTest,testNetworkAclRuleOrdering,"NEW com.cloud.agent.api.to.NetworkACLTO(long, String, String, Integer, Integer, boolean, boolean, List<String>, Integer, Integer, TrafficType, boolean, int)",0
+SetNetworkACLCommandTest,testNetworkAclRuleOrdering,"NEW com.cloud.agent.api.to.NetworkACLTO(long, String, String, Integer, Integer, boolean, boolean, List<String>, Integer, Integer, TrafficType, boolean, int)",0
+SetNetworkACLCommandTest,testNetworkAclRuleOrdering,"NEW com.cloud.agent.api.to.NetworkACLTO(long, String, String, Integer, Integer, boolean, boolean, List<String>, Integer, Integer, TrafficType, boolean, int)",0
+SetNetworkACLCommandTest,testNetworkAclRuleOrdering,"NEW com.cloud.agent.api.routing.SetNetworkACLCommand(List<NetworkACLTO>, NicTO)",0
+SetNetworkACLCommandTest,testNetworkAclRuleOrdering,com.cloud.agent.api.routing.SetNetworkACLCommand.orderNetworkAclRulesByRuleNumber(List<NetworkACLTO>),1
+SetNetworkACLCommandTest,testNetworkAclRuleOrdering,com.cloud.agent.api.to.NetworkACLTO.getNumber(),2
+SetNetworkACLCommandTest,testNetworkAclRuleOrdering,"ASSERT org.junit.Assert.assertEquals(long, long)",2

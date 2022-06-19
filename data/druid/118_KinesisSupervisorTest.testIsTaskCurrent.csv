@@ -1,0 +1,71 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+KinesisSupervisorTest,testIsTaskCurrent,org.apache.druid.java.util.common.DateTimes.nowUtc(),0
+KinesisSupervisorTest,testIsTaskCurrent,org.apache.druid.java.util.common.DateTimes.nowUtc(),0
+KinesisSupervisorTest,testIsTaskCurrent,NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testIsTaskCurrent,NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testIsTaskCurrent,     NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testIsTaskCurrent,     NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testIsTaskCurrent,     NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testIsTaskCurrent,     NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testIsTaskCurrent,"     NEW org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorIOConfig(String, InputFormat, String, KinesisRegion, Integer, Integer, Period, Period, Period, Boolean, Period, Period, Period, DateTime, Integer, Integer, String, String, boolean)",0
+KinesisSupervisorTest,testIsTaskCurrent,"     NEW anonymous(HttpClient, ObjectMapper)",0
+KinesisSupervisorTest,testIsTaskCurrent,"     ASSERT org.junit.Assert.assertEquals(long, long)",0
+KinesisSupervisorTest,testIsTaskCurrent,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+KinesisSupervisorTest,testIsTaskCurrent,"     ASSERT org.junit.Assert.assertEquals(long, long)",0
+KinesisSupervisorTest,testIsTaskCurrent,     NEW org.apache.druid.server.metrics.NoopServiceEmitter(),0
+KinesisSupervisorTest,testIsTaskCurrent,     NEW org.apache.druid.server.metrics.DruidMonitorSchedulerConfig(),0
+KinesisSupervisorTest,testIsTaskCurrent,"     NEW org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorSpec(KinesisSupervisorIngestionSpec, DataSchema, KinesisSupervisorTuningConfig, KinesisSupervisorIOConfig, Map<String,Object>, Boolean, TaskStorage, TaskMaster, IndexerMetadataStorageCoordinator, KinesisIndexTaskClientFactory, ObjectMapper, ServiceEmitter, DruidMonitorSchedulerConfig, RowIngestionMetersFactory, AWSCredentialsConfig, SupervisorStateManagerConfig)",0
+KinesisSupervisorTest,testIsTaskCurrent,"     NEW org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisor(TaskStorage, TaskMaster, IndexerMetadataStorageCoordinator, KinesisIndexTaskClientFactory, ObjectMapper, KinesisSupervisorSpec, RowIngestionMetersFactory, AWSCredentialsConfig)",0
+KinesisSupervisorTest,testIsTaskCurrent,"org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.addTaskGroupToActivelyReadingTaskGroup(int, ImmutableMap<String,String>, Optional<DateTime>, Optional<DateTime>, Set<String>, Set<String>)",0
+KinesisSupervisorTest,testIsTaskCurrent,     org.apache.druid.data.input.impl.StringDimensionSchema.create(String),0
+KinesisSupervisorTest,testIsTaskCurrent,     org.apache.druid.data.input.impl.StringDimensionSchema.create(String),0
+KinesisSupervisorTest,testIsTaskCurrent,"     NEW org.apache.druid.data.input.impl.TimestampSpec(String, String, DateTime)",0
+KinesisSupervisorTest,testIsTaskCurrent,"     NEW org.apache.druid.data.input.impl.DimensionsSpec(List<DimensionSchema>, List<String>, List<SpatialDimensionSchema>)",0
+KinesisSupervisorTest,testIsTaskCurrent,"     NEW org.apache.druid.segment.indexing.granularity.UniformGranularitySpec(Granularity, Granularity, List<Interval>)",0
+KinesisSupervisorTest,testIsTaskCurrent,"     NEW org.apache.druid.segment.indexing.DataSchema(String, TimestampSpec, DimensionsSpec, AggregatorFactory[], GranularitySpec, TransformSpec)",0
+KinesisSupervisorTest,testIsTaskCurrent,     NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+KinesisSupervisorTest,testIsTaskCurrent,NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testIsTaskCurrent,"NEW org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorTuningConfig(Integer, Long, Integer, Long, Period, File, Integer, IndexSpec, IndexSpec, Boolean, Boolean, Long, Boolean, Boolean, SegmentWriteOutMediumFactory, Integer, Integer, Long, Period, Period, Integer, Integer, Integer, Integer, Integer, Boolean, Integer, Integer, Integer, Period, Period, Period)",0
+KinesisSupervisorTest,testIsTaskCurrent,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>, Set<String>)",0
+KinesisSupervisorTest,testIsTaskCurrent,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>)",0
+KinesisSupervisorTest,testIsTaskCurrent,"          NEW org.apache.druid.indexing.kinesis.KinesisIndexTaskIOConfig(int, String, SeekableStreamStartSequenceNumbers<String,String>, SeekableStreamEndSequenceNumbers<String,String>, Boolean, DateTime, DateTime, InputFormat, String, Integer, Integer, String, String, boolean)",0
+KinesisSupervisorTest,testIsTaskCurrent,          NEW org.apache.druid.segment.realtime.appenderator.DummyForInjectionAppenderatorsManager(),0
+KinesisSupervisorTest,testIsTaskCurrent,"          NEW org.apache.druid.indexing.kinesis.KinesisIndexTask(String, TaskResource, DataSchema, KinesisIndexTaskTuningConfig, KinesisIndexTaskIOConfig, Map<String,Object>, ChatHandlerProvider, AuthorizerMapper, RowIngestionMetersFactory, AWSCredentialsConfig, AppenderatorsManager)",0
+KinesisSupervisorTest,testIsTaskCurrent,     org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorTuningConfig.convertToTaskTuningConfig(),0
+KinesisSupervisorTest,testIsTaskCurrent,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>, Set<String>)",0
+KinesisSupervisorTest,testIsTaskCurrent,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>)",0
+KinesisSupervisorTest,testIsTaskCurrent,"TEST org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorTest.createKinesisIndexTask(String, int, SeekableStreamStartSequenceNumbers<String,String>, SeekableStreamEndSequenceNumbers<String,String>, DateTime, DateTime, DataSchema)",0
+KinesisSupervisorTest,testIsTaskCurrent,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>, Set<String>)",0
+KinesisSupervisorTest,testIsTaskCurrent,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>)",0
+KinesisSupervisorTest,testIsTaskCurrent,"     NEW org.apache.druid.indexing.kinesis.KinesisIndexTaskIOConfig(int, String, SeekableStreamStartSequenceNumbers<String,String>, SeekableStreamEndSequenceNumbers<String,String>, Boolean, DateTime, DateTime, InputFormat, String, Integer, Integer, String, String, boolean)",0
+KinesisSupervisorTest,testIsTaskCurrent,     NEW org.apache.druid.segment.realtime.appenderator.DummyForInjectionAppenderatorsManager(),0
+KinesisSupervisorTest,testIsTaskCurrent,"     NEW org.apache.druid.indexing.kinesis.KinesisIndexTask(String, TaskResource, DataSchema, KinesisIndexTaskTuningConfig, KinesisIndexTaskIOConfig, Map<String,Object>, ChatHandlerProvider, AuthorizerMapper, RowIngestionMetersFactory, AWSCredentialsConfig, AppenderatorsManager)",0
+KinesisSupervisorTest,testIsTaskCurrent,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>, Set<String>)",0
+KinesisSupervisorTest,testIsTaskCurrent,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>)",0
+KinesisSupervisorTest,testIsTaskCurrent,"TEST org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorTest.createKinesisIndexTask(String, int, SeekableStreamStartSequenceNumbers<String,String>, SeekableStreamEndSequenceNumbers<String,String>, DateTime, DateTime, DataSchema)",0
+KinesisSupervisorTest,testIsTaskCurrent,org.apache.druid.indexing.overlord.TaskStorage.getTask(String),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.EasyMock.expect(Optional<Task>),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.common.task.Task>>.andReturn(Optional<Task>),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.common.task.Task>>.once(),0
+KinesisSupervisorTest,testIsTaskCurrent,org.apache.druid.indexing.overlord.TaskStorage.getTask(String),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.EasyMock.expect(Optional<Task>),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.common.task.Task>>.andReturn(Optional<Task>),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.common.task.Task>>.once(),0
+KinesisSupervisorTest,testIsTaskCurrent,org.apache.druid.indexing.overlord.TaskStorage.getTask(String),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.EasyMock.expect(Optional<Task>),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.common.task.Task>>.andReturn(Optional<Task>),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.common.task.Task>>.once(),0
+KinesisSupervisorTest,testIsTaskCurrent,org.apache.druid.indexing.overlord.TaskStorage.getTask(String),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.EasyMock.expect(Optional<Task>),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.common.task.Task>>.andReturn(Optional<Task>),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.common.task.Task>>.once(),0
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.EasyMockSupport.replayAll(),0
+KinesisSupervisorTest,testIsTaskCurrent,"org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.isTaskCurrent(int, String)",1
+KinesisSupervisorTest,testIsTaskCurrent,ASSERT org.junit.Assert.assertTrue(boolean),2
+KinesisSupervisorTest,testIsTaskCurrent,"org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.isTaskCurrent(int, String)",1
+KinesisSupervisorTest,testIsTaskCurrent,ASSERT org.junit.Assert.assertFalse(boolean),2
+KinesisSupervisorTest,testIsTaskCurrent,"org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.isTaskCurrent(int, String)",1
+KinesisSupervisorTest,testIsTaskCurrent,ASSERT org.junit.Assert.assertFalse(boolean),2
+KinesisSupervisorTest,testIsTaskCurrent,"org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.isTaskCurrent(int, String)",1
+KinesisSupervisorTest,testIsTaskCurrent,ASSERT org.junit.Assert.assertFalse(boolean),2
+KinesisSupervisorTest,testIsTaskCurrent,MOCK org.easymock.EasyMockSupport.verifyAll(),2

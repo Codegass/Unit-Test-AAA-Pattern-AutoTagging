@@ -112,3 +112,4 @@ all Projects/.DS_Store
 all Projects/
 SO_vectors_200.bin
 nn.py
+metrics.ipynb

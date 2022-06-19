@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultFutureTest,timeoutSend,NEW org.apache.dubbo.remoting.handler.MockedChannel(),0
+DefaultFutureTest,timeoutSend,NEW org.apache.dubbo.remoting.exchange.Request(long),0
+DefaultFutureTest,timeoutSend,"org.apache.dubbo.remoting.exchange.support.DefaultFuture.newFuture(Channel, Request, int, ExecutorService)",0
+DefaultFutureTest,timeoutSend,"org.apache.dubbo.remoting.exchange.support.DefaultFuture.sent(Channel, Request)",1
+DefaultFutureTest,timeoutSend,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2

@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractRegistryTest,lookupTest,org.apache.dubbo.registry.support.AbstractRegistry.lookup(URL),1
+AbstractRegistryTest,lookupTest,ASSERT org.junit.jupiter.api.Assertions.fail(),2
+AbstractRegistryTest,lookupTest,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+AbstractRegistryTest,lookupTest,org.apache.dubbo.registry.support.AbstractRegistry.lookup(URL),1
+AbstractRegistryTest,lookupTest,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2
+AbstractRegistryTest,lookupTest,org.apache.dubbo.registry.support.AbstractRegistry.notify(List<URL>),0
+AbstractRegistryTest,lookupTest,org.apache.dubbo.registry.support.AbstractRegistry.lookup(URL),1
+AbstractRegistryTest,lookupTest,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

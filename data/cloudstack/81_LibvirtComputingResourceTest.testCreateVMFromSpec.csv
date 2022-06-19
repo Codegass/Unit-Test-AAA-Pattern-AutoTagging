@@ -1,0 +1,58 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+LibvirtComputingResourceTest,testCreateVMFromSpec,NEW com.cloud.hypervisor.kvm.resource.LibvirtComputingResource(),0
+LibvirtComputingResourceTest,testCreateVMFromSpec,"NEW com.cloud.agent.api.to.VirtualMachineTO(long, String, Type, int, Integer, Integer, long, long, BootloaderType, String, boolean, boolean, String)",0
+LibvirtComputingResourceTest,testCreateVMFromSpec,com.cloud.agent.api.to.VirtualMachineTO.setVncAddr(String),0
+LibvirtComputingResourceTest,testCreateVMFromSpec,com.cloud.agent.api.to.VirtualMachineTO.setUuid(String),0
+LibvirtComputingResourceTest,testCreateVMFromSpec,com.cloud.hypervisor.kvm.resource.LibvirtComputingResource.createVMFromSpec(VirtualMachineTO),1
+LibvirtComputingResourceTest,testCreateVMFromSpec,com.cloud.hypervisor.kvm.resource.LibvirtVMDef.setHvsType(String),0
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.hypervisor.kvm.resource.LibvirtVMDef.toString(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.parse(String),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.hypervisor.kvm.resource.LibvirtVMDef.getHvsType(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"          ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,          ASSERT org.junit.Assert.fail(String),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.agent.api.to.VirtualMachineTO.getName(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.agent.api.to.VirtualMachineTO.getUuid(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.agent.api.to.VirtualMachineTO.getOs(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,          ASSERT org.junit.Assert.assertNotNull(Object),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,          ASSERT org.junit.Assert.fail(String),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertNodeExists(Document, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertNodeExists(Document, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.agent.api.to.VirtualMachineTO.getVncAddr(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.agent.api.to.VirtualMachineTO.getVncPassword(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertNodeExists(Document, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.hypervisor.kvm.resource.LibvirtVMDef.ChannelDef.ChannelType.toString(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.agent.api.to.VirtualMachineTO.getName(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.agent.api.to.VirtualMachineTO.getMaxRam(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.agent.api.to.VirtualMachineTO.getMinRam(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,     com.cloud.agent.api.to.VirtualMachineTO.getCpus(),2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertNodeExists(Document, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertNodeExists(Document, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertNodeExists(Document, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2
+LibvirtComputingResourceTest,testCreateVMFromSpec,"     TEST com.cloud.hypervisor.kvm.resource.LibvirtComputingResourceTest.assertXpath(Document, String, String)",2

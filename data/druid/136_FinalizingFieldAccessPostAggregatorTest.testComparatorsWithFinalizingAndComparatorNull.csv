@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,org.apache.druid.query.aggregation.AggregatorFactory.getComparator(),0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,MOCK org.easymock.EasyMock.expect(Comparator),0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,MOCK org.easymock.IExpectationSetters<java.util.Comparator>.andReturn(Comparator),0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,MOCK org.easymock.IExpectationSetters<java.util.Comparator>.times(int),0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,MOCK org.easymock.EasyMock.replay(Object[]),0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,"     NEW org.apache.druid.query.aggregation.post.FinalizingFieldAccessPostAggregator(String, String)",1
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,"     org.apache.druid.query.aggregation.post.FinalizingFieldAccessPostAggregator.decorate(Map<String,AggregatorFactory>)",0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,"org.apache.druid.query.aggregation.post.FinalizingFieldAccessPostAggregator.compute(Map<String,Object>)",0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,"org.apache.druid.query.aggregation.post.FinalizingFieldAccessPostAggregator.compute(Map<String,Object>)",0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,"org.apache.druid.query.aggregation.post.FinalizingFieldAccessPostAggregator.compute(Map<String,Object>)",0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,"org.apache.druid.query.aggregation.post.FinalizingFieldAccessPostAggregator.compute(Map<String,Object>)",0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,org.apache.druid.query.aggregation.post.FinalizingFieldAccessPostAggregator.getComparator(),0
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,"ASSERT org.junit.Assert.assertArrayEquals(Object[], Object[])",2
+FinalizingFieldAccessPostAggregatorTest,testComparatorsWithFinalizingAndComparatorNull,MOCK org.easymock.EasyMock.verify(Object[]),2

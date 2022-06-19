@@ -1,0 +1,48 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RangeInputSplitTest,testAllFieldsWritable,NEW org.apache.accumulo.core.data.Key(CharSequence),0
+RangeInputSplitTest,testAllFieldsWritable,NEW org.apache.accumulo.core.data.Key(CharSequence),0
+RangeInputSplitTest,testAllFieldsWritable,"NEW org.apache.accumulo.core.data.Range(Key, Key)",0
+RangeInputSplitTest,testAllFieldsWritable,"NEW org.apache.accumulo.core.client.mapred.RangeInputSplit(String, String, Range, String[])",0
+RangeInputSplitTest,testAllFieldsWritable,NEW org.apache.hadoop.io.Text(String),0
+RangeInputSplitTest,testAllFieldsWritable,NEW org.apache.hadoop.io.Text(String),0
+RangeInputSplitTest,testAllFieldsWritable,"NEW org.apache.accumulo.core.util.Pair<org.apache.hadoop.io.Text,org.apache.hadoop.io.Text>(Text, Text)",0
+RangeInputSplitTest,testAllFieldsWritable,NEW org.apache.hadoop.io.Text(String),0
+RangeInputSplitTest,testAllFieldsWritable,NEW org.apache.hadoop.io.Text(String),0
+RangeInputSplitTest,testAllFieldsWritable,"NEW org.apache.accumulo.core.util.Pair<org.apache.hadoop.io.Text,org.apache.hadoop.io.Text>(Text, Text)",0
+RangeInputSplitTest,testAllFieldsWritable,"NEW org.apache.accumulo.core.client.IteratorSetting(int, Class<? extends SortedKeyValueIterator<Key,Value>>)",0
+RangeInputSplitTest,testAllFieldsWritable,"org.apache.accumulo.core.client.IteratorSetting.addOption(String, String)",0
+RangeInputSplitTest,testAllFieldsWritable,"NEW org.apache.accumulo.core.client.IteratorSetting(int, Class<? extends SortedKeyValueIterator<Key,Value>>)",0
+RangeInputSplitTest,testAllFieldsWritable,"org.apache.accumulo.core.client.IteratorSetting.addOption(String, String)",0
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.setOffline(Boolean),0
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.setIsolatedScan(Boolean),0
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.setUsesLocalIterators(Boolean),0
+RangeInputSplitTest,testAllFieldsWritable,"org.apache.accumulo.core.client.mapreduce.RangeInputSplit.setFetchedColumns(Set<Pair<Text,Text>>)",0
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.setIterators(List<IteratorSetting>),0
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.setLogLevel(Level),0
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.write(DataOutput),1
+RangeInputSplitTest,testAllFieldsWritable,NEW org.apache.accumulo.core.client.mapred.RangeInputSplit(),2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.readFields(DataInput),2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.getRange(),2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.getRange(),2
+RangeInputSplitTest,testAllFieldsWritable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.getLocations(),2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.getLocations(),2
+RangeInputSplitTest,testAllFieldsWritable,"ASSERT org.junit.Assert.assertArrayEquals(Object[], Object[])",2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.isOffline(),2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.isOffline(),2
+RangeInputSplitTest,testAllFieldsWritable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.isIsolatedScan(),2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.isOffline(),2
+RangeInputSplitTest,testAllFieldsWritable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.usesLocalIterators(),2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.usesLocalIterators(),2
+RangeInputSplitTest,testAllFieldsWritable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.getFetchedColumns(),2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.getFetchedColumns(),2
+RangeInputSplitTest,testAllFieldsWritable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.getIterators(),2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.getIterators(),2
+RangeInputSplitTest,testAllFieldsWritable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.getLogLevel(),2
+RangeInputSplitTest,testAllFieldsWritable,org.apache.accumulo.core.client.mapreduce.RangeInputSplit.getLogLevel(),2
+RangeInputSplitTest,testAllFieldsWritable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

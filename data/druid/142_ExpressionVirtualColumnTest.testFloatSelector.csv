@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ExpressionVirtualColumnTest,testFloatSelector,"org.apache.druid.segment.virtual.ExpressionVirtualColumn.makeColumnValueSelector(String, ColumnSelectorFactory)",1
+ExpressionVirtualColumnTest,testFloatSelector,org.apache.druid.common.config.NullHandling.replaceWithDefault(),2
+ExpressionVirtualColumnTest,testFloatSelector,org.apache.druid.segment.BaseFloatColumnValueSelector.getFloat(),2
+ExpressionVirtualColumnTest,testFloatSelector,"ASSERT org.junit.Assert.assertEquals(float, float, float)",2
+ExpressionVirtualColumnTest,testFloatSelector,org.apache.druid.segment.BaseNullableColumnValueSelector.isNull(),2
+ExpressionVirtualColumnTest,testFloatSelector,ASSERT org.junit.Assert.assertTrue(boolean),2
+ExpressionVirtualColumnTest,testFloatSelector,org.apache.druid.common.config.NullHandling.replaceWithDefault(),2
+ExpressionVirtualColumnTest,testFloatSelector,org.apache.druid.segment.BaseFloatColumnValueSelector.getFloat(),2
+ExpressionVirtualColumnTest,testFloatSelector,"ASSERT org.junit.Assert.assertEquals(float, float, float)",2
+ExpressionVirtualColumnTest,testFloatSelector,org.apache.druid.segment.BaseNullableColumnValueSelector.isNull(),2
+ExpressionVirtualColumnTest,testFloatSelector,ASSERT org.junit.Assert.assertTrue(boolean),2
+ExpressionVirtualColumnTest,testFloatSelector,org.apache.druid.segment.BaseFloatColumnValueSelector.getFloat(),2
+ExpressionVirtualColumnTest,testFloatSelector,"ASSERT org.junit.Assert.assertEquals(float, float, float)",2
+ExpressionVirtualColumnTest,testFloatSelector,org.apache.druid.segment.BaseFloatColumnValueSelector.getFloat(),2
+ExpressionVirtualColumnTest,testFloatSelector,"ASSERT org.junit.Assert.assertEquals(float, float, float)",2

@@ -1,0 +1,52 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.EasyMock.createMockBuilder(Class<?>),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.IMockBuilder<java.lang.Object>.withConstructor(Object[]),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.IMockBuilder<java.lang.Object>.createMock(),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.EasyMock.replay(Object[]),0
+SystemSchemaTest,testSupervisorTable,"org.apache.druid.discovery.DruidLeaderClient.makeRequest(HttpMethod, String, boolean)",0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.EasyMock.expect(Request),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.IExpectationSetters<org.apache.druid.java.util.http.client.Request>.andReturn(Request),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.IExpectationSetters<org.apache.druid.java.util.http.client.Request>.anyTimes(),0
+SystemSchemaTest,testSupervisorTable,"org.apache.druid.discovery.DruidLeaderClient.goAsync(Request, HttpResponseHandler<AppendableByteArrayInputStream,InputStream>)",0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.EasyMock.expect(ListenableFuture<InputStream>),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.IExpectationSetters<com.google.common.util.concurrent.ListenableFuture<java.io.InputStream>>.andReturn(ListenableFuture<InputStream>),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.IExpectationSetters<com.google.common.util.concurrent.ListenableFuture<java.io.InputStream>>.once(),0
+SystemSchemaTest,testSupervisorTable,org.apache.druid.server.coordinator.BytesAccumulatingResponseHandler.getStatus(),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.EasyMock.expect(Integer),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.anyTimes(),0
+SystemSchemaTest,testSupervisorTable,org.apache.druid.java.util.http.client.Request.getUrl(),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.EasyMock.expect(URL),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.IExpectationSetters<java.net.URL>.andReturn(URL),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.IExpectationSetters<java.net.URL>.anyTimes(),0
+SystemSchemaTest,testSupervisorTable,NEW org.apache.druid.java.util.http.client.io.AppendableByteArrayInputStream(),0
+SystemSchemaTest,testSupervisorTable,org.apache.druid.java.util.http.client.io.AppendableByteArrayInputStream.add(byte[]),0
+SystemSchemaTest,testSupervisorTable,org.apache.druid.java.util.http.client.io.AppendableByteArrayInputStream.done(),0
+SystemSchemaTest,testSupervisorTable,MOCK org.easymock.EasyMock.replay(Object[]),0
+SystemSchemaTest,testSupervisorTable,NEW anonymous(),0
+SystemSchemaTest,testSupervisorTable,org.apache.druid.sql.calcite.schema.SystemSchema.SupervisorsTable.scan(DataContext),1
+SystemSchemaTest,testSupervisorTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SystemSchemaTest,testSupervisorTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SystemSchemaTest,testSupervisorTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SystemSchemaTest,testSupervisorTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SystemSchemaTest,testSupervisorTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SystemSchemaTest,testSupervisorTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SystemSchemaTest,testSupervisorTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SystemSchemaTest,testSupervisorTable,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SystemSchemaTest,testSupervisorTable,     NEW org.apache.calcite.jdbc.JavaTypeFactoryImpl(),2
+SystemSchemaTest,testSupervisorTable,"     org.apache.druid.sql.calcite.table.RowSignatures.toRelDataType(RowSignature, RelDataTypeFactory)",2
+SystemSchemaTest,testSupervisorTable,     org.apache.druid.segment.column.RowSignature.size(),2
+SystemSchemaTest,testSupervisorTable,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+SystemSchemaTest,testSupervisorTable,     org.apache.druid.segment.column.RowSignature.getColumnType(int),2
+SystemSchemaTest,testSupervisorTable,"     NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+SystemSchemaTest,testSupervisorTable,     org.apache.druid.segment.column.RowSignature.getColumnName(int),2
+SystemSchemaTest,testSupervisorTable,     org.apache.druid.segment.column.RowSignature.getColumnName(int),2
+SystemSchemaTest,testSupervisorTable,     org.apache.druid.segment.column.RowSignature.getColumnName(int),2
+SystemSchemaTest,testSupervisorTable,     org.apache.druid.segment.column.RowSignature.getColumnName(int),2
+SystemSchemaTest,testSupervisorTable,"     NEW org.apache.druid.java.util.common.IAE(String, Object[])",2
+SystemSchemaTest,testSupervisorTable,     org.apache.druid.segment.column.RowSignature.getColumnName(int),2
+SystemSchemaTest,testSupervisorTable,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+SystemSchemaTest,testSupervisorTable,"     ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+SystemSchemaTest,testSupervisorTable,     org.apache.druid.segment.column.RowSignature.getColumnName(int),2
+SystemSchemaTest,testSupervisorTable,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+SystemSchemaTest,testSupervisorTable,"     ASSERT org.junit.Assert.assertTrue(String, boolean)",2

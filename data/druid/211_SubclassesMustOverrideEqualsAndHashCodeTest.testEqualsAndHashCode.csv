@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SubclassesMustOverrideEqualsAndHashCodeTest,testEqualsAndHashCode,NEW org.reflections.Reflections(Object[]),0
+SubclassesMustOverrideEqualsAndHashCodeTest,testEqualsAndHashCode,"ASSERT org.junit.Assert.assertNotSame(String, Object, Object)",2
+SubclassesMustOverrideEqualsAndHashCodeTest,testEqualsAndHashCode,ASSERT org.junit.Assert.fail(),2

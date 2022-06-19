@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CABackgroundTaskTest,testAutoRenewalDisabled,"TEST org.apache.cloudstack.ca.CABackgroundTaskTest.overrideDefaultConfigValue(ConfigKey, String, Object)",0
+CABackgroundTaskTest,testAutoRenewalDisabled,ASSERT org.junit.Assert.assertTrue(boolean),2
+CABackgroundTaskTest,testAutoRenewalDisabled,org.apache.cloudstack.ca.CAManagerImpl.CABackgroundTask.runInContext(),1
+CABackgroundTaskTest,testAutoRenewalDisabled,"org.apache.cloudstack.ca.CAManager.provisionCertificate(Host, Boolean, String)",2
+CABackgroundTaskTest,testAutoRenewalDisabled,"org.apache.cloudstack.ca.CAManager.sendAlert(Host, String, String)",2
+CABackgroundTaskTest,testAutoRenewalDisabled,org.apache.cloudstack.ca.CAManagerImpl.CABackgroundTask.runInContext(),1
+CABackgroundTaskTest,testAutoRenewalDisabled,"org.apache.cloudstack.ca.CAManager.provisionCertificate(Host, Boolean, String)",2
+CABackgroundTaskTest,testAutoRenewalDisabled,"org.apache.cloudstack.ca.CAManager.sendAlert(Host, String, String)",2

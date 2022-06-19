@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RowBasedStorageAdapterTest,test_getColumnCapabilities_complex,"     NEW org.apache.druid.segment.RowBasedStorageAdapter<java.lang.Integer>(Iterable<Integer>, RowAdapter<Integer>, RowSignature)",0
+RowBasedStorageAdapterTest,test_getColumnCapabilities_complex,org.apache.druid.segment.RowBasedStorageAdapter.getColumnCapabilities(String),1
+RowBasedStorageAdapterTest,test_getColumnCapabilities_complex,org.apache.druid.segment.column.ColumnCapabilities.getType(),2
+RowBasedStorageAdapterTest,test_getColumnCapabilities_complex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RowBasedStorageAdapterTest,test_getColumnCapabilities_complex,org.apache.druid.segment.column.ColumnCapabilities.hasMultipleValues(),2
+RowBasedStorageAdapterTest,test_getColumnCapabilities_complex,org.apache.druid.segment.column.ColumnCapabilities.Capable.isUnknown(),2
+RowBasedStorageAdapterTest,test_getColumnCapabilities_complex,ASSERT org.junit.Assert.assertTrue(boolean),2

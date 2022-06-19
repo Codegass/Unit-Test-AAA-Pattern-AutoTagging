@@ -1,0 +1,38 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VolumeServiceTest,createVolumeFromTemplate,          org.apache.cloudstack.engine.subsystem.api.storage.DataStoreProviderManager.getDataStoreProvider(String),0
+VolumeServiceTest,createVolumeFromTemplate,          org.apache.cloudstack.engine.subsystem.api.storage.DataStoreProvider.getDataStoreLifeCycle(),0
+VolumeServiceTest,createVolumeFromTemplate,"          org.apache.cloudstack.engine.subsystem.api.storage.DataStoreLifeCycle.initialize(Map<String,Object>)",0
+VolumeServiceTest,createVolumeFromTemplate,          NEW com.cloud.storage.VMTemplateVO(),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setTemplateType(TemplateType),0
+VolumeServiceTest,createVolumeFromTemplate,          TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getTemplateUrl(),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setUrl(String),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setUniqueName(String),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setName(String),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setPublicTemplate(boolean),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setFeatured(boolean),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setRequiresHvm(boolean),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setBits(int),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setFormat(ImageFormat),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setEnablePassword(boolean),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setEnableSshKey(boolean),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setGuestOSId(long),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setBootable(boolean),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setPrepopulate(boolean),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setCrossZones(boolean),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.storage.VMTemplateVO.setExtractable(boolean),0
+VolumeServiceTest,createVolumeFromTemplate,          com.cloud.utils.db.GenericDao.persist(VMTemplateVO),0
+VolumeServiceTest,createVolumeFromTemplate,     com.cloud.storage.VMTemplateVO.getId(),0
+VolumeServiceTest,createVolumeFromTemplate,"     org.apache.cloudstack.engine.subsystem.api.storage.TemplateDataFactory.getTemplate(long, DataStore)",0
+VolumeServiceTest,createVolumeFromTemplate,     com.cloud.storage.VMTemplateVO.getId(),0
+VolumeServiceTest,createVolumeFromTemplate,"     org.apache.cloudstack.engine.subsystem.api.storage.TemplateDataFactory.getTemplate(long, DataStore)",0
+VolumeServiceTest,createVolumeFromTemplate,"     ASSERT org.testng.Assert.fail(String, Throwable)",0
+VolumeServiceTest,createVolumeFromTemplate,org.apache.cloudstack.engine.subsystem.api.storage.DataObject.getId(),0
+VolumeServiceTest,createVolumeFromTemplate,org.apache.cloudstack.engine.subsystem.api.storage.DataStore.getId(),0
+VolumeServiceTest,createVolumeFromTemplate,"     NEW com.cloud.storage.VolumeVO(Type, String, long, long, long, long, ProvisioningType, long, Long, Long, String)",0
+VolumeServiceTest,createVolumeFromTemplate,     com.cloud.storage.VolumeVO.setPoolId(Long),0
+VolumeServiceTest,createVolumeFromTemplate,     com.cloud.utils.db.GenericDao.persist(VolumeVO),0
+VolumeServiceTest,createVolumeFromTemplate,com.cloud.storage.VolumeVO.getId(),0
+VolumeServiceTest,createVolumeFromTemplate,"org.apache.cloudstack.engine.subsystem.api.storage.VolumeDataFactory.getVolume(long, DataStore)",0
+VolumeServiceTest,createVolumeFromTemplate,org.apache.cloudstack.engine.subsystem.api.storage.DataStore.getId(),0
+VolumeServiceTest,createVolumeFromTemplate,"org.apache.cloudstack.engine.subsystem.api.storage.VolumeService.createVolumeFromTemplateAsync(VolumeInfo, long, TemplateInfo)",1
+VolumeServiceTest,createVolumeFromTemplate,org.apache.cloudstack.framework.async.AsyncCallFuture.get(),2

@@ -1,0 +1,228 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               TEST org.apache.druid.tests.indexer.AbstractIndexerTest.getResourceAsStream(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          NEW org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig(String, String)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.common.io.Closer.create(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.common.io.Closer.register(Closeable),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getSupervisorId(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getSupervisorId(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         org.apache.druid.java.util.common.StringUtils.urlEncode(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                         org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                         NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         org.apache.druid.java.util.http.client.response.StatusResponseHandler.getInstance(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                         org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                         NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                         org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    org.apache.druid.java.util.common.logger.Logger.warn(Throwable, String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getFullDatasourceName(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                             org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                        org.apache.druid.java.util.common.StringUtils.urlEncode(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                        org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                        NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                        org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                        org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                        org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                        org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                        NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   NEW anonymous(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                        org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                                  NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                                  org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                             org.apache.druid.java.util.common.StringUtils.urlEncode(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                             org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                                  TEST org.apache.druid.testing.clients.OverlordResourceTestClient.getIndexerURL(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                                  org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                                       NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                                       org.apache.druid.java.util.http.client.response.StatusResponseHandler.getInstance(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                                       org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                                       org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                                       org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                                       org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                                       NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                                       org.apache.druid.java.util.common.logger.Logger.error(Throwable, String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                                  org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                                  org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                                  org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                                  NEW anonymous(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                             org.apache.druid.java.util.common.StringUtils.urlEncode(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                             org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                             TEST org.apache.druid.testing.clients.OverlordResourceTestClient.getTasks(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                             org.apache.druid.java.util.common.StringUtils.urlEncode(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                             org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                             TEST org.apache.druid.testing.clients.OverlordResourceTestClient.getTasks(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   org.apache.druid.java.util.common.Intervals.of(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                        TEST org.apache.druid.testing.clients.CoordinatorResourceTestClient.getCoordinatorURL(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                        org.apache.druid.java.util.common.StringUtils.urlEncode(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                        org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                        TEST org.apache.druid.testing.clients.CoordinatorResourceTestClient.makeRequest(HttpMethod, String)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   NEW anonymous(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                             NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                             org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                                  TEST org.apache.druid.testing.clients.CoordinatorResourceTestClient.getCoordinatorURL(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                                  org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                             TEST org.apache.druid.testing.clients.CoordinatorResourceTestClient.makeRequest(HttpMethod, String)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                             org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                             NEW anonymous(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                        TEST org.apache.druid.testing.clients.CoordinatorResourceTestClient.getCoordinatorURL(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                        org.apache.druid.java.util.common.StringUtils.urlEncode(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                        org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                        TEST org.apache.druid.testing.clients.CoordinatorResourceTestClient.makeRequest(HttpMethod, String)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   TEST org.apache.druid.tests.indexer.AbstractIndexerTest.waitForAllTasksToCompleteForDataSource(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    org.apache.druid.java.util.common.logger.Logger.warn(Throwable, String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getStreamName(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    TEST org.apache.druid.testing.utils.StreamAdminClient.deleteStream(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    org.apache.druid.java.util.common.logger.Logger.warn(Throwable, String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.createStreamEventWriter(IntegrationTestingConfig, Boolean)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,          TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getStreamIngestionPropsTransform(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,          TEST org.apache.druid.tests.indexer.AbstractIndexerTest.getResourceAsString(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.common.StringUtils.toUtf8(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.http.client.Request.setContent(String, byte[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHandler.getInstance(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,          TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.setSupervisorId(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,          NEW org.apache.druid.testing.utils.JsonEventSerializer(ObjectMapper),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          NEW org.apache.druid.testing.utils.WikipediaStreamEventStreamGenerator(EventSerializer, int, long)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,          TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getStreamName(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          TEST org.apache.druid.testing.utils.StreamGenerator.run(String, StreamEventWriter, int, DateTime)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,          TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getSupervisorId(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               TEST org.apache.druid.testing.clients.OverlordResourceTestClient.getIndexerURL(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.common.StringUtils.urlEncode(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHandler.getInstance(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,          TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getStreamName(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          TEST org.apache.druid.testing.utils.StreamGenerator.run(String, StreamEventWriter, int, DateTime)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,          TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getStreamName(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          TEST org.apache.druid.testing.utils.StreamGenerator.run(String, StreamEventWriter, int, DateTime)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"          TEST org.apache.druid.testing.utils.ITRetryUtil.retryUntil(Callable<Boolean>, boolean, long, int, String)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,          TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getSupervisorId(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,          TEST org.apache.druid.testing.clients.OverlordResourceTestClient.getSupervisorStatus(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getStreamQueryPropsTransform(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               TEST org.apache.druid.tests.indexer.AbstractIndexerTest.getResourceAsString(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                         org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                         org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         NEW anonymous(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              TEST org.apache.druid.testing.utils.AbstractQueryWithResults.getQuery(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              TEST org.apache.druid.testing.utils.AbstractQueryWithResults.getQuery(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                   NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                   org.apache.druid.java.util.http.client.Request.setContent(String, byte[])",0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   org.apache.druid.java.util.http.client.response.StatusResponseHandler.getInstance(),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                   org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",1
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   TEST org.apache.druid.testing.clients.AbstractQueryResourceTestClient.getBrokerURL(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                   NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                                   NEW anonymous(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              TEST org.apache.druid.testing.utils.AbstractQueryWithResults.getExpectedResults(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              TEST org.apache.druid.testing.utils.QueryResultVerifier.compareResults(Iterable<Map<String,Object>>, Iterable<Map<String,Object>>)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              TEST org.apache.druid.testing.utils.AbstractQueryWithResults.getQuery(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              TEST org.apache.druid.testing.utils.AbstractQueryWithResults.getExpectedResults(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              org.apache.druid.java.util.common.logger.Logger.error(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              TEST org.apache.druid.testing.utils.AbstractQueryWithResults.getQuery(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    TEST org.apache.druid.testing.utils.TestQueryHelper.getQueryURL(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    TEST org.apache.druid.testing.utils.AbstractTestQueryHelper.testQueriesFromString(String, String, int)",1
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    TEST org.apache.druid.testing.utils.TestQueryHelper.getQueryURL(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    TEST org.apache.druid.testing.utils.AbstractTestQueryHelper.testQueriesFromString(String, String, int)",1
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    TEST org.apache.druid.testing.utils.TestQueryHelper.getQueryURL(String),0
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    TEST org.apache.druid.testing.utils.AbstractTestQueryHelper.testQueriesFromString(String, String, int)",1
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getSupervisorId(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    TEST org.apache.druid.testing.clients.OverlordResourceTestClient.getIndexerURL(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    org.apache.druid.java.util.common.StringUtils.urlEncode(String),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    org.apache.druid.java.util.http.client.response.StatusResponseHandler.getInstance(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.setSupervisorId(String),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    TEST org.apache.druid.testing.utils.ITRetryUtil.retryUntil(Callable<Boolean>, boolean, long, int, String)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getFullDatasourceName(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    org.apache.druid.java.util.common.StringUtils.urlEncode(String),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         TEST org.apache.druid.testing.clients.OverlordResourceTestClient.getIndexerURL(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                         org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              org.apache.druid.java.util.http.client.response.StatusResponseHandler.getInstance(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              org.apache.druid.java.util.common.logger.Logger.error(Throwable, String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                         org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         NEW anonymous(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    org.apache.druid.java.util.common.StringUtils.urlEncode(String),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    TEST org.apache.druid.testing.clients.OverlordResourceTestClient.getTasks(String),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    org.apache.druid.java.util.common.StringUtils.urlEncode(String),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                    TEST org.apache.druid.testing.clients.OverlordResourceTestClient.getTasks(String),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               TEST org.apache.druid.testing.utils.ITRetryUtil.retryUntil(Callable<Boolean>, boolean, long, int, String)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               TEST org.apache.druid.tests.indexer.AbstractStreamIndexingTest.GeneratedTestConfig.getFullDatasourceName(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                                   org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                              org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"                              NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,                         NEW anonymous(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               TEST org.apache.druid.testing.utils.TestQueryHelper.testQueriesFromString(String, int)",1
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               NEW com.github.dockerjava.netty.NettyDockerCmdExecFactory(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.common.logger.Logger.error(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,          TEST org.apache.druid.testing.IntegrationTestingConfig.getHistoricalUrl(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               TEST org.apache.druid.testing.utils.ITRetryUtil.retryUntilTrue(Callable<Boolean>, String)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHandler.getInstance(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),2
+ITKafkaIndexingServiceTransactionalSerializedTest,testKafkaIndexDataWithLosingHistorical,"               org.apache.druid.java.util.common.logger.Logger.error(Throwable, String, Object[])",2

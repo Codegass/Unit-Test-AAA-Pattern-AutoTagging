@@ -1,0 +1,82 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ReferenceBeanBuilderTest,testBuild,"org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceBeanBuilder.create(Reference, ClassLoader, ApplicationContext)",0
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.spring.beans.factory.annotation.AnnotatedInterfaceConfigBeanBuilder.interfaceClass(Class<?>),0
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.spring.beans.factory.annotation.AnnotatedInterfaceConfigBeanBuilder.build(),1
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.ReferenceConfigBase.getInterfaceClass(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.getVersion(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.getGroup(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.ReferenceConfigBase.getUrl(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.ReferenceConfigBase.getClient(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.isGeneric(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.isInjvm(),2
+ReferenceBeanBuilderTest,testBuild,ASSERT org.junit.Assert.assertNull(Object),2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.isCheck(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.isInit(),2
+ReferenceBeanBuilderTest,testBuild,ASSERT org.junit.Assert.assertFalse(boolean),2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.getLazy(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.getStubevent(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.getReconnect(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.getSticky(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getProxy(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getStub(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getCluster(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getConnections(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getCallbacks(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getOnconnect(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getOndisconnect(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getOwner(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getLayer(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractMethodConfig.getRetries(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractMethodConfig.getLoadbalance(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractMethodConfig.isAsync(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractMethodConfig.getActives(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractMethodConfig.getSent(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractMethodConfig.getMock(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractMethodConfig.getValidation(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractMethodConfig.getTimeout(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractMethodConfig.getCache(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.getFilter(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractReferenceConfig.getListener(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractMethodConfig.getParameters(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<IllegalStateException>, Executable)",2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getApplication(),2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getModule(),2
+ReferenceBeanBuilderTest,testBuild,ASSERT org.junit.Assert.assertNull(Object),2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.ReferenceConfigBase.getConsumer(),2
+ReferenceBeanBuilderTest,testBuild,ASSERT org.junit.Assert.assertNull(Object),2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getMonitor(),2
+ReferenceBeanBuilderTest,testBuild,ASSERT org.junit.Assert.assertNull(Object),2
+ReferenceBeanBuilderTest,testBuild,org.apache.dubbo.config.AbstractInterfaceConfig.getRegistries(),2
+ReferenceBeanBuilderTest,testBuild,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

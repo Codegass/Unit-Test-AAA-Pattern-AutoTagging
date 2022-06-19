@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ReferenceCountingResourceHolderTest,testResourceHandlerClearedByJVM,org.apache.druid.collections.ReferenceCountingResourceHolder.leakedResources(),0
+ReferenceCountingResourceHolderTest,testResourceHandlerClearedByJVM,     org.apache.druid.collections.ReferenceCountingResourceHolder.fromCloseable(Closeable),0
+ReferenceCountingResourceHolderTest,testResourceHandlerClearedByJVM,     NEW anonymous(),0
+ReferenceCountingResourceHolderTest,testResourceHandlerClearedByJVM,     org.apache.druid.collections.ReferenceCountingResourceHolder.leakedResources(),0
+ReferenceCountingResourceHolderTest,testResourceHandlerClearedByJVM,     org.apache.druid.collections.ReferenceCountingResourceHolder.leakedResources(),0
+ReferenceCountingResourceHolderTest,testResourceHandlerClearedByJVM,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+ReferenceCountingResourceHolderTest,testResourceHandlerClearedByJVM,     ASSERT org.junit.Assert.assertTrue(boolean),2

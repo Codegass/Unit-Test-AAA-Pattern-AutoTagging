@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RendezvousHasherTest,testBasic,NEW org.apache.druid.server.router.RendezvousHasher(),0
+RendezvousHasherTest,testBasic,org.apache.druid.java.util.common.StringUtils.toUtf8(String),0
+RendezvousHasherTest,testBasic,"org.apache.druid.server.router.RendezvousHasher.chooseNode(Set<String>, byte[])",1
+RendezvousHasherTest,testBasic,org.apache.druid.java.util.common.StringUtils.toUtf8(String),0
+RendezvousHasherTest,testBasic,"org.apache.druid.server.router.RendezvousHasher.chooseNode(Set<String>, byte[])",1
+RendezvousHasherTest,testBasic,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

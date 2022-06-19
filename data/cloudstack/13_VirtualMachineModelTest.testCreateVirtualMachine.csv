@@ -1,0 +1,27 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VirtualMachineModelTest,testCreateVirtualMachine,"NEW net.juniper.contrail.api.ApiConnectorMock(String, int)",0
+VirtualMachineModelTest,testCreateVirtualMachine,org.apache.cloudstack.network.contrail.model.ModelController.getManager(),0
+VirtualMachineModelTest,testCreateVirtualMachine,org.apache.cloudstack.network.contrail.model.ModelController.getApiAccessor(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.network.dao.NetworkVO.getName(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.network.dao.NetworkVO.getState(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.network.dao.NetworkVO.getGateway(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.network.dao.NetworkVO.getCidr(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.network.dao.NetworkVO.getPhysicalNetworkId(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.network.dao.NetworkVO.getDomainId(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.network.dao.NetworkVO.getAccountId(),0
+VirtualMachineModelTest,testCreateVirtualMachine,org.apache.cloudstack.network.contrail.management.ContrailManagerImpl.getCanonicalName(Network),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.network.dao.NetworkVO.getDomainId(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.network.dao.NetworkVO.getAccountId(),0
+VirtualMachineModelTest,testCreateVirtualMachine,"org.apache.cloudstack.network.contrail.management.ContrailManagerImpl.getProjectId(long, long)",0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.vm.VMInstanceVO.getInstanceName(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.vm.VMInstanceVO.getState(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.vm.VMInstanceVO.getDomainId(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.vm.VMInstanceVO.getAccountId(),0
+VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.utils.db.GenericDao.findById(Long),0
+VirtualMachineModelTest,testCreateVirtualMachine,org.apache.cloudstack.network.contrail.model.ModelController.getVmDao(),0
+VirtualMachineModelTest,testCreateVirtualMachine,"NEW org.apache.cloudstack.network.contrail.model.VirtualMachineModel(VMInstanceVO, String)",1
+VirtualMachineModelTest,testCreateVirtualMachine,org.apache.cloudstack.network.contrail.model.VirtualMachineModel.getInstanceName(),2
+VirtualMachineModelTest,testCreateVirtualMachine,org.apache.cloudstack.network.contrail.model.VirtualMachineModel.getUuid(),2
+VirtualMachineModelTest,testCreateVirtualMachine,"org.apache.cloudstack.network.contrail.model.VirtualMachineModel.build(ModelController, VMInstanceVO)",2
+VirtualMachineModelTest,testCreateVirtualMachine,org.apache.cloudstack.network.contrail.model.VirtualMachineModel.update(ModelController),2
+VirtualMachineModelTest,testCreateVirtualMachine,org.apache.cloudstack.network.contrail.model.VirtualMachineModel.verify(ModelController),2

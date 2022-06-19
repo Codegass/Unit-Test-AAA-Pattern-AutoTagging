@@ -1,0 +1,26 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RemoteTaskActionClientTest,testSubmitSimple,"NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",0
+RemoteTaskActionClientTest,testSubmitSimple,"org.apache.druid.discovery.DruidLeaderClient.makeRequest(HttpMethod, String)",0
+RemoteTaskActionClientTest,testSubmitSimple,MOCK org.easymock.EasyMock.expect(Request),0
+RemoteTaskActionClientTest,testSubmitSimple,MOCK org.easymock.IExpectationSetters<org.apache.druid.java.util.http.client.Request>.andReturn(Request),0
+RemoteTaskActionClientTest,testSubmitSimple,org.apache.druid.java.util.common.Intervals.of(String),0
+RemoteTaskActionClientTest,testSubmitSimple,"NEW org.apache.druid.indexing.common.TimeChunkLock(TaskLockType, String, String, Interval, String, int)",0
+RemoteTaskActionClientTest,testSubmitSimple,MOCK org.easymock.EasyMock.createNiceMock(Class<?>),0
+RemoteTaskActionClientTest,testSubmitSimple,MOCK org.easymock.EasyMock.expect(ChannelBuffer),0
+RemoteTaskActionClientTest,testSubmitSimple,NEW org.jboss.netty.buffer.BigEndianHeapChannelBuffer(int),0
+RemoteTaskActionClientTest,testSubmitSimple,MOCK org.easymock.IExpectationSetters<org.jboss.netty.buffer.ChannelBuffer>.andReturn(ChannelBuffer),0
+RemoteTaskActionClientTest,testSubmitSimple,MOCK org.easymock.EasyMock.replay(Object[]),0
+RemoteTaskActionClientTest,testSubmitSimple,"NEW org.apache.druid.java.util.http.client.response.StringFullResponseHolder(HttpResponseStatus, HttpResponse, Charset)",0
+RemoteTaskActionClientTest,testSubmitSimple,org.apache.druid.java.util.http.client.response.StringFullResponseHolder.addChunk(String),0
+RemoteTaskActionClientTest,testSubmitSimple,org.apache.druid.discovery.DruidLeaderClient.go(Request),0
+RemoteTaskActionClientTest,testSubmitSimple,MOCK org.easymock.EasyMock.expect(StringFullResponseHolder),0
+RemoteTaskActionClientTest,testSubmitSimple,MOCK org.easymock.IExpectationSetters<org.apache.druid.java.util.http.client.response.StringFullResponseHolder>.andReturn(StringFullResponseHolder),0
+RemoteTaskActionClientTest,testSubmitSimple,MOCK org.easymock.EasyMock.replay(Object[]),0
+RemoteTaskActionClientTest,testSubmitSimple,"org.apache.druid.indexing.common.task.NoopTask.create(String, int)",0
+RemoteTaskActionClientTest,testSubmitSimple,NEW org.apache.druid.indexing.common.RetryPolicyConfig(),0
+RemoteTaskActionClientTest,testSubmitSimple,NEW org.apache.druid.indexing.common.RetryPolicyFactory(RetryPolicyConfig),0
+RemoteTaskActionClientTest,testSubmitSimple,"NEW org.apache.druid.indexing.common.actions.RemoteTaskActionClient(Task, DruidLeaderClient, RetryPolicyFactory, ObjectMapper)",0
+RemoteTaskActionClientTest,testSubmitSimple,NEW org.apache.druid.indexing.common.actions.LockListAction(),0
+RemoteTaskActionClientTest,testSubmitSimple,org.apache.druid.indexing.common.actions.RemoteTaskActionClient.submit(TaskAction<List<TaskLock>>),1
+RemoteTaskActionClientTest,testSubmitSimple,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RemoteTaskActionClientTest,testSubmitSimple,MOCK org.easymock.EasyMock.verify(Object[]),2

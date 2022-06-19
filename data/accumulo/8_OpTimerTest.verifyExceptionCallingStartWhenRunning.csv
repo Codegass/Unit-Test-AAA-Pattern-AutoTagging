@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+OpTimerTest,verifyExceptionCallingStartWhenRunning,@EXPECTED java.lang.Class<java.lang.IllegalStateException>,0
+OpTimerTest,verifyExceptionCallingStartWhenRunning,NEW org.apache.accumulo.core.util.OpTimer(),0
+OpTimerTest,verifyExceptionCallingStartWhenRunning,org.apache.accumulo.core.util.OpTimer.start(),0
+OpTimerTest,verifyExceptionCallingStartWhenRunning,org.apache.accumulo.core.util.OpTimer.isRunning(),0
+OpTimerTest,verifyExceptionCallingStartWhenRunning,ASSERT org.junit.Assert.assertTrue(boolean),0
+OpTimerTest,verifyExceptionCallingStartWhenRunning,org.apache.accumulo.core.util.OpTimer.start(),1

@@ -1,0 +1,124 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CalciteQueryTest,testTopNFilterJoin,TEST org.apache.druid.sql.calcite.BaseCalciteQueryTest.cannotVectorize(),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.groupby.GroupByQuery.builder(),0
+CalciteQueryTest,testTopNFilterJoin,NEW org.apache.druid.query.TableDataSource(String),0
+CalciteQueryTest,testTopNFilterJoin,NEW org.apache.druid.query.topn.TopNQueryBuilder(),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.topn.TopNQueryBuilder.dataSource(String),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.sql.calcite.filtration.Filtration.eternity(),0
+CalciteQueryTest,testTopNFilterJoin,     NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.topn.TopNQueryBuilder.intervals(QuerySegmentSpec),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.topn.TopNQueryBuilder.granularity(Granularity),0
+CalciteQueryTest,testTopNFilterJoin,"NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.topn.TopNQueryBuilder.dimension(DimensionSpec),0
+CalciteQueryTest,testTopNFilterJoin,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.topn.TopNQueryBuilder.aggregators(AggregatorFactory[]),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.topn.TopNQueryBuilder.metric(String),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.topn.TopNQueryBuilder.threshold(int),0
+CalciteQueryTest,testTopNFilterJoin,"org.apache.druid.query.topn.TopNQueryBuilder.context(Map<String,Object>)",0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.topn.TopNQueryBuilder.build(),0
+CalciteQueryTest,testTopNFilterJoin,NEW org.apache.druid.query.QueryDataSource(Query),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.sql.calcite.expression.DruidExpression.fromColumn(String),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.sql.calcite.expression.DruidExpression.fromColumn(String),0
+CalciteQueryTest,testTopNFilterJoin,     org.apache.druid.sql.calcite.expression.DruidExpression.getExpression(),0
+CalciteQueryTest,testTopNFilterJoin,     org.apache.druid.sql.calcite.expression.DruidExpression.getExpression(),0
+CalciteQueryTest,testTopNFilterJoin,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+CalciteQueryTest,testTopNFilterJoin,          NEW org.apache.druid.math.expr.ExprMacroTable(List<ExprMacro>),0
+CalciteQueryTest,testTopNFilterJoin,"     org.apache.druid.query.JoinDataSource.create(DataSource, DataSource, String, String, JoinType, ExprMacroTable)",0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.groupby.GroupByQuery.Builder.setDataSource(DataSource),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.sql.calcite.filtration.Filtration.eternity(),0
+CalciteQueryTest,testTopNFilterJoin,TEST org.apache.druid.sql.calcite.BaseCalciteQueryTest.querySegmentSpec(Interval[]),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.groupby.GroupByQuery.Builder.setInterval(QuerySegmentSpec),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.groupby.GroupByQuery.Builder.setGranularity(Granularity),0
+CalciteQueryTest,testTopNFilterJoin,"NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+CalciteQueryTest,testTopNFilterJoin,TEST org.apache.druid.sql.calcite.BaseCalciteQueryTest.dimensions(DimensionSpec[]),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.groupby.GroupByQuery.Builder.setDimensions(List<DimensionSpec>),0
+CalciteQueryTest,testTopNFilterJoin,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+CalciteQueryTest,testTopNFilterJoin,TEST org.apache.druid.sql.calcite.BaseCalciteQueryTest.aggregators(AggregatorFactory[]),0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.groupby.GroupByQuery.Builder.setAggregatorSpecs(List<AggregatorFactory>),0
+CalciteQueryTest,testTopNFilterJoin,"NEW org.apache.druid.query.groupby.orderby.OrderByColumnSpec(String, Direction, StringComparator)",0
+CalciteQueryTest,testTopNFilterJoin,"NEW org.apache.druid.query.groupby.orderby.DefaultLimitSpec(List<OrderByColumnSpec>, Integer)",0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.groupby.GroupByQuery.Builder.setLimitSpec(LimitSpec),0
+CalciteQueryTest,testTopNFilterJoin,"org.apache.druid.query.groupby.GroupByQuery.Builder.setContext(Map<String,Object>)",0
+CalciteQueryTest,testTopNFilterJoin,org.apache.druid.query.groupby.GroupByQuery.Builder.build(),0
+CalciteQueryTest,testTopNFilterJoin,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+CalciteQueryTest,testTopNFilterJoin,          TEST org.apache.druid.sql.calcite.util.QueryLogHook.clearRecordedQueries(),0
+CalciteQueryTest,testTopNFilterJoin,               org.apache.druid.query.Query.getDataSource(),0
+CalciteQueryTest,testTopNFilterJoin,                    org.apache.druid.query.QueryDataSource.getQuery(),0
+CalciteQueryTest,testTopNFilterJoin,"                    TEST org.apache.druid.sql.calcite.BaseCalciteQueryTest.recursivelyOverrideContext(Query<Object>, Map<String,Object>)",0
+CalciteQueryTest,testTopNFilterJoin,                    NEW org.apache.druid.query.QueryDataSource(Query),0
+CalciteQueryTest,testTopNFilterJoin,                    org.apache.druid.query.DataSource.getChildren(),0
+CalciteQueryTest,testTopNFilterJoin,                    org.apache.druid.query.DataSource.withChildren(List<DataSource>),0
+CalciteQueryTest,testTopNFilterJoin,"                    TEST org.apache.druid.sql.calcite.BaseCalciteQueryTest.recursivelyOverrideContext(DataSource, Map<String,Object>)",0
+CalciteQueryTest,testTopNFilterJoin,               org.apache.druid.query.Query.withDataSource(DataSource),0
+CalciteQueryTest,testTopNFilterJoin,"               org.apache.druid.query.Query.withOverriddenContext(Map<String,Object>)",0
+CalciteQueryTest,testTopNFilterJoin,          ExpectedException org.junit.rules.ExpectedException.expect(Class<? extends Throwable>),0
+CalciteQueryTest,testTopNFilterJoin,          ExpectedException org.junit.rules.ExpectedException.expectMessage(String),0
+CalciteQueryTest,testTopNFilterJoin,"                    NEW org.apache.druid.sql.calcite.planner.DruidOperatorTable(Set<SqlAggregator>, Set<SqlOperatorConversion>)",0
+CalciteQueryTest,testTopNFilterJoin,               TEST org.apache.druid.sql.calcite.util.CalciteTests.createExprMacroTable(),0
+CalciteQueryTest,testTopNFilterJoin,               TEST org.apache.druid.sql.calcite.util.CalciteTests.getJsonMapper(),0
+CalciteQueryTest,testTopNFilterJoin,"                    NEW org.apache.druid.sql.calcite.view.InProcessViewManager(Escalator, DruidViewMacroFactory)",0
+CalciteQueryTest,testTopNFilterJoin,                                   NEW anonymous(),0
+CalciteQueryTest,testTopNFilterJoin,                                   NEW org.apache.druid.query.DefaultGenericQueryMetricsFactory(),0
+CalciteQueryTest,testTopNFilterJoin,                                   NEW org.apache.druid.java.util.emitter.core.NoopEmitter(),0
+CalciteQueryTest,testTopNFilterJoin,"                                   NEW org.apache.druid.java.util.emitter.service.ServiceEmitter(String, String, Emitter)",0
+CalciteQueryTest,testTopNFilterJoin,                                   NEW org.apache.druid.server.log.NoopRequestLogger(),0
+CalciteQueryTest,testTopNFilterJoin,                                   NEW org.apache.druid.server.security.AuthConfig(),0
+CalciteQueryTest,testTopNFilterJoin,"                                   NEW org.apache.druid.server.QueryLifecycleFactory(QueryToolChestWarehouse, QuerySegmentWalker, GenericQueryMetricsFactory, ServiceEmitter, RequestLogger, AuthConfig, AuthorizerMapper)",0
+CalciteQueryTest,testTopNFilterJoin,                                   org.apache.druid.query.QueryRunnerFactoryConglomerate.findFactory(QueryType),0
+CalciteQueryTest,testTopNFilterJoin,                                   org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+CalciteQueryTest,testTopNFilterJoin,                              TEST org.apache.druid.sql.calcite.util.SpecificSegmentsQuerySegmentWalker.getSegments(),0
+CalciteQueryTest,testTopNFilterJoin,                              NEW org.apache.druid.sql.calcite.util.TestServerInventoryView(List<DataSegment>),0
+CalciteQueryTest,testTopNFilterJoin,                              MOCK org.easymock.EasyMock.createMock(Class<?>),0
+CalciteQueryTest,testTopNFilterJoin,                              NEW anonymous(SegmentLoader),0
+CalciteQueryTest,testTopNFilterJoin,                                        NEW org.apache.druid.segment.join.InlineJoinableFactory(),0
+CalciteQueryTest,testTopNFilterJoin,                                        NEW org.apache.druid.segment.join.LookupJoinableFactory(LookupExtractorFactoryContainerProvider),0
+CalciteQueryTest,testTopNFilterJoin,"                                             NEW org.apache.druid.segment.join.MapJoinableFactory(Map<Class<? extends DataSource>,JoinableFactory>)",0
+CalciteQueryTest,testTopNFilterJoin,"                              NEW org.apache.druid.sql.calcite.schema.DruidSchema(QueryLifecycleFactory, TimelineServerView, SegmentManager, JoinableFactory, PlannerConfig, ViewManager, Escalator)",0
+CalciteQueryTest,testTopNFilterJoin,                              org.apache.druid.sql.calcite.schema.DruidSchema.start(),0
+CalciteQueryTest,testTopNFilterJoin,                              org.apache.druid.sql.calcite.schema.DruidSchema.awaitInitialization(),0
+CalciteQueryTest,testTopNFilterJoin,                              org.apache.druid.sql.calcite.schema.DruidSchema.stop(),0
+CalciteQueryTest,testTopNFilterJoin,"                              NEW org.apache.druid.server.DruidNode(String, String, boolean, Integer, Integer, boolean, boolean)",0
+CalciteQueryTest,testTopNFilterJoin,"                              NEW org.apache.druid.sql.calcite.util.CalciteTests.FakeDruidNodeDiscovery(Map<NodeRole,DruidNode>)",0
+CalciteQueryTest,testTopNFilterJoin,"                              NEW org.apache.druid.sql.calcite.util.CalciteTests.FakeDruidNodeDiscoveryProvider(Map<NodeRole,FakeDruidNodeDiscovery>)",0
+CalciteQueryTest,testTopNFilterJoin,                              NEW org.apache.druid.sql.calcite.util.CalciteTests.FakeHttpClient(),0
+CalciteQueryTest,testTopNFilterJoin,"                              NEW org.apache.druid.discovery.DruidLeaderClient(HttpClient, DruidNodeDiscoveryProvider, NodeRole, String, DiscoverySelector<Server>)",0
+CalciteQueryTest,testTopNFilterJoin,                              TEST org.apache.druid.sql.calcite.util.CalciteTests.getJsonMapper(),0
+CalciteQueryTest,testTopNFilterJoin,                              NEW org.apache.druid.server.coordinator.BytesAccumulatingResponseHandler(),0
+CalciteQueryTest,testTopNFilterJoin,                              NEW org.apache.druid.client.BrokerSegmentWatcherConfig(),0
+CalciteQueryTest,testTopNFilterJoin,"                              NEW org.apache.druid.sql.calcite.schema.MetadataSegmentView(DruidLeaderClient, ObjectMapper, BytesAccumulatingResponseHandler, BrokerSegmentWatcherConfig, PlannerConfig)",0
+CalciteQueryTest,testTopNFilterJoin,                              TEST org.apache.druid.sql.calcite.util.SpecificSegmentsQuerySegmentWalker.getSegments(),0
+CalciteQueryTest,testTopNFilterJoin,                              NEW org.apache.druid.sql.calcite.util.TestServerInventoryView(List<DataSegment>),0
+CalciteQueryTest,testTopNFilterJoin,                              NEW org.apache.druid.sql.calcite.util.CalciteTests.FakeServerInventoryView(),0
+CalciteQueryTest,testTopNFilterJoin,                              TEST org.apache.druid.sql.calcite.util.CalciteTests.getJsonMapper(),0
+CalciteQueryTest,testTopNFilterJoin,"                              NEW org.apache.druid.sql.calcite.schema.SystemSchema(DruidSchema, MetadataSegmentView, TimelineServerView, InventoryView, AuthorizerMapper, DruidLeaderClient, DruidLeaderClient, DruidNodeDiscoveryProvider, ObjectMapper)",0
+CalciteQueryTest,testTopNFilterJoin,"                         NEW org.apache.druid.sql.calcite.schema.InformationSchema(SchemaPlus, AuthorizerMapper, String)",0
+CalciteQueryTest,testTopNFilterJoin,                              NEW org.apache.druid.sql.calcite.schema.LookupSchema(LookupExtractorFactoryContainerProvider),0
+CalciteQueryTest,testTopNFilterJoin,                         NEW anonymous(),0
+CalciteQueryTest,testTopNFilterJoin,                         NEW org.apache.druid.query.DefaultGenericQueryMetricsFactory(),0
+CalciteQueryTest,testTopNFilterJoin,                         NEW org.apache.druid.java.util.emitter.core.NoopEmitter(),0
+CalciteQueryTest,testTopNFilterJoin,"                         NEW org.apache.druid.java.util.emitter.service.ServiceEmitter(String, String, Emitter)",0
+CalciteQueryTest,testTopNFilterJoin,                         NEW org.apache.druid.server.log.NoopRequestLogger(),0
+CalciteQueryTest,testTopNFilterJoin,                         NEW org.apache.druid.server.security.AuthConfig(),0
+CalciteQueryTest,testTopNFilterJoin,"                         NEW org.apache.druid.server.QueryLifecycleFactory(QueryToolChestWarehouse, QuerySegmentWalker, GenericQueryMetricsFactory, ServiceEmitter, RequestLogger, AuthConfig, AuthorizerMapper)",0
+CalciteQueryTest,testTopNFilterJoin,                         org.apache.druid.query.QueryRunnerFactoryConglomerate.findFactory(QueryType),0
+CalciteQueryTest,testTopNFilterJoin,                         org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+CalciteQueryTest,testTopNFilterJoin,"                    NEW org.apache.druid.sql.calcite.planner.PlannerFactory(SchemaPlus, QueryLifecycleFactory, DruidOperatorTable, ExprMacroTable, PlannerConfig, AuthorizerMapper, ObjectMapper, String)",0
+CalciteQueryTest,testTopNFilterJoin,                         NEW org.apache.druid.java.util.emitter.core.NoopEmitter(),0
+CalciteQueryTest,testTopNFilterJoin,"                         NEW org.apache.druid.java.util.emitter.service.ServiceEmitter(String, String, Emitter)",0
+CalciteQueryTest,testTopNFilterJoin,                         NEW org.apache.druid.server.log.NoopRequestLogger(),0
+CalciteQueryTest,testTopNFilterJoin,"                         NEW org.apache.druid.sql.SqlLifecycleFactory(PlannerFactory, ServiceEmitter, RequestLogger)",0
+CalciteQueryTest,testTopNFilterJoin,"                    org.apache.druid.sql.calcite.view.InProcessViewManager.createView(PlannerFactory, String, String)",0
+CalciteQueryTest,testTopNFilterJoin,"                    org.apache.druid.sql.calcite.view.InProcessViewManager.createView(PlannerFactory, String, String)",0
+CalciteQueryTest,testTopNFilterJoin,                    org.apache.druid.sql.SqlLifecycleFactory.factorize(),0
+CalciteQueryTest,testTopNFilterJoin,"                    org.apache.druid.sql.SqlLifecycle.runSimple(String, Map<String,Object>, List<SqlParameter>, AuthenticationResult)",1
+CalciteQueryTest,testTopNFilterJoin,                    org.apache.druid.java.util.common.guava.Sequence.toList(),2
+CalciteQueryTest,testTopNFilterJoin,"               org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+CalciteQueryTest,testTopNFilterJoin,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CalciteQueryTest,testTopNFilterJoin,"               ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+CalciteQueryTest,testTopNFilterJoin,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CalciteQueryTest,testTopNFilterJoin,"               ASSERT org.junit.Assert.assertArrayEquals(String, Object[], Object[])",2
+CalciteQueryTest,testTopNFilterJoin,               TEST org.apache.druid.sql.calcite.util.QueryLogHook.getRecordedQueries(),2
+CalciteQueryTest,testTopNFilterJoin,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CalciteQueryTest,testTopNFilterJoin,"               ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+CalciteQueryTest,testTopNFilterJoin,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+CalciteQueryTest,testTopNFilterJoin,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2

@@ -1,0 +1,81 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ProtobufInputRowParserTest,testParseFlatData,"NEW org.apache.druid.data.input.protobuf.ProtobufInputRowParser(ParseSpec, String, String)",0
+ProtobufInputRowParserTest,testParseFlatData,"NEW org.joda.time.DateTime(int, int, int, int, int, Chronology)",0
+ProtobufInputRowParserTest,testParseFlatData,          NEW org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder(),0
+ProtobufInputRowParserTest,testParseFlatData,          NEW org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.getDefaultInstance(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasEventType(),0
+ProtobufInputRowParserTest,testParseFlatData,                         TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.EventCategory.forNumber(int),0
+ProtobufInputRowParserTest,testParseFlatData,                    TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.EventCategory.getNumber(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasId(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.getId(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setId(long),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasTimestamp(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasSomeOtherId(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.getSomeOtherId(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setSomeOtherId(int),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasIsValid(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.getIsValid(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setIsValid(boolean),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasDescription(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasSomeFloatColumn(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.getSomeFloatColumn(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setSomeFloatColumn(float),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasSomeIntColumn(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.getSomeIntColumn(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setSomeIntColumn(int),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasSomeLongColumn(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.getSomeLongColumn(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setSomeLongColumn(long),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasFoo(),0
+ProtobufInputRowParserTest,testParseFlatData,                    TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.getDefaultInstance(),0
+ProtobufInputRowParserTest,testParseFlatData,                    TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.getDefaultInstance(),0
+ProtobufInputRowParserTest,testParseFlatData,                              NEW org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.Builder(),0
+ProtobufInputRowParserTest,testParseFlatData,                              NEW org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.Builder(),0
+ProtobufInputRowParserTest,testParseFlatData,                                   TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.getDefaultInstance(),0
+ProtobufInputRowParserTest,testParseFlatData,                                   TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.hasBar(),0
+ProtobufInputRowParserTest,testParseFlatData,                                   TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.Builder.mergeUnknownFields(UnknownFieldSet),0
+ProtobufInputRowParserTest,testParseFlatData,                              TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.getDefaultInstance(),0
+ProtobufInputRowParserTest,testParseFlatData,                              TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.hasBar(),0
+ProtobufInputRowParserTest,testParseFlatData,                              TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.Builder.mergeUnknownFields(UnknownFieldSet),0
+ProtobufInputRowParserTest,testParseFlatData,                         TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.getDefaultInstance(),0
+ProtobufInputRowParserTest,testParseFlatData,                         TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.hasBar(),0
+ProtobufInputRowParserTest,testParseFlatData,                         TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.Builder.mergeUnknownFields(UnknownFieldSet),0
+ProtobufInputRowParserTest,testParseFlatData,                         NEW org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo(Builder<?>),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.ensureBarIsMutable(),0
+ProtobufInputRowParserTest,testParseFlatData,"                    NEW com.google.protobuf.RepeatedFieldBuilderV3<org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo,org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.Builder,org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.FooOrBuilder>(List<Foo>, boolean, BuilderParent, boolean)",0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.mergeUnknownFields(UnknownFieldSet),0
+ProtobufInputRowParserTest,testParseFlatData,TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setDescription(String),0
+ProtobufInputRowParserTest,testParseFlatData,     TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.EventCategory.getNumber(),0
+ProtobufInputRowParserTest,testParseFlatData,TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setId(long),0
+ProtobufInputRowParserTest,testParseFlatData,TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setIsValid(boolean),0
+ProtobufInputRowParserTest,testParseFlatData,TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setSomeOtherId(int),0
+ProtobufInputRowParserTest,testParseFlatData,TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setTimestamp(String),0
+ProtobufInputRowParserTest,testParseFlatData,TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setSomeFloatColumn(float),0
+ProtobufInputRowParserTest,testParseFlatData,TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setSomeIntColumn(int),0
+ProtobufInputRowParserTest,testParseFlatData,TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Builder.setSomeLongColumn(long),0
+ProtobufInputRowParserTest,testParseFlatData,          NEW org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent(Builder<?>),0
+ProtobufInputRowParserTest,testParseFlatData,          TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasEventType(),0
+ProtobufInputRowParserTest,testParseFlatData,          TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasId(),0
+ProtobufInputRowParserTest,testParseFlatData,          TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasTimestamp(),0
+ProtobufInputRowParserTest,testParseFlatData,          TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.hasFoo(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.getDefaultInstance(),0
+ProtobufInputRowParserTest,testParseFlatData,               TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.hasBar(),0
+ProtobufInputRowParserTest,testParseFlatData,          TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.getBarCount(),0
+ProtobufInputRowParserTest,testParseFlatData,          TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.getBar(int),0
+ProtobufInputRowParserTest,testParseFlatData,          TEST org.apache.druid.data.input.protobuf.ProtoTestEventWrapper.ProtoTestEvent.Foo.isInitialized(),0
+ProtobufInputRowParserTest,testParseFlatData,org.apache.druid.data.input.protobuf.ProtobufInputRowParser.parseBatch(ByteBuffer),1
+ProtobufInputRowParserTest,testParseFlatData,org.apache.druid.data.input.Row.getTimestampFromEpoch(),2
+ProtobufInputRowParserTest,testParseFlatData,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+ProtobufInputRowParserTest,testParseFlatData,     org.apache.druid.data.input.Row.getDimension(String),2
+ProtobufInputRowParserTest,testParseFlatData,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+ProtobufInputRowParserTest,testParseFlatData,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ProtobufInputRowParserTest,testParseFlatData,"TEST org.apache.druid.data.input.protobuf.ProtobufInputRowParserTest.assertDimensionEquals(InputRow, String, Object)",2
+ProtobufInputRowParserTest,testParseFlatData,"TEST org.apache.druid.data.input.protobuf.ProtobufInputRowParserTest.assertDimensionEquals(InputRow, String, Object)",2
+ProtobufInputRowParserTest,testParseFlatData,"TEST org.apache.druid.data.input.protobuf.ProtobufInputRowParserTest.assertDimensionEquals(InputRow, String, Object)",2
+ProtobufInputRowParserTest,testParseFlatData,org.apache.druid.data.input.Row.getMetric(String),2
+ProtobufInputRowParserTest,testParseFlatData,"ASSERT org.junit.Assert.assertEquals(double, double, double)",2
+ProtobufInputRowParserTest,testParseFlatData,org.apache.druid.data.input.Row.getMetric(String),2
+ProtobufInputRowParserTest,testParseFlatData,"ASSERT org.junit.Assert.assertEquals(double, double, double)",2
+ProtobufInputRowParserTest,testParseFlatData,org.apache.druid.data.input.Row.getMetric(String),2
+ProtobufInputRowParserTest,testParseFlatData,"ASSERT org.junit.Assert.assertEquals(double, double, double)",2

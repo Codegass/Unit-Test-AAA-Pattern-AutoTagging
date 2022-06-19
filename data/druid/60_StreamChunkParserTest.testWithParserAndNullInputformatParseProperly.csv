@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,"NEW org.apache.druid.data.input.impl.JSONParseSpec(TimestampSpec, DimensionsSpec, JSONPathSpec, Map<String,Boolean>, Boolean)",0
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,"NEW org.apache.druid.data.input.impl.StringInputRowParser(ParseSpec, String)",0
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,"NEW org.apache.druid.indexing.seekablestream.StreamChunkParser(InputRowParser<ByteBuffer>, InputFormat, InputRowSchema, TransformSpec, File)",0
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,     org.apache.druid.indexing.seekablestream.StreamChunkParser.parse(List<byte[]>),1
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,     org.apache.druid.java.util.common.DateTimes.of(String),2
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,     org.apache.druid.data.input.Row.getTimestamp(),2
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,     org.apache.druid.data.input.Row.getDimension(String),2
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,     org.apache.druid.data.input.Row.getDimension(String),2
+StreamChunkParserTest,testWithParserAndNullInputformatParseProperly,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2

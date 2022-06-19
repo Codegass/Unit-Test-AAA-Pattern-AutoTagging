@@ -1,0 +1,24 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,     NEW org.apache.dubbo.common.io.UnsafeByteArrayOutputStream(int),0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,"     org.apache.dubbo.common.serialize.Serialization.serialize(URL, OutputStream)",0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,     org.apache.dubbo.common.serialize.ObjectOutput.writeObject(Object),0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,     org.apache.dubbo.common.serialize.DataOutput.flushBuffer(),0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,     org.apache.dubbo.common.io.UnsafeByteArrayOutputStream.close(),0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,     org.apache.dubbo.common.io.UnsafeByteArrayOutputStream.toByteArray(),0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,     org.apache.dubbo.common.io.Bytes.int2bytes(int),0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,"     TEST org.apache.dubbo.remoting.codec.TelnetCodecTest.join(byte[], byte[])",0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,     org.apache.dubbo.remoting.buffer.ChannelBuffers.wrappedBuffer(byte[]),0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,          org.apache.dubbo.common.URL.getAddress(),0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,"          org.apache.dubbo.common.URL.addParameter(String, String)",0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,"          org.apache.dubbo.common.URL.addParameter(String, String)",0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,          NEW org.apache.dubbo.remoting.codec.AbstractMockChannel(URL),0
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,"     org.apache.dubbo.remoting.Codec2.decode(Channel, ChannelBuffer)",1
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,org.apache.dubbo.remoting.exchange.Request.getData(),2
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,org.apache.dubbo.remoting.exchange.Request.isTwoWay(),2
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,org.apache.dubbo.remoting.exchange.Request.isEvent(),2
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,org.apache.dubbo.common.Version.getProtocolVersion(),2
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,org.apache.dubbo.remoting.exchange.Request.getVersion(),2
+ExchangeCodecTest,test_Decode_Return_Request_Event_String,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

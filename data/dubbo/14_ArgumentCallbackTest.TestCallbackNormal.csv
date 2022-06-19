@@ -1,0 +1,33 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArgumentCallbackTest,TestCallbackNormal,     org.apache.dubbo.common.utils.NetUtils.getAvailablePort(),0
+ArgumentCallbackTest,TestCallbackNormal,     org.apache.dubbo.common.URL.valueOf(String),0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.rpc.model.ApplicationModel.getServiceRepository(),0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.rpc.model.ServiceRepository.destroy(),0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.rpc.Exporter.unexport(),0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.rpc.Exporter.unexport(),0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.common.Node.destroy(),0
+ArgumentCallbackTest,TestCallbackNormal,"          org.apache.dubbo.common.URL.addParameter(String, int)",0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.common.URL.setPath(String),0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.rpc.model.ApplicationModel.getServiceRepository(),0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.rpc.model.ServiceRepository.registerService(Class<?>),0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.rpc.model.ApplicationModel.getServiceRepository(),0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.rpc.model.ServiceRepository.registerService(Class<?>),0
+ArgumentCallbackTest,TestCallbackNormal,          NEW org.apache.dubbo.rpc.protocol.dubbo.ArgumentCallbackTest.HelloServiceImpl(),0
+ArgumentCallbackTest,TestCallbackNormal,"               org.apache.dubbo.rpc.ProxyFactory.getInvoker(T, Class<T>, URL)",0
+ArgumentCallbackTest,TestCallbackNormal,               org.apache.dubbo.rpc.Protocol.export(Invoker<T>),0
+ArgumentCallbackTest,TestCallbackNormal,          NEW org.apache.dubbo.rpc.protocol.dubbo.ArgumentCallbackTest.DemoServiceImpl(),0
+ArgumentCallbackTest,TestCallbackNormal,"               org.apache.dubbo.rpc.ProxyFactory.getInvoker(T, Class<T>, URL)",0
+ArgumentCallbackTest,TestCallbackNormal,               org.apache.dubbo.rpc.Protocol.export(Invoker<T>),0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.rpc.model.ApplicationModel.getServiceRepository(),0
+ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.rpc.model.ServiceRepository.registerService(Class<?>),0
+ArgumentCallbackTest,TestCallbackNormal,"               org.apache.dubbo.rpc.Protocol.refer(Class<T>, URL)",0
+ArgumentCallbackTest,TestCallbackNormal,               org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<T>),0
+ArgumentCallbackTest,TestCallbackNormal,NEW anonymous(),1
+ArgumentCallbackTest,TestCallbackNormal,"TEST org.apache.dubbo.rpc.protocol.dubbo.ArgumentCallbackTest.IDemoService.xxx(IDemoCallback, String, int, int)",0
+ArgumentCallbackTest,TestCallbackNormal,     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ArgumentCallbackTest,TestCallbackNormal,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ArgumentCallbackTest,TestCallbackNormal,     org.apache.dubbo.rpc.model.ApplicationModel.getServiceRepository(),2
+ArgumentCallbackTest,TestCallbackNormal,     org.apache.dubbo.rpc.model.ServiceRepository.destroy(),2
+ArgumentCallbackTest,TestCallbackNormal,     org.apache.dubbo.rpc.Exporter.unexport(),2
+ArgumentCallbackTest,TestCallbackNormal,     org.apache.dubbo.rpc.Exporter.unexport(),2
+ArgumentCallbackTest,TestCallbackNormal,     org.apache.dubbo.common.Node.destroy(),2

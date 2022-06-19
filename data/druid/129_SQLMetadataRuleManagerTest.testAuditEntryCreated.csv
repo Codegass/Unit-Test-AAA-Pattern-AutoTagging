@@ -1,0 +1,17 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLMetadataRuleManagerTest,testAuditEntryCreated,org.apache.druid.java.util.common.Intervals.of(String),0
+SQLMetadataRuleManagerTest,testAuditEntryCreated,"NEW org.apache.druid.server.coordinator.rules.IntervalLoadRule(Interval, Map<String,Integer>)",0
+SQLMetadataRuleManagerTest,testAuditEntryCreated,"NEW org.apache.druid.audit.AuditInfo(String, String, String)",0
+SQLMetadataRuleManagerTest,testAuditEntryCreated,"org.apache.druid.metadata.SQLMetadataRuleManager.overrideRule(String, List<Rule>, AuditInfo)",0
+SQLMetadataRuleManagerTest,testAuditEntryCreated,org.apache.druid.metadata.SQLMetadataRuleManager.poll(),0
+SQLMetadataRuleManagerTest,testAuditEntryCreated,org.apache.druid.metadata.SQLMetadataRuleManager.getRules(String),0
+SQLMetadataRuleManagerTest,testAuditEntryCreated,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+SQLMetadataRuleManagerTest,testAuditEntryCreated,"org.apache.druid.audit.AuditManager.fetchAuditHistory(String, String, Interval)",1
+SQLMetadataRuleManagerTest,testAuditEntryCreated,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+SQLMetadataRuleManagerTest,testAuditEntryCreated,org.apache.druid.audit.AuditEntry.getPayload(),2
+SQLMetadataRuleManagerTest,testAuditEntryCreated,NEW anonymous(),2
+SQLMetadataRuleManagerTest,testAuditEntryCreated,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SQLMetadataRuleManagerTest,testAuditEntryCreated,org.apache.druid.audit.AuditEntry.getAuditInfo(),2
+SQLMetadataRuleManagerTest,testAuditEntryCreated,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SQLMetadataRuleManagerTest,testAuditEntryCreated,org.apache.druid.audit.AuditEntry.getKey(),2
+SQLMetadataRuleManagerTest,testAuditEntryCreated,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

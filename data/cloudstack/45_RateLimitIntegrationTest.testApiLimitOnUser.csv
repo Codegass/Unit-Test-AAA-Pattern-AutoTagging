@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RateLimitIntegrationTest,testApiLimitOnUser,"          NEW com.cloud.utils.exception.CloudRuntimeException(String, Throwable)",0
+RateLimitIntegrationTest,testApiLimitOnUser,          NEW com.cloud.utils.exception.CloudRuntimeException(String),0
+RateLimitIntegrationTest,testApiLimitOnUser,          com.cloud.api.ApiGsonHelper.getBuilder(),0
+RateLimitIntegrationTest,testApiLimitOnUser,"          NEW com.cloud.utils.exception.CloudRuntimeException(String, Throwable)",0
+RateLimitIntegrationTest,testApiLimitOnUser,     TEST org.apache.cloudstack.ratelimit.integration.LoginResponse.getSessionkey(),0
+RateLimitIntegrationTest,testApiLimitOnUser,NEW anonymous(),0
+RateLimitIntegrationTest,testApiLimitOnUser,"     NEW com.cloud.utils.exception.CloudRuntimeException(String, Throwable)",0
+RateLimitIntegrationTest,testApiLimitOnUser,"ASSERT org.junit.Assert.assertEquals(String, long, long)",2

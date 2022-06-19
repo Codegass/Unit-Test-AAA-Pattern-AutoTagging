@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConsoleProxyManagerTest,testNewCPVMCreation,com.cloud.consoleproxy.ConsoleProxyManagerImpl.assignProxyFromStoppedPool(long),0
+ConsoleProxyManagerTest,testNewCPVMCreation,com.cloud.utils.db.GlobalLock.lock(int),0
+ConsoleProxyManagerTest,testNewCPVMCreation,com.cloud.utils.db.GlobalLock.unlock(),0
+ConsoleProxyManagerTest,testNewCPVMCreation,com.cloud.consoleproxy.ConsoleProxyManagerImpl.startNew(long),0
+ConsoleProxyManagerTest,testNewCPVMCreation,"com.cloud.consoleproxy.ConsoleProxyManagerImpl.startProxy(long, boolean)",0
+ConsoleProxyManagerTest,testNewCPVMCreation,"com.cloud.consoleproxy.ConsoleProxyManagerImpl.expandPool(Long, Object)",1

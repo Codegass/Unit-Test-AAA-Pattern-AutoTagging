@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CuratorModuleTest,exhibitorEnsembleProvider,     org.apache.druid.guice.GuiceInjectors.makeDefaultStartupModules(),0
+CuratorModuleTest,exhibitorEnsembleProvider,     NEW org.apache.druid.guice.LifecycleModule(),0
+CuratorModuleTest,exhibitorEnsembleProvider,     NEW org.apache.druid.curator.CuratorModule(),1
+CuratorModuleTest,exhibitorEnsembleProvider,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2

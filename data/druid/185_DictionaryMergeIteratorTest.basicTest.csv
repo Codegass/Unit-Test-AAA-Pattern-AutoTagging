@@ -1,0 +1,23 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DictionaryMergeIteratorTest,basicTest,NEW org.apache.druid.segment.data.ListIndexed<java.lang.String>(String[]),0
+DictionaryMergeIteratorTest,basicTest,NEW org.apache.druid.segment.data.ListIndexed<java.lang.String>(String[]),0
+DictionaryMergeIteratorTest,basicTest,NEW org.apache.druid.segment.data.ListIndexed<java.lang.String>(String[]),0
+DictionaryMergeIteratorTest,basicTest,NEW org.apache.druid.segment.data.ListIndexed<java.lang.String>(String[]),0
+DictionaryMergeIteratorTest,basicTest,NEW org.apache.druid.segment.data.ListIndexed<java.lang.String>(String[]),0
+DictionaryMergeIteratorTest,basicTest,"NEW org.apache.druid.segment.IndexMerger.DictionaryMergeIterator(Indexed<String>[], boolean)",1
+DictionaryMergeIteratorTest,basicTest,"ASSERT org.junit.Assert.assertArrayEquals(Object[], Object[])",2
+DictionaryMergeIteratorTest,basicTest,"ASSERT org.junit.Assert.assertArrayEquals(int[], int[])",2
+DictionaryMergeIteratorTest,basicTest,"ASSERT org.junit.Assert.assertArrayEquals(int[], int[])",2
+DictionaryMergeIteratorTest,basicTest,"ASSERT org.junit.Assert.assertArrayEquals(int[], int[])",2
+DictionaryMergeIteratorTest,basicTest,"ASSERT org.junit.Assert.assertArrayEquals(int[], int[])",2
+DictionaryMergeIteratorTest,basicTest,"ASSERT org.junit.Assert.assertArrayEquals(int[], int[])",2
+DictionaryMergeIteratorTest,basicTest,org.apache.druid.segment.IndexMerger.DictionaryMergeIterator.needConversion(int),1
+DictionaryMergeIteratorTest,basicTest,ASSERT org.junit.Assert.assertTrue(boolean),2
+DictionaryMergeIteratorTest,basicTest,org.apache.druid.segment.IndexMerger.DictionaryMergeIterator.needConversion(int),1
+DictionaryMergeIteratorTest,basicTest,ASSERT org.junit.Assert.assertTrue(boolean),2
+DictionaryMergeIteratorTest,basicTest,org.apache.druid.segment.IndexMerger.DictionaryMergeIterator.needConversion(int),1
+DictionaryMergeIteratorTest,basicTest,ASSERT org.junit.Assert.assertTrue(boolean),2
+DictionaryMergeIteratorTest,basicTest,org.apache.druid.segment.IndexMerger.DictionaryMergeIterator.needConversion(int),1
+DictionaryMergeIteratorTest,basicTest,ASSERT org.junit.Assert.assertFalse(boolean),2
+DictionaryMergeIteratorTest,basicTest,org.apache.druid.segment.IndexMerger.DictionaryMergeIterator.needConversion(int),1
+DictionaryMergeIteratorTest,basicTest,ASSERT org.junit.Assert.assertFalse(boolean),2

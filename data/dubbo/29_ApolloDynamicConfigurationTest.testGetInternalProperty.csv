@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ApolloDynamicConfigurationTest,testGetInternalProperty,          ASSERT org.junit.jupiter.api.Assertions.fail(String),0
+ApolloDynamicConfigurationTest,testGetInternalProperty,          ASSERT org.junit.jupiter.api.Assertions.fail(String),0
+ApolloDynamicConfigurationTest,testGetInternalProperty,NEW org.apache.dubbo.configcenter.support.apollo.ApolloDynamicConfiguration(URL),1
+ApolloDynamicConfigurationTest,testGetInternalProperty,org.apache.dubbo.configcenter.support.apollo.ApolloDynamicConfiguration.getInternalProperty(String),2
+ApolloDynamicConfigurationTest,testGetInternalProperty,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ApolloDynamicConfigurationTest,testGetInternalProperty,org.apache.dubbo.configcenter.support.apollo.ApolloDynamicConfiguration.getInternalProperty(String),2
+ApolloDynamicConfigurationTest,testGetInternalProperty,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ApolloDynamicConfigurationTest,testGetInternalProperty,org.apache.dubbo.configcenter.support.apollo.ApolloDynamicConfiguration.getInternalProperty(String),2
+ApolloDynamicConfigurationTest,testGetInternalProperty,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2

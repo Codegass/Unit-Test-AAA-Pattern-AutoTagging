@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,"     NEW com.cloud.network.dao.AccountGuestVlanMapVO(long, long)",0
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     com.cloud.dc.dao.DataCenterVnetDao.releaseDedicatedGuestVlans(Long),0
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     com.cloud.utils.db.GenericDao.remove(Long),0
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     org.apache.cloudstack.api.command.admin.network.ReleaseDedicatedGuestVlanRangeCmd.getId(),0
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     com.cloud.network.NetworkServiceImpl.releaseDedicatedGuestVlanRange(Long),1
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     ASSERT junit.framework.Assert.assertTrue(boolean),2
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.close(String),2
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     org.apache.cloudstack.api.command.admin.network.ReleaseDedicatedGuestVlanRangeCmd.getId(),0
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     com.cloud.network.NetworkServiceImpl.releaseDedicatedGuestVlanRange(Long),1
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     ASSERT junit.framework.Assert.assertTrue(boolean),2
+DedicateGuestVlanRangesTest,testReleaseDedicatedGuestVlanRange,     com.cloud.utils.db.TransactionLegacy.close(String),2

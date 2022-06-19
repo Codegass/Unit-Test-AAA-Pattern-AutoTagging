@@ -1,0 +1,25 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SqlResourceTest,testUnauthorized,MOCK org.easymock.EasyMock.createStrictMock(Class<?>),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.EasyMock.expect(String),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.IExpectationSetters<java.lang.String>.once(),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.EasyMock.expect(Object),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.EasyMock.expect(Object),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.EasyMock.expect(Object),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.EasyMock.expect(Object),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.EasyMock.expectLastCall(),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.IExpectationSetters<java.lang.Object>.once(),0
+SqlResourceTest,testUnauthorized,MOCK org.easymock.EasyMock.replay(Object[]),0
+SqlResourceTest,testUnauthorized,"NEW org.apache.druid.sql.http.SqlQuery(String, ResultFormat, boolean, Map<String,Object>, List<SqlParameter>)",0
+SqlResourceTest,testUnauthorized,"org.apache.druid.sql.http.SqlResource.doPost(SqlQuery, HttpServletRequest)",1
+SqlResourceTest,testUnauthorized,ASSERT org.junit.Assert.fail(String),2
+SqlResourceTest,testUnauthorized,TEST org.apache.druid.server.log.TestRequestLogger.getSqlQueryLogs(),2
+SqlResourceTest,testUnauthorized,"ASSERT org.junit.Assert.assertEquals(long, long)",2

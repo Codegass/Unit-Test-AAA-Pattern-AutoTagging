@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ParseSpecTest,testDimensionSpecRequired,ExpectedException org.junit.rules.ExpectedException.expect(Class<? extends Throwable>),0
+ParseSpecTest,testDimensionSpecRequired,ExpectedException org.junit.rules.ExpectedException.expectMessage(String),0
+ParseSpecTest,testDimensionSpecRequired,"NEW org.apache.druid.data.input.impl.TimestampSpec(String, String, DateTime)",0
+ParseSpecTest,testDimensionSpecRequired,"NEW org.apache.druid.data.input.impl.DelimitedParseSpec(TimestampSpec, DimensionsSpec, String, String, List<String>, boolean, int)",1

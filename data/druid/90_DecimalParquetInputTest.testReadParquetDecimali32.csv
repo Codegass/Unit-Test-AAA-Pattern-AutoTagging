@@ -1,0 +1,20 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DecimalParquetInputTest,testReadParquetDecimali32,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+DecimalParquetInputTest,testReadParquetDecimali32,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+DecimalParquetInputTest,testReadParquetDecimali32,     org.apache.druid.indexer.HadoopDruidIndexerConfig.fromString(String),0
+DecimalParquetInputTest,testReadParquetDecimali32,     NEW org.apache.hadoop.conf.Configuration(),0
+DecimalParquetInputTest,testReadParquetDecimali32,     org.apache.druid.indexer.HadoopDruidIndexerConfig.intoConfiguration(Job),0
+DecimalParquetInputTest,testReadParquetDecimali32,     org.apache.druid.indexer.path.StaticPathSpec.getPaths(),0
+DecimalParquetInputTest,testReadParquetDecimali32,     org.apache.druid.indexer.HadoopDruidIndexerConfig.getPathSpec(),0
+DecimalParquetInputTest,testReadParquetDecimali32,     NEW org.apache.hadoop.fs.Path(URI),0
+DecimalParquetInputTest,testReadParquetDecimali32,"     NEW org.apache.hadoop.mapreduce.lib.input.FileSplit(Path, long, long, String[])",0
+DecimalParquetInputTest,testReadParquetDecimali32,     NEW org.apache.hadoop.mapreduce.TaskAttemptID(),0
+DecimalParquetInputTest,testReadParquetDecimali32,"     NEW org.apache.hadoop.mapreduce.task.TaskAttemptContextImpl(Configuration, TaskAttemptID)",0
+DecimalParquetInputTest,testReadParquetDecimali32,     org.apache.druid.indexer.HadoopDruidIndexerConfig.getParser(),0
+DecimalParquetInputTest,testReadParquetDecimali32,     org.apache.druid.data.input.impl.InputRowParser.parseBatch(Object),1
+DecimalParquetInputTest,testReadParquetDecimali32,org.apache.druid.data.input.Row.getTimestamp(),2
+DecimalParquetInputTest,testReadParquetDecimali32,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DecimalParquetInputTest,testReadParquetDecimali32,org.apache.druid.data.input.Row.getDimension(String),2
+DecimalParquetInputTest,testReadParquetDecimali32,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DecimalParquetInputTest,testReadParquetDecimali32,org.apache.druid.data.input.Row.getMetric(String),2
+DecimalParquetInputTest,testReadParquetDecimali32,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

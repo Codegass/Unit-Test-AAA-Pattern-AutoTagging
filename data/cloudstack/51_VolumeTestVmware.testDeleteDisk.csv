@@ -1,0 +1,39 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VolumeTestVmware,testDeleteDisk,     TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getPrimaryStorageUrl(),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.PrimaryDataStoreDao.findPoolByName(String),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.getId(),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.engine.subsystem.api.storage.DataStoreManager.getPrimaryDataStore(long),0
+VolumeTestVmware,testDeleteDisk,     NEW org.apache.cloudstack.storage.datastore.db.StoragePoolVO(),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setClusterId(Long),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setDataCenterId(long),0
+VolumeTestVmware,testDeleteDisk,     TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getPrimaryStorageUrl(),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setHostAddress(String),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setPath(String),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setPort(int),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setName(String),0
+VolumeTestVmware,testDeleteDisk,     TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getPrimaryStorageUuid(),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setUuid(String),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setStatus(StoragePoolStatus),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setPoolType(StoragePoolType),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setPodId(Long),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setScope(ScopeType),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.setStorageProviderName(String),0
+VolumeTestVmware,testDeleteDisk,     com.cloud.utils.db.GenericDao.persist(StoragePoolVO),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.storage.datastore.db.StoragePoolVO.getId(),0
+VolumeTestVmware,testDeleteDisk,     org.apache.cloudstack.engine.subsystem.api.storage.DataStoreManager.getPrimaryDataStore(long),0
+VolumeTestVmware,testDeleteDisk,org.apache.cloudstack.engine.subsystem.api.storage.DataStore.getId(),0
+VolumeTestVmware,testDeleteDisk,org.apache.cloudstack.engine.subsystem.api.storage.DataStoreManager.getPrimaryDataStore(long),0
+VolumeTestVmware,testDeleteDisk,org.apache.cloudstack.engine.subsystem.api.storage.DataStore.getId(),0
+VolumeTestVmware,testDeleteDisk,"     NEW com.cloud.storage.VolumeVO(Type, String, long, long, long, long, ProvisioningType, long, Long, Long, String)",0
+VolumeTestVmware,testDeleteDisk,     com.cloud.storage.VolumeVO.setPoolId(Long),0
+VolumeTestVmware,testDeleteDisk,     com.cloud.utils.db.GenericDao.persist(VolumeVO),0
+VolumeTestVmware,testDeleteDisk,com.cloud.storage.VolumeVO.getId(),0
+VolumeTestVmware,testDeleteDisk,org.apache.cloudstack.engine.subsystem.api.storage.VolumeDataFactory.getVolume(long),0
+VolumeTestVmware,testDeleteDisk,"org.apache.cloudstack.engine.subsystem.api.storage.VolumeService.createVolumeAsync(VolumeInfo, DataStore)",0
+VolumeTestVmware,testDeleteDisk,org.apache.cloudstack.framework.async.AsyncCallFuture.get(),0
+VolumeTestVmware,testDeleteDisk,org.apache.cloudstack.engine.subsystem.api.storage.VolumeService.VolumeApiResult.getVolume(),0
+VolumeTestVmware,testDeleteDisk,org.apache.cloudstack.engine.subsystem.api.storage.DataObject.getId(),0
+VolumeTestVmware,testDeleteDisk,org.apache.cloudstack.engine.subsystem.api.storage.VolumeService.destroyVolume(long),0
+VolumeTestVmware,testDeleteDisk,org.apache.cloudstack.engine.subsystem.api.storage.DataObject.getId(),0
+VolumeTestVmware,testDeleteDisk,org.apache.cloudstack.engine.subsystem.api.storage.VolumeDataFactory.getVolume(long),0
+VolumeTestVmware,testDeleteDisk,org.apache.cloudstack.engine.subsystem.api.storage.VolumeService.expungeVolumeAsync(VolumeInfo),1

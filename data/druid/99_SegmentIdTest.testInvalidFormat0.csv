@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SegmentIdTest,testInvalidFormat0,"org.apache.druid.timeline.SegmentId.tryParse(String, String)",1
+SegmentIdTest,testInvalidFormat0,ASSERT org.junit.Assert.assertNull(Object),2

@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DirectAgentTest,testDownloadTemplate,org.apache.cloudstack.storage.to.PrimaryDataStoreTO.getUuid(),0
+DirectAgentTest,testDownloadTemplate,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getLocalStorageUuid(),0
+DirectAgentTest,testDownloadTemplate,org.apache.cloudstack.storage.to.ImageStoreTO.getProtocol(),0
+DirectAgentTest,testDownloadTemplate,org.apache.cloudstack.storage.to.TemplateObjectTO.getPath(),0
+DirectAgentTest,testDownloadTemplate,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getTemplateUrl(),0
+DirectAgentTest,testDownloadTemplate,org.apache.cloudstack.storage.to.TemplateObjectTO.getDataStore(),0
+DirectAgentTest,testDownloadTemplate,"com.cloud.agent.AgentManager.send(Long, Command)",1

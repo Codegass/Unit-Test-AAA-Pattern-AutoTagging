@@ -1,0 +1,48 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TaskLifecycleTest,testKillUnusedSegmentsTask,NEW anonymous(),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.java.util.common.Intervals.of(String),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.DataSegment.builder(),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.DataSegment.Builder.dataSource(String),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.DataSegment.Builder.interval(Interval),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,"org.apache.druid.timeline.DataSegment.Builder.loadSpec(Map<String,Object>)",0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.DataSegment.Builder.version(String),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.DataSegment.Builder.dimensions(List<String>),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.DataSegment.Builder.metrics(List<String>),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.partition.NoneShardSpec.instance(),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.DataSegment.Builder.shardSpec(ShardSpec),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.DataSegment.Builder.binaryVersion(Integer),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.DataSegment.Builder.size(long),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.DataSegment.Builder.build(),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,"NEW org.apache.druid.java.util.common.ISE(Throwable, String, Object[])",0
+TaskLifecycleTest,testKillUnusedSegmentsTask,TEST org.apache.druid.indexing.test.TestIndexerMetadataStorageCoordinator.setUnusedSegments(List<DataSegment>),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.java.util.common.Intervals.of(String),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,"TEST org.apache.druid.indexing.test.TestIndexerMetadataStorageCoordinator.retrieveUnusedSegmentsForInterval(String, Interval)",0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.timeline.DataSegment.getLoadSpec(),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.java.util.common.Intervals.of(String),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,"NEW org.apache.druid.indexing.common.task.KillUnusedSegmentsTask(String, String, Interval, Map<String,Object>)",0
+TaskLifecycleTest,testKillUnusedSegmentsTask,     NEW org.apache.druid.jackson.DefaultObjectMapper(),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexing.common.task.Task.getId(),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexing.common.task.Task.getId(),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexing.overlord.TaskQueue.isActive(),0
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexing.overlord.TaskQueue.start(),1
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexing.overlord.TaskQueue.add(Task),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexing.overlord.TaskQueue.add(Task),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexing.common.task.Task.getId(),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexing.common.task.Task.getId(),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexer.TaskStatus.isRunnable(),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexing.overlord.TaskStorageQueryAdapter.getStatus(String),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexing.common.task.Task.getId(),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,"     NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+TaskLifecycleTest,testKillUnusedSegmentsTask,     org.apache.druid.indexing.common.task.Task.getId(),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.indexer.TaskStatus.getLocation(),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+TaskLifecycleTest,testKillUnusedSegmentsTask,org.apache.druid.indexer.TaskStatus.getStatusCode(),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TaskLifecycleTest,testKillUnusedSegmentsTask,TEST org.apache.druid.indexing.test.TestIndexerMetadataStorageCoordinator.getPublished(),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,"ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+TaskLifecycleTest,testKillUnusedSegmentsTask,TEST org.apache.druid.indexing.test.TestIndexerMetadataStorageCoordinator.getNuked(),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,"ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+TaskLifecycleTest,testKillUnusedSegmentsTask,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+TaskLifecycleTest,testKillUnusedSegmentsTask,TEST org.apache.druid.indexing.test.TestIndexerMetadataStorageCoordinator.getNuked(),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,TEST org.apache.druid.indexing.test.TestIndexerMetadataStorageCoordinator.getNuked(),2
+TaskLifecycleTest,testKillUnusedSegmentsTask,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2

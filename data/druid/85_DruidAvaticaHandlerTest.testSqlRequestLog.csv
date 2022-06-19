@@ -1,0 +1,24 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DruidAvaticaHandlerTest,testSqlRequestLog,TEST org.apache.druid.server.log.TestRequestLogger.getSqlQueryLogs(),2
+DruidAvaticaHandlerTest,testSqlRequestLog,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+DruidAvaticaHandlerTest,testSqlRequestLog,TEST org.apache.druid.server.log.TestRequestLogger.getSqlQueryLogs(),2
+DruidAvaticaHandlerTest,testSqlRequestLog,org.apache.druid.server.RequestLogLine.getQueryStats(),2
+DruidAvaticaHandlerTest,testSqlRequestLog,org.apache.druid.server.QueryStats.getStats(),2
+DruidAvaticaHandlerTest,testSqlRequestLog,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DruidAvaticaHandlerTest,testSqlRequestLog,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DruidAvaticaHandlerTest,testSqlRequestLog,ASSERT org.junit.Assert.assertTrue(boolean),2
+DruidAvaticaHandlerTest,testSqlRequestLog,ASSERT org.junit.Assert.assertTrue(boolean),2
+DruidAvaticaHandlerTest,testSqlRequestLog,TEST org.apache.druid.server.log.TestRequestLogger.clear(),0
+DruidAvaticaHandlerTest,testSqlRequestLog,ASSERT org.junit.Assert.fail(String),2
+DruidAvaticaHandlerTest,testSqlRequestLog,TEST org.apache.druid.server.log.TestRequestLogger.getSqlQueryLogs(),2
+DruidAvaticaHandlerTest,testSqlRequestLog,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+DruidAvaticaHandlerTest,testSqlRequestLog,TEST org.apache.druid.server.log.TestRequestLogger.getSqlQueryLogs(),2
+DruidAvaticaHandlerTest,testSqlRequestLog,org.apache.druid.server.RequestLogLine.getQueryStats(),2
+DruidAvaticaHandlerTest,testSqlRequestLog,org.apache.druid.server.QueryStats.getStats(),2
+DruidAvaticaHandlerTest,testSqlRequestLog,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DruidAvaticaHandlerTest,testSqlRequestLog,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DruidAvaticaHandlerTest,testSqlRequestLog,ASSERT org.junit.Assert.assertTrue(boolean),2
+DruidAvaticaHandlerTest,testSqlRequestLog,TEST org.apache.druid.server.log.TestRequestLogger.clear(),0
+DruidAvaticaHandlerTest,testSqlRequestLog,ASSERT org.junit.Assert.fail(String),2
+DruidAvaticaHandlerTest,testSqlRequestLog,TEST org.apache.druid.server.log.TestRequestLogger.getSqlQueryLogs(),2
+DruidAvaticaHandlerTest,testSqlRequestLog,"ASSERT org.junit.Assert.assertEquals(long, long)",2

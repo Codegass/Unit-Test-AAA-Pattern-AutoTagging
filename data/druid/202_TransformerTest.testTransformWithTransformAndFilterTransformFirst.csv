@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,"NEW org.apache.druid.query.filter.SelectorDimFilter(String, String, ExtractionFn)",0
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,"NEW org.apache.druid.segment.transform.ExpressionTransform(String, String, ExprMacroTable)",0
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,"NEW org.apache.druid.segment.transform.TransformSpec(DimFilter, List<Transform>)",0
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,NEW org.apache.druid.segment.transform.Transformer(TransformSpec),0
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,org.apache.druid.java.util.common.DateTimes.nowUtc(),0
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,"NEW org.apache.druid.data.input.MapBasedInputRow(DateTime, List<String>, Map<String,Object>)",0
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,org.apache.druid.segment.transform.Transformer.transform(InputRow),1
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,ASSERT org.junit.Assert.assertNotNull(Object),2
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,org.apache.druid.data.input.InputRow.getDimensions(),2
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,org.apache.druid.data.input.Row.getRaw(String),2
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,org.apache.druid.data.input.Row.getTimestamp(),2
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,org.apache.druid.data.input.Row.getTimestamp(),2
+TransformerTest,testTransformWithTransformAndFilterTransformFirst,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

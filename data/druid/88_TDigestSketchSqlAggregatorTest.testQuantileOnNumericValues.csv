@@ -1,0 +1,25 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,org.apache.druid.sql.SqlLifecycleFactory.factorize(),0
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,"org.apache.druid.sql.SqlLifecycle.runSimple(String, Map<String,Object>, List<SqlParameter>, AuthenticationResult)",1
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,org.apache.druid.java.util.common.guava.Sequence.toList(),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,"ASSERT org.junit.Assert.assertArrayEquals(double[], double[], double)",2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,org.apache.druid.query.Druids.newTimeseriesQueryBuilder(),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,org.apache.druid.query.Druids.TimeseriesQueryBuilder.dataSource(String),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,org.apache.druid.sql.calcite.filtration.Filtration.eternity(),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,org.apache.druid.query.Druids.TimeseriesQueryBuilder.intervals(QuerySegmentSpec),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,org.apache.druid.query.Druids.TimeseriesQueryBuilder.granularity(Granularity),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,"NEW org.apache.druid.query.aggregation.tdigestsketch.TDigestSketchAggregatorFactory(String, String, Integer)",2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,org.apache.druid.query.Druids.TimeseriesQueryBuilder.aggregators(List<AggregatorFactory>),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,"     NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,"NEW org.apache.druid.query.aggregation.tdigestsketch.TDigestSketchToQuantilePostAggregator(String, PostAggregator, double)",2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,TEST org.apache.druid.query.aggregation.tdigestsketch.sql.TDigestSketchSqlAggregatorTest.makeFieldAccessPostAgg(String),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,"NEW org.apache.druid.query.aggregation.tdigestsketch.TDigestSketchToQuantilePostAggregator(String, PostAggregator, double)",2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,TEST org.apache.druid.query.aggregation.tdigestsketch.sql.TDigestSketchSqlAggregatorTest.makeFieldAccessPostAgg(String),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,"NEW org.apache.druid.query.aggregation.tdigestsketch.TDigestSketchToQuantilePostAggregator(String, PostAggregator, double)",2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,org.apache.druid.query.Druids.TimeseriesQueryBuilder.postAggregators(PostAggregator[]),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,"org.apache.druid.query.Druids.TimeseriesQueryBuilder.context(Map<String,Object>)",2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,org.apache.druid.query.Druids.TimeseriesQueryBuilder.build(),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,TEST org.apache.druid.sql.calcite.util.QueryLogHook.getRecordedQueries(),2
+TDigestSketchSqlAggregatorTest,testQuantileOnNumericValues,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

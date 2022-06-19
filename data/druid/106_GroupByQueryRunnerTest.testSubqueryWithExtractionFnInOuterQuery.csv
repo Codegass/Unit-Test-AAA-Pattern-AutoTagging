@@ -1,0 +1,63 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,     org.apache.druid.query.groupby.GroupByQuery.builder(),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,     TEST org.apache.druid.query.groupby.GroupByQueryRunnerTest.makeContext(),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"     org.apache.druid.query.groupby.GroupByQuery.Builder.overrideContext(Map<String,Object>)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setDataSource(String),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setQuerySegmentSpec(QuerySegmentSpec),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setDimensions(DimensionSpec[]),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.js.JavaScriptConfig.getEnabledInstance(),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"NEW org.apache.druid.query.filter.JavaScriptDimFilter(String, String, ExtractionFn, JavaScriptConfig)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setDimFilter(DimFilter),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setAggregatorSpecs(AggregatorFactory[]),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setGranularity(Granularity),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.build(),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,TEST org.apache.druid.query.groupby.GroupByQueryRunnerTest.makeQueryBuilder(),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setDataSource(Query),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.java.util.common.Intervals.of(String),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setQuerySegmentSpec(QuerySegmentSpec),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"NEW org.apache.druid.query.extraction.RegexDimExtractionFn(String, Boolean, String)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"NEW org.apache.druid.query.dimension.ExtractionDimensionSpec(String, String, ExtractionFn)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setDimensions(DimensionSpec[]),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setAggregatorSpecs(AggregatorFactory[]),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setGranularity(Granularity),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.build(),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,          org.apache.druid.java.util.common.DateTimes.of(String),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,               org.apache.druid.query.groupby.GroupByQuery.getResultRowSizeWithPostAggregators(),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,               org.apache.druid.query.groupby.ResultRow.create(int),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,               org.apache.druid.query.groupby.GroupByQuery.getResultRowHasTimestamp(),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"               org.apache.druid.query.groupby.ResultRow.set(int, Object)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,               org.apache.druid.query.groupby.GroupByQuery.getResultRowSignature(),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,               org.apache.druid.segment.column.RowSignature.indexOf(String),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"               org.apache.druid.query.groupby.ResultRow.set(int, Object)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"TEST org.apache.druid.query.groupby.GroupByQueryRunnerTest.makeRow(GroupByQuery, String, Object[])",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,     org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"     NEW org.apache.druid.query.FinalizeResultsQueryRunner(QueryRunner, QueryToolChest)",0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,     org.apache.druid.query.QueryPlus.wrap(Query<T>),0
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,     org.apache.druid.query.QueryRunner.run(QueryPlus<T>),1
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,     org.apache.druid.java.util.common.guava.Sequence.toList(),2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,               org.apache.druid.query.groupby.ResultRow.length(),2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,               org.apache.druid.query.groupby.ResultRow.length(),2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"               ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,               org.apache.druid.query.groupby.ResultRow.length(),2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,               org.apache.druid.query.groupby.ResultRow.get(int),2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,               org.apache.druid.query.groupby.ResultRow.get(int),2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"               ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"          TEST org.apache.druid.segment.TestHelper.assertRow(String, ResultRow, ResultRow)",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,          ASSERT org.junit.Assert.fail(String),2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,          ASSERT org.junit.Assert.fail(String),2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+GroupByQueryRunnerTest,testSubqueryWithExtractionFnInOuterQuery,          ASSERT org.junit.Assert.fail(String),2

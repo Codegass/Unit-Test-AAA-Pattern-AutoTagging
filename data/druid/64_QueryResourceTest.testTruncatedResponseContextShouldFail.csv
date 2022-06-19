@@ -1,0 +1,31 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.EasyMock.expect(Object),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.EasyMock.expect(Object),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.EasyMock.expect(Object),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.EasyMock.expectLastCall(),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     MOCK org.easymock.EasyMock.replay(Object[]),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,"org.apache.druid.server.ResponseContextConfig.forTest(boolean, int)",0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     NEW org.apache.druid.query.DefaultGenericQueryMetricsFactory(),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     NEW org.apache.druid.server.metrics.NoopServiceEmitter(),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     NEW org.apache.druid.server.security.AuthConfig(),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,"     NEW org.apache.druid.server.QueryLifecycleFactory(QueryToolChestWarehouse, QuerySegmentWalker, GenericQueryMetricsFactory, ServiceEmitter, RequestLogger, AuthConfig, AuthorizerMapper)",0
+QueryResourceTest,testTruncatedResponseContextShouldFail,     NEW org.apache.druid.server.security.AuthConfig(),0
+QueryResourceTest,testTruncatedResponseContextShouldFail,"     NEW org.apache.druid.server.QueryResource(QueryLifecycleFactory, ObjectMapper, ObjectMapper, QueryScheduler, AuthConfig, AuthorizerMapper, ResponseContextConfig, DruidNode)",0
+QueryResourceTest,testTruncatedResponseContextShouldFail,"org.apache.druid.server.QueryResource.doPost(InputStream, String, HttpServletRequest)",1
+QueryResourceTest,testTruncatedResponseContextShouldFail,org.apache.druid.server.QueryResource.getInterruptedQueryCount(),2
+QueryResourceTest,testTruncatedResponseContextShouldFail,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+QueryResourceTest,testTruncatedResponseContextShouldFail,ASSERT org.junit.Assert.assertNotNull(Object),2
+QueryResourceTest,testTruncatedResponseContextShouldFail,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+QueryResourceTest,testTruncatedResponseContextShouldFail,"NEW org.apache.druid.query.TruncatedResponseContextException(String, Object[])",2
+QueryResourceTest,testTruncatedResponseContextShouldFail,org.apache.druid.server.DruidNode.getHostAndPortToUse(),2
+QueryResourceTest,testTruncatedResponseContextShouldFail,"NEW org.apache.druid.query.QueryInterruptedException(Throwable, String)",2
+QueryResourceTest,testTruncatedResponseContextShouldFail,org.apache.druid.query.QueryInterruptedException.toString(),2
+QueryResourceTest,testTruncatedResponseContextShouldFail,org.apache.druid.query.QueryInterruptedException.toString(),2
+QueryResourceTest,testTruncatedResponseContextShouldFail,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

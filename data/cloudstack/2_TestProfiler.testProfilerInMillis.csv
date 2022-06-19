@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TestProfiler,testProfilerInMillis,com.cloud.utils.Profiler.start(),0
+TestProfiler,testProfilerInMillis,com.cloud.utils.Profiler.stop(),0
+TestProfiler,testProfilerInMillis,ASSERT org.junit.Assert.assertTrue(boolean),2
+TestProfiler,testProfilerInMillis,com.cloud.utils.Profiler.getDurationInMillis(),1

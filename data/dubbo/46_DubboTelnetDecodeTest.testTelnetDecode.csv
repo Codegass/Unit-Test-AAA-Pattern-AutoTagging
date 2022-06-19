@@ -1,0 +1,17 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DubboTelnetDecodeTest,testTelnetDecode,org.apache.dubbo.common.extension.ExtensionLoader.getExtensionLoader(Class<Codec2>),0
+DubboTelnetDecodeTest,testTelnetDecode,org.apache.dubbo.common.extension.ExtensionLoader.getExtension(String),0
+DubboTelnetDecodeTest,testTelnetDecode,"NEW org.apache.dubbo.common.URL(String, String, int)",0
+DubboTelnetDecodeTest,testTelnetDecode,NEW org.apache.dubbo.rpc.protocol.dubbo.decode.MockChannelHandler(),0
+DubboTelnetDecodeTest,testTelnetDecode,"NEW org.apache.dubbo.remoting.transport.netty4.NettyCodecAdapter(Codec2, URL, ChannelHandler)",0
+DubboTelnetDecodeTest,testTelnetDecode,NEW anonymous(),0
+DubboTelnetDecodeTest,testTelnetDecode,NEW org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler(ExchangeHandler),0
+DubboTelnetDecodeTest,testTelnetDecode,NEW org.apache.dubbo.remoting.transport.DecodeHandler(ChannelHandler),0
+DubboTelnetDecodeTest,testTelnetDecode,NEW org.apache.dubbo.remoting.transport.MultiMessageHandler(ChannelHandler),0
+DubboTelnetDecodeTest,testTelnetDecode,"NEW org.apache.dubbo.rpc.protocol.dubbo.decode.MockHandler(Consumer, ChannelHandler)",0
+DubboTelnetDecodeTest,testTelnetDecode,TEST org.apache.dubbo.rpc.protocol.dubbo.decode.DubboTelnetDecodeTest.checkTelnetDecoded(Object),0
+DubboTelnetDecodeTest,testTelnetDecode,     NEW org.apache.dubbo.rpc.AppResponse(),0
+DubboTelnetDecodeTest,testTelnetDecode,     org.apache.dubbo.rpc.AppResponse.setValue(Object),0
+DubboTelnetDecodeTest,testTelnetDecode,NEW org.apache.dubbo.rpc.protocol.dubbo.decode.LocalEmbeddedChannel(),0
+DubboTelnetDecodeTest,testTelnetDecode,org.apache.dubbo.remoting.transport.netty4.NettyCodecAdapter.getDecoder(),0
+DubboTelnetDecodeTest,testTelnetDecode,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

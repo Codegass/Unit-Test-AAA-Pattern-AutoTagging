@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RowBasedStorageAdapterTest,test_getAvailableDimensions,"     NEW org.apache.druid.segment.RowBasedStorageAdapter<java.lang.Integer>(Iterable<Integer>, RowAdapter<Integer>, RowSignature)",0
+RowBasedStorageAdapterTest,test_getAvailableDimensions,org.apache.druid.segment.column.RowSignature.getColumnNames(),2
+RowBasedStorageAdapterTest,test_getAvailableDimensions,org.apache.druid.segment.RowBasedStorageAdapter.getAvailableDimensions(),1
+RowBasedStorageAdapterTest,test_getAvailableDimensions,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

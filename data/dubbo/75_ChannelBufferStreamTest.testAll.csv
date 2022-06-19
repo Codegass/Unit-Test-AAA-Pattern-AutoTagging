@@ -1,0 +1,44 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBuffers.dynamicBuffer(),0
+ChannelBufferStreamTest,testAll,NEW org.apache.dubbo.remoting.buffer.ChannelBufferOutputStream(ChannelBuffer),1
+ChannelBufferStreamTest,testAll,ASSERT org.junit.jupiter.api.Assertions.fail(),2
+ChannelBufferStreamTest,testAll,NEW org.apache.dubbo.remoting.buffer.ChannelBufferOutputStream(ChannelBuffer),1
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBufferOutputStream.buffer(),1
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertSame(Object, Object)",2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBufferOutputStream.write(byte[]),2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBufferOutputStream.write(byte[]),2
+ChannelBufferStreamTest,testAll,"org.apache.dubbo.remoting.buffer.ChannelBufferOutputStream.write(byte[], int, int)",2
+ChannelBufferStreamTest,testAll,NEW org.apache.dubbo.remoting.buffer.ChannelBufferInputStream(ChannelBuffer),1
+ChannelBufferStreamTest,testAll,ASSERT org.junit.jupiter.api.Assertions.fail(),2
+ChannelBufferStreamTest,testAll,"NEW org.apache.dubbo.remoting.buffer.ChannelBufferInputStream(ChannelBuffer, int)",1
+ChannelBufferStreamTest,testAll,ASSERT org.junit.jupiter.api.Assertions.fail(),2
+ChannelBufferStreamTest,testAll,"NEW org.apache.dubbo.remoting.buffer.ChannelBufferInputStream(ChannelBuffer, int)",1
+ChannelBufferStreamTest,testAll,"NEW org.apache.dubbo.remoting.buffer.ChannelBufferInputStream(ChannelBuffer, int)",1
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBuffer.capacity(),0
+ChannelBufferStreamTest,testAll,NEW org.apache.dubbo.remoting.buffer.ChannelBufferInputStream(ChannelBuffer),1
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBufferInputStream.markSupported(),1
+ChannelBufferStreamTest,testAll,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBufferInputStream.mark(int),1
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBuffer.writerIndex(),2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBufferInputStream.skip(long),1
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(long, long)",2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBuffer.readable(),2
+ChannelBufferStreamTest,testAll,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBufferInputStream.reset(),1
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBuffer.readerIndex(),2
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBufferInputStream.skip(long),1
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(long, long)",2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBuffer.readerIndex(),2
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBufferInputStream.reset(),1
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBufferInputStream.read(),1
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBuffer.readerIndex(),2
+ChannelBufferStreamTest,testAll,org.apache.dubbo.remoting.buffer.ChannelBufferInputStream.readBytes(),1
+ChannelBufferStreamTest,testAll,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RouterDeploymentDefinitionTest,testCheckPreconditionsWrongState,@EXPECTED java.lang.Class<com.cloud.exception.ResourceUnavailableException>,0
+RouterDeploymentDefinitionTest,testCheckPreconditionsWrongState,com.cloud.network.Network.getTrafficType(),0
+RouterDeploymentDefinitionTest,testCheckPreconditionsWrongState,     com.cloud.network.Network.getState(),0
+RouterDeploymentDefinitionTest,testCheckPreconditionsWrongState,     org.cloud.network.router.deployment.RouterDeploymentDefinition.checkPreconditions(),1

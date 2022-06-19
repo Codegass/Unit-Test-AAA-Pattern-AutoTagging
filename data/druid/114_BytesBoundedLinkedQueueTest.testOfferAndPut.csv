@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BytesBoundedLinkedQueueTest,testOfferAndPut,     NEW anonymous(long),0
+BytesBoundedLinkedQueueTest,testOfferAndPut,     TEST org.apache.druid.client.cache.BytesBoundedLinkedQueueTest.TestObject.getSize(),0
+BytesBoundedLinkedQueueTest,testOfferAndPut,ASSERT org.junit.Assert.fail(),2
+BytesBoundedLinkedQueueTest,testOfferAndPut,NEW org.apache.druid.client.cache.BytesBoundedLinkedQueueTest.TestObject(int),0
+BytesBoundedLinkedQueueTest,testOfferAndPut,ASSERT org.junit.Assert.assertTrue(boolean),2
+BytesBoundedLinkedQueueTest,testOfferAndPut,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+BytesBoundedLinkedQueueTest,testOfferAndPut,ASSERT org.junit.Assert.assertFalse(boolean),2
+BytesBoundedLinkedQueueTest,testOfferAndPut,ASSERT org.junit.Assert.assertFalse(boolean),2
+BytesBoundedLinkedQueueTest,testOfferAndPut,NEW anonymous(),0
+BytesBoundedLinkedQueueTest,testOfferAndPut,ASSERT org.junit.Assert.assertTrue(boolean),2
+BytesBoundedLinkedQueueTest,testOfferAndPut,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+BytesBoundedLinkedQueueTest,testOfferAndPut,ASSERT org.junit.Assert.assertTrue(boolean),2

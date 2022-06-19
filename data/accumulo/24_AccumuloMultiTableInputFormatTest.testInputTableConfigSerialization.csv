@@ -1,0 +1,15 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,NEW org.apache.accumulo.core.client.mapreduce.InputTableConfig(),0
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,"NEW org.apache.accumulo.core.data.Range(CharSequence, CharSequence)",0
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,org.apache.accumulo.core.client.mapreduce.InputTableConfig.setRanges(List<Range>),0
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,NEW org.apache.hadoop.io.Text(String),0
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,NEW org.apache.hadoop.io.Text(String),0
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,"NEW org.apache.accumulo.core.util.Pair<org.apache.hadoop.io.Text,org.apache.hadoop.io.Text>(Text, Text)",0
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,"org.apache.accumulo.core.client.mapreduce.InputTableConfig.fetchColumns(Collection<Pair<Text,Text>>)",0
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,"NEW org.apache.accumulo.core.client.IteratorSetting(int, String, String)",0
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,org.apache.accumulo.core.client.mapreduce.InputTableConfig.setIterators(List<IteratorSetting>),0
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,"org.apache.accumulo.core.client.mapreduce.AccumuloMultiTableInputFormat.setInputTableConfigs(Job, Map<String,InputTableConfig>)",0
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,"org.apache.accumulo.core.client.mapreduce.AbstractInputFormat.getInputTableConfig(JobContext, String)",1
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,"org.apache.accumulo.core.client.mapreduce.AbstractInputFormat.getInputTableConfig(JobContext, String)",1
+AccumuloMultiTableInputFormatTest,testInputTableConfigSerialization,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

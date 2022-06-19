@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RangeTest,testReadFields_Check,NEW org.apache.hadoop.io.Text(String),0
+RangeTest,testReadFields_Check,NEW org.apache.accumulo.core.data.Key(Text),0
+RangeTest,testReadFields_Check,NEW org.apache.hadoop.io.Text(String),0
+RangeTest,testReadFields_Check,NEW org.apache.accumulo.core.data.Key(Text),0
+RangeTest,testReadFields_Check,"NEW org.apache.accumulo.core.data.Range(Key, boolean, boolean, Key, boolean, boolean)",0
+RangeTest,testReadFields_Check,org.apache.accumulo.core.data.Range.write(DataOutput),0
+RangeTest,testReadFields_Check,NEW org.apache.accumulo.core.data.Range(),0
+RangeTest,testReadFields_Check,org.apache.accumulo.core.data.Range.readFields(DataInput),1
+RangeTest,testReadFields_Check,ASSERT org.junit.Assert.fail(String),2

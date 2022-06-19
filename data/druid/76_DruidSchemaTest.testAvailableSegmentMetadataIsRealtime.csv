@@ -1,0 +1,28 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.sql.calcite.schema.DruidSchema.getSegmentMetadataSnapshot(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.sql.calcite.schema.AvailableSegmentMetadata.getSegment(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.timeline.DataSegment.getDataSource(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,ASSERT org.junit.Assert.assertNotNull(Object),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.timeline.DataSegment.getId(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.sql.calcite.schema.AvailableSegmentMetadata.isRealtime(),1
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.client.ImmutableDruidServer.getType(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,ASSERT org.junit.Assert.assertNotNull(Object),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.client.ImmutableDruidServer.getMetadata(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,"org.apache.druid.sql.calcite.schema.DruidSchema.addSegment(DruidServerMetadata, DataSegment)",0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.sql.calcite.schema.DruidSchema.getSegmentMetadataSnapshot(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.timeline.DataSegment.getDataSource(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,ASSERT org.junit.Assert.assertNotNull(Object),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.timeline.DataSegment.getId(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.sql.calcite.schema.AvailableSegmentMetadata.isRealtime(),1
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.client.ImmutableDruidServer.getType(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,ASSERT org.junit.Assert.assertNotNull(Object),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.client.ImmutableDruidServer.getMetadata(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,"org.apache.druid.sql.calcite.schema.DruidSchema.removeServerSegment(DruidServerMetadata, DataSegment)",0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.sql.calcite.schema.DruidSchema.getSegmentMetadataSnapshot(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.timeline.DataSegment.getDataSource(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,ASSERT org.junit.Assert.assertNotNull(Object),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.timeline.DataSegment.getId(),0
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,org.apache.druid.sql.calcite.schema.AvailableSegmentMetadata.isRealtime(),1
+DruidSchemaTest,testAvailableSegmentMetadataIsRealtime,"ASSERT org.junit.Assert.assertEquals(long, long)",2

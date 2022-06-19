@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+UnionDataSourceTest,test_withChildren_sameNumber,NEW org.apache.druid.query.TableDataSource(String),0
+UnionDataSourceTest,test_withChildren_sameNumber,NEW org.apache.druid.query.TableDataSource(String),0
+UnionDataSourceTest,test_withChildren_sameNumber,NEW org.apache.druid.query.UnionDataSource(List<TableDataSource>),0
+UnionDataSourceTest,test_withChildren_sameNumber,org.apache.druid.query.UnionDataSource.withChildren(List<DataSource>),1
+UnionDataSourceTest,test_withChildren_sameNumber,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RegisterTemplateCmdByAdminTest,testZoneidListMinusOne,NEW org.apache.cloudstack.api.command.admin.template.RegisterTemplateCmdByAdmin(),0
+RegisterTemplateCmdByAdminTest,testZoneidListMinusOne,org.apache.cloudstack.api.command.user.template.RegisterTemplateCmd.getZoneIds(),1
+RegisterTemplateCmdByAdminTest,testZoneidListMinusOne,ASSERT org.junit.Assert.assertNull(Object),2

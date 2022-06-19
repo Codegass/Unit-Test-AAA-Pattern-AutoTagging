@@ -1,0 +1,41 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,NEW org.apache.druid.jackson.DefaultObjectMapper(),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,NEW com.fasterxml.jackson.databind.InjectableValues.Std(),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,NEW anonymous(),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.newBuilder(),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setTimestamp(long),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setEventType(CharSequence),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setId(long),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeOtherId(long),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setIsValid(boolean),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeFloat(float),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeInt(int),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeLong(long),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeIntArray(List<Integer>),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeStringArray(List<CharSequence>),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,"          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeIntValueMap(Map<CharSequence,Integer>)",0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,"          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeStringValueMap(Map<CharSequence,CharSequence>)",0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeUnion(CharSequence),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeFixed(MyFixed),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeBytes(ByteBuffer),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeNull(Void),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeEnum(MyEnum),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeRecord(MySubRecord),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeRecordArray(List<MyNestedRecord>),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.Builder.build(),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.java.util.common.FileUtils.createTempDir(),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          NEW org.apache.avro.specific.SpecificDatumWriter<org.apache.avro.generic.GenericRecord>(),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          NEW org.apache.avro.file.DataFileWriter<org.apache.avro.generic.GenericRecord>(DatumWriter<GenericRecord>),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,          org.apache.druid.data.input.SomeAvroDatum.getClassSchema(),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,"     NEW org.apache.druid.data.input.impl.TimestampSpec(String, String, DateTime)",0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,     org.apache.druid.data.input.impl.DimensionsSpec.getDefaultSchemas(List<String>),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,     NEW org.apache.druid.data.input.impl.DimensionsSpec(List<DimensionSchema>),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,"     NEW org.apache.druid.data.input.avro.AvroOCFInputFormat(ObjectMapper, JSONPathSpec, Map<String,Object>, Boolean)",0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,"     NEW org.apache.druid.data.input.InputRowSchema(TimestampSpec, DimensionsSpec, List<String>)",0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,     NEW org.apache.druid.data.input.impl.FileEntity(File),0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,"     org.apache.druid.data.input.avro.AvroOCFInputFormat.createReader(InputRowSchema, InputEntity, File)",0
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,org.apache.druid.data.input.InputEntityReader.read(),1
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,ASSERT org.junit.Assert.assertTrue(boolean),2
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,org.apache.druid.data.input.Row.getDimension(String),2
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroOCFReaderTest,testParseWithReaderSchemaAlias,ASSERT org.junit.Assert.assertFalse(boolean),2

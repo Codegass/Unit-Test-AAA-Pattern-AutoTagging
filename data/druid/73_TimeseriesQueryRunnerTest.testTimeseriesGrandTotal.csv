@@ -1,0 +1,86 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.query.Druids.newTimeseriesQueryBuilder(),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.query.Druids.TimeseriesQueryBuilder.dataSource(String),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.query.Druids.TimeseriesQueryBuilder.granularity(Granularity),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.query.Druids.TimeseriesQueryBuilder.intervals(QuerySegmentSpec),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.query.Druids.TimeseriesQueryBuilder.aggregators(List<AggregatorFactory>),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.query.Druids.TimeseriesQueryBuilder.postAggregators(PostAggregator[]),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.query.Druids.TimeseriesQueryBuilder.descending(boolean),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"org.apache.druid.query.Druids.TimeseriesQueryBuilder.context(Map<String,Object>)",0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.query.Druids.TimeseriesQueryBuilder.build(),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.java.util.common.DateTimes.of(String),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"NEW org.apache.druid.query.timeseries.TimeseriesResultValue(Map<String,Object>)",0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"NEW org.apache.druid.query.Result<org.apache.druid.query.timeseries.TimeseriesResultValue>(DateTime, TimeseriesResultValue)",0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.java.util.common.DateTimes.of(String),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"NEW org.apache.druid.query.timeseries.TimeseriesResultValue(Map<String,Object>)",0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"NEW org.apache.druid.query.Result<org.apache.druid.query.timeseries.TimeseriesResultValue>(DateTime, TimeseriesResultValue)",0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"NEW org.apache.druid.query.timeseries.TimeseriesResultValue(Map<String,Object>)",0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"NEW org.apache.druid.query.Result<org.apache.druid.query.timeseries.TimeseriesResultValue>(DateTime, TimeseriesResultValue)",0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,NEW org.apache.druid.query.timeseries.TimeseriesQueryQueryToolChest(),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.query.QueryToolChest.mergeResults(QueryRunner<Result<TimeseriesResultValue>>),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"NEW org.apache.druid.query.FinalizeResultsQueryRunner(QueryRunner, QueryToolChest)",0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.query.QueryPlus.wrap(Query<Result<TimeseriesResultValue>>),0
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,org.apache.druid.java.util.common.guava.Sequence.toList(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.groupby.ResultRow.length(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.groupby.ResultRow.length(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.groupby.ResultRow.length(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.groupby.ResultRow.get(int),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.groupby.ResultRow.get(int),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"          TEST org.apache.druid.segment.TestHelper.assertRow(String, ResultRow, ResultRow)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,          org.apache.druid.query.Result.getValue(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.Result.getTimestamp(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.Result.getTimestamp(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.Result.getValue(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.Result.getValue(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.Result.getTimestamp(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.Result.getTimestamp(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,                    org.apache.druid.data.input.Row.getTimestamp(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,                    org.apache.druid.data.input.Row.getTimestamp(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"                    ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,                    org.apache.druid.data.input.MapBasedRow.getEvent(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,                    org.apache.druid.data.input.MapBasedRow.getEvent(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"                    ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"                    ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"                    ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"          TEST org.apache.druid.segment.TestHelper.assertTimeseriesResultValue(String, Result, Result)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,          org.apache.druid.query.Result.getValue(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.Result.getValue(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.Result.getValue(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.topn.TopNResultValue.getValue(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.Result.getTimestamp(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.topn.TopNResultValue.getValue(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.Result.getTimestamp(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,               org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               TEST org.apache.druid.segment.TestHelper.assertRow(String, Row, Row)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"          TEST org.apache.druid.segment.TestHelper.assertTopNResultValue(String, Result, Result)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"          TEST org.apache.druid.segment.TestHelper.assertResult(String, Result<?>, Result)",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,          ASSERT org.junit.Assert.fail(String),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,          ASSERT org.junit.Assert.fail(String),2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TimeseriesQueryRunnerTest,testTimeseriesGrandTotal,          ASSERT org.junit.Assert.fail(String),2

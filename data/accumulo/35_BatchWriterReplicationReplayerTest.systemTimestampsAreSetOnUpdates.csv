@@ -1,0 +1,44 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,NEW org.apache.accumulo.tserver.replication.BatchWriterReplicationReplayer(),1
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,NEW org.apache.accumulo.core.client.BatchWriterConfig(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.core.client.BatchWriterConfig.setMaxMemory(long),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,NEW org.apache.accumulo.tserver.logger.LogFileKey(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,NEW org.apache.accumulo.core.replication.thrift.WalEdits(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.core.data.Mutation.toThrift(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,NEW org.apache.accumulo.server.data.ServerMutation(TMutation),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.server.data.ServerMutation.setSystemTimestamp(long),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.tserver.logger.LogFileKey.write(DataOutput),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.server.data.ServerMutation.write(DataOutput),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.core.replication.thrift.WalEdits.addToEdits(ByteBuffer),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.server.data.ServerMutation.getSystemTimestamp(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, long, CharSequence)",0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.server.data.ServerMutation.getSystemTimestamp(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, long, CharSequence)",0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.server.data.ServerMutation.getSystemTimestamp(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, long, CharSequence)",0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.server.data.ServerMutation.getSystemTimestamp(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, long, CharSequence)",0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.server.data.ServerMutation.getSystemTimestamp(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, long, CharSequence)",0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.core.conf.AccumuloConfiguration.getAsBytes(Property),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,MOCK org.easymock.EasyMock.expect(Long),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.core.client.BatchWriterConfig.getMaxMemory(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,MOCK org.easymock.IExpectationSetters<java.lang.Long>.andReturn(Long),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.core.clientImpl.ClientContext.createBatchWriter(String, BatchWriterConfig)",0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,MOCK org.easymock.EasyMock.expect(BatchWriter),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,MOCK org.easymock.IExpectationSetters<org.apache.accumulo.core.client.BatchWriter>.andReturn(BatchWriter),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.core.client.BatchWriter.addMutations(Iterable<Mutation>),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,MOCK org.easymock.EasyMock.expectLastCall(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,MOCK org.easymock.IExpectationSetters<java.lang.Object>.once(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,org.apache.accumulo.core.client.BatchWriter.close(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,MOCK org.easymock.EasyMock.expectLastCall(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,MOCK org.easymock.IExpectationSetters<java.lang.Object>.once(),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,MOCK org.easymock.EasyMock.replay(Object[]),0
+BatchWriterReplicationReplayerTest,systemTimestampsAreSetOnUpdates,"org.apache.accumulo.tserver.replication.BatchWriterReplicationReplayer.replicateLog(ClientContext, String, WalEdits)",1

@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractConfigTest,checkMethodName,"org.apache.dubbo.config.utils.ConfigValidationUtils.checkMethodName(String, String)",1
+AbstractConfigTest,checkMethodName,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+AbstractConfigTest,checkMethodName,"org.apache.dubbo.config.utils.ConfigValidationUtils.checkMethodName(String, String)",1
+AbstractConfigTest,checkMethodName,ASSERT org.junit.jupiter.api.Assertions.fail(String),2

@@ -1,0 +1,51 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"NEW org.apache.druid.query.aggregation.DoubleSumAggregatorFactory(String, String)",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,TEST org.apache.druid.segment.data.IncrementalIndexTest.IndexCreator.createIndex(AggregatorFactory[]),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,     NEW anonymous(),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,     org.apache.druid.java.util.common.io.Closer.register(),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"     org.apache.druid.java.util.common.logger.Logger.warn(Throwable, String, Object[])",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"     NEW org.apache.druid.data.input.MapBasedInputRow(long, List<String>, Map<String,Object>)",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"TEST org.apache.druid.segment.data.IncrementalIndexTest.getLongRow(long, int)",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"NEW org.apache.druid.query.aggregation.DoubleSumAggregatorFactory(String, String)",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.Druids.newTimeseriesQueryBuilder(),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.Druids.TimeseriesQueryBuilder.dataSource(String),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.Druids.TimeseriesQueryBuilder.granularity(Granularity),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.java.util.common.Intervals.of(String),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.Druids.TimeseriesQueryBuilder.intervals(List<Interval>),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.Druids.TimeseriesQueryBuilder.aggregators(List<AggregatorFactory>),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.Druids.TimeseriesQueryBuilder.build(),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"NEW org.apache.druid.segment.IncrementalIndexSegment(IncrementalIndex, SegmentId)",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,NEW org.apache.druid.query.timeseries.TimeseriesQueryQueryToolChest(),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,NEW org.apache.druid.query.timeseries.TimeseriesQueryEngine(),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"NEW org.apache.druid.query.timeseries.TimeseriesQueryRunnerFactory(TimeseriesQueryQueryToolChest, TimeseriesQueryEngine, QueryWatcher)",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.QueryRunnerFactory.createRunner(Segment),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.QueryRunnerFactory.getToolchest(),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"NEW org.apache.druid.query.FinalizeResultsQueryRunner<org.apache.druid.query.Result<org.apache.druid.query.timeseries.TimeseriesResultValue>>(QueryRunner<Result<TimeseriesResultValue>>, QueryToolChest<Result<TimeseriesResultValue>,Query<Result<TimeseriesResultValue>>>)",0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.QueryPlus.wrap(Query<Result<TimeseriesResultValue>>),0
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.QueryRunner.run(QueryPlus<Result<TimeseriesResultValue>>),1
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.java.util.common.guava.Sequence.toList(),2
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.segment.incremental.IncrementalIndex.isRollup(),2
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.Result.getValue(),2
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.MetricValueExtractor.getLongMetric(String),2
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.Result.getValue(),2
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.MetricValueExtractor.getLongMetric(String),2
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.Result.getValue(),2
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,org.apache.druid.query.MetricValueExtractor.getDoubleMetric(String),2
+IncrementalIndexTest,testSingleThreadedIndexingAndQuery,"ASSERT org.junit.Assert.assertEquals(String, long, long)",2

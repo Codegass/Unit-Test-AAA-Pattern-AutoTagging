@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CoordinatorResourceTest,testIsLeader,org.apache.druid.server.coordinator.DruidCoordinator.isLeader(),0
+CoordinatorResourceTest,testIsLeader,MOCK org.easymock.EasyMock.expect(Boolean),0
+CoordinatorResourceTest,testIsLeader,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+CoordinatorResourceTest,testIsLeader,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.once(),0
+CoordinatorResourceTest,testIsLeader,org.apache.druid.server.coordinator.DruidCoordinator.isLeader(),0
+CoordinatorResourceTest,testIsLeader,MOCK org.easymock.EasyMock.expect(Boolean),0
+CoordinatorResourceTest,testIsLeader,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+CoordinatorResourceTest,testIsLeader,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.once(),0
+CoordinatorResourceTest,testIsLeader,MOCK org.easymock.EasyMock.replay(Object[]),0
+CoordinatorResourceTest,testIsLeader,NEW org.apache.druid.server.http.CoordinatorResource(DruidCoordinator),0
+CoordinatorResourceTest,testIsLeader,org.apache.druid.server.http.CoordinatorResource.isLeader(),1
+CoordinatorResourceTest,testIsLeader,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CoordinatorResourceTest,testIsLeader,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+CoordinatorResourceTest,testIsLeader,NEW org.apache.druid.server.http.CoordinatorResource(DruidCoordinator),0
+CoordinatorResourceTest,testIsLeader,org.apache.druid.server.http.CoordinatorResource.isLeader(),1
+CoordinatorResourceTest,testIsLeader,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CoordinatorResourceTest,testIsLeader,"ASSERT org.junit.Assert.assertEquals(long, long)",2

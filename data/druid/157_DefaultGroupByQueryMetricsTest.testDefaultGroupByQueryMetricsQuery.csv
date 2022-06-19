@@ -1,0 +1,43 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,NEW org.apache.druid.query.CachingEmitter(),0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"NEW org.apache.druid.java.util.emitter.service.ServiceEmitter(String, String, Emitter)",0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,NEW org.apache.druid.query.groupby.DefaultGroupByQueryMetrics(),0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.groupby.GroupByQuery.builder(),0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setDataSource(String),0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setInterval(String),0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"NEW org.apache.druid.query.extraction.MapLookupExtractor(Map<String,String>, boolean)",0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"NEW org.apache.druid.query.lookup.LookupExtractionFn(LookupExtractor, boolean, String, Boolean, Boolean)",0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"NEW org.apache.druid.query.dimension.ExtractionDimensionSpec(String, String, ExtractionFn)",0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setDimensions(DimensionSpec[]),0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setAggregatorSpecs(AggregatorFactory[]),0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,NEW org.joda.time.Period(Object),0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"NEW org.apache.druid.java.util.common.granularity.PeriodGranularity(Period, DateTime, DateTimeZone)",0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setGranularity(Granularity),0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"NEW org.apache.druid.query.filter.SelectorDimFilter(String, String, ExtractionFn)",0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.setDimFilter(DimFilter),0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"org.apache.druid.query.groupby.GroupByQuery.Builder.setContext(Map<String,Object>)",0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.groupby.GroupByQuery.Builder.build(),0
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.groupby.DefaultGroupByQueryMetrics.query(GroupByQuery),1
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.DefaultQueryMetrics.reportQueryTime(long),2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.QueryMetrics.emit(ServiceEmitter),2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,TEST org.apache.druid.query.CachingEmitter.getLastEmittedEvent(),2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.java.util.emitter.core.Event.toMap(),2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,ASSERT org.junit.Assert.assertTrue(boolean),2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,ASSERT org.junit.Assert.assertTrue(boolean),2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.query.groupby.GroupByQuery.getType(),2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,org.apache.druid.java.util.common.Intervals.of(String),2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultGroupByQueryMetricsTest,testDefaultGroupByQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

@@ -1,0 +1,41 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.Druids.newScanQueryBuilder(),0
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     NEW org.apache.druid.query.TableDataSource(String),0
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.Druids.ScanQueryBuilder.dataSource(DataSource),0
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.Druids.ScanQueryBuilder.columns(List<String>),0
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.Druids.ScanQueryBuilder.intervals(QuerySegmentSpec),0
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.Druids.ScanQueryBuilder.limit(long),0
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.Druids.ScanQueryBuilder.legacy(Boolean),0
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,org.apache.druid.query.Druids.ScanQueryBuilder.intervals(QuerySegmentSpec),0
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,org.apache.druid.query.Druids.ScanQueryBuilder.columns(String[]),0
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,org.apache.druid.query.Druids.ScanQueryBuilder.build(),0
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,org.apache.druid.query.QueryPlus.wrap(Query<ScanResultValue>),0
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,org.apache.druid.java.util.common.guava.Sequence.toList(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.segment.VirtualColumn.getOutputName(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.segment.VirtualColumn.getOutputName(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.hll.HyperLogLogCollector.makeLatestCollector(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.java.util.common.StringUtils.toUtf8(String),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.hll.HyperLogLogCollector.add(byte[]),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,          org.apache.druid.java.util.common.DateTimes.of(String),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,          org.apache.druid.java.util.common.DateTimes.of(String),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.common.config.NullHandling.defaultFloatValue(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.common.config.NullHandling.defaultDoubleValue(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.common.config.NullHandling.defaultLongValue(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,TEST org.apache.druid.query.scan.ScanQueryRunnerTest.getTimestampName(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.timeline.SegmentId.toString(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,"     NEW org.apache.druid.query.scan.ScanResultValue(String, List<String>, Object)",2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,TEST org.apache.druid.query.scan.ScanQueryRunnerTest.getTimestampName(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.scan.ScanResultValue.getSegmentId(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.scan.ScanResultValue.getSegmentId(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.scan.ScanResultValue.getColumns(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.scan.ScanResultValue.getColumns(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.scan.ScanResultValue.getEvents(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,     org.apache.druid.query.scan.ScanResultValue.getEvents(),2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,"     ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,"     ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,"     ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,"     ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,"     NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+ScanQueryRunnerTest,testSelectWithUnderscoreUnderscoreTime,"     NEW org.apache.druid.java.util.common.ISE(String, Object[])",2

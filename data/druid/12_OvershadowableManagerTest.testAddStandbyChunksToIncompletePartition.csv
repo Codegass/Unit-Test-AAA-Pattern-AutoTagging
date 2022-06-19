@@ -1,0 +1,20 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,     TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.nextNonRootPartitionId(),0
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,"     NEW org.apache.druid.timeline.partition.OvershadowableInteger(String, int, int, int, int, int, int)",0
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,"     NEW org.apache.druid.timeline.partition.NumberedOverwritingPartitionChunk<org.apache.druid.timeline.partition.OvershadowableInteger>(int, OvershadowableInteger)",0
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,     org.apache.druid.timeline.partition.OvershadowableManager.addChunk(PartitionChunk<OvershadowableInteger>),1
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,ASSERT org.junit.Assert.assertTrue(boolean),2
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,     org.apache.druid.timeline.partition.OvershadowableManager.visibleChunksIterator(),2
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,"     ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,     org.apache.druid.timeline.partition.OvershadowableManager.getOvershadowedChunks(),2
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,"     ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,     org.apache.druid.timeline.partition.OvershadowableManager.getStandbyChunks(),2
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,"     ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,"TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.newNonRootChunk(int, int, int, int)",2
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.addVisibleToManager(PartitionChunk<OvershadowableInteger>),1
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,ASSERT org.junit.Assert.assertTrue(boolean),2
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.assertManagerState(),2
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,"TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.newNonRootChunk(int, int, int, int)",0
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.addVisibleToManager(PartitionChunk<OvershadowableInteger>),1
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,ASSERT org.junit.Assert.assertTrue(boolean),2
+OvershadowableManagerTest,testAddStandbyChunksToIncompletePartition,TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.assertManagerState(),2

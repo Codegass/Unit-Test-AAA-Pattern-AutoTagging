@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ReplicationSchemaTest,separatorDoesntInterferWithSplit,NEW org.apache.hadoop.io.Text(),0
+ReplicationSchemaTest,separatorDoesntInterferWithSplit,"org.apache.accumulo.core.replication.ReplicationSchema.OrderSection.createMutation(String, long)",1
+ReplicationSchemaTest,separatorDoesntInterferWithSplit,org.apache.accumulo.core.data.Mutation.getRow(),0
+ReplicationSchemaTest,separatorDoesntInterferWithSplit,NEW org.apache.hadoop.io.Text(byte[]),0
+ReplicationSchemaTest,separatorDoesntInterferWithSplit,NEW org.apache.accumulo.core.data.Key(Text),0
+ReplicationSchemaTest,separatorDoesntInterferWithSplit,"org.apache.accumulo.core.replication.ReplicationSchema.OrderSection.getFile(Key, Text)",1
+ReplicationSchemaTest,separatorDoesntInterferWithSplit,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ReplicationSchemaTest,separatorDoesntInterferWithSplit,"org.apache.accumulo.core.replication.ReplicationSchema.OrderSection.getTimeClosed(Key, Text)",1
+ReplicationSchemaTest,separatorDoesntInterferWithSplit,"ASSERT org.junit.Assert.assertEquals(long, long)",2

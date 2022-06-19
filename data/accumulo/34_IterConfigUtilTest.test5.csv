@@ -1,0 +1,27 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+IterConfigUtilTest,test5,NEW org.apache.accumulo.core.conf.ConfigurationCopy(),0
+IterConfigUtilTest,test5,"org.apache.accumulo.core.conf.ConfigurationCopy.set(String, String)",0
+IterConfigUtilTest,test5,"org.apache.accumulo.core.conf.ConfigurationCopy.set(String, String)",0
+IterConfigUtilTest,test5,"org.apache.accumulo.core.conf.ConfigurationCopy.set(String, String)",0
+IterConfigUtilTest,test5,               NEW org.apache.hadoop.io.Text(String),0
+IterConfigUtilTest,test5,"          NEW org.apache.accumulo.core.data.Key(Text, long)",0
+IterConfigUtilTest,test5,     org.apache.accumulo.core.data.Key.setDeleted(boolean),0
+IterConfigUtilTest,test5,     NEW org.apache.accumulo.core.data.Value(byte[]),0
+IterConfigUtilTest,test5,"TEST org.apache.accumulo.core.iterators.system.MultiIteratorTest.newKeyValue(TreeMap<Key,Value>, int, long, boolean, String)",0
+IterConfigUtilTest,test5,"NEW org.apache.accumulo.core.iterators.SortedMapIterator(SortedMap<Key,Value>)",0
+IterConfigUtilTest,test5,"     org.apache.accumulo.core.conf.IterConfigUtil.loadIterConf(IteratorScope, List<IterInfo>, Map<String,Map<String,String>>, AccumuloConfiguration)",1
+IterConfigUtilTest,test5,     NEW org.apache.accumulo.core.iterators.DefaultIteratorEnvironment(AccumuloConfiguration),0
+IterConfigUtilTest,test5,     org.apache.accumulo.core.conf.IterLoad.iterEnv(IteratorEnvironment),0
+IterConfigUtilTest,test5,     org.apache.accumulo.core.conf.IterLoad.useAccumuloClassLoader(boolean),0
+IterConfigUtilTest,test5,"     org.apache.accumulo.core.conf.IterConfigUtil.loadIterators(SortedKeyValueIterator<Key,Value>, IterLoad)",1
+IterConfigUtilTest,test5,NEW org.apache.accumulo.core.data.Range(),0
+IterConfigUtilTest,test5,"org.apache.accumulo.core.iterators.SortedKeyValueIterator.seek(Range, Collection<ByteSequence>, boolean)",0
+IterConfigUtilTest,test5,org.apache.accumulo.core.iterators.SortedKeyValueIterator.hasTop(),2
+IterConfigUtilTest,test5,ASSERT org.junit.Assert.assertTrue(boolean),2
+IterConfigUtilTest,test5,org.apache.accumulo.core.iterators.SortedKeyValueIterator.getTopKey(),2
+IterConfigUtilTest,test5,          NEW org.apache.hadoop.io.Text(String),2
+IterConfigUtilTest,test5,"     NEW org.apache.accumulo.core.data.Key(Text, long)",2
+IterConfigUtilTest,test5,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IterConfigUtilTest,test5,org.apache.accumulo.core.iterators.SortedKeyValueIterator.next(),2
+IterConfigUtilTest,test5,org.apache.accumulo.core.iterators.SortedKeyValueIterator.hasTop(),2
+IterConfigUtilTest,test5,ASSERT org.junit.Assert.assertFalse(boolean),2

@@ -1,0 +1,17 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RoundRobinLoadBalanceTest,testSelectByWeight,          org.apache.dubbo.common.extension.ExtensionLoader.getExtensionLoader(Class<LoadBalance>),0
+RoundRobinLoadBalanceTest,testSelectByWeight,          org.apache.dubbo.common.extension.ExtensionLoader.getExtension(String),0
+RoundRobinLoadBalanceTest,testSelectByWeight,"     org.apache.dubbo.rpc.cluster.loadbalance.AbstractLoadBalance.getWeight(Invoker<?>, Invocation)",0
+RoundRobinLoadBalanceTest,testSelectByWeight,     NEW org.apache.dubbo.rpc.cluster.loadbalance.LoadBalanceBaseTest.InvokeResult(int),0
+RoundRobinLoadBalanceTest,testSelectByWeight,     TEST org.apache.dubbo.rpc.cluster.loadbalance.LoadBalanceBaseTest.InvokeResult.getWeight(),0
+RoundRobinLoadBalanceTest,testSelectByWeight,     TEST org.apache.dubbo.rpc.cluster.loadbalance.LoadBalanceBaseTest.InvokeResult.setTotalWeight(int),0
+RoundRobinLoadBalanceTest,testSelectByWeight,     org.apache.dubbo.common.Node.getUrl(),0
+RoundRobinLoadBalanceTest,testSelectByWeight,"     org.apache.dubbo.rpc.cluster.loadbalance.AbstractLoadBalance.select(List<Invoker<LoadBalanceBaseTest>>, URL, Invocation)",1
+RoundRobinLoadBalanceTest,testSelectByWeight,     TEST org.apache.dubbo.rpc.cluster.loadbalance.LoadBalanceBaseTest.InvokeResult.getCount(),2
+RoundRobinLoadBalanceTest,testSelectByWeight,TEST org.apache.dubbo.rpc.cluster.loadbalance.LoadBalanceBaseTest.InvokeResult.getCount(),2
+RoundRobinLoadBalanceTest,testSelectByWeight,TEST org.apache.dubbo.rpc.cluster.loadbalance.LoadBalanceBaseTest.InvokeResult.getCount(),2
+RoundRobinLoadBalanceTest,testSelectByWeight,     TEST org.apache.dubbo.rpc.cluster.loadbalance.LoadBalanceBaseTest.InvokeResult.getCount(),2
+RoundRobinLoadBalanceTest,testSelectByWeight,"     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+RoundRobinLoadBalanceTest,testSelectByWeight,          TEST org.apache.dubbo.rpc.cluster.loadbalance.LoadBalanceBaseTest.InvokeResult.getWeight(),2
+RoundRobinLoadBalanceTest,testSelectByWeight,          TEST org.apache.dubbo.rpc.cluster.loadbalance.LoadBalanceBaseTest.InvokeResult.getTotalWeight(),2
+RoundRobinLoadBalanceTest,testSelectByWeight,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int, String)",2

@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MiniAccumuloConfigImplTest,testZookeeperPort,"NEW org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl(File, String)",0
+MiniAccumuloConfigImplTest,testZookeeperPort,org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.setZooKeeperPort(int),1
+MiniAccumuloConfigImplTest,testZookeeperPort,org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.initialize(),1
+MiniAccumuloConfigImplTest,testZookeeperPort,org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.getZooKeeperPort(),0
+MiniAccumuloConfigImplTest,testZookeeperPort,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+MiniAccumuloConfigImplTest,testZookeeperPort,"NEW org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl(File, String)",0
+MiniAccumuloConfigImplTest,testZookeeperPort,org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.initialize(),1
+MiniAccumuloConfigImplTest,testZookeeperPort,ASSERT org.junit.Assert.assertTrue(boolean),2
+MiniAccumuloConfigImplTest,testZookeeperPort,org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.getZooKeeperPort(),2

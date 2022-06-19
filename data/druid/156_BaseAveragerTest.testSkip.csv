@@ -1,0 +1,25 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BaseAveragerTest,testSkip,"NEW org.apache.druid.query.movingaverage.averagers.BaseAveragerTest.TestAverager(Class<Integer>, int, String, String, int)",0
+BaseAveragerTest,testSkip,org.apache.druid.query.movingaverage.averagers.BaseAverager.getBuckets(),0
+BaseAveragerTest,testSkip,"org.apache.druid.query.movingaverage.averagers.BaseAverager.addElement(Map<String,Object>, Map<String,AggregatorFactory>)",0
+BaseAveragerTest,testSkip,"org.apache.druid.query.movingaverage.averagers.BaseAverager.addElement(Map<String,Object>, Map<String,AggregatorFactory>)",0
+BaseAveragerTest,testSkip,"org.apache.druid.query.movingaverage.averagers.BaseAverager.addElement(Map<String,Object>, Map<String,AggregatorFactory>)",0
+BaseAveragerTest,testSkip,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+BaseAveragerTest,testSkip,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+BaseAveragerTest,testSkip,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+BaseAveragerTest,testSkip,org.apache.druid.query.movingaverage.averagers.BaseAverager.skip(),1
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNull(Object),2
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNotNull(Object),2
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNotNull(Object),2
+BaseAveragerTest,testSkip,org.apache.druid.query.movingaverage.averagers.BaseAverager.skip(),1
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNull(Object),2
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNull(Object),2
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNotNull(Object),2
+BaseAveragerTest,testSkip,org.apache.druid.query.movingaverage.averagers.BaseAverager.skip(),1
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNull(Object),2
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNull(Object),2
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNull(Object),2
+BaseAveragerTest,testSkip,org.apache.druid.query.movingaverage.averagers.BaseAverager.skip(),1
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNull(Object),2
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNull(Object),2
+BaseAveragerTest,testSkip,ASSERT org.junit.Assert.assertNull(Object),2

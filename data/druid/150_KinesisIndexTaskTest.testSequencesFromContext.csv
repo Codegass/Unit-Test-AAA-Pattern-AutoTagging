@@ -1,0 +1,55 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+KinesisIndexTaskTest,testSequencesFromContext,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>, Set<String>)",0
+KinesisIndexTaskTest,testSequencesFromContext,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>)",0
+KinesisIndexTaskTest,testSequencesFromContext,"NEW org.apache.druid.indexing.kinesis.KinesisIndexTaskIOConfig(int, String, SeekableStreamStartSequenceNumbers<String,String>, SeekableStreamEndSequenceNumbers<String,String>, Boolean, DateTime, DateTime, InputFormat, String, Integer, Integer, String, String, boolean)",0
+KinesisIndexTaskTest,testSequencesFromContext,     NEW org.joda.time.Period(Object),0
+KinesisIndexTaskTest,testSequencesFromContext,"     NEW org.apache.druid.indexing.kinesis.KinesisIndexTaskTuningConfig(Integer, Long, Integer, Long, Period, File, Integer, IndexSpec, IndexSpec, Boolean, Boolean, Long, Boolean, Boolean, Integer, Integer, Integer, Integer, Integer, SegmentWriteOutMediumFactory, Boolean, Integer, Integer, Integer, Period)",0
+KinesisIndexTaskTest,testSequencesFromContext,          org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),0
+KinesisIndexTaskTest,testSequencesFromContext,          org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getPartitionSequenceNumberMap(),0
+KinesisIndexTaskTest,testSequencesFromContext,               org.apache.druid.segment.indexing.DataSchema.getDataSource(),0
+KinesisIndexTaskTest,testSequencesFromContext,               org.apache.druid.segment.indexing.DataSchema.getTimestampSpec(),0
+KinesisIndexTaskTest,testSequencesFromContext,               org.apache.druid.segment.indexing.DataSchema.getDimensionsSpec(),0
+KinesisIndexTaskTest,testSequencesFromContext,               org.apache.druid.segment.indexing.DataSchema.getAggregators(),0
+KinesisIndexTaskTest,testSequencesFromContext,               org.apache.druid.segment.indexing.DataSchema.getGranularitySpec(),0
+KinesisIndexTaskTest,testSequencesFromContext,               org.apache.druid.segment.indexing.DataSchema.getTransformSpec(),0
+KinesisIndexTaskTest,testSequencesFromContext,               org.apache.druid.segment.indexing.DataSchema.getParserMap(),0
+KinesisIndexTaskTest,testSequencesFromContext,"               NEW org.apache.druid.segment.indexing.DataSchema(String, TimestampSpec, DimensionsSpec, AggregatorFactory[], GranularitySpec, TransformSpec, Map<String,Object>, ObjectMapper)",0
+KinesisIndexTaskTest,testSequencesFromContext,"          NEW org.apache.druid.indexing.kinesis.KinesisIndexTaskTest.TestableKinesisIndexTask(String, TaskResource, DataSchema, KinesisIndexTaskTuningConfig, KinesisIndexTaskIOConfig, Map<String,Object>, ChatHandlerProvider, AuthorizerMapper, RowIngestionMetersFactory, AWSCredentialsConfig, AppenderatorsManager)",0
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),0
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.common.TaskToolboxFactory.build(Task),0
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.setToolbox(TaskToolbox),0
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),0
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.initializeSequences(),1
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getSequences(),2
+KinesisIndexTaskTest,testSequencesFromContext,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.getStartOffsets(),2
+KinesisIndexTaskTest,testSequencesFromContext,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.getEndOffsets(),2
+KinesisIndexTaskTest,testSequencesFromContext,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.kinesis.KinesisIndexTask.getIOConfig(),2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getExclusivePartitions(),2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.getExclusiveStartPartitions(),2
+KinesisIndexTaskTest,testSequencesFromContext,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.isCheckpointed(),2
+KinesisIndexTaskTest,testSequencesFromContext,ASSERT org.junit.Assert.assertTrue(boolean),2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.getStartOffsets(),2
+KinesisIndexTaskTest,testSequencesFromContext,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.getEndOffsets(),2
+KinesisIndexTaskTest,testSequencesFromContext,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.getExclusiveStartPartitions(),2
+KinesisIndexTaskTest,testSequencesFromContext,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.isCheckpointed(),2
+KinesisIndexTaskTest,testSequencesFromContext,ASSERT org.junit.Assert.assertTrue(boolean),2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.getStartOffsets(),2
+KinesisIndexTaskTest,testSequencesFromContext,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.kinesis.KinesisIndexTask.getIOConfig(),2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getEndSequenceNumbers(),2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers.getPartitionSequenceNumberMap(),2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.getEndOffsets(),2
+KinesisIndexTaskTest,testSequencesFromContext,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.getExclusiveStartPartitions(),2
+KinesisIndexTaskTest,testSequencesFromContext,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisIndexTaskTest,testSequencesFromContext,org.apache.druid.indexing.seekablestream.SequenceMetadata.isCheckpointed(),2
+KinesisIndexTaskTest,testSequencesFromContext,ASSERT org.junit.Assert.assertFalse(boolean),2

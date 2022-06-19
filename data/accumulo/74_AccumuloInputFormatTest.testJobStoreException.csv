@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AccumuloInputFormatTest,testJobStoreException,org.apache.accumulo.hadoop.mapreduce.AccumuloInputFormat.configure(),0
+AccumuloInputFormatTest,testJobStoreException,org.apache.accumulo.hadoop.mapreduce.InputFormatBuilder.ClientParams.clientProperties(Properties),0
+AccumuloInputFormatTest,testJobStoreException,org.apache.accumulo.hadoop.mapreduce.InputFormatBuilder.TableParams.table(String),0
+AccumuloInputFormatTest,testJobStoreException,org.apache.accumulo.hadoop.mapreduce.InputFormatBuilder.InputFormatOptions.auths(Authorizations),0
+AccumuloInputFormatTest,testJobStoreException,NEW org.apache.accumulo.hadoop.mapreduce.AccumuloInputFormat(),0
+AccumuloInputFormatTest,testJobStoreException,org.apache.accumulo.hadoop.mapreduce.AccumuloInputFormat.getSplits(JobContext),1
+AccumuloInputFormatTest,testJobStoreException,ASSERT org.junit.Assert.fail(String),2

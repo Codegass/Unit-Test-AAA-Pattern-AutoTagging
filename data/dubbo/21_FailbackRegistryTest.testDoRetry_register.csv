@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FailbackRegistryTest,testDoRetry_register,NEW anonymous(),0
+FailbackRegistryTest,testDoRetry_register,"NEW org.apache.dubbo.registry.support.FailbackRegistryTest.MockRegistry(URL, CountDownLatch)",0
+FailbackRegistryTest,testDoRetry_register,TEST org.apache.dubbo.registry.support.FailbackRegistryTest.MockRegistry.setBad(boolean),0
+FailbackRegistryTest,testDoRetry_register,org.apache.dubbo.common.URL.setProtocol(String),0
+FailbackRegistryTest,testDoRetry_register,org.apache.dubbo.common.utils.CollectionUtils.toStringMap(String[]),0
+FailbackRegistryTest,testDoRetry_register,"org.apache.dubbo.common.URL.addParameters(Map<String,String>)",0
+FailbackRegistryTest,testDoRetry_register,"org.apache.dubbo.registry.support.FailbackRegistry.subscribe(URL, NotifyListener)",1
+FailbackRegistryTest,testDoRetry_register,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+FailbackRegistryTest,testDoRetry_register,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(long, long)",2
+FailbackRegistryTest,testDoRetry_register,TEST org.apache.dubbo.registry.support.FailbackRegistryTest.MockRegistry.setBad(boolean),2
+FailbackRegistryTest,testDoRetry_register,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(long, long)",2
+FailbackRegistryTest,testDoRetry_register,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

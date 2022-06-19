@@ -1,0 +1,29 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.buffer.ChannelBuffers.dynamicBuffer(int),0
+ExchangeCodecTest,test_Encode_Response,"     org.apache.dubbo.common.URL.addParameter(String, String)",0
+ExchangeCodecTest,test_Encode_Response,     org.apache.dubbo.common.URL.getAddress(),0
+ExchangeCodecTest,test_Encode_Response,"     org.apache.dubbo.common.URL.addParameter(String, String)",0
+ExchangeCodecTest,test_Encode_Response,     NEW org.apache.dubbo.remoting.codec.AbstractMockChannel(URL),0
+ExchangeCodecTest,test_Encode_Response,NEW org.apache.dubbo.remoting.exchange.Response(),0
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.setHeartbeat(boolean),0
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.setId(long),0
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.setStatus(byte),0
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.setVersion(String),0
+ExchangeCodecTest,test_Encode_Response,NEW org.apache.dubbo.remoting.codec.TelnetCodecTest.Person(),0
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.setResult(Object),0
+ExchangeCodecTest,test_Encode_Response,"org.apache.dubbo.remoting.Codec2.encode(Channel, ChannelBuffer, Object)",1
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.buffer.ChannelBuffer.writerIndex(),2
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.buffer.ChannelBuffer.readBytes(byte[]),2
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.buffer.ChannelBuffers.wrappedBuffer(byte[]),2
+ExchangeCodecTest,test_Encode_Response,"org.apache.dubbo.remoting.Codec2.decode(Channel, ChannelBuffer)",2
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.getId(),2
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.getId(),2
+ExchangeCodecTest,test_Encode_Response,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(long, long)",2
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.getStatus(),2
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.getStatus(),2
+ExchangeCodecTest,test_Encode_Response,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(byte, byte)",2
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.isHeartbeat(),2
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.isHeartbeat(),2
+ExchangeCodecTest,test_Encode_Response,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ExchangeCodecTest,test_Encode_Response,org.apache.dubbo.remoting.exchange.Response.getResult(),2
+ExchangeCodecTest,test_Encode_Response,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

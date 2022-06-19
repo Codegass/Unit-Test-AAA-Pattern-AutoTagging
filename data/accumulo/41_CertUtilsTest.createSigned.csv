@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CertUtilsTest,createSigned,"     NEW org.apache.accumulo.test.util.CertUtils(String, String, String, int, String)",0
+CertUtilsTest,createSigned,     NEW org.apache.commons.io.FileExistsException(File),0
+CertUtilsTest,createSigned,     TEST org.apache.accumulo.test.util.CertUtils.generateKeyPair(),0
+CertUtilsTest,createSigned,          NEW org.bouncycastle.asn1.x500.X500Name(RDN[]),0
+CertUtilsTest,createSigned,"          NEW org.bouncycastle.cert.jcajce.JcaX509v3CertificateBuilder(X500Name, BigInteger, Date, Date, X500Name, PublicKey)",0
+CertUtilsTest,createSigned,          NEW org.bouncycastle.cert.jcajce.JcaX509ExtensionUtils(),0
+CertUtilsTest,createSigned,          NEW org.bouncycastle.asn1.x509.BasicConstraints(boolean),0
+CertUtilsTest,createSigned,          NEW org.bouncycastle.asn1.x509.KeyUsage(int),0
+CertUtilsTest,createSigned,          NEW org.bouncycastle.operator.jcajce.JcaContentSignerBuilder(String),0
+CertUtilsTest,createSigned,          NEW org.bouncycastle.cert.jcajce.JcaX509CertificateConverter(),0
+CertUtilsTest,createSigned,     TEST org.apache.accumulo.test.util.CertUtils.findCert(KeyStore),0
+CertUtilsTest,createSigned,"     TEST org.apache.accumulo.test.util.CertUtils.findPrivateKey(KeyStore, char[])",0
+CertUtilsTest,createSigned,     TEST org.apache.accumulo.test.util.CertUtils.generateKeyPair(),0
+CertUtilsTest,createSigned,"     TEST org.apache.accumulo.test.util.CertUtils.generateCert(KeyPair, boolean, PublicKey, PrivateKey)",0
+CertUtilsTest,createSigned,TEST org.apache.accumulo.test.util.CertUtils.findCert(KeyStore),0
+CertUtilsTest,createSigned,TEST org.apache.accumulo.test.util.CertUtils.findCert(KeyStore),0
+CertUtilsTest,createSigned,ASSERT org.junit.Assert.fail(String),2

@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,NEW org.apache.druid.query.aggregation.TestDoubleColumnSelectorImpl(double[]),0
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchBuildAggregator(ColumnValueSelector<Double>, int)",0
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,org.apache.druid.query.aggregation.Aggregator.aggregate(),0
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,TEST org.apache.druid.query.aggregation.TestDoubleColumnSelectorImpl.increment(),0
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,org.apache.druid.query.aggregation.Aggregator.get(),0
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,"NEW org.apache.druid.query.aggregation.post.FieldAccessPostAggregator(String, String)",0
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,"NEW org.apache.druid.query.aggregation.datasketches.quantiles.DoublesSketchToQuantilesPostAggregator(String, PostAggregator, double[])",0
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,"org.apache.druid.query.aggregation.PostAggregator.compute(Map<String,Object>)",1
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,ASSERT org.junit.Assert.assertNotNull(Object),2
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,"ASSERT org.junit.Assert.assertEquals(double, double, double)",2
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,"ASSERT org.junit.Assert.assertEquals(double, double, double)",2
+DoublesSketchToQuantilesPostAggregatorTest,normalCase,"ASSERT org.junit.Assert.assertEquals(double, double, double)",2

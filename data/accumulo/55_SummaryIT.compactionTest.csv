@@ -1,0 +1,44 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SummaryIT,compactionTest,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.Accumulo.newClient(),0
+SummaryIT,compactionTest,     TEST org.apache.accumulo.harness.AccumuloClusterHarness.getCluster(),0
+SummaryIT,compactionTest,     org.apache.accumulo.cluster.AccumuloCluster.getClientProperties(),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+SummaryIT,compactionTest,NEW org.apache.accumulo.core.client.admin.NewTableConfiguration(),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.summary.SummarizerConfiguration.builder(String),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.summary.SummarizerConfiguration.Builder.build(),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.admin.NewTableConfiguration.enableSummarization(SummarizerConfiguration[]),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+SummaryIT,compactionTest,"org.apache.accumulo.core.client.admin.TableOperations.create(String, NewTableConfiguration)",0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+SummaryIT,compactionTest,     NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+SummaryIT,compactionTest,"     org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",0
+SummaryIT,compactionTest,     org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+SummaryIT,compactionTest,"TEST org.apache.accumulo.test.functional.SummaryIT.write(BatchWriter, String, String, String, String)",0
+SummaryIT,compactionTest,"TEST org.apache.accumulo.test.functional.SummaryIT.write(BatchWriter, String, String, String, String)",0
+SummaryIT,compactionTest,NEW org.apache.accumulo.core.client.admin.CompactionStrategyConfig(String),0
+SummaryIT,compactionTest,"NEW org.apache.accumulo.core.client.IteratorSetting(int, Class<? extends SortedKeyValueIterator<Key,Value>>)",0
+SummaryIT,compactionTest,NEW org.apache.accumulo.core.client.admin.CompactionConfig(),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.admin.CompactionConfig.setFlush(boolean),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.admin.CompactionConfig.setCompactionStrategy(CompactionStrategyConfig),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.admin.CompactionConfig.setIterators(List<IteratorSetting>),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.admin.CompactionConfig.setWait(boolean),0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+SummaryIT,compactionTest,"org.apache.accumulo.core.client.admin.TableOperations.compact(String, CompactionConfig)",1
+SummaryIT,compactionTest,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+SummaryIT,compactionTest,org.apache.accumulo.core.data.Key.getRowData(),2
+SummaryIT,compactionTest,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+SummaryIT,compactionTest,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+SummaryIT,compactionTest,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+SummaryIT,compactionTest,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+SummaryIT,compactionTest,"TEST org.apache.accumulo.test.functional.SummaryIT.write(BatchWriter, String, String, String, String)",0
+SummaryIT,compactionTest,"TEST org.apache.accumulo.test.functional.SummaryIT.write(BatchWriter, String, String, String, String)",0
+SummaryIT,compactionTest,"TEST org.apache.accumulo.test.functional.SummaryIT.write(BatchWriter, String, String, String, String)",0
+SummaryIT,compactionTest,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+SummaryIT,compactionTest,"org.apache.accumulo.core.client.admin.TableOperations.compact(String, CompactionConfig)",1
+SummaryIT,compactionTest,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+SummaryIT,compactionTest,org.apache.accumulo.core.data.Key.getRowData(),2
+SummaryIT,compactionTest,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+SummaryIT,compactionTest,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+SummaryIT,compactionTest,"ASSERT org.junit.Assert.assertEquals(long, long)",2

@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BigSwitchBcfResourceTest,resourceConfigure,"com.cloud.network.resource.BigSwitchBcfResource.configure(String, Map<String,Object>)",1
+BigSwitchBcfResourceTest,resourceConfigure,com.cloud.network.bigswitch.BigSwitchBcfApi.setControllerAddress(String),2
+BigSwitchBcfResourceTest,resourceConfigure,com.cloud.network.bigswitch.BigSwitchBcfApi.setControllerUsername(String),2
+BigSwitchBcfResourceTest,resourceConfigure,com.cloud.network.bigswitch.BigSwitchBcfApi.setControllerPassword(String),2
+BigSwitchBcfResourceTest,resourceConfigure,com.cloud.network.resource.BigSwitchBcfResource.getName(),2
+BigSwitchBcfResourceTest,resourceConfigure,ASSERT org.junit.Assert.assertTrue(boolean),2
+BigSwitchBcfResourceTest,resourceConfigure,ASSERT org.junit.Assert.assertTrue(boolean),2
+BigSwitchBcfResourceTest,resourceConfigure,com.cloud.network.resource.BigSwitchBcfResource.getType(),2

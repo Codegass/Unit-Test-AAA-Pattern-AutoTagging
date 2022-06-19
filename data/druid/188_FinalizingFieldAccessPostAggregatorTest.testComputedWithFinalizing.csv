@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,org.apache.druid.query.aggregation.AggregatorFactory.getComparator(),0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,MOCK org.easymock.EasyMock.expect(Comparator),0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,org.apache.druid.java.util.common.guava.Comparators.naturalNullsFirst(),0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,MOCK org.easymock.IExpectationSetters<java.util.Comparator>.andReturn(Comparator),0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,MOCK org.easymock.IExpectationSetters<java.util.Comparator>.once(),0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,org.apache.druid.query.aggregation.AggregatorFactory.finalizeComputation(Object),0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,MOCK org.easymock.EasyMock.expect(Object),0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,MOCK org.easymock.IExpectationSetters<java.lang.Object>.andReturn(Object),0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,MOCK org.easymock.IExpectationSetters<java.lang.Object>.once(),0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,MOCK org.easymock.EasyMock.replay(Object[]),0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,"     NEW org.apache.druid.query.aggregation.post.FinalizingFieldAccessPostAggregator(String, String)",0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,"     org.apache.druid.query.aggregation.post.FinalizingFieldAccessPostAggregator.decorate(Map<String,AggregatorFactory>)",0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,"org.apache.druid.query.aggregation.post.FinalizingFieldAccessPostAggregator.compute(Map<String,Object>)",1
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+FinalizingFieldAccessPostAggregatorTest,testComputedWithFinalizing,MOCK org.easymock.EasyMock.verify(Object[]),2

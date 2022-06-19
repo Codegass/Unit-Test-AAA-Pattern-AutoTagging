@@ -1,0 +1,19 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InlineFirehoseTest,testMultiline,"     NEW org.apache.druid.segment.realtime.firehose.InlineFirehose(String, StringInputRowParser)",1
+InlineFirehoseTest,testMultiline,org.apache.druid.segment.realtime.firehose.InlineFirehose.hasMore(),2
+InlineFirehoseTest,testMultiline,ASSERT org.junit.Assert.assertTrue(boolean),2
+InlineFirehoseTest,testMultiline,org.apache.druid.segment.realtime.firehose.InlineFirehose.nextRow(),2
+InlineFirehoseTest,testMultiline,     ASSERT org.junit.Assert.assertNotNull(Object),2
+InlineFirehoseTest,testMultiline,     org.apache.druid.data.input.Row.getDimension(String),2
+InlineFirehoseTest,testMultiline,     ASSERT org.junit.Assert.assertNotNull(Object),2
+InlineFirehoseTest,testMultiline,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+InlineFirehoseTest,testMultiline,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+InlineFirehoseTest,testMultiline,org.apache.druid.segment.realtime.firehose.InlineFirehose.nextRowWithRaw(),2
+InlineFirehoseTest,testMultiline,org.apache.druid.data.input.InputRowListPlusRawValues.getInputRows(),2
+InlineFirehoseTest,testMultiline,"TEST org.apache.druid.segment.realtime.firehose.InlineFirehoseTest.assertRowValue(String, InputRow)",2
+InlineFirehoseTest,testMultiline,org.apache.druid.data.input.InputRowListPlusRawValues.getRawValues(),2
+InlineFirehoseTest,testMultiline,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+InlineFirehoseTest,testMultiline,org.apache.druid.data.input.InputRowListPlusRawValues.getParseException(),2
+InlineFirehoseTest,testMultiline,ASSERT org.junit.Assert.assertNull(Object),2
+InlineFirehoseTest,testMultiline,org.apache.druid.segment.realtime.firehose.InlineFirehose.hasMore(),2
+InlineFirehoseTest,testMultiline,ASSERT org.junit.Assert.assertFalse(boolean),2

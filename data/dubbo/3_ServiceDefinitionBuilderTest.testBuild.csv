@@ -1,0 +1,30 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ServiceDefinitionBuilderTest,testBuild,"     org.apache.dubbo.metadata.annotation.processing.util.TypeUtils.getType(ProcessingEnvironment, Type)",0
+ServiceDefinitionBuilderTest,testBuild,"org.apache.dubbo.metadata.annotation.processing.builder.ServiceDefinitionBuilder.build(ProcessingEnvironment, TypeElement)",1
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.ServiceDefinition.getCanonicalName(),2
+ServiceDefinitionBuilderTest,testBuild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.ServiceDefinition.getCodeSource(),2
+ServiceDefinitionBuilderTest,testBuild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.ServiceDefinition.getTypes(),2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+ServiceDefinitionBuilderTest,testBuild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.ServiceDefinition.getTypes(),2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+ServiceDefinitionBuilderTest,testBuild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.ServiceDefinition.getTypes(),2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+ServiceDefinitionBuilderTest,testBuild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.ServiceDefinition.getTypes(),2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+ServiceDefinitionBuilderTest,testBuild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.ServiceDefinition.getTypes(),2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+ServiceDefinitionBuilderTest,testBuild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.ServiceDefinition.getTypes(),2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+ServiceDefinitionBuilderTest,testBuild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.ServiceDefinition.getTypes(),2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+ServiceDefinitionBuilderTest,testBuild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ServiceDefinitionBuilderTest,testBuild,org.apache.dubbo.metadata.definition.model.ServiceDefinition.getMethods(),2
+ServiceDefinitionBuilderTest,testBuild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

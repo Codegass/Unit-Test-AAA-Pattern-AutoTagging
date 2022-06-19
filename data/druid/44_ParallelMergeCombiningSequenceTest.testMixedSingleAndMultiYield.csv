@@ -1,0 +1,40 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,               TEST org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.incrementMergeKeyAmount(),0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,"                    NEW org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.IntPair(Integer, Integer)",0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          NEW anonymous(),0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,"          NEW org.apache.druid.java.util.common.guava.BaseSequence<org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.IntPair,java.util.Iterator<org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.IntPair>>(IteratorMaker<IntPair,Iterator<IntPair>>)",0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          NEW anonymous(),0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          TEST org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.incrementMergeKeyAmount(),0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,"               NEW org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.IntPair(Integer, Integer)",0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,TEST org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.nonBlockingSequence(int),0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,TEST org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.nonBlockingSequence(int),0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Sequences.simple(Iterable<Sequence<IntPair>>),0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,"          NEW org.apache.druid.java.util.common.guava.MergeSequence<org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.IntPair>(Ordering<? super IntPair>, Sequence<? extends Sequence<? extends IntPair>>)",0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,"          org.apache.druid.common.guava.CombiningSequence.create(Sequence<IntPair>, Comparator<IntPair>, BinaryOperator<IntPair>)",0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,"          NEW org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequence<org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.IntPair>(ForkJoinPool, List<Sequence<IntPair>>, Ordering<IntPair>, BinaryOperator<IntPair>, boolean, long, int, int, int, int, int, Consumer<MergeCombineMetrics>)",0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielders.each(Sequence<IntPair>),0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielders.each(Sequence<IntPair>),0
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.isDone(),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.isDone(),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.get(),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.get(),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,"          ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.get(),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,"          ASSERT org.junit.Assert.assertNotEquals(Object, Object)",2
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.get(),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.get(),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.next(IntPair),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.get(),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.next(IntPair),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.isDone(),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          ASSERT org.junit.Assert.assertTrue(boolean),2
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.Yielder.isDone(),1
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          ASSERT org.junit.Assert.assertTrue(boolean),2
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,"          ASSERT org.junit.Assert.assertEquals(long, long)",2
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequence.getCancellationGizmo(),2
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequence.CancellationGizmo.isCancelled(),2
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,          ASSERT org.junit.Assert.assertFalse(boolean),2
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,TEST org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.nonBlockingSequence(int),2
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,TEST org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.nonBlockingSequence(int),2
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,TEST org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.nonBlockingSequence(int),2
+ParallelMergeCombiningSequenceTest,testMixedSingleAndMultiYield,"TEST org.apache.druid.java.util.common.guava.ParallelMergeCombiningSequenceTest.assertResult(List<Sequence<IntPair>>, int, int)",2

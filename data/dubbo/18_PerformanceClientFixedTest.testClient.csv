@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PerformanceClientFixedTest,testClient,"TEST org.apache.dubbo.remoting.PerformanceUtils.getProperty(String, String)",0
+PerformanceClientFixedTest,testClient,org.apache.dubbo.common.logger.Logger.warn(String),0
+PerformanceClientFixedTest,testClient,"TEST org.apache.dubbo.remoting.PerformanceUtils.getProperty(String, String)",0
+PerformanceClientFixedTest,testClient,"TEST org.apache.dubbo.remoting.PerformanceUtils.getProperty(String, String)",0
+PerformanceClientFixedTest,testClient,"TEST org.apache.dubbo.remoting.PerformanceUtils.getIntProperty(String, int)",0
+PerformanceClientFixedTest,testClient,"TEST org.apache.dubbo.remoting.PerformanceUtils.getIntProperty(String, int)",0
+PerformanceClientFixedTest,testClient,org.apache.dubbo.remoting.exchange.Exchangers.connect(String),1
+PerformanceClientFixedTest,testClient,org.apache.dubbo.remoting.Channel.isConnected(),0
+PerformanceClientFixedTest,testClient,org.apache.dubbo.remoting.Channel.isConnected(),0
+PerformanceClientFixedTest,testClient,org.apache.dubbo.remoting.Endpoint.close(),1
+PerformanceClientFixedTest,testClient,org.apache.dubbo.remoting.exchange.ExchangeChannel.request(Object),1

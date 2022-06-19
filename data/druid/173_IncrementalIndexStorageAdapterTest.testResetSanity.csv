@@ -1,0 +1,30 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+IncrementalIndexStorageAdapterTest,testResetSanity,TEST org.apache.druid.segment.incremental.IncrementalIndexStorageAdapterTest.IndexCreator.createIndex(),0
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.java.util.common.DateTimes.nowUtc(),0
+IncrementalIndexStorageAdapterTest,testResetSanity,"NEW org.joda.time.Interval(ReadableInstant, ReadableInstant)",0
+IncrementalIndexStorageAdapterTest,testResetSanity,"NEW org.apache.druid.data.input.MapBasedInputRow(long, List<String>, Map<String,Object>)",0
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),0
+IncrementalIndexStorageAdapterTest,testResetSanity,"NEW org.apache.druid.data.input.MapBasedInputRow(long, List<String>, Map<String,Object>)",0
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),0
+IncrementalIndexStorageAdapterTest,testResetSanity,NEW org.apache.druid.segment.incremental.IncrementalIndexStorageAdapter(IncrementalIndex<?>),0
+IncrementalIndexStorageAdapterTest,testResetSanity,"NEW org.apache.druid.segment.filter.SelectorFilter(String, String)",0
+IncrementalIndexStorageAdapterTest,testResetSanity,"org.apache.druid.segment.incremental.IncrementalIndexStorageAdapter.makeCursors(Filter, Interval, VirtualColumns, Granularity, boolean, QueryMetrics<?>)",0
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.java.util.common.guava.Sequence.limit(long),0
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.java.util.common.guava.Sequence.toList(),0
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.Cursor.getColumnSelectorFactory(),0
+IncrementalIndexStorageAdapterTest,testResetSanity,"NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.ColumnSelectorFactory.makeDimensionSelector(DimensionSpec),0
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.DimensionSelector.getRow(),0
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.data.IndexedInts.get(int),0
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),0
+IncrementalIndexStorageAdapterTest,testResetSanity,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+IncrementalIndexStorageAdapterTest,testResetSanity,"NEW org.apache.druid.data.input.MapBasedInputRow(long, List<String>, Map<String,Object>)",0
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),1
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.Cursor.reset(),1
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.Cursor.getColumnSelectorFactory(),2
+IncrementalIndexStorageAdapterTest,testResetSanity,"NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",2
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.ColumnSelectorFactory.makeDimensionSelector(DimensionSpec),2
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.DimensionSelector.getRow(),2
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.data.IndexedInts.get(int),2
+IncrementalIndexStorageAdapterTest,testResetSanity,org.apache.druid.segment.DimensionDictionarySelector.lookupName(int),2
+IncrementalIndexStorageAdapterTest,testResetSanity,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

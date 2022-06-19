@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BaseRelativeTimeTest,testFutureTime,NEW org.apache.accumulo.server.util.time.BaseRelativeTimeTest.BogusTime(),0
+BaseRelativeTimeTest,testFutureTime,NEW org.apache.accumulo.server.util.time.BaseRelativeTimeTest.BogusTime(),0
+BaseRelativeTimeTest,testFutureTime,NEW org.apache.accumulo.server.util.time.BaseRelativeTime(ProvidesTime),0
+BaseRelativeTimeTest,testFutureTime,org.apache.accumulo.server.util.time.BaseRelativeTime.currentTime(),1
+BaseRelativeTimeTest,testFutureTime,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+BaseRelativeTimeTest,testFutureTime,org.apache.accumulo.server.util.time.BaseRelativeTime.updateTime(long),1
+BaseRelativeTimeTest,testFutureTime,org.apache.accumulo.server.util.time.BaseRelativeTime.currentTime(),1
+BaseRelativeTimeTest,testFutureTime,ASSERT org.junit.Assert.assertTrue(boolean),2
+BaseRelativeTimeTest,testFutureTime,ASSERT org.junit.Assert.assertTrue(boolean),2
+BaseRelativeTimeTest,testFutureTime,org.apache.accumulo.server.util.time.BaseRelativeTime.updateTime(long),1
+BaseRelativeTimeTest,testFutureTime,org.apache.accumulo.server.util.time.BaseRelativeTime.currentTime(),1
+BaseRelativeTimeTest,testFutureTime,ASSERT org.junit.Assert.assertTrue(boolean),2
+BaseRelativeTimeTest,testFutureTime,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2

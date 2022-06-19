@@ -1,0 +1,21 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SystemConfigurationTest,testConvert,"org.apache.dubbo.common.config.Configuration.convert(Class<String>, String, String)",1
+SystemConfigurationTest,testConvert,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+SystemConfigurationTest,testConvert,"org.apache.dubbo.common.config.Configuration.convert(Class<Boolean>, String, Boolean)",1
+SystemConfigurationTest,testConvert,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+SystemConfigurationTest,testConvert,"org.apache.dubbo.common.config.Configuration.convert(Class<String>, String, String)",1
+SystemConfigurationTest,testConvert,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+SystemConfigurationTest,testConvert,"org.apache.dubbo.common.config.Configuration.convert(Class<Integer>, String, Integer)",1
+SystemConfigurationTest,testConvert,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Integer, Integer)",2
+SystemConfigurationTest,testConvert,"org.apache.dubbo.common.config.Configuration.convert(Class<Long>, String, Long)",1
+SystemConfigurationTest,testConvert,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Long, Long)",2
+SystemConfigurationTest,testConvert,"org.apache.dubbo.common.config.Configuration.convert(Class<Short>, String, Short)",1
+SystemConfigurationTest,testConvert,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Short, Short)",2
+SystemConfigurationTest,testConvert,"org.apache.dubbo.common.config.Configuration.convert(Class<Float>, String, Float)",1
+SystemConfigurationTest,testConvert,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Float, Float)",2
+SystemConfigurationTest,testConvert,"org.apache.dubbo.common.config.Configuration.convert(Class<Double>, String, Double)",1
+SystemConfigurationTest,testConvert,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Double, Double)",2
+SystemConfigurationTest,testConvert,"org.apache.dubbo.common.config.Configuration.convert(Class<Byte>, String, Byte)",1
+SystemConfigurationTest,testConvert,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Byte, Byte)",2
+SystemConfigurationTest,testConvert,"org.apache.dubbo.common.config.Configuration.convert(Class<ConfigMock>, String, ConfigMock)",1
+SystemConfigurationTest,testConvert,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+QemuImgTest,testCreateSparseVolume,"NEW org.apache.cloudstack.utils.qemu.QemuImgFile(String, long, PhysicalDiskFormat)",0
+QemuImgTest,testCreateSparseVolume,NEW org.apache.cloudstack.utils.qemu.QemuImg(int),0
+QemuImgTest,testCreateSparseVolume,"org.apache.cloudstack.utils.qemu.QemuImg.create(QemuImgFile, Map<String,String>)",1
+QemuImgTest,testCreateSparseVolume,com.cloud.utils.script.Script.runSimpleBashScript(String),2
+QemuImgTest,testCreateSparseVolume,com.cloud.utils.script.Script.runSimpleBashScript(String),2
+QemuImgTest,testCreateSparseVolume,ASSERT org.junit.Assert.assertFalse(boolean),2

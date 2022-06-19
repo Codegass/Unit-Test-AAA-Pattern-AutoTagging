@@ -1,0 +1,21 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,NEW org.apache.druid.query.topn.TopNQueryBuilder(),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,org.apache.druid.query.topn.TopNQueryBuilder.dataSource(String),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,org.apache.druid.query.topn.TopNQueryBuilder.granularity(Granularity),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,org.apache.druid.query.topn.TopNQueryBuilder.dimension(String),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,org.apache.druid.query.topn.TopNQueryBuilder.metric(String),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,org.apache.druid.query.topn.TopNQueryBuilder.threshold(int),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,org.apache.druid.query.topn.TopNQueryBuilder.intervals(String),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,org.apache.druid.query.topn.TopNQueryBuilder.aggregators(List<? extends AggregatorFactory>),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,org.apache.druid.query.topn.TopNQueryBuilder.postAggregators(PostAggregator[]),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,org.apache.druid.query.topn.TopNQueryBuilder.build(),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,     NEW anonymous(),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,     org.apache.druid.java.util.common.Intervals.of(String),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,     org.apache.druid.java.util.common.DateTimes.of(String),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,     org.apache.druid.java.util.common.DateTimes.of(String),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,     NEW anonymous(),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,"NEW org.apache.druid.query.topn.BaseTopNAlgorithm.AggregatorArrayProvider(DimensionSelector, TopNQuery, int, StorageAdapter)",0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,org.apache.druid.query.topn.BaseTopNAlgorithm.BaseArrayProvider.ignoreAfterThreshold(),0
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,org.apache.druid.query.topn.BaseTopNAlgorithm.BaseArrayProvider.computeStartEnd(int),1
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+TopNMetricSpecOptimizationsTest,testShouldOptimizeLexicographic,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

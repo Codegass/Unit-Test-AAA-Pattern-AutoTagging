@@ -1,0 +1,70 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AccumuloConfigurationTest,testGetByPrefix,NEW org.apache.accumulo.core.conf.AccumuloConfigurationTest.TestConfiguration(),0
+AccumuloConfigurationTest,testGetByPrefix,"TEST org.apache.accumulo.core.conf.AccumuloConfigurationTest.TestConfiguration.set(String, String)",0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,"TEST org.apache.accumulo.core.conf.AccumuloConfigurationTest.TestConfiguration.set(String, String)",0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,"TEST org.apache.accumulo.core.conf.AccumuloConfigurationTest.TestConfiguration.set(String, String)",0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,"TEST org.apache.accumulo.core.conf.AccumuloConfigurationTest.TestConfiguration.set(String, String)",0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"TEST org.apache.accumulo.core.conf.AccumuloConfigurationTest.TestConfiguration.set(String, String)",0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,"TEST org.apache.accumulo.core.conf.AccumuloConfigurationTest.TestConfiguration.set(String, String)",0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertNotSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertNotSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"TEST org.apache.accumulo.core.conf.AccumuloConfigurationTest.TestConfiguration.set(String, String)",0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertNotSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.Property.getKey(),0
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertNotSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertNotSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2
+AccumuloConfigurationTest,testGetByPrefix,org.apache.accumulo.core.conf.AccumuloConfiguration.getAllPropertiesWithPrefix(Property),1
+AccumuloConfigurationTest,testGetByPrefix,"ASSERT org.junit.Assert.assertSame(Object, Object)",2

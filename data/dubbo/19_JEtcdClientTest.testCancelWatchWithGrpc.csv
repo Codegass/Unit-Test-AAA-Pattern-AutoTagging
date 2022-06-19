@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JEtcdClientTest,testCancelWatchWithGrpc,TEST org.apache.dubbo.remoting.etcd.jetcd.JEtcdClientTest.getChannel(Client),0
+JEtcdClientTest,testCancelWatchWithGrpc,NEW anonymous(),0
+JEtcdClientTest,testCancelWatchWithGrpc,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+JEtcdClientTest,testCancelWatchWithGrpc,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+JEtcdClientTest,testCancelWatchWithGrpc,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+JEtcdClientTest,testCancelWatchWithGrpc,ASSERT org.junit.jupiter.api.Assertions.fail(String),2

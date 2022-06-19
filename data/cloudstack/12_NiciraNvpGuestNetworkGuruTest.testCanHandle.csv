@@ -1,0 +1,25 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NiciraNvpGuestNetworkGuruTest,testCanHandle,org.apache.cloudstack.api.InternalIdentity.getId(),0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,com.cloud.offering.NetworkOffering.getTrafficType(),0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,com.cloud.offering.NetworkOffering.getGuestType(),0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,com.cloud.network.dao.PhysicalNetworkVO.getIsolationMethods(),0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,com.cloud.network.dao.PhysicalNetworkVO.getId(),0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,"com.cloud.offerings.dao.NetworkOfferingServiceMapDao.areServicesSupportedByNetworkOffering(long, Service[])",0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,ASSERT org.junit.Assert.assertTrue(boolean),2
+NiciraNvpGuestNetworkGuruTest,testCanHandle,"com.cloud.network.guru.NiciraNvpGuestNetworkGuru.canHandle(NetworkOffering, NetworkType, PhysicalNetwork)",1
+NiciraNvpGuestNetworkGuruTest,testCanHandle,com.cloud.network.dao.PhysicalNetworkVO.getIsolationMethods(),0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,ASSERT org.junit.Assert.assertTrue(boolean),2
+NiciraNvpGuestNetworkGuruTest,testCanHandle,"com.cloud.network.guru.NiciraNvpGuestNetworkGuru.canHandle(NetworkOffering, NetworkType, PhysicalNetwork)",1
+NiciraNvpGuestNetworkGuruTest,testCanHandle,com.cloud.offering.NetworkOffering.getTrafficType(),0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,ASSERT org.junit.Assert.assertFalse(boolean),2
+NiciraNvpGuestNetworkGuruTest,testCanHandle,"com.cloud.network.guru.NiciraNvpGuestNetworkGuru.canHandle(NetworkOffering, NetworkType, PhysicalNetwork)",1
+NiciraNvpGuestNetworkGuruTest,testCanHandle,com.cloud.offering.NetworkOffering.getTrafficType(),0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,com.cloud.offering.NetworkOffering.getGuestType(),0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,"com.cloud.network.guru.NiciraNvpGuestNetworkGuru.canHandle(NetworkOffering, NetworkType, PhysicalNetwork)",1
+NiciraNvpGuestNetworkGuruTest,testCanHandle,ASSERT org.junit.Assert.assertTrue(boolean),2
+NiciraNvpGuestNetworkGuruTest,testCanHandle,com.cloud.offering.NetworkOffering.getGuestType(),0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,ASSERT org.junit.Assert.assertFalse(boolean),2
+NiciraNvpGuestNetworkGuruTest,testCanHandle,"com.cloud.network.guru.NiciraNvpGuestNetworkGuru.canHandle(NetworkOffering, NetworkType, PhysicalNetwork)",1
+NiciraNvpGuestNetworkGuruTest,testCanHandle,com.cloud.network.dao.PhysicalNetworkVO.getIsolationMethods(),0
+NiciraNvpGuestNetworkGuruTest,testCanHandle,ASSERT org.junit.Assert.assertFalse(boolean),2
+NiciraNvpGuestNetworkGuruTest,testCanHandle,"com.cloud.network.guru.NiciraNvpGuestNetworkGuru.canHandle(NetworkOffering, NetworkType, PhysicalNetwork)",1

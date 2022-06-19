@@ -1,0 +1,77 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AccumuloClientIT,testClose,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.singletons.SingletonManager.getReservationCount(),0
+AccumuloClientIT,testClose,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+AccumuloClientIT,testClose,org.apache.accumulo.core.singletons.SingletonManager.getMode(),0
+AccumuloClientIT,testClose,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.Accumulo.newClient(),0
+AccumuloClientIT,testClose,     TEST org.apache.accumulo.harness.AccumuloClusterHarness.getCluster(),0
+AccumuloClientIT,testClose,     org.apache.accumulo.cluster.AccumuloCluster.getClientProperties(),0
+AccumuloClientIT,testClose,     org.apache.accumulo.core.clientImpl.ClientInfo.from(Properties),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.clientImpl.ClientInfo.getProperties(),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.singletons.SingletonManager.getReservationCount(),0
+AccumuloClientIT,testClose,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+AccumuloClientIT,testClose,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.data.Mutation.at(),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.data.Mutation.FamilyOptions.family(CharSequence),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.data.Mutation.QualifierOptions.qualifier(CharSequence),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.data.Mutation.MutationOptions.put(CharSequence),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+AccumuloClientIT,testClose,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",0
+AccumuloClientIT,testClose,     TEST org.apache.accumulo.test.functional.AccumuloClientIT.CloseCheck.check(),0
+AccumuloClientIT,testClose,     ASSERT org.junit.Assert.fail(),0
+AccumuloClientIT,testClose,     ASSERT org.junit.Assert.assertTrue(boolean),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.ScannerBase.iterator(),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.singletons.SingletonManager.getReservationCount(),0
+AccumuloClientIT,testClose,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.Accumulo.newClient(),0
+AccumuloClientIT,testClose,TEST org.apache.accumulo.harness.AccumuloClusterHarness.getClientInfo(),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.clientImpl.ClientInfo.getProperties(),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.singletons.SingletonManager.getReservationCount(),0
+AccumuloClientIT,testClose,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+AccumuloClientIT,testClose,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",0
+AccumuloClientIT,testClose,org.apache.accumulo.core.data.Key.getRowData(),0
+AccumuloClientIT,testClose,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+AccumuloClientIT,testClose,org.apache.accumulo.core.data.Key.getColumnFamilyData(),0
+AccumuloClientIT,testClose,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+AccumuloClientIT,testClose,org.apache.accumulo.core.data.Key.getColumnQualifierData(),0
+AccumuloClientIT,testClose,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+AccumuloClientIT,testClose,org.apache.accumulo.core.data.Value.toString(),0
+AccumuloClientIT,testClose,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.close(),1
+AccumuloClientIT,testClose,org.apache.accumulo.core.singletons.SingletonManager.getReservationCount(),2
+AccumuloClientIT,testClose,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,NEW org.apache.accumulo.core.client.ConditionalWriterConfig(),2
+AccumuloClientIT,testClose,"org.apache.accumulo.core.client.AccumuloClient.createConditionalWriter(String, ConditionalWriterConfig)",2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.securityOperations(),2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.namespaceOperations(),2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.properties(),2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),2
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.admin.InstanceOperations.getInstanceID(),2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.admin.TableOperations.create(String),2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.admin.TableOperations.cancelCompaction(String),2
+AccumuloClientIT,testClose,TEST org.apache.accumulo.test.functional.AccumuloClientIT.expectClosed(CloseCheck),2
+AccumuloClientIT,testClose,org.apache.accumulo.core.client.admin.TableOperations.listSplits(String),2

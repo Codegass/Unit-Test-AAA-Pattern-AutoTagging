@@ -1,0 +1,30 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,"NEW org.apache.druid.segment.loading.StorageLocationConfig(File, Long, Double)",0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,"NEW org.apache.druid.segment.loading.StorageLocationConfig(File, Long, Double)",0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,"          NEW org.apache.druid.segment.IndexIO(ObjectMapper, ColumnConfig)",0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,NEW org.apache.druid.segment.loading.SegmentLoaderConfig(),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,org.apache.druid.segment.loading.SegmentLoaderConfig.withLocations(List<StorageLocationConfig>),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,"NEW org.apache.druid.segment.loading.SegmentLoaderLocalCacheManager(IndexIO, SegmentLoaderConfig, ObjectMapper)",0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.timeline.DataSegment.builder(),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.timeline.DataSegment.Builder.dataSource(String),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.java.util.common.Intervals.of(String),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.timeline.DataSegment.Builder.interval(Interval),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,"          org.apache.druid.timeline.DataSegment.Builder.loadSpec(Map<String,Object>)",0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.timeline.DataSegment.Builder.version(String),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.timeline.DataSegment.Builder.dimensions(List<String>),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.timeline.DataSegment.Builder.metrics(List<String>),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.timeline.partition.NoneShardSpec.instance(),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.timeline.DataSegment.Builder.shardSpec(ShardSpec),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.timeline.DataSegment.Builder.binaryVersion(Integer),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.timeline.DataSegment.Builder.size(long),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,          org.apache.druid.timeline.DataSegment.Builder.build(),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,"org.apache.druid.timeline.DataSegment.withLoadSpec(Map<String,Object>)",0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,org.apache.druid.segment.loading.SegmentLoaderLocalCacheManager.isSegmentLoaded(DataSegment),0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,"ASSERT org.junit.Assert.assertFalse(String, boolean)",0
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,org.apache.druid.segment.loading.SegmentLoaderLocalCacheManager.getSegmentFiles(DataSegment),1
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,ASSERT org.junit.Assert.assertTrue(boolean),2
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,org.apache.druid.segment.loading.SegmentLoaderLocalCacheManager.isSegmentLoaded(DataSegment),2
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,org.apache.druid.segment.loading.SegmentLoaderLocalCacheManager.cleanup(DataSegment),2
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,org.apache.druid.segment.loading.SegmentLoaderLocalCacheManager.isSegmentLoaded(DataSegment),2
+SegmentLoaderLocalCacheManagerTest,testRetrySuccessAtFirstLocation,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2

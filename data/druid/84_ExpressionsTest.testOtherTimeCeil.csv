@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ExpressionsTest,testOtherTimeCeil,     org.apache.druid.segment.column.RowSignature.indexOf(String),0
+ExpressionsTest,testOtherTimeCeil,TEST org.apache.druid.sql.calcite.expression.ExpressionTestHelper.makeFlag(Enum),0
+ExpressionsTest,testOtherTimeCeil,org.apache.druid.sql.calcite.expression.DruidExpression.fromExpression(String),0
+ExpressionsTest,testOtherTimeCeil,org.apache.druid.java.util.common.DateTimes.of(String),0
+ExpressionsTest,testOtherTimeCeil,"          org.apache.druid.sql.calcite.expression.Expressions.toDruidExpression(PlannerContext, RowSignature, RexNode)",0
+ExpressionsTest,testOtherTimeCeil,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",0
+ExpressionsTest,testOtherTimeCeil,          org.apache.druid.sql.calcite.expression.DruidExpression.getExpression(),0
+ExpressionsTest,testOtherTimeCeil,          org.apache.druid.sql.calcite.planner.PlannerContext.getExprMacroTable(),0
+ExpressionsTest,testOtherTimeCeil,"          org.apache.druid.math.expr.Parser.parse(String, ExprMacroTable)",0
+ExpressionsTest,testOtherTimeCeil,"          org.apache.druid.math.expr.Parser.withMap(Map<String,?>)",0
+ExpressionsTest,testOtherTimeCeil,          org.apache.druid.math.expr.Expr.eval(ObjectBinding),1
+ExpressionsTest,testOtherTimeCeil,          org.apache.druid.math.expr.ExprEval.value(),2
+ExpressionsTest,testOtherTimeCeil,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2

@@ -1,0 +1,133 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+KafkaSupervisorTest,testFailedInitializationAndRecovery,TEST org.apache.druid.indexing.kafka.test.TestBroker.getPort(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,          org.apache.druid.indexing.kafka.KafkaConsumerConfigs.getConsumerProperties(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,          NEW org.joda.time.Period(Object),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,          NEW org.joda.time.Period(Object),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,          NEW org.joda.time.Period(Object),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,          NEW org.joda.time.Period(Object),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"          NEW org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorIOConfig(String, InputFormat, Integer, Integer, Period, Map<String,Object>, Long, Period, Period, Boolean, Period, Period, Period, DateTime)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"          NEW anonymous(HttpClient, ObjectMapper)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"          ASSERT org.junit.Assert.assertEquals(long, long)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"          ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"          ASSERT org.junit.Assert.assertEquals(long, long)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,          NEW org.joda.time.Period(Object),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"          NEW org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorTuningConfig(Integer, Long, Integer, Long, Period, File, Integer, IndexSpec, IndexSpec, Boolean, Boolean, Long, Boolean, SegmentWriteOutMediumFactory, Integer, Integer, Long, Period, Period, Period, Period, Boolean, Integer, Integer)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,          NEW org.apache.druid.server.metrics.NoopServiceEmitter(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,          NEW org.apache.druid.server.metrics.DruidMonitorSchedulerConfig(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,          NEW org.apache.druid.indexing.overlord.supervisor.SupervisorStateManagerConfig(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"          NEW org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorSpec(KafkaSupervisorIngestionSpec, DataSchema, KafkaSupervisorTuningConfig, KafkaSupervisorIOConfig, Map<String,Object>, Boolean, TaskStorage, TaskMaster, IndexerMetadataStorageCoordinator, KafkaIndexTaskClientFactory, ObjectMapper, ServiceEmitter, DruidMonitorSchedulerConfig, RowIngestionMetersFactory, SupervisorStateManagerConfig)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"          NEW org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorTest.TestableKafkaSupervisor(TaskStorage, TaskMaster, IndexerMetadataStorageCoordinator, KafkaIndexTaskClientFactory, ObjectMapper, KafkaSupervisorSpec, RowIngestionMetersFactory)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.kafka.supervisor.KafkaSupervisor.getTuningConfig(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,                    TEST org.apache.druid.indexing.kafka.test.TestBroker.getPort(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"     NEW org.apache.kafka.clients.admin.NewTopic(String, int, short)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"               TEST org.apache.druid.indexing.kafka.test.TestBroker.commonClientProperties(Map<String,Object>)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"          NEW org.apache.kafka.clients.producer.KafkaProducer<byte[],byte[]>(Map<String,Object>)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,     org.apache.druid.java.util.common.StringUtils.toUtf8(String),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"     NEW org.apache.kafka.clients.producer.ProducerRecord<byte[],byte[]>(String, Integer, byte[], byte[])",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.overlord.TaskMaster.getTaskQueue(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.expect(Optional<TaskQueue>),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskQueue>>.andReturn(Optional<TaskQueue>),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskQueue>>.anyTimes(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.overlord.TaskMaster.getTaskRunner(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.expect(Optional<TaskRunner>),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskRunner>>.andReturn(Optional<TaskRunner>),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskRunner>>.anyTimes(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.overlord.TaskStorage.getActiveTasksByDatasource(String),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.expect(List<Task>),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.common.task.Task>>.andReturn(List<Task>),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.common.task.Task>>.anyTimes(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.overlord.IndexerMetadataStorageCoordinator.retrieveDataSourceMetadata(String),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.expect(DataSourceMetadata),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"NEW org.apache.druid.indexing.kafka.KafkaDataSourceMetadata(SeekableStreamSequenceNumbers<Integer,Long>)",0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.DataSourceMetadata>.andReturn(DataSourceMetadata),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.DataSourceMetadata>.anyTimes(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMockSupport.replayAll(),0
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.start(),1
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.isLifecycleStarted(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,ASSERT org.junit.Assert.assertTrue(boolean),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.isStarted(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,ASSERT org.junit.Assert.assertFalse(boolean),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMockSupport.verifyAll(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.getInitRetryCounter(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMockSupport.resetAll(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.Capture.newInstance(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.overlord.TaskMaster.getTaskQueue(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.expect(Optional<TaskQueue>),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskQueue>>.andReturn(Optional<TaskQueue>),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskQueue>>.anyTimes(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.overlord.TaskMaster.getTaskRunner(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.expect(Optional<TaskRunner>),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskRunner>>.andReturn(Optional<TaskRunner>),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskRunner>>.anyTimes(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.overlord.TaskStorage.getActiveTasksByDatasource(String),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.expect(List<Task>),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.common.task.Task>>.andReturn(List<Task>),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.common.task.Task>>.anyTimes(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.overlord.IndexerMetadataStorageCoordinator.retrieveDataSourceMetadata(String),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.expect(DataSourceMetadata),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"NEW org.apache.druid.indexing.kafka.KafkaDataSourceMetadata(SeekableStreamSequenceNumbers<Integer,Long>)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.DataSourceMetadata>.andReturn(DataSourceMetadata),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.DataSourceMetadata>.anyTimes(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.capture(Capture<KafkaIndexTask>),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.overlord.TaskQueue.add(Task),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.expect(Boolean),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.anyObject(Class<TaskRunnerListener>),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMock.anyObject(Class<Executor>),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"org.apache.druid.indexing.overlord.TaskRunner.registerListener(TaskRunnerListener, Executor)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMockSupport.replayAll(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.kafka.supervisor.KafkaSupervisor.getIoConfig(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorIOConfig.getConsumerProperties(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.tryInit(),1
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.isLifecycleStarted(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,ASSERT org.junit.Assert.assertTrue(boolean),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.isStarted(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,ASSERT org.junit.Assert.assertTrue(boolean),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.runInternal(),1
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.EasyMockSupport.verifyAll(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,MOCK org.easymock.Capture<org.apache.druid.indexing.kafka.KafkaIndexTask>.getValue(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getDataSchema(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.kafka.supervisor.KafkaSupervisorTuningConfig.convertToTaskTuningConfig(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.kafka.KafkaIndexTask.getTuningConfig(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.kafka.KafkaIndexTask.getIOConfig(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.kafka.KafkaIndexTaskIOConfig.getConsumerProperties(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.kafka.KafkaIndexTaskIOConfig.getConsumerProperties(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getBaseSequenceName(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.isUseTransaction(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getMinimumMessageTime(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getMaximumMessageTime(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getStream(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getPartitionSequenceNumberMap(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getPartitionSequenceNumberMap(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getPartitionSequenceNumberMap(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getEndSequenceNumbers(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers.getStream(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getEndSequenceNumbers(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers.getPartitionSequenceNumberMap(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getEndSequenceNumbers(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers.getPartitionSequenceNumberMap(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getEndSequenceNumbers(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers.getPartitionSequenceNumberMap(),2
+KafkaSupervisorTest,testFailedInitializationAndRecovery,"ASSERT org.junit.Assert.assertEquals(long, long)",2

@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigDriveBuilderTest,writeFileTestwriteFileTestIOExceptionWhileWritingFile,@EXPECTED java.lang.Class<com.cloud.utils.exception.CloudRuntimeException>,0
+ConfigDriveBuilderTest,writeFileTestwriteFileTestIOExceptionWhileWritingFile,"org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.writeFile(File, String, String)",1

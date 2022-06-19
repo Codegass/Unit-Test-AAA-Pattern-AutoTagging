@@ -1,0 +1,100 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RunRulesTest,testRunThreeTiersOneReplicant,     org.apache.druid.server.coordinator.DruidCoordinator.getDynamicConfigs(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.EasyMock.expect(CoordinatorDynamicConfig),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.builder(),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withLeadingTimeMillisBeforeCanMarkAsUnusedOvershadowedSegments(long),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withMergeBytesLimit(long),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withMergeSegmentsLimit(int),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withMaxSegmentsToMove(int),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withReplicantLifetime(int),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withReplicationThrottleLimit(int),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withBalancerComputeThreads(int),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withEmitBalancingStats(boolean),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withSpecificDataSourcesToKillUnusedSegmentsIn(Set<String>),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withKillUnusedSegmentsInAllDataSources(boolean),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withMaxSegmentsInNodeLoadingQueue(int),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withPauseCoordination(boolean),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.build(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.IExpectationSetters<org.apache.druid.server.coordinator.CoordinatorDynamicConfig>.andReturn(CoordinatorDynamicConfig),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.IExpectationSetters<org.apache.druid.server.coordinator.CoordinatorDynamicConfig>.anyTimes(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.EasyMock.anyObject(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     org.apache.druid.server.coordinator.DruidCoordinator.markSegmentAsUnused(DataSegment),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.EasyMock.expectLastCall(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.EasyMock.replay(Object[]),0
+RunRulesTest,testRunThreeTiersOneReplicant,MOCK org.easymock.EasyMock.anyObject(),0
+RunRulesTest,testRunThreeTiersOneReplicant,MOCK org.easymock.EasyMock.anyObject(),0
+RunRulesTest,testRunThreeTiersOneReplicant,"org.apache.druid.server.coordinator.LoadQueuePeon.loadSegment(DataSegment, LoadPeonCallback)",0
+RunRulesTest,testRunThreeTiersOneReplicant,MOCK org.easymock.EasyMock.expectLastCall(),0
+RunRulesTest,testRunThreeTiersOneReplicant,MOCK org.easymock.IExpectationSetters<java.lang.Object>.atLeastOnce(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     org.apache.druid.server.coordinator.LoadQueuePeon.getSegmentsToLoad(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.EasyMock.expect(Set<DataSegment>),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.IExpectationSetters<java.util.Set<org.apache.druid.timeline.DataSegment>>.andReturn(Set<DataSegment>),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.IExpectationSetters<java.util.Set<org.apache.druid.timeline.DataSegment>>.anyTimes(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     org.apache.druid.server.coordinator.LoadQueuePeon.getSegmentsMarkedToDrop(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.EasyMock.expect(Set<DataSegment>),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.IExpectationSetters<java.util.Set<org.apache.druid.timeline.DataSegment>>.andReturn(Set<DataSegment>),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.IExpectationSetters<java.util.Set<org.apache.druid.timeline.DataSegment>>.anyTimes(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     org.apache.druid.server.coordinator.LoadQueuePeon.getLoadQueueSize(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.EasyMock.expect(Long),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.IExpectationSetters<java.lang.Long>.andReturn(Long),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.IExpectationSetters<java.lang.Long>.atLeastOnce(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     org.apache.druid.server.coordinator.LoadQueuePeon.getNumberOfSegmentsInQueue(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.EasyMock.expect(Integer),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.IExpectationSetters<java.lang.Integer>.anyTimes(),0
+RunRulesTest,testRunThreeTiersOneReplicant,     MOCK org.easymock.EasyMock.replay(Object[]),0
+RunRulesTest,testRunThreeTiersOneReplicant,MOCK org.easymock.EasyMock.anyObject(),0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.metadata.MetadataRuleManager.getRulesWithDefault(String),0
+RunRulesTest,testRunThreeTiersOneReplicant,MOCK org.easymock.EasyMock.expect(List<Rule>),0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.java.util.common.Intervals.of(String),0
+RunRulesTest,testRunThreeTiersOneReplicant,"NEW org.apache.druid.server.coordinator.rules.IntervalLoadRule(Interval, Map<String,Integer>)",0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.java.util.common.Intervals.of(String),0
+RunRulesTest,testRunThreeTiersOneReplicant,"NEW org.apache.druid.server.coordinator.rules.IntervalLoadRule(Interval, Map<String,Integer>)",0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.java.util.common.Intervals.of(String),0
+RunRulesTest,testRunThreeTiersOneReplicant,"NEW org.apache.druid.server.coordinator.rules.IntervalLoadRule(Interval, Map<String,Integer>)",0
+RunRulesTest,testRunThreeTiersOneReplicant,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.server.coordinator.rules.Rule>>.andReturn(List<Rule>),0
+RunRulesTest,testRunThreeTiersOneReplicant,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.server.coordinator.rules.Rule>>.atLeastOnce(),0
+RunRulesTest,testRunThreeTiersOneReplicant,MOCK org.easymock.EasyMock.replay(Object[]),0
+RunRulesTest,testRunThreeTiersOneReplicant,     NEW org.apache.druid.server.coordinator.DruidClusterBuilder(),0
+RunRulesTest,testRunThreeTiersOneReplicant,"NEW org.apache.druid.client.DruidServer(String, String, String, long, ServerType, String, int)",0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.client.DruidServer.toImmutableDruidServer(),0
+RunRulesTest,testRunThreeTiersOneReplicant,"NEW org.apache.druid.server.coordinator.ServerHolder(ImmutableDruidServer, LoadQueuePeon)",0
+RunRulesTest,testRunThreeTiersOneReplicant,"TEST org.apache.druid.server.coordinator.DruidClusterBuilder.addTier(String, ServerHolder[])",0
+RunRulesTest,testRunThreeTiersOneReplicant,"NEW org.apache.druid.client.DruidServer(String, String, String, long, ServerType, String, int)",0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.client.DruidServer.toImmutableDruidServer(),0
+RunRulesTest,testRunThreeTiersOneReplicant,"NEW org.apache.druid.server.coordinator.ServerHolder(ImmutableDruidServer, LoadQueuePeon)",0
+RunRulesTest,testRunThreeTiersOneReplicant,"TEST org.apache.druid.server.coordinator.DruidClusterBuilder.addTier(String, ServerHolder[])",0
+RunRulesTest,testRunThreeTiersOneReplicant,"NEW org.apache.druid.client.DruidServer(String, String, String, long, ServerType, String, int)",0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.client.DruidServer.toImmutableDruidServer(),0
+RunRulesTest,testRunThreeTiersOneReplicant,"NEW org.apache.druid.server.coordinator.ServerHolder(ImmutableDruidServer, LoadQueuePeon)",0
+RunRulesTest,testRunThreeTiersOneReplicant,"TEST org.apache.druid.server.coordinator.DruidClusterBuilder.addTier(String, ServerHolder[])",0
+RunRulesTest,testRunThreeTiersOneReplicant,"     org.apache.druid.server.coordinator.DruidCluster.createDruidClusterFromBuilderInTest(Set<ServerHolder>, Map<String,Iterable<ServerHolder>>, Set<ServerHolder>)",0
+RunRulesTest,testRunThreeTiersOneReplicant,NEW org.apache.druid.server.coordinator.CostBalancerStrategyFactory(),0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.server.coordinator.CostBalancerStrategyFactory.createBalancerStrategy(ListeningExecutorService),0
+RunRulesTest,testRunThreeTiersOneReplicant,                    org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.newBuilder(),0
+RunRulesTest,testRunThreeTiersOneReplicant,                    org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withStartTimeNanos(long),0
+RunRulesTest,testRunThreeTiersOneReplicant,               org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withDruidCluster(DruidCluster),0
+RunRulesTest,testRunThreeTiersOneReplicant,               org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withUsedSegmentsInTest(Collection<DataSegment>),0
+RunRulesTest,testRunThreeTiersOneReplicant,               org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withDatabaseRuleManager(MetadataRuleManager),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.SegmentReplicantLookup.make(DruidCluster),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withSegmentReplicantLookup(SegmentReplicantLookup),0
+RunRulesTest,testRunThreeTiersOneReplicant,          org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withBalancerStrategy(BalancerStrategy),0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.server.coordinator.CoordinatorDynamicConfig.builder(),0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.withMaxSegmentsToMove(int),0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.server.coordinator.CoordinatorDynamicConfig.Builder.build(),0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withDynamicConfigs(CoordinatorDynamicConfig),0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.build(),0
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.server.coordinator.duty.RunRules.run(DruidCoordinatorRuntimeParams),1
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.getCoordinatorStats(),2
+RunRulesTest,testRunThreeTiersOneReplicant,"org.apache.druid.server.coordinator.CoordinatorStats.getTieredStat(String, String)",2
+RunRulesTest,testRunThreeTiersOneReplicant,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+RunRulesTest,testRunThreeTiersOneReplicant,"org.apache.druid.server.coordinator.CoordinatorStats.getTieredStat(String, String)",2
+RunRulesTest,testRunThreeTiersOneReplicant,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+RunRulesTest,testRunThreeTiersOneReplicant,"org.apache.druid.server.coordinator.CoordinatorStats.getTieredStat(String, String)",2
+RunRulesTest,testRunThreeTiersOneReplicant,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.server.coordinator.CoordinatorStats.getTiers(String),2
+RunRulesTest,testRunThreeTiersOneReplicant,ASSERT org.junit.Assert.assertTrue(boolean),2
+RunRulesTest,testRunThreeTiersOneReplicant,org.apache.druid.server.coordinator.CoordinatorStats.getTiers(String),2
+RunRulesTest,testRunThreeTiersOneReplicant,ASSERT org.junit.Assert.assertTrue(boolean),2
+RunRulesTest,testRunThreeTiersOneReplicant,MOCK org.easymock.EasyMock.verify(Object[]),2

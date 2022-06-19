@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+S3TemplateTest,registerTemplate,"org.apache.cloudstack.engine.subsystem.api.storage.TemplateDataFactory.getTemplate(long, DataStoreRole)",0
+S3TemplateTest,registerTemplate,NEW org.apache.cloudstack.framework.async.AsyncCallFuture<org.apache.cloudstack.engine.subsystem.api.storage.TemplateService.TemplateApiResult>(),0
+S3TemplateTest,registerTemplate,"org.apache.cloudstack.engine.subsystem.api.storage.TemplateService.createTemplateAsync(TemplateInfo, DataStore, AsyncCompletionCallback<TemplateApiResult>)",1
+S3TemplateTest,registerTemplate,org.apache.cloudstack.framework.async.AsyncCallFuture.get(),2
+S3TemplateTest,registerTemplate,org.apache.cloudstack.storage.command.CommandResult.isSuccess(),2
+S3TemplateTest,registerTemplate,"ASSERT org.testng.Assert.assertTrue(boolean, String)",2
+S3TemplateTest,registerTemplate,org.apache.cloudstack.storage.command.CommandResult.getResult(),2
+S3TemplateTest,registerTemplate,"ASSERT org.testng.Assert.assertTrue(boolean, String)",2
+S3TemplateTest,registerTemplate,"ASSERT org.testng.Assert.assertTrue(boolean, String)",2

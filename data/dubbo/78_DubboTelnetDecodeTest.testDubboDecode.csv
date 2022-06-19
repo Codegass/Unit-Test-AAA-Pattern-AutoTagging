@@ -1,0 +1,40 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DubboTelnetDecodeTest,testDubboDecode,     NEW org.apache.dubbo.remoting.exchange.Request(),0
+DubboTelnetDecodeTest,testDubboDecode,     NEW org.apache.dubbo.rpc.RpcInvocation(),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.setMethodName(String),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.setParameterTypes(Class<?>[]),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.common.utils.ReflectUtils.getDesc(Class<?>[]),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.setParameterTypesDesc(String),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.setArguments(Object[]),0
+DubboTelnetDecodeTest,testDubboDecode,"     org.apache.dubbo.rpc.RpcInvocation.setAttachment(String, String)",0
+DubboTelnetDecodeTest,testDubboDecode,"     org.apache.dubbo.rpc.RpcInvocation.setAttachment(String, String)",0
+DubboTelnetDecodeTest,testDubboDecode,"     org.apache.dubbo.rpc.RpcInvocation.setAttachment(String, String)",0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.remoting.exchange.Request.setData(Object),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.remoting.exchange.Request.setVersion(String),0
+DubboTelnetDecodeTest,testDubboDecode,     NEW org.apache.dubbo.remoting.transport.netty4.NettyBackedChannelBuffer(ByteBuf),0
+DubboTelnetDecodeTest,testDubboDecode,     NEW org.apache.dubbo.rpc.protocol.dubbo.DubboCodec(),0
+DubboTelnetDecodeTest,testDubboDecode,     NEW org.apache.dubbo.rpc.protocol.dubbo.decode.MockChannel(),0
+DubboTelnetDecodeTest,testDubboDecode,"     org.apache.dubbo.remoting.exchange.codec.ExchangeCodec.encode(Channel, ChannelBuffer, Object)",0
+DubboTelnetDecodeTest,testDubboDecode,org.apache.dubbo.common.extension.ExtensionLoader.getExtensionLoader(Class<Codec2>),0
+DubboTelnetDecodeTest,testDubboDecode,org.apache.dubbo.common.extension.ExtensionLoader.getExtension(String),0
+DubboTelnetDecodeTest,testDubboDecode,"NEW org.apache.dubbo.common.URL(String, String, int)",0
+DubboTelnetDecodeTest,testDubboDecode,NEW org.apache.dubbo.rpc.protocol.dubbo.decode.MockChannelHandler(),0
+DubboTelnetDecodeTest,testDubboDecode,"NEW org.apache.dubbo.remoting.transport.netty4.NettyCodecAdapter(Codec2, URL, ChannelHandler)",0
+DubboTelnetDecodeTest,testDubboDecode,NEW anonymous(),0
+DubboTelnetDecodeTest,testDubboDecode,NEW org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler(ExchangeHandler),0
+DubboTelnetDecodeTest,testDubboDecode,NEW org.apache.dubbo.remoting.transport.DecodeHandler(ChannelHandler),0
+DubboTelnetDecodeTest,testDubboDecode,NEW org.apache.dubbo.remoting.transport.MultiMessageHandler(ChannelHandler),0
+DubboTelnetDecodeTest,testDubboDecode,"NEW org.apache.dubbo.rpc.protocol.dubbo.decode.MockHandler(Consumer, ChannelHandler)",0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.getMethodName(),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.getParameterTypes(),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.getParameterTypes(),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.getArguments(),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.getArguments(),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.getAttachment(String),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.getAttachment(String),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.RpcInvocation.getAttachment(String),0
+DubboTelnetDecodeTest,testDubboDecode,     NEW org.apache.dubbo.rpc.AppResponse(),0
+DubboTelnetDecodeTest,testDubboDecode,     org.apache.dubbo.rpc.AppResponse.setValue(Object),0
+DubboTelnetDecodeTest,testDubboDecode,NEW org.apache.dubbo.rpc.protocol.dubbo.decode.LocalEmbeddedChannel(),0
+DubboTelnetDecodeTest,testDubboDecode,org.apache.dubbo.remoting.transport.netty4.NettyCodecAdapter.getDecoder(),0
+DubboTelnetDecodeTest,testDubboDecode,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

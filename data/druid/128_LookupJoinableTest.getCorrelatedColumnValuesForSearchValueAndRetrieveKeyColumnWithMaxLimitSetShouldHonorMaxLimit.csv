@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+LookupJoinableTest,getCorrelatedColumnValuesForSearchValueAndRetrieveKeyColumnWithMaxLimitSetShouldHonorMaxLimit,"org.apache.druid.segment.join.lookup.LookupJoinable.getCorrelatedColumnValues(String, String, String, long, boolean)",1
+LookupJoinableTest,getCorrelatedColumnValuesForSearchValueAndRetrieveKeyColumnWithMaxLimitSetShouldHonorMaxLimit,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

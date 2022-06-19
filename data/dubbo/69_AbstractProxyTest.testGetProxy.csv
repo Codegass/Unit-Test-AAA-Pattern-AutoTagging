@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractProxyTest,testGetProxy,org.apache.dubbo.common.URL.valueOf(String),0
+AbstractProxyTest,testGetProxy,NEW org.apache.dubbo.rpc.support.MyInvoker<org.apache.dubbo.rpc.support.DemoService>(URL),0
+AbstractProxyTest,testGetProxy,org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<DemoService>),1
+AbstractProxyTest,testGetProxy,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),2
+AbstractProxyTest,testGetProxy,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+AbstractProxyTest,testGetProxy,"NEW org.apache.dubbo.rpc.RpcInvocation(String, String, Class<?>[], Object[])",2
+AbstractProxyTest,testGetProxy,org.apache.dubbo.rpc.Invoker.invoke(Invocation),2
+AbstractProxyTest,testGetProxy,org.apache.dubbo.rpc.Result.getValue(),2
+AbstractProxyTest,testGetProxy,TEST org.apache.dubbo.rpc.support.DemoService.echo(String),2
+AbstractProxyTest,testGetProxy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VpcRouterDeploymentDefinitionTest,testDeployAllVirtualRoutersWithNoDeployedRouter,"     com.cloud.network.router.NetworkHelper.deployRouter(RouterDeploymentDefinition, boolean)",0
+VpcRouterDeploymentDefinitionTest,testDeployAllVirtualRoutersWithNoDeployedRouter,     org.cloud.network.router.deployment.VpcRouterDeploymentDefinition.deployAllVirtualRouters(),1
+VpcRouterDeploymentDefinitionTest,testDeployAllVirtualRoutersWithNoDeployedRouter,"ASSERT junit.framework.Assert.assertTrue(String, boolean)",2

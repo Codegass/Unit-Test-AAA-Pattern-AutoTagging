@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConnectChannelHandlerTest,test_Received_Event_invoke_direct,NEW org.apache.dubbo.remoting.handler.WrappedChannelHandlerTest.BizChannelHander(boolean),0
+ConnectChannelHandlerTest,test_Received_Event_invoke_direct,"NEW org.apache.dubbo.remoting.transport.dispatcher.connection.ConnectionOrderedChannelHandler(ChannelHandler, URL)",0
+ConnectChannelHandlerTest,test_Received_Event_invoke_direct,"TEST org.apache.dubbo.remoting.handler.WrappedChannelHandlerTest.getField(Object, String, int)",0
+ConnectChannelHandlerTest,test_Received_Event_invoke_direct,"TEST org.apache.dubbo.remoting.handler.WrappedChannelHandlerTest.getField(Object, String, int)",0
+ConnectChannelHandlerTest,test_Received_Event_invoke_direct,NEW org.apache.dubbo.remoting.exchange.Request(),0
+ConnectChannelHandlerTest,test_Received_Event_invoke_direct,org.apache.dubbo.remoting.exchange.Request.setHeartbeat(boolean),0
+ConnectChannelHandlerTest,test_Received_Event_invoke_direct,NEW anonymous(),0
+ConnectChannelHandlerTest,test_Received_Event_invoke_direct,"org.apache.dubbo.remoting.transport.dispatcher.WrappedChannelHandler.received(Channel, Object)",1
+ConnectChannelHandlerTest,test_Received_Event_invoke_direct,org.apache.dubbo.remoting.exchange.Response.isHeartbeat(),2
+ConnectChannelHandlerTest,test_Received_Event_invoke_direct,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+ConnectChannelHandlerTest,test_Received_Event_invoke_direct,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int, String)",2

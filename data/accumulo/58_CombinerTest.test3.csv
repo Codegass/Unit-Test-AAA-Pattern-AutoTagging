@@ -1,0 +1,90 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CombinerTest,test3,               NEW org.apache.hadoop.io.Text(String),0
+CombinerTest,test3,          NEW org.apache.hadoop.io.Text(String),0
+CombinerTest,test3,          NEW org.apache.hadoop.io.Text(String),0
+CombinerTest,test3,"          NEW org.apache.accumulo.core.data.Key(Text, Text, Text, long)",0
+CombinerTest,test3,     org.apache.accumulo.core.data.Key.setDeleted(boolean),0
+CombinerTest,test3,     org.apache.accumulo.core.client.lexicoder.Encoder.encode(V),0
+CombinerTest,test3,     NEW org.apache.accumulo.core.data.Value(byte[]),0
+CombinerTest,test3,"TEST org.apache.accumulo.core.iterators.user.CombinerTest.newKeyValue(TreeMap<Key,Value>, int, int, int, long, boolean, Long, Encoder<Long>)",0
+CombinerTest,test3,"TEST org.apache.accumulo.core.iterators.user.CombinerTest.newKeyValue(TreeMap<Key,Value>, int, int, int, long, boolean, Long, Encoder<Long>)",0
+CombinerTest,test3,"TEST org.apache.accumulo.core.iterators.user.CombinerTest.newKeyValue(TreeMap<Key,Value>, int, int, int, long, boolean, Long, Encoder<Long>)",0
+CombinerTest,test3,"TEST org.apache.accumulo.core.iterators.user.CombinerTest.newKeyValue(TreeMap<Key,Value>, int, int, int, long, boolean, Long, Encoder<Long>)",0
+CombinerTest,test3,NEW org.apache.accumulo.core.iterators.user.SummingCombiner(),0
+CombinerTest,test3,"NEW org.apache.accumulo.core.client.IteratorSetting(int, Class<? extends SortedKeyValueIterator<Key,Value>>)",0
+CombinerTest,test3,"org.apache.accumulo.core.iterators.LongCombiner.setEncodingType(IteratorSetting, String)",0
+CombinerTest,test3,NEW org.apache.accumulo.core.client.IteratorSetting.Column(String),0
+CombinerTest,test3,"org.apache.accumulo.core.iterators.Combiner.setColumns(IteratorSetting, List<Column>)",0
+CombinerTest,test3,"NEW org.apache.accumulo.core.iterators.SortedMapIterator(SortedMap<Key,Value>)",0
+CombinerTest,test3,org.apache.accumulo.core.client.IteratorSetting.getOptions(),0
+CombinerTest,test3,"org.apache.accumulo.core.iterators.Combiner.init(SortedKeyValueIterator<Key,Value>, Map<String,String>, IteratorEnvironment)",1
+CombinerTest,test3,NEW org.apache.accumulo.core.data.Range(),0
+CombinerTest,test3,"org.apache.accumulo.core.iterators.Combiner.seek(Range, Collection<ByteSequence>, boolean)",1
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.hasTop(),2
+CombinerTest,test3,ASSERT org.junit.Assert.assertTrue(boolean),2
+CombinerTest,test3,          NEW org.apache.hadoop.io.Text(String),2
+CombinerTest,test3,     NEW org.apache.hadoop.io.Text(String),2
+CombinerTest,test3,     NEW org.apache.hadoop.io.Text(String),2
+CombinerTest,test3,"     NEW org.apache.accumulo.core.data.Key(Text, Text, Text, long)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopKey(),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopValue(),2
+CombinerTest,test3,org.apache.accumulo.core.data.Value.get(),2
+CombinerTest,test3,org.apache.accumulo.core.client.lexicoder.Encoder.decode(byte[]),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.next(),2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.hasTop(),2
+CombinerTest,test3,ASSERT org.junit.Assert.assertTrue(boolean),2
+CombinerTest,test3,"TEST org.apache.accumulo.core.iterators.user.CombinerTest.newKey(int, int, int, long)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopKey(),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopValue(),2
+CombinerTest,test3,org.apache.accumulo.core.data.Value.get(),2
+CombinerTest,test3,org.apache.accumulo.core.client.lexicoder.Encoder.decode(byte[]),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.next(),2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.hasTop(),2
+CombinerTest,test3,ASSERT org.junit.Assert.assertTrue(boolean),2
+CombinerTest,test3,"TEST org.apache.accumulo.core.iterators.user.CombinerTest.newKey(int, int, int, long)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopKey(),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopValue(),2
+CombinerTest,test3,org.apache.accumulo.core.data.Value.get(),2
+CombinerTest,test3,org.apache.accumulo.core.client.lexicoder.Encoder.decode(byte[]),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.next(),2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.hasTop(),2
+CombinerTest,test3,ASSERT org.junit.Assert.assertFalse(boolean),2
+CombinerTest,test3,"          TEST org.apache.accumulo.core.iterators.user.CombinerTest.newKey(int, int, int, long)",0
+CombinerTest,test3,"          NEW org.apache.accumulo.core.data.Range(Key, boolean, Key, boolean)",0
+CombinerTest,test3,"org.apache.accumulo.core.iterators.Combiner.seek(Range, Collection<ByteSequence>, boolean)",1
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.hasTop(),2
+CombinerTest,test3,ASSERT org.junit.Assert.assertTrue(boolean),2
+CombinerTest,test3,"TEST org.apache.accumulo.core.iterators.user.CombinerTest.newKey(int, int, int, long)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopKey(),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopValue(),2
+CombinerTest,test3,org.apache.accumulo.core.data.Value.get(),2
+CombinerTest,test3,org.apache.accumulo.core.client.lexicoder.Encoder.decode(byte[]),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CombinerTest,test3,"TEST org.apache.accumulo.core.iterators.user.CombinerTest.newRow(int, int, int, long)",2
+CombinerTest,test3,"org.apache.accumulo.core.iterators.Combiner.seek(Range, Collection<ByteSequence>, boolean)",1
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.hasTop(),2
+CombinerTest,test3,ASSERT org.junit.Assert.assertTrue(boolean),2
+CombinerTest,test3,"TEST org.apache.accumulo.core.iterators.user.CombinerTest.newKey(int, int, int, long)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopKey(),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopValue(),2
+CombinerTest,test3,org.apache.accumulo.core.data.Value.get(),2
+CombinerTest,test3,org.apache.accumulo.core.client.lexicoder.Encoder.decode(byte[]),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.next(),2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.hasTop(),2
+CombinerTest,test3,ASSERT org.junit.Assert.assertTrue(boolean),2
+CombinerTest,test3,"TEST org.apache.accumulo.core.iterators.user.CombinerTest.newKey(int, int, int, long)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopKey(),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CombinerTest,test3,org.apache.accumulo.core.iterators.Combiner.getTopValue(),2
+CombinerTest,test3,org.apache.accumulo.core.data.Value.get(),2
+CombinerTest,test3,org.apache.accumulo.core.client.lexicoder.Encoder.decode(byte[]),2
+CombinerTest,test3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

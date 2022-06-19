@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AccumuloInputFormatTest,testSetIterator,"NEW org.apache.accumulo.core.client.IteratorSetting(int, String, String)",0
+AccumuloInputFormatTest,testSetIterator,"org.apache.accumulo.core.client.mapred.InputFormatBase.addIterator(JobConf, IteratorSetting)",1
+AccumuloInputFormatTest,testSetIterator,org.apache.accumulo.core.client.IteratorSetting.write(DataOutput),2
+AccumuloInputFormatTest,testSetIterator,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

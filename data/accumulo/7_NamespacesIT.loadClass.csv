@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NamespacesIT,loadClass,org.apache.accumulo.core.client.AccumuloClient.namespaceOperations(),0
+NamespacesIT,loadClass,org.apache.accumulo.core.clientImpl.Namespace.name(),0
+NamespacesIT,loadClass,"org.apache.accumulo.core.client.admin.NamespaceOperations.testClassLoad(String, String, String)",1
+NamespacesIT,loadClass,ASSERT org.junit.Assert.assertTrue(boolean),2
+NamespacesIT,loadClass,org.apache.accumulo.core.client.AccumuloClient.namespaceOperations(),0
+NamespacesIT,loadClass,org.apache.accumulo.core.clientImpl.Namespace.name(),0
+NamespacesIT,loadClass,"org.apache.accumulo.core.client.admin.NamespaceOperations.testClassLoad(String, String, String)",1
+NamespacesIT,loadClass,ASSERT org.junit.Assert.assertFalse(boolean),2
+NamespacesIT,loadClass,org.apache.accumulo.core.client.AccumuloClient.namespaceOperations(),0
+NamespacesIT,loadClass,"org.apache.accumulo.core.client.admin.NamespaceOperations.testClassLoad(String, String, String)",1
+NamespacesIT,loadClass,ASSERT org.junit.Assert.fail(),2

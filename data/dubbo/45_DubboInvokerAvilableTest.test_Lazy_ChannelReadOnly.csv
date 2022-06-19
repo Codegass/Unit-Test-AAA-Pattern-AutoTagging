@@ -1,0 +1,23 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,org.apache.dubbo.common.utils.NetUtils.getAvailablePort(),0
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,org.apache.dubbo.common.URL.valueOf(String),0
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,NEW org.apache.dubbo.rpc.protocol.dubbo.DubboInvokerAvilableTest.DemoServiceImpl(),0
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,"     org.apache.dubbo.rpc.ProxyFactory.getInvoker(T, Class<T>, URL)",0
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,     org.apache.dubbo.rpc.Protocol.export(Invoker<T>),0
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,"org.apache.dubbo.rpc.protocol.AbstractProtocol.refer(Class<IDemoService>, URL)",1
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,org.apache.dubbo.rpc.protocol.AsyncToSyncInvoker.isAvailable(),2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,org.apache.dubbo.rpc.protocol.AsyncToSyncInvoker.getInvoker(),2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,org.apache.dubbo.remoting.Endpoint.isClosed(),2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,"org.apache.dubbo.remoting.Channel.setAttribute(String, Object)",2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,ASSERT org.junit.jupiter.api.Assertions.fail(),2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<>),2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,TEST org.apache.dubbo.rpc.protocol.dubbo.IDemoService.get(),2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,org.apache.dubbo.rpc.protocol.AsyncToSyncInvoker.isAvailable(),2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,"org.apache.dubbo.remoting.Channel.setAttribute(String, Object)",2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,org.apache.dubbo.rpc.protocol.AsyncToSyncInvoker.isAvailable(),2
+DubboInvokerAvilableTest,test_Lazy_ChannelReadOnly,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2

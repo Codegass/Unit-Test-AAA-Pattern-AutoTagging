@@ -1,0 +1,29 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+OvershadowableManagerTest,testCopyVisible,     TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.nextRootPartitionId(),0
+OvershadowableManagerTest,testCopyVisible,"     NEW org.apache.druid.timeline.partition.OvershadowableInteger(String, int, int)",0
+OvershadowableManagerTest,testCopyVisible,"     NEW org.apache.druid.timeline.partition.NumberedPartitionChunk<org.apache.druid.timeline.partition.OvershadowableInteger>(int, int, OvershadowableInteger)",0
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.addChunk(PartitionChunk<OvershadowableInteger>),0
+OvershadowableManagerTest,testCopyVisible,TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.newRootChunk(),0
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.addChunk(PartitionChunk<OvershadowableInteger>),0
+OvershadowableManagerTest,testCopyVisible,     TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.nextNonRootPartitionId(),0
+OvershadowableManagerTest,testCopyVisible,"     NEW org.apache.druid.timeline.partition.OvershadowableInteger(String, int, int, int, int, int, int)",0
+OvershadowableManagerTest,testCopyVisible,"     NEW org.apache.druid.timeline.partition.NumberedOverwritingPartitionChunk<org.apache.druid.timeline.partition.OvershadowableInteger>(int, OvershadowableInteger)",0
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.addChunk(PartitionChunk<OvershadowableInteger>),0
+OvershadowableManagerTest,testCopyVisible,"TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.newNonRootChunk(int, int, int, int)",0
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.addChunk(PartitionChunk<OvershadowableInteger>),0
+OvershadowableManagerTest,testCopyVisible,"TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.newNonRootChunk(int, int, int, int)",0
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.addChunk(PartitionChunk<OvershadowableInteger>),0
+OvershadowableManagerTest,testCopyVisible,TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.newRootChunk(),0
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.addChunk(PartitionChunk<OvershadowableInteger>),0
+OvershadowableManagerTest,testCopyVisible,TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.newRootChunk(),0
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.addChunk(PartitionChunk<OvershadowableInteger>),0
+OvershadowableManagerTest,testCopyVisible,"TEST org.apache.druid.timeline.partition.OvershadowableManagerTest.newNonRootChunk(int, int, int, int)",0
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.addChunk(PartitionChunk<OvershadowableInteger>),0
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.copyVisible(OvershadowableManager<OvershadowableInteger>),1
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.getOvershadowedChunks(),2
+OvershadowableManagerTest,testCopyVisible,ASSERT org.junit.Assert.assertTrue(boolean),2
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.getStandbyChunks(),2
+OvershadowableManagerTest,testCopyVisible,ASSERT org.junit.Assert.assertTrue(boolean),2
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.visibleChunksIterator(),2
+OvershadowableManagerTest,testCopyVisible,org.apache.druid.timeline.partition.OvershadowableManager.visibleChunksIterator(),2
+OvershadowableManagerTest,testCopyVisible,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

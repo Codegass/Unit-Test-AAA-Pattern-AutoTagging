@@ -1,0 +1,43 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,NEW org.apache.druid.query.CachingEmitter(),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"NEW org.apache.druid.java.util.emitter.service.ServiceEmitter(String, String, Emitter)",0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,NEW org.apache.druid.query.topn.DefaultTopNQueryMetrics(),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,NEW org.apache.druid.query.topn.TopNQueryBuilder(),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.topn.TopNQueryBuilder.dataSource(String),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.topn.TopNQueryBuilder.granularity(Granularity),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"NEW org.apache.druid.query.dimension.DefaultDimensionSpec(String, String)",0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"NEW org.apache.druid.query.dimension.ListFilteredDimensionSpec(DimensionSpec, Set<String>, Boolean)",0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.topn.TopNQueryBuilder.dimension(DimensionSpec),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.topn.TopNQueryBuilder.metric(String),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.topn.TopNQueryBuilder.intervals(QuerySegmentSpec),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.topn.TopNQueryBuilder.aggregators(AggregatorFactory[]),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.topn.TopNQueryBuilder.threshold(int),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"NEW org.apache.druid.query.filter.SelectorDimFilter(String, String, ExtractionFn)",0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.topn.TopNQueryBuilder.filters(DimFilter),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.topn.TopNQueryBuilder.build(),0
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.topn.DefaultTopNQueryMetrics.query(TopNQuery),1
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.DefaultQueryMetrics.reportQueryTime(long),2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.QueryMetrics.emit(ServiceEmitter),2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,TEST org.apache.druid.query.CachingEmitter.getLastEmittedEvent(),2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.java.util.emitter.core.Event.toMap(),2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,ASSERT org.junit.Assert.assertTrue(boolean),2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,ASSERT org.junit.Assert.assertTrue(boolean),2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.topn.TopNQuery.getType(),2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.apache.druid.query.spec.QuerySegmentSpec.getIntervals(),2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,org.joda.time.base.AbstractInterval.toString(),2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DefaultTopNQueryMetricsTest,testDefaultTopNQueryMetricsQuery,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

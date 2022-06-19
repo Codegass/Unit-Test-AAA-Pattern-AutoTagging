@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RouterDeploymentDefinitionTest,testFindSourceNatIPPublicNw,"com.cloud.network.IpAddressManager.assignSourceNatIpAddressToGuestNetwork(Account, Network)",0
+RouterDeploymentDefinitionTest,testFindSourceNatIPPublicNw,ASSERT junit.framework.Assert.assertNull(Object),0
+RouterDeploymentDefinitionTest,testFindSourceNatIPPublicNw,org.cloud.network.router.deployment.RouterDeploymentDefinition.findSourceNatIP(),1
+RouterDeploymentDefinitionTest,testFindSourceNatIPPublicNw,"ASSERT junit.framework.Assert.assertEquals(String, Object, Object)",2

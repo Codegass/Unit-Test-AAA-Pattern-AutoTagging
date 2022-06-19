@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+IndexerSQLMetadataStorageCoordinatorTest,testUsedOverlapLow,org.apache.druid.metadata.IndexerSQLMetadataStorageCoordinator.announceHistoricalSegments(Set<DataSegment>),1
+IndexerSQLMetadataStorageCoordinatorTest,testUsedOverlapLow,org.apache.druid.timeline.DataSegment.getDataSource(),2
+IndexerSQLMetadataStorageCoordinatorTest,testUsedOverlapLow,org.apache.druid.java.util.common.Intervals.of(String),2
+IndexerSQLMetadataStorageCoordinatorTest,testUsedOverlapLow,"org.apache.druid.indexing.overlord.IndexerMetadataStorageCoordinator.retrieveUsedSegmentsForInterval(String, Interval, Segments)",2
+IndexerSQLMetadataStorageCoordinatorTest,testUsedOverlapLow,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

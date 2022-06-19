@@ -1,0 +1,44 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"     NEW org.apache.druid.indexing.worker.Worker(String, String, String, int, String, String)",0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"TEST org.apache.druid.indexing.overlord.RemoteTaskRunnerTestUtils.makeWorker(String, int)",0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,NEW org.apache.druid.indexing.overlord.TestRemoteTaskRunnerConfig(Period),0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,org.apache.druid.indexing.overlord.config.RemoteTaskRunnerConfig.setMaxPercentageBlacklistWorkers(int),0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,          NEW org.apache.druid.indexing.overlord.autoscaling.NoopProvisioningStrategy<org.apache.druid.indexing.overlord.WorkerTaskRunner>(),0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,               NEW anonymous(),0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"               NEW org.apache.druid.server.initialization.IndexerZkConfig(ZkPathsConfig, String, String, String, String)",0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,               NEW org.apache.druid.curator.cache.PathChildrenCacheFactory.Builder(),0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,               org.apache.druid.indexing.overlord.setup.DefaultWorkerBehaviorConfig.defaultConfig(),0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,               org.apache.druid.common.guava.DSuppliers.of(AtomicReference<WorkerBehaviorConfig>),0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"               NEW org.apache.druid.indexing.overlord.RemoteTaskRunnerTestUtils.TestableRemoteTaskRunner(ObjectMapper, RemoteTaskRunnerConfig, IndexerZkConfig, CuratorFramework, Builder, HttpClient, Supplier<WorkerBehaviorConfig>, ProvisioningStrategy<WorkerTaskRunner>)",0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,               org.apache.druid.indexing.overlord.RemoteTaskRunner.start(),0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"NEW org.apache.druid.indexing.common.task.TaskResource(String, int)",0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,org.apache.druid.indexer.TaskStatus.success(String),0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"NEW org.apache.druid.indexing.common.TestRealtimeTask(String, TaskResource, String, TaskStatus, ObjectMapper)",0
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,org.apache.druid.indexing.overlord.RemoteTaskRunner.run(Task),1
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,org.apache.druid.indexing.common.task.AbstractTask.getId(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,          NEW anonymous(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,                    TEST org.apache.druid.indexing.common.IndexingServiceCondition.isValid(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"                    NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"                    org.apache.druid.java.util.common.logger.Logger.warn(Throwable, String, Object[])",2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,org.apache.druid.indexing.common.task.AbstractTask.getId(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"TEST org.apache.druid.indexing.overlord.RemoteTaskRunnerTestUtils.taskAnnounced(String, String)",2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,ASSERT org.junit.Assert.assertTrue(boolean),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,     org.apache.druid.indexing.common.task.Task.getId(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,     org.apache.druid.indexing.common.task.Task.getId(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,     org.apache.druid.indexing.common.task.Task.getId(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,     org.apache.druid.indexer.TaskStatus.running(String),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"     org.apache.druid.indexing.worker.TaskAnnouncement.create(Task, TaskStatus, TaskLocation)",2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,     org.apache.druid.indexing.common.task.Task.getId(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,     org.apache.druid.indexer.TaskStatus.failure(String),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"     org.apache.druid.indexing.worker.TaskAnnouncement.create(Task, TaskStatus, TaskLocation)",2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,     org.apache.druid.indexing.common.task.Task.getId(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,org.apache.druid.indexer.TaskStatus.isFailure(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,ASSERT org.junit.Assert.assertTrue(boolean),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,org.apache.druid.indexing.overlord.RemoteTaskRunner.getBlackListedWorkers(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,org.apache.druid.indexing.common.task.AbstractTask.getId(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,org.apache.druid.indexing.overlord.RemoteTaskRunner.findWorkerRunningTask(String),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,org.apache.druid.indexing.overlord.ZkWorker.getContinuouslyFailedTasksCount(),2
+RemoteTaskRunnerTest,testBlacklistZKWorkers25Percent,"ASSERT org.junit.Assert.assertEquals(long, long)",2

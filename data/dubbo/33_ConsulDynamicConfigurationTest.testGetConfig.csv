@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConsulDynamicConfigurationTest,testGetConfig,"org.apache.dubbo.common.config.configcenter.DynamicConfiguration.getConfig(String, String)",1
+ConsulDynamicConfigurationTest,testGetConfig,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ConsulDynamicConfigurationTest,testGetConfig,"org.apache.dubbo.common.config.configcenter.DynamicConfiguration.getConfig(String, String)",1
+ConsulDynamicConfigurationTest,testGetConfig,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ConsulDynamicConfigurationTest,testGetConfig,"org.apache.dubbo.common.config.configcenter.DynamicConfiguration.getConfig(String, String)",1
+ConsulDynamicConfigurationTest,testGetConfig,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2

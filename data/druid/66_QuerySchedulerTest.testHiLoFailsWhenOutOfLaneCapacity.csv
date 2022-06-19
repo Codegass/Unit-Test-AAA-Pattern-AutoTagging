@@ -1,0 +1,39 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,"org.apache.druid.server.QueryCapacityExceededException.makeLaneErrorMessage(String, int)",0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,ExpectedException org.junit.rules.ExpectedException.expectMessage(String),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,ExpectedException org.junit.rules.ExpectedException.expect(Class<? extends Throwable>),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,          NEW org.apache.druid.query.topn.TopNQueryBuilder(),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,          org.apache.druid.query.topn.TopNQueryBuilder.dataSource(String),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,          org.apache.druid.query.topn.TopNQueryBuilder.intervals(String),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,          org.apache.druid.query.topn.TopNQueryBuilder.dimension(String),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,          org.apache.druid.query.topn.TopNQueryBuilder.metric(String),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,          NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,          org.apache.druid.query.topn.TopNQueryBuilder.aggregators(AggregatorFactory[]),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,          org.apache.druid.query.topn.TopNQueryBuilder.threshold(int),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,"     org.apache.druid.query.topn.TopNQueryBuilder.context(Map<String,Object>)",0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,     org.apache.druid.query.topn.TopNQueryBuilder.build(),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,org.apache.druid.query.QueryPlus.wrap(Query<Result<TopNResultValue>>),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,"TEST org.apache.druid.server.ObservableQueryScheduler.prioritizeAndLaneQuery(QueryPlus<Result<TopNResultValue>>, Set<SegmentServerSelector>)",1
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,org.apache.druid.java.util.common.guava.Sequences.empty(),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,     java.util.concurrent.atomic.AtomicLong.incrementAndGet(),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,     org.apache.druid.java.util.common.guava.Sequence.withBaggage(Closeable),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,ASSERT org.junit.Assert.assertNotNull(Object),2
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,org.apache.druid.server.QueryScheduler.getTotalAvailableCapacity(),2
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,org.apache.druid.server.QueryScheduler.getLaneAvailableCapacity(String),2
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,TEST org.apache.druid.server.QuerySchedulerTest.makeReportQuery(),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,org.apache.druid.query.QueryPlus.wrap(Query<Result<TopNResultValue>>),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,"TEST org.apache.druid.server.ObservableQueryScheduler.prioritizeAndLaneQuery(QueryPlus<Result<TopNResultValue>>, Set<SegmentServerSelector>)",1
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,org.apache.druid.java.util.common.guava.Sequences.empty(),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,"TEST org.apache.druid.server.ObservableQueryScheduler.run(Query<?>, Sequence<Object>)",0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,ASSERT org.junit.Assert.assertNotNull(Object),2
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,org.apache.druid.server.QueryScheduler.getTotalAvailableCapacity(),2
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,org.apache.druid.server.QueryScheduler.getLaneAvailableCapacity(String),2
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,TEST org.apache.druid.server.QuerySchedulerTest.makeReportQuery(),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,org.apache.druid.query.QueryPlus.wrap(Query<Result<TopNResultValue>>),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,"TEST org.apache.druid.server.ObservableQueryScheduler.prioritizeAndLaneQuery(QueryPlus<Result<TopNResultValue>>, Set<SegmentServerSelector>)",2
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,org.apache.druid.java.util.common.guava.Sequences.empty(),0
+QuerySchedulerTest,testHiLoFailsWhenOutOfLaneCapacity,"TEST org.apache.druid.server.ObservableQueryScheduler.run(Query<?>, Sequence<Object>)",0

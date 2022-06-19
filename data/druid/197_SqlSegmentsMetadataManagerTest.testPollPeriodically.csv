@@ -1,0 +1,20 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.metadata.SqlSegmentsMetadataManager.getDataSourcesSnapshot(),0
+SqlSegmentsMetadataManagerTest,testPollPeriodically,ASSERT org.junit.Assert.assertNull(Object),0
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.metadata.SqlSegmentsMetadataManager.startPollingDatabasePeriodically(),1
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.metadata.SqlSegmentsMetadataManager.isPollingDatabasePeriodically(),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,ASSERT org.junit.Assert.assertTrue(boolean),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.metadata.SqlSegmentsMetadataManager.useLatestSnapshotIfWithinDelay(),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,ASSERT org.junit.Assert.assertTrue(boolean),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.metadata.SqlSegmentsMetadataManager.getLatestDatabasePoll(),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.metadata.SqlSegmentsMetadataManager.getDataSourcesSnapshot(),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.metadata.SqlSegmentsMetadataManager.retrieveAllDataSourceNames(),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.client.DataSourcesSnapshot.getDataSourcesWithAllUsedSegments(),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.client.ImmutableDruidDataSource.getName(),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.client.DataSourcesSnapshot.getDataSource(String),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.client.ImmutableDruidDataSource.getSegments(),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,org.apache.druid.client.DataSourcesSnapshot.iterateAllUsedSegmentsInSnapshot(),2
+SqlSegmentsMetadataManagerTest,testPollPeriodically,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

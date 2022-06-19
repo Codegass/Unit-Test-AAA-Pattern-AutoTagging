@@ -1,0 +1,87 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SnapshotTest,setUp,com.cloud.utils.component.ComponentContext.initComponentsLifeCycle(),0
+SnapshotTest,setUp,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getHostGuid(),0
+SnapshotTest,setUp,com.cloud.host.dao.HostDao.findByGuid(String),0
+SnapshotTest,setUp,com.cloud.host.HostVO.getDataCenterId(),0
+SnapshotTest,setUp,com.cloud.host.HostVO.getClusterId(),0
+SnapshotTest,setUp,com.cloud.host.HostVO.getPodId(),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.datastore.db.ImageStoreDao.findByName(String),0
+SnapshotTest,setUp,"NEW com.cloud.dc.DataCenterVO(String, String, String, String, String, String, String, String, Long, NetworkType, String, String, boolean, boolean, String, String)",0
+SnapshotTest,setUp,com.cloud.utils.db.GenericDao.persist(DataCenterVO),0
+SnapshotTest,setUp,com.cloud.dc.DataCenterVO.getId(),0
+SnapshotTest,setUp,com.cloud.dc.DataCenterVO.getId(),0
+SnapshotTest,setUp,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getHostGateway(),0
+SnapshotTest,setUp,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getHostCidr(),0
+SnapshotTest,setUp,"NEW com.cloud.dc.HostPodVO(String, long, String, String, int, String)",0
+SnapshotTest,setUp,com.cloud.utils.db.GenericDao.persist(HostPodVO),0
+SnapshotTest,setUp,com.cloud.dc.HostPodVO.getId(),0
+SnapshotTest,setUp,com.cloud.dc.DataCenterVO.getId(),0
+SnapshotTest,setUp,com.cloud.dc.HostPodVO.getId(),0
+SnapshotTest,setUp,"NEW com.cloud.dc.ClusterVO(long, long, String)",0
+SnapshotTest,setUp,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getHypervisor(),0
+SnapshotTest,setUp,com.cloud.dc.ClusterVO.setHypervisorType(String),0
+SnapshotTest,setUp,com.cloud.dc.ClusterVO.setClusterType(ClusterType),0
+SnapshotTest,setUp,com.cloud.dc.ClusterVO.setManagedState(ManagedState),0
+SnapshotTest,setUp,com.cloud.utils.db.GenericDao.persist(ClusterVO),0
+SnapshotTest,setUp,com.cloud.dc.ClusterVO.getId(),0
+SnapshotTest,setUp,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getHostGuid(),0
+SnapshotTest,setUp,NEW com.cloud.host.HostVO(String),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setName(String),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setType(Type),0
+SnapshotTest,setUp,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getHostIp(),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setPrivateIpAddress(String),0
+SnapshotTest,setUp,com.cloud.dc.DataCenterVO.getId(),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setDataCenterId(long),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setVersion(String),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setAvailable(boolean),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setSetup(boolean),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setPodId(Long),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setLastPinged(long),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setResourceState(ResourceState),0
+SnapshotTest,setUp,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getHypervisor(),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setHypervisorType(HypervisorType),0
+SnapshotTest,setUp,com.cloud.dc.ClusterVO.getId(),0
+SnapshotTest,setUp,com.cloud.host.HostVO.setClusterId(Long),0
+SnapshotTest,setUp,com.cloud.utils.db.GenericDao.persist(HostVO),0
+SnapshotTest,setUp,NEW org.apache.cloudstack.storage.datastore.db.ImageStoreVO(),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.datastore.db.ImageStoreVO.setName(String),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.datastore.db.ImageStoreVO.setDataCenterId(Long),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.datastore.db.ImageStoreVO.setProviderName(String),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.datastore.db.ImageStoreVO.setRole(DataStoreRole),0
+SnapshotTest,setUp,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getSecondaryStorage(),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.datastore.db.ImageStoreVO.setUrl(String),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.datastore.db.ImageStoreVO.setUuid(String),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.datastore.db.ImageStoreVO.setProtocol(String),0
+SnapshotTest,setUp,com.cloud.utils.db.GenericDao.persist(ImageStoreVO),0
+SnapshotTest,setUp,NEW com.cloud.storage.VMTemplateVO(),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setTemplateType(TemplateType),0
+SnapshotTest,setUp,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getTemplateUrl(),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setUrl(String),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setUniqueName(String),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setName(String),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setPublicTemplate(boolean),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setFeatured(boolean),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setRequiresHvm(boolean),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setBits(int),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setFormat(ImageFormat),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setEnablePassword(boolean),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setEnableSshKey(boolean),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setGuestOSId(long),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setBootable(boolean),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setPrepopulate(boolean),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setCrossZones(boolean),0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.setExtractable(boolean),0
+SnapshotTest,setUp,com.cloud.utils.db.GenericDao.persist(VMTemplateVO),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.datastore.db.ImageStoreVO.getId(),0
+SnapshotTest,setUp,"org.apache.cloudstack.engine.subsystem.api.storage.DataStoreManager.getDataStore(long, DataStoreRole)",0
+SnapshotTest,setUp,com.cloud.storage.VMTemplateVO.getId(),0
+SnapshotTest,setUp,"org.apache.cloudstack.engine.subsystem.api.storage.TemplateDataFactory.getTemplate(long, DataStoreRole)",0
+SnapshotTest,setUp,org.apache.cloudstack.engine.subsystem.api.storage.DataStore.create(DataObject),0
+SnapshotTest,setUp,NEW org.apache.cloudstack.storage.to.TemplateObjectTO(),0
+SnapshotTest,setUp,TEST org.apache.cloudstack.storage.test.CloudStackTestNGBase.getImageInstallPath(),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.to.TemplateObjectTO.setPath(String),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.to.TemplateObjectTO.setFormat(ImageFormat),0
+SnapshotTest,setUp,org.apache.cloudstack.storage.to.TemplateObjectTO.setSize(Long),0
+SnapshotTest,setUp,NEW org.apache.cloudstack.storage.command.CopyCmdAnswer(DataTO),0
+SnapshotTest,setUp,org.apache.cloudstack.engine.subsystem.api.storage.DataObject.processEvent(Event),0
+SnapshotTest,setUp,"org.apache.cloudstack.engine.subsystem.api.storage.DataObject.processEvent(Event, Answer)",0

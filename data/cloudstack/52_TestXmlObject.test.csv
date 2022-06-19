@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TestXmlObject,test,NEW com.cloud.utils.xmlobject.XmlObject(String),1
+TestXmlObject,test,"com.cloud.utils.xmlobject.XmlObject.putElement(String, Object)",1
+TestXmlObject,test,NEW com.cloud.utils.xmlobject.XmlObject(String),1
+TestXmlObject,test,"com.cloud.utils.xmlobject.XmlObject.putElement(String, Object)",1
+TestXmlObject,test,"com.cloud.utils.xmlobject.XmlObject.putElement(String, Object)",1
+TestXmlObject,test,"com.cloud.utils.xmlobject.XmlObject.putElement(String, Object)",1
+TestXmlObject,test,com.cloud.utils.xmlobject.XmlObject.toString(),1

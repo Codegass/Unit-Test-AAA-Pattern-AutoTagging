@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ScaleVMCmdTest,testCreateSuccess,com.cloud.vm.UserVmService.upgradeVirtualMachine(ScaleVMCmd),0
+ScaleVMCmdTest,testCreateSuccess,ASSERT junit.framework.Assert.fail(String),0
+ScaleVMCmdTest,testCreateSuccess,"org.apache.cloudstack.api.ResponseGenerator.createUserVmResponse(ResponseView, String, UserVm[])",0
+ScaleVMCmdTest,testCreateSuccess,org.apache.cloudstack.api.command.user.vm.ScaleVMCmd.execute(),1

@@ -1,0 +1,23 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RegistryProtocolTest,testNotifyOverride_notmatch,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+RegistryProtocolTest,testNotifyOverride_notmatch,"NEW org.apache.dubbo.registry.dubbo.RegistryProtocolTest.MockInvoker<org.apache.dubbo.registry.dubbo.RegistryProtocolTest>(Class<RegistryProtocolTest>, URL)",0
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.rpc.model.ApplicationModel.getServiceRepository(),0
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.rpc.model.ServiceRepository.registerService(Class<?>),0
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.rpc.model.ApplicationModel.getServiceRepository(),0
+RegistryProtocolTest,testNotifyOverride_notmatch,NEW org.apache.dubbo.registry.dubbo.DemoServiceImpl(),0
+RegistryProtocolTest,testNotifyOverride_notmatch,"org.apache.dubbo.rpc.model.ServiceRepository.registerProvider(String, Object, ServiceDescriptor, ServiceConfigBase<?>, ServiceMetadata)",0
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.rpc.Protocol.export(Invoker<RegistryProtocolTest>),0
+RegistryProtocolTest,testNotifyOverride_notmatch,     org.apache.dubbo.registry.integration.RegistryProtocol.getRegistryProtocol(),0
+RegistryProtocolTest,testNotifyOverride_notmatch,     org.apache.dubbo.registry.integration.RegistryProtocol.getOverrideListeners(),0
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.common.URL.valueOf(String),0
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.registry.NotifyListener.notify(List<URL>),1
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.rpc.Exporter.getInvoker(),2
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.common.Node.isAvailable(),2
+RegistryProtocolTest,testNotifyOverride_notmatch,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.rpc.Exporter.getInvoker(),2
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.common.Node.getUrl(),2
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.common.URL.getParameter(String),2
+RegistryProtocolTest,testNotifyOverride_notmatch,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2
+RegistryProtocolTest,testNotifyOverride_notmatch,org.apache.dubbo.rpc.Exporter.unexport(),2
+RegistryProtocolTest,testNotifyOverride_notmatch,     TEST org.apache.dubbo.registry.dubbo.RegistryProtocolTest.getRegistryProtocol(),2
+RegistryProtocolTest,testNotifyOverride_notmatch,     org.apache.dubbo.rpc.Protocol.destroy(),2

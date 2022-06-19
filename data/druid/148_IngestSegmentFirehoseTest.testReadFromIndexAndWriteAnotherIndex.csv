@@ -1,0 +1,82 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"     NEW org.apache.druid.data.input.impl.TimestampSpec(String, String, DateTime)",0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"     NEW org.apache.druid.data.input.impl.DelimitedParseSpec(TimestampSpec, DimensionsSpec, String, String, List<String>, boolean, int)",0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"     NEW org.apache.druid.data.input.impl.StringInputRowParser(ParseSpec, String)",0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     NEW org.apache.druid.segment.incremental.IncrementalIndex.Builder(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     NEW org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     org.apache.druid.data.input.impl.StringInputRowParser.getParseSpec(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     org.apache.druid.data.input.impl.ParseSpec.getDimensionsSpec(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.withDimensionsSpec(DimensionsSpec),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.withMetrics(AggregatorFactory[]),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.build(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.setIndexSchema(IncrementalIndexSchema),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.setMaxRowCount(int),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     org.apache.druid.segment.incremental.IncrementalIndex.Builder.buildOnheap(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     org.apache.druid.data.input.impl.StringInputRowParser.parse(String),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,     NEW org.apache.druid.segment.IndexSpec(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"     org.apache.druid.segment.IndexMerger.persist(IncrementalIndex, File, IndexSpec, SegmentWriteOutMediumFactory)",0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.IndexIO.loadIndex(File),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,NEW org.apache.druid.segment.incremental.IncrementalIndex.Builder(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,NEW org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.withDimensionsSpec(DimensionsSpec),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.withMetrics(AggregatorFactory[]),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndexSchema.Builder.build(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndex.Builder.setIndexSchema(IncrementalIndexSchema),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndex.Builder.setMaxRowCount(int),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndex.Builder.buildOnheap(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,NEW org.apache.druid.segment.QueryableIndexStorageAdapter(QueryableIndex),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.StorageAdapter.getInterval(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"NEW org.apache.druid.segment.realtime.firehose.WindowedStorageAdapter(StorageAdapter, Interval)",0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"NEW org.apache.druid.segment.realtime.firehose.IngestSegmentFirehose(List<WindowedStorageAdapter>, TransformSpec, List<String>, List<String>, DimFilter)",0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.realtime.firehose.IngestSegmentFirehose.hasMore(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.realtime.firehose.IngestSegmentFirehose.nextRow(),1
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,ASSERT org.junit.Assert.assertNotNull(Object),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.java.util.common.DateTimes.of(String),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.data.input.Row.getTimestamp(),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.data.input.Row.getRaw(String),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.data.input.Row.getRaw(String),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.data.input.Row.getRaw(String),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.hll.HyperLogLogCollector.estimateCardinality(),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(double, double, double)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.data.input.Row.getRaw(String),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndex.add(InputRow),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndex.size(),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,NEW org.apache.druid.segment.incremental.IncrementalIndexStorageAdapter(IncrementalIndex<?>),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndexStorageAdapter.getAvailableDimensions(),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.data.Indexed.size(),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndexStorageAdapter.getAvailableDimensions(),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.data.Indexed.get(int),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndexStorageAdapter.getAvailableDimensions(),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.data.Indexed.get(int),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.incremental.IncrementalIndexStorageAdapter.getAvailableMetrics(),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.java.util.common.Intervals.of(String),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"NEW org.apache.druid.segment.realtime.firehose.WindowedStorageAdapter(StorageAdapter, Interval)",0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"NEW org.apache.druid.collections.spatial.search.RadiusBound(float[], float)",0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"NEW org.apache.druid.query.filter.SpatialDimFilter(String, Bound)",0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"NEW org.apache.druid.segment.realtime.firehose.IngestSegmentFirehose(List<WindowedStorageAdapter>, TransformSpec, List<String>, List<String>, DimFilter)",0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.realtime.firehose.IngestSegmentFirehose.nextRow(),1
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.segment.realtime.firehose.IngestSegmentFirehose.hasMore(),0
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,ASSERT org.junit.Assert.assertFalse(boolean),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.java.util.common.DateTimes.of(String),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.data.input.Row.getTimestamp(),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.data.input.Row.getRaw(String),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.data.input.Row.getRaw(String),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.data.input.Row.getRaw(String),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.hll.HyperLogLogCollector.estimateCardinality(),2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,"ASSERT org.junit.Assert.assertEquals(double, double, double)",2
+IngestSegmentFirehoseTest,testReadFromIndexAndWriteAnotherIndex,org.apache.druid.data.input.Row.getRaw(String),2

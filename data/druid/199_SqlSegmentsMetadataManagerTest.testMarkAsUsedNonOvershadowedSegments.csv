@@ -1,0 +1,35 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.metadata.SqlSegmentsMetadataManager.startPollingDatabasePeriodically(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.metadata.SqlSegmentsMetadataManager.poll(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.metadata.SqlSegmentsMetadataManager.isPollingDatabasePeriodically(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,ASSERT org.junit.Assert.assertTrue(boolean),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,     org.apache.druid.java.util.common.Intervals.of(String),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,     org.apache.druid.timeline.partition.NoneShardSpec.instance(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,"     NEW org.apache.druid.timeline.DataSegment(String, Interval, String, Map<String,Object>, List<String>, List<String>, ShardSpec, Integer, long)",0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,"TEST org.apache.druid.metadata.SqlSegmentsMetadataManagerTest.createSegment(String, String, String, String, int)",0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,"TEST org.apache.druid.metadata.SqlSegmentsMetadataManagerTest.createSegment(String, String, String, String, int)",0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,     org.apache.druid.timeline.DataSegment.getShardSpec(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,     org.apache.druid.timeline.DataSegment.getId(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,     org.apache.druid.timeline.SegmentId.toString(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,     org.apache.druid.timeline.DataSegment.getDataSource(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,     org.apache.druid.java.util.common.DateTimes.nowUtc(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,     org.apache.druid.timeline.DataSegment.getInterval(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,     org.apache.druid.timeline.DataSegment.getInterval(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,     org.apache.druid.timeline.DataSegment.getVersion(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,"     org.apache.druid.metadata.SQLMetadataSegmentPublisher.publishSegment(String, String, String, String, String, boolean, String, boolean, byte[])",0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,"TEST org.apache.druid.metadata.SqlSegmentsMetadataManagerTest.publish(DataSegment, boolean)",0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,"TEST org.apache.druid.metadata.SqlSegmentsMetadataManagerTest.publish(DataSegment, boolean)",0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.timeline.DataSegment.getId(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.timeline.SegmentId.toString(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.timeline.DataSegment.getId(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.timeline.SegmentId.toString(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.timeline.DataSegment.getId(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.timeline.SegmentId.toString(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.metadata.SqlSegmentsMetadataManager.poll(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.metadata.SqlSegmentsMetadataManager.iterateAllUsedSegments(),0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,"org.apache.druid.metadata.SqlSegmentsMetadataManager.markAsUsedNonOvershadowedSegments(String, Set<String>)",1
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.metadata.SqlSegmentsMetadataManager.poll(),2
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,org.apache.druid.metadata.SqlSegmentsMetadataManager.iterateAllUsedSegments(),2
+SqlSegmentsMetadataManagerTest,testMarkAsUsedNonOvershadowedSegments,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

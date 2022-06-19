@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JettyTest,testTimeouts,NEW anonymous(),0
+JettyTest,testTimeouts,NEW anonymous(),0
+JettyTest,testTimeouts,"NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",0
+JettyTest,testTimeouts,org.apache.druid.java.util.http.client.response.StatusResponseHandler.getInstance(),0
+JettyTest,testTimeouts,"org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",1

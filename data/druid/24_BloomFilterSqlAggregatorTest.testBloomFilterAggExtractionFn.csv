@@ -1,0 +1,25 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.sql.SqlLifecycleFactory.factorize(),0
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,"org.apache.druid.sql.SqlLifecycle.runSimple(String, Map<String,Object>, List<SqlParameter>, AuthenticationResult)",1
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.java.util.common.guava.Sequence.toList(),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,NEW org.apache.druid.query.filter.BloomKFilter(long),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.common.config.NullHandling.emptyToNullIfNeeded(String),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.data.input.Row.getRaw(String),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,"org.apache.druid.query.filter.BloomKFilter.addBytes(byte[], int, int)",2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.query.filter.BloomKFilter.addString(String),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,"ASSERT org.junit.Assert.assertArrayEquals(Object[], Object[])",2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.query.Druids.newTimeseriesQueryBuilder(),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.dataSource(String),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.sql.calcite.filtration.Filtration.eternity(),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.intervals(QuerySegmentSpec),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.granularity(Granularity),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,"NEW org.apache.druid.query.extraction.SubstringDimExtractionFn(int, Integer)",2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,"NEW org.apache.druid.query.dimension.ExtractionDimensionSpec(String, String, ExtractionFn)",2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,"NEW org.apache.druid.query.aggregation.bloom.BloomFilterAggregatorFactory(String, DimensionSpec, Integer)",2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.aggregators(List<AggregatorFactory>),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,"org.apache.druid.query.Druids.TimeseriesQueryBuilder.context(Map<String,Object>)",2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,org.apache.druid.query.Druids.TimeseriesQueryBuilder.build(),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,TEST org.apache.druid.sql.calcite.util.QueryLogHook.getRecordedQueries(),2
+BloomFilterSqlAggregatorTest,testBloomFilterAggExtractionFn,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

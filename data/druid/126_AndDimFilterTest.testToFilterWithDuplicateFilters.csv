@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AndDimFilterTest,testToFilterWithDuplicateFilters,"     NEW org.apache.druid.query.filter.SelectorDimFilter(String, String, ExtractionFn)",0
+AndDimFilterTest,testToFilterWithDuplicateFilters,"TEST org.apache.druid.query.filter.DimFilterTestUtils.selector(String, String)",0
+AndDimFilterTest,testToFilterWithDuplicateFilters,     NEW org.apache.druid.query.filter.OrDimFilter(List<DimFilter>),0
+AndDimFilterTest,testToFilterWithDuplicateFilters,"TEST org.apache.druid.query.filter.DimFilterTestUtils.selector(String, String)",0
+AndDimFilterTest,testToFilterWithDuplicateFilters,"TEST org.apache.druid.query.filter.DimFilterTestUtils.selector(String, String)",0
+AndDimFilterTest,testToFilterWithDuplicateFilters,TEST org.apache.druid.query.filter.DimFilterTestUtils.or(DimFilter[]),0
+AndDimFilterTest,testToFilterWithDuplicateFilters,"TEST org.apache.druid.query.filter.DimFilterTestUtils.selector(String, String)",0
+AndDimFilterTest,testToFilterWithDuplicateFilters,     NEW org.apache.druid.query.filter.AndDimFilter(List<DimFilter>),0
+AndDimFilterTest,testToFilterWithDuplicateFilters,"     NEW org.apache.druid.segment.filter.SelectorFilter(String, String, FilterTuning)",0
+AndDimFilterTest,testToFilterWithDuplicateFilters,"TEST org.apache.druid.segment.filter.FilterTestUtils.selector(String, String)",0
+AndDimFilterTest,testToFilterWithDuplicateFilters,     NEW org.apache.druid.segment.filter.OrFilter(List<Filter>),0
+AndDimFilterTest,testToFilterWithDuplicateFilters,"TEST org.apache.druid.segment.filter.FilterTestUtils.selector(String, String)",0
+AndDimFilterTest,testToFilterWithDuplicateFilters,     NEW org.apache.druid.segment.filter.AndFilter(List<Filter>),0
+AndDimFilterTest,testToFilterWithDuplicateFilters,org.apache.druid.query.filter.DimFilter.toFilter(),1
+AndDimFilterTest,testToFilterWithDuplicateFilters,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

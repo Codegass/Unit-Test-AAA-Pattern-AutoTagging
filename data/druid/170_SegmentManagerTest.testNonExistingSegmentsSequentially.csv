@@ -1,0 +1,36 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SegmentManagerTest,testNonExistingSegmentsSequentially,"org.apache.druid.server.SegmentManager.loadSegment(DataSegment, boolean)",1
+SegmentManagerTest,testNonExistingSegmentsSequentially,ASSERT org.junit.Assert.assertTrue(boolean),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,org.apache.druid.server.SegmentManager.dropSegment(DataSegment),1
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.DataSegment.getDataSource(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.DataSegment.getSize(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     java.lang.Long.sum(long, long)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.DataSegment.getDataSource(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     java.lang.Long.sum(long, long)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.DataSegment.getDataSource(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.DataSegment.getDataSource(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     NEW org.apache.druid.timeline.VersionedIntervalTimeline<java.lang.String,org.apache.druid.segment.ReferenceCountingSegment>(Comparator<? super String>)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.DataSegment.getInterval(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.DataSegment.getVersion(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.DataSegment.getShardSpec(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     org.apache.druid.segment.loading.SegmentLoader.getSegment(DataSegment, boolean)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.DataSegment.getShardSpec(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     org.apache.druid.segment.ReferenceCountingSegment.wrapSegment(Segment, ShardSpec)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.partition.ShardSpec.createChunk(ReferenceCountingSegment),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     org.apache.druid.timeline.VersionedIntervalTimeline.add(Interval, String, PartitionChunk<ReferenceCountingSegment>)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.server.SegmentManager.getDataSourceNames(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.server.SegmentManager.getDataSourceCounts(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.server.SegmentManager.getDataSourceSizes(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.server.SegmentManager.getDataSources(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.server.SegmentManager.DataSourceState.getNumSegments(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.server.SegmentManager.DataSourceState.getTotalSegmentSize(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.VersionedIntervalTimeline.getAllTimelineEntries(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.server.SegmentManager.DataSourceState.getTimeline(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,     org.apache.druid.timeline.VersionedIntervalTimeline.getAllTimelineEntries(),2
+SegmentManagerTest,testNonExistingSegmentsSequentially,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2

@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,com.cloud.vm.VirtualMachine.getHostId(),0
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,com.cloud.network.router.NetworkHelperImpl.checkRouterVersion(VirtualRouter),0
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,com.cloud.agent.manager.Commands.size(),0
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,com.cloud.agent.api.Answer.getResult(),0
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,com.cloud.agent.api.Answer.getResult(),0
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,com.cloud.agent.api.Answer.getResult(),0
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,"com.cloud.agent.AgentManager.send(Long, Commands)",0
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,"com.cloud.network.router.NetworkHelperImpl.sendCommandsToRouter(VirtualRouter, Commands)",1
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,"com.cloud.agent.AgentManager.send(Long, Commands)",2
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,com.cloud.agent.api.Answer.getResult(),2
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,com.cloud.agent.api.Answer.getResult(),2
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,com.cloud.agent.api.Answer.getResult(),2
+NetworkHelperImplTest,testSendCommandsToRouterWithTrueResult,ASSERT org.junit.Assert.assertTrue(boolean),2

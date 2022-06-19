@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FirewallManagerTest,testApplyFWRules,"NEW com.cloud.network.rules.FirewallRuleVO(String, long, int, String, long, long, long, Purpose, List<String>, Integer, Integer, Long)",0
+FirewallManagerTest,testApplyFWRules,com.cloud.utils.component.ComponentContext.inject(Class<VirtualRouterElement>),0
+FirewallManagerTest,testApplyFWRules,com.cloud.utils.component.ComponentContext.inject(Class<VpcVirtualRouterElement>),0
+FirewallManagerTest,testApplyFWRules,"com.cloud.network.element.VirtualRouterElement.applyFWRules(Network, List<? extends FirewallRule>)",0
+FirewallManagerTest,testApplyFWRules,"com.cloud.network.element.VirtualRouterElement.applyFWRules(Network, List<? extends FirewallRule>)",0
+FirewallManagerTest,testApplyFWRules,"com.cloud.network.firewall.FirewallManagerImpl.applyRules(Network, Purpose, List<? extends FirewallRule>)",1
+FirewallManagerTest,testApplyFWRules,"com.cloud.network.element.VirtualRouterElement.applyFWRules(Network, List<? extends FirewallRule>)",2
+FirewallManagerTest,testApplyFWRules,"com.cloud.network.element.VirtualRouterElement.applyFWRules(Network, List<? extends FirewallRule>)",2
+FirewallManagerTest,testApplyFWRules,ASSERT junit.framework.Assert.fail(String),2

@@ -1,0 +1,47 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VirtualRouterElementTest,testGetRouters1,"NEW com.cloud.network.dao.NetworkVO(long, TrafficType, Mode, BroadcastDomainType, long, long, long, long, String, String, String, GuestType, long, Long, ACLType, boolean, Long, boolean)",0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.network.dao.NetworkVO.getId(),0
+VirtualRouterElementTest,testGetRouters1,     org.apache.cloudstack.framework.config.ConfigKey.value(),0
+VirtualRouterElementTest,testGetRouters1,"     com.cloud.utils.db.GenericDao.acquireInLockTable(Long, int)",0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.network.dao.NetworkVO.getId(),0
+VirtualRouterElementTest,testGetRouters1,     org.apache.cloudstack.framework.config.ConfigKey.value(),0
+VirtualRouterElementTest,testGetRouters1,"     com.cloud.utils.db.GenericDao.acquireInLockTable(Long, int)",0
+VirtualRouterElementTest,testGetRouters1,"     com.cloud.network.dao.PhysicalNetworkServiceProviderDao.findByServiceProvider(long, String)",0
+VirtualRouterElementTest,testGetRouters1,     NEW com.cloud.network.dao.PhysicalNetworkServiceProviderVO(),0
+VirtualRouterElementTest,testGetRouters1,"     com.cloud.network.dao.VirtualRouterProviderDao.findByNspIdAndType(long, Type)",0
+VirtualRouterElementTest,testGetRouters1,     NEW com.cloud.network.element.VirtualRouterProviderVO(),0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.utils.db.GenericDao.findById(Long),0
+VirtualRouterElementTest,testGetRouters1,"     com.cloud.utils.db.GenericDao.getNextInSequence(Class<Long>, String)",0
+VirtualRouterElementTest,testGetRouters1,"     NEW com.cloud.service.ServiceOfferingVO(String, Integer, Integer, Integer, Integer, Integer, boolean, String, ProvisioningType, boolean, boolean, String, boolean, Type, boolean)",0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.utils.db.GenericDao.findById(Long),0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.service.dao.ServiceOfferingDao.findByName(String),0
+VirtualRouterElementTest,testGetRouters1,"     NEW com.cloud.vm.DomainRouterVO(long, long, long, String, long, HypervisorType, long, long, long, long, boolean, RedundantState, boolean, boolean, Long)",0
+VirtualRouterElementTest,testGetRouters1,"     NEW com.cloud.vm.DomainRouterVO(long, long, long, String, long, HypervisorType, long, long, long, long, boolean, RedundantState, boolean, boolean, Long)",0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.vm.DomainRouterVO.setUpdateState(UpdateState),0
+VirtualRouterElementTest,testGetRouters1,"     NEW com.cloud.vm.DomainRouterVO(long, long, long, String, long, HypervisorType, long, long, long, long, boolean, RedundantState, boolean, boolean, Long)",0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.vm.DomainRouterVO.setUpdateState(UpdateState),0
+VirtualRouterElementTest,testGetRouters1,"     NEW com.cloud.vm.DomainRouterVO(long, long, long, String, long, HypervisorType, long, long, long, long, boolean, RedundantState, boolean, boolean, Long)",0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.vm.DomainRouterVO.setUpdateState(UpdateState),0
+VirtualRouterElementTest,testGetRouters1,"     NEW com.cloud.vm.DomainRouterVO(long, long, long, String, long, HypervisorType, long, long, long, long, boolean, RedundantState, boolean, boolean, Long)",0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.vm.DomainRouterVO.setUpdateState(UpdateState),0
+VirtualRouterElementTest,testGetRouters1,"     com.cloud.utils.db.GenericDao.getNextInSequence(Class<Long>, String)",0
+VirtualRouterElementTest,testGetRouters1,"     com.cloud.storage.dao.VMTemplateDao.findRoutingTemplate(HypervisorType, String)",0
+VirtualRouterElementTest,testGetRouters1,     NEW com.cloud.storage.VMTemplateVO(),0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.utils.db.GenericDao.persist(DomainRouterVO),0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.vm.VMInstanceVO.getId(),0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.utils.db.GenericDao.findById(Long),0
+VirtualRouterElementTest,testGetRouters1,"     com.cloud.vm.dao.DomainRouterDao.listByNetworkAndRole(long, Role)",0
+VirtualRouterElementTest,testGetRouters1,"     com.cloud.vm.dao.DomainRouterDao.listByNetworkAndRole(long, Role)",0
+VirtualRouterElementTest,testGetRouters1,"     com.cloud.vm.dao.DomainRouterDao.listByNetworkAndRole(long, Role)",0
+VirtualRouterElementTest,testGetRouters1,"     com.cloud.vm.dao.DomainRouterDao.listByNetworkAndRole(long, Role)",0
+VirtualRouterElementTest,testGetRouters1,"     org.apache.cloudstack.resourcedetail.ResourceDetailsDao.findDetail(long, String)",0
+VirtualRouterElementTest,testGetRouters1,"     NEW com.cloud.network.dao.NetworkDetailVO(long, String, String, boolean)",0
+VirtualRouterElementTest,testGetRouters1,"     org.apache.cloudstack.resourcedetail.ResourceDetailsDao.findDetail(long, String)",0
+VirtualRouterElementTest,testGetRouters1,"     NEW com.cloud.network.dao.NetworkDetailVO(long, String, String, boolean)",0
+VirtualRouterElementTest,testGetRouters1,"     org.apache.cloudstack.resourcedetail.ResourceDetailsDao.findDetail(long, String)",0
+VirtualRouterElementTest,testGetRouters1,"     NEW com.cloud.network.dao.NetworkDetailVO(long, String, String, boolean)",0
+VirtualRouterElementTest,testGetRouters1,     com.cloud.utils.db.GenericDao.persist(DomainRouterVO),0
+VirtualRouterElementTest,testGetRouters1,com.cloud.network.element.VirtualRouterElement.getRouters(Network),1
+VirtualRouterElementTest,testGetRouters1,ASSERT org.junit.Assert.assertTrue(boolean),2
+VirtualRouterElementTest,testGetRouters1,ASSERT org.junit.Assert.assertTrue(boolean),2
+VirtualRouterElementTest,testGetRouters1,com.cloud.vm.DomainRouterVO.getUpdateState(),2

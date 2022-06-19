@@ -1,0 +1,187 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"NEW org.apache.druid.indexer.TaskLocation(String, int, int)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,          NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,          NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,          NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,          NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"          NEW org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorIOConfig(String, InputFormat, String, KinesisRegion, Integer, Integer, Period, Period, Period, Boolean, Period, Period, Period, DateTime, Integer, Integer, String, String, boolean)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"          NEW anonymous(HttpClient, ObjectMapper)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"          ASSERT org.junit.Assert.assertEquals(long, long)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"          ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"          ASSERT org.junit.Assert.assertEquals(long, long)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,          NEW org.apache.druid.server.metrics.NoopServiceEmitter(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,          NEW org.apache.druid.server.metrics.DruidMonitorSchedulerConfig(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"          NEW org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorSpec(KinesisSupervisorIngestionSpec, DataSchema, KinesisSupervisorTuningConfig, KinesisSupervisorIOConfig, Map<String,Object>, Boolean, TaskStorage, TaskMaster, IndexerMetadataStorageCoordinator, KinesisIndexTaskClientFactory, ObjectMapper, ServiceEmitter, DruidMonitorSchedulerConfig, RowIngestionMetersFactory, AWSCredentialsConfig, SupervisorStateManagerConfig)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"          NEW org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorTest.TestableKinesisSupervisor(TaskStorage, TaskMaster, IndexerMetadataStorageCoordinator, KinesisIndexTaskClientFactory, ObjectMapper, KinesisSupervisorSpec, RowIngestionMetersFactory)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.assign(Set<StreamPartition<String>>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getPartitionIds(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(Set<String>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.util.Set<java.lang.String>>.andReturn(Set<String>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.util.Set<java.lang.String>>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getAssignment(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(Collection<StreamPartition<String>>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.indexing.seekablestream.common.StreamPartition<java.lang.String>>>.andReturn(Collection<StreamPartition<String>>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.indexing.seekablestream.common.StreamPartition<java.lang.String>>>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.seekToLatest(Set<StreamPartition<String>>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getEarliestSequenceNumber(StreamPartition<String>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getLatestSequenceNumber(StreamPartition<String>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getLatestSequenceNumber(StreamPartition<String>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.anyString(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"org.apache.druid.indexing.kinesis.KinesisRecordSupplier.seek(StreamPartition<String>, String)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.anyString(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getPartitionsTimeLag(String, Map<String,String>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"MOCK org.easymock.EasyMock.expect(Map<String,Long>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"MOCK org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Long>>.andReturn(Map<String,Long>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"MOCK org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.Long>>.atLeastOnce()",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>, Set<String>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,          org.apache.druid.data.input.impl.StringDimensionSchema.create(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,          org.apache.druid.data.input.impl.StringDimensionSchema.create(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"          NEW org.apache.druid.data.input.impl.TimestampSpec(String, String, DateTime)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"          NEW org.apache.druid.data.input.impl.DimensionsSpec(List<DimensionSchema>, List<String>, List<SpatialDimensionSchema>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"          NEW org.apache.druid.segment.indexing.granularity.UniformGranularitySpec(Granularity, Granularity, List<Interval>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"          NEW org.apache.druid.segment.indexing.DataSchema(String, TimestampSpec, DimensionsSpec, AggregatorFactory[], GranularitySpec, TransformSpec)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,          NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"               NEW org.apache.druid.indexing.kinesis.KinesisIndexTaskIOConfig(int, String, SeekableStreamStartSequenceNumbers<String,String>, SeekableStreamEndSequenceNumbers<String,String>, Boolean, DateTime, DateTime, InputFormat, String, Integer, Integer, String, String, boolean)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,               NEW org.apache.druid.segment.realtime.appenderator.DummyForInjectionAppenderatorsManager(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"               NEW org.apache.druid.indexing.kinesis.KinesisIndexTask(String, TaskResource, DataSchema, KinesisIndexTaskTuningConfig, KinesisIndexTaskIOConfig, Map<String,Object>, ChatHandlerProvider, AuthorizerMapper, RowIngestionMetersFactory, AWSCredentialsConfig, AppenderatorsManager)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,          org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorTuningConfig.convertToTaskTuningConfig(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"NEW org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorTest.TestTaskRunnerWorkItem(Task, ListenableFuture<TaskStatus>, TaskLocation)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.Capture.newInstance(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.overlord.TaskMaster.getTaskQueue(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(Optional<TaskQueue>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskQueue>>.andReturn(Optional<TaskQueue>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskQueue>>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.overlord.TaskMaster.getTaskRunner(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(Optional<TaskRunner>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskRunner>>.andReturn(Optional<TaskRunner>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskRunner>>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.overlord.TaskRunner.getRunningTasks(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(Collection<>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.util.Collection<>>.andReturn(Collection<>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.overlord.TaskStorage.getActiveTasksByDatasource(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(List<Task>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.common.task.Task>>.andReturn(List<Task>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.common.task.Task>>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.overlord.TaskStorage.getStatus(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(Optional<TaskStatus>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexer.TaskStatus.running(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexer.TaskStatus>>.andReturn(Optional<TaskStatus>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexer.TaskStatus>>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.overlord.TaskStorage.getTask(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(Optional<Task>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.common.task.Task>>.andReturn(Optional<Task>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.common.task.Task>>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.overlord.IndexerMetadataStorageCoordinator.retrieveDataSourceMetadata(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(DataSourceMetadata),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"NEW org.apache.druid.indexing.kinesis.KinesisDataSourceMetadata(SeekableStreamSequenceNumbers<String,String>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.DataSourceMetadata>.andReturn(DataSourceMetadata),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.DataSourceMetadata>.anyTimes(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskClient.getStatusAsync(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(ListenableFuture<Status>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<com.google.common.util.concurrent.ListenableFuture<org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.Status>>.andReturn(ListenableFuture<Status>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskClient.getCurrentOffsetsAsync(String, boolean)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"MOCK org.easymock.EasyMock.expect(ListenableFuture<Map<String,String>>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"MOCK org.easymock.IExpectationSetters<com.google.common.util.concurrent.ListenableFuture<java.util.Map<java.lang.String,java.lang.String>>>.andReturn(ListenableFuture<Map<String,String>>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskClient.getEndOffsets(String),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"MOCK org.easymock.EasyMock.expect(Map<String,String>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"MOCK org.easymock.IExpectationSetters<java.util.Map<java.lang.String,java.lang.String>>.andReturn(Map<String,String>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.capture(Capture<KinesisIndexTask>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.overlord.TaskQueue.add(Task),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.expect(Boolean),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.anyString(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.anyBoolean(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskClient.getCheckpoints(String, boolean)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"MOCK org.easymock.EasyMock.expect(TreeMap<Integer,Map<String,String>>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"MOCK org.easymock.IExpectationSetters<java.util.TreeMap<java.lang.Integer,java.util.Map<java.lang.String,java.lang.String>>>.andReturn(TreeMap<Integer,Map<String,String>>)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"MOCK org.easymock.IExpectationSetters<java.util.TreeMap<java.lang.Integer,java.util.Map<java.lang.String,java.lang.String>>>.anyTimes()",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.anyObject(Class<TaskRunnerListener>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMock.anyObject(Class<Executor>),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"org.apache.druid.indexing.overlord.TaskRunner.registerListener(TaskRunnerListener, Executor)",0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMockSupport.replayAll(),0
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.start(),1
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.runInternal(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.updateCurrentAndLatestOffsets(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.getStatus(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.EasyMockSupport.verifyAll(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.overlord.supervisor.SupervisorReport.getId(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.overlord.supervisor.SupervisorReport.getPayload(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisorReportPayload.getDataSource(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisorReportPayload.getDurationSeconds(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisorReportPayload.getPartitions(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisorReportPayload.getReplicas(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisorReportPayload.getStream(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisorReportPayload.getActiveTasks(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisorReportPayload.getPublishingTasks(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisorReportPayload.getDetailedState(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisorReportPayload.getRecentErrors(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisorReportPayload.getPublishingTasks(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.TaskReportData.getId(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.TaskReportData.getStartingOffsets(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.supervisor.TaskReportData.getCurrentOffsets(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,MOCK org.easymock.Capture<org.apache.druid.indexing.kinesis.KinesisIndexTask>.getValue(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getDataSchema(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorTuningConfig.convertToTaskTuningConfig(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getTuningConfig(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.kinesis.KinesisIndexTask.getIOConfig(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.kinesis.KinesisIndexTaskIOConfig.getEndpoint(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getBaseSequenceName(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.isUseTransaction(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getStream(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getPartitionSequenceNumberMap(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getPartitionSequenceNumberMap(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getEndSequenceNumbers(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers.getStream(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getEndSequenceNumbers(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers.getPartitionSequenceNumberMap(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getEndSequenceNumbers(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers.getPartitionSequenceNumberMap(),2
+KinesisSupervisorTest,testDiscoverExistingPublishingTask,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

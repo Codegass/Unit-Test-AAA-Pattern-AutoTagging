@@ -1,0 +1,33 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TestLruBlockCache,testCacheSimple,     org.apache.accumulo.core.file.blockfile.cache.impl.ClassSize.align(long),0
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.conf.DefaultConfiguration.getInstance(),0
+TestLruBlockCache,testCacheSimple,"NEW org.apache.accumulo.core.conf.ConfigurationCopy(Iterable<Entry<String,String>>)",0
+TestLruBlockCache,testCacheSimple,"org.apache.accumulo.core.conf.ConfigurationCopy.set(Property, String)",0
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.file.blockfile.cache.impl.BlockCacheManagerFactory.getInstance(AccumuloConfiguration),0
+TestLruBlockCache,testCacheSimple,"org.apache.accumulo.core.conf.ConfigurationCopy.set(Property, String)",0
+TestLruBlockCache,testCacheSimple,"org.apache.accumulo.core.conf.ConfigurationCopy.set(Property, String)",0
+TestLruBlockCache,testCacheSimple,NEW org.apache.accumulo.core.file.blockfile.cache.impl.BlockCacheConfiguration(AccumuloConfiguration),0
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.spi.cache.BlockCacheManager.start(Configuration),0
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.spi.cache.BlockCacheManager.getBlockCache(CacheType),0
+TestLruBlockCache,testCacheSimple,"     NEW org.apache.accumulo.core.file.blockfile.cache.TestLruBlockCache.Block(String, int)",0
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.file.blockfile.cache.lru.LruBlockCache.heapSize(),0
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.file.blockfile.cache.lru.LruBlockCache.getBlock(String),0
+TestLruBlockCache,testCacheSimple,ASSERT org.junit.Assert.assertNull(Object),0
+TestLruBlockCache,testCacheSimple,"org.apache.accumulo.core.file.blockfile.cache.lru.LruBlockCache.cacheBlock(String, byte[])",1
+TestLruBlockCache,testCacheSimple,     org.apache.accumulo.core.file.blockfile.cache.impl.ClassSize.align(int),0
+TestLruBlockCache,testCacheSimple,     org.apache.accumulo.core.file.blockfile.cache.impl.ClassSize.align(int),0
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.file.blockfile.cache.lru.LruBlockCache.heapSize(),0
+TestLruBlockCache,testCacheSimple,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.file.blockfile.cache.lru.LruBlockCache.getBlock(String),2
+TestLruBlockCache,testCacheSimple,ASSERT org.junit.Assert.assertNotNull(Object),2
+TestLruBlockCache,testCacheSimple,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.spi.cache.CacheEntry.getBuffer(),2
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.file.blockfile.cache.lru.LruBlockCache.heapSize(),2
+TestLruBlockCache,testCacheSimple,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.file.blockfile.cache.lru.LruBlockCache.getBlock(String),2
+TestLruBlockCache,testCacheSimple,ASSERT org.junit.Assert.assertNotNull(Object),2
+TestLruBlockCache,testCacheSimple,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.spi.cache.CacheEntry.getBuffer(),2
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.file.blockfile.cache.lru.LruBlockCache.getEvictionCount(),2
+TestLruBlockCache,testCacheSimple,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+TestLruBlockCache,testCacheSimple,org.apache.accumulo.core.spi.cache.BlockCacheManager.stop(),2

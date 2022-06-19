@@ -1,0 +1,17 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PairTest,testHashMethod,"NEW org.apache.accumulo.core.util.Pair<java.lang.Integer,java.lang.String>(Integer, String)",0
+PairTest,testHashMethod,"NEW org.apache.accumulo.core.util.Pair<java.lang.Integer,java.lang.String>(Integer, String)",0
+PairTest,testHashMethod,"NEW org.apache.accumulo.core.util.Pair<java.lang.Integer,java.lang.String>(Integer, String)",0
+PairTest,testHashMethod,"NEW org.apache.accumulo.core.util.Pair<java.lang.Integer,java.lang.String>(Integer, String)",0
+PairTest,testHashMethod,"NEW org.apache.accumulo.core.util.Pair<java.lang.Integer,java.lang.String>(Integer, String)",0
+PairTest,testHashMethod,"ASSERT org.junit.Assert.assertNotSame(Object, Object)",2
+PairTest,testHashMethod,org.apache.accumulo.core.util.Pair.hashCode(),1
+PairTest,testHashMethod,org.apache.accumulo.core.util.Pair.hashCode(),1
+PairTest,testHashMethod,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+PairTest,testHashMethod,"ASSERT org.junit.Assert.assertNotSame(Object, Object)",2
+PairTest,testHashMethod,org.apache.accumulo.core.util.Pair.hashCode(),1
+PairTest,testHashMethod,org.apache.accumulo.core.util.Pair.hashCode(),1
+PairTest,testHashMethod,"ASSERT org.junit.Assert.assertNotEquals(long, long)",2
+PairTest,testHashMethod,org.apache.accumulo.core.util.Pair.hashCode(),1
+PairTest,testHashMethod,org.apache.accumulo.core.util.Pair.hashCode(),1
+PairTest,testHashMethod,"ASSERT org.junit.Assert.assertNotEquals(long, long)",2

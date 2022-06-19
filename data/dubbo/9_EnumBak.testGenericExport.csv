@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+EnumBak,testGenericExport,org.apache.dubbo.common.utils.NetUtils.getAvailablePort(),0
+EnumBak,testGenericExport,org.apache.dubbo.common.URL.valueOf(String),0
+EnumBak,testGenericExport,NEW org.apache.dubbo.rpc.protocol.dubbo.support.DemoServiceImpl(),0
+EnumBak,testGenericExport,"org.apache.dubbo.rpc.ProxyFactory.getInvoker(DemoService, Class<DemoService>, URL)",0
+EnumBak,testGenericExport,org.apache.dubbo.rpc.Protocol.export(Invoker<DemoService>),1

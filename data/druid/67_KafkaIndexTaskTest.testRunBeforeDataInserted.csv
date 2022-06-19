@@ -1,0 +1,98 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+KafkaIndexTaskTest,testRunBeforeDataInserted,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers<java.lang.Integer,java.lang.Long>(String, Map<Integer,Long>, Set<Integer>)",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.Integer,java.lang.Long>(String, Map<Integer,Long>)",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.indexing.kafka.KafkaConsumerConfigs.getConsumerProperties(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,     TEST org.apache.druid.indexing.kafka.test.TestBroker.getPort(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"NEW org.apache.druid.indexing.kafka.KafkaIndexTaskIOConfig(int, String, SeekableStreamStartSequenceNumbers<Integer,Long>, SeekableStreamEndSequenceNumbers<Integer,Long>, Map<String,Object>, Long, Boolean, DateTime, DateTime, InputFormat)",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,               NEW org.joda.time.Period(Object),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"               NEW org.apache.druid.indexing.kafka.KafkaIndexTaskTuningConfig(Integer, Long, Integer, Long, Period, File, Integer, IndexSpec, IndexSpec, Boolean, Boolean, Long, Boolean, SegmentWriteOutMediumFactory, Period, Boolean, Integer, Integer)",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,               org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,               org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getPartitionSequenceNumberMap(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,                    org.apache.druid.segment.indexing.DataSchema.getDataSource(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,                    org.apache.druid.segment.indexing.DataSchema.getTimestampSpec(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,                    org.apache.druid.segment.indexing.DataSchema.getDimensionsSpec(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,                    org.apache.druid.segment.indexing.DataSchema.getAggregators(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,                    org.apache.druid.segment.indexing.DataSchema.getGranularitySpec(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,                    org.apache.druid.segment.indexing.DataSchema.getTransformSpec(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,                    org.apache.druid.segment.indexing.DataSchema.getParserMap(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"                    NEW org.apache.druid.segment.indexing.DataSchema(String, TimestampSpec, DimensionsSpec, AggregatorFactory[], GranularitySpec, TransformSpec, Map<String,Object>, ObjectMapper)",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"               NEW org.apache.druid.indexing.kafka.KafkaIndexTask(String, TaskResource, DataSchema, KafkaIndexTaskTuningConfig, KafkaIndexTaskIOConfig, Map<String,Object>, ChatHandlerProvider, AuthorizerMapper, RowIngestionMetersFactory, ObjectMapper, AppenderatorsManager)",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,               org.apache.druid.indexing.kafka.KafkaIndexTask.setPollRetryMs(long),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.indexing.common.task.Task.getId(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.indexer.TaskStatus.running(String),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"     org.apache.druid.indexing.overlord.TaskStorage.insert(Task, TaskStatus)",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.indexing.overlord.TaskLockbox.syncFromStorage(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.indexing.common.TaskToolboxFactory.build(Task),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"     org.apache.druid.indexing.common.task.Task.addToContext(String, Object)",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.indexing.common.TaskToolbox.getTaskActionClient(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.indexing.common.task.Task.isReady(TaskActionClient),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.indexing.common.task.Task.run(TaskToolbox),1
+KafkaIndexTaskTest,testRunBeforeDataInserted,"     NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"     org.apache.druid.java.util.common.logger.Logger.warn(Throwable, String, Object[])",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.indexing.common.task.Task.getId(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"     org.apache.druid.indexer.TaskStatus.failure(String, String)",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getStatus(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,                    TEST org.apache.druid.indexing.kafka.test.TestBroker.getPort(),0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,"          NEW org.apache.kafka.clients.producer.KafkaProducer<byte[],byte[]>(Map<String,Object>)",0
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexer.TaskStatus.getStatusCode(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getRowIngestionMeters(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexing.common.stats.RowIngestionMeters.getProcessed(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getRowIngestionMeters(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexing.common.stats.RowIngestionMeters.getUnparseable(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTask.getRunner(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskRunner.getRowIngestionMeters(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,org.apache.druid.indexing.common.stats.RowIngestionMeters.getThrownAway(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"     NEW org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.SegmentDescriptorAndExpectedDim1Values(String, int, List<String>[])",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.sdd(String, int, List<String>[])",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.segment.indexing.DataSchema.getDataSource(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"     org.apache.druid.indexing.overlord.IndexerMetadataStorageCoordinator.retrieveAllUsedSegments(String, Segments)",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.timeline.DataSegment.toDescriptor(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.java.util.common.guava.Comparators.intervalsByStartThenEnd(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.SegmentDescriptorAndExpectedDim1Values.getSegmentDescriptor(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          TEST org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskTestBase.getSegmentDirectory(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.segment.indexing.DataSchema.getDataSource(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.query.SegmentDescriptor.getVersion(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.query.SegmentDescriptor.getInterval(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.query.SegmentDescriptor.getVersion(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.query.SegmentDescriptor.getPartitionNumber(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"          org.apache.druid.utils.CompressionUtils.unzip(ByteSource, File, Predicate<Throwable>, boolean)",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          NEW org.apache.druid.indexing.common.TestUtils(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          TEST org.apache.druid.indexing.common.TestUtils.getTestIndexIO(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.segment.IndexIO.loadIndex(File),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.segment.ColumnSelector.getColumnHolder(String),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.segment.column.ColumnHolder.getColumn(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.segment.column.DictionaryEncodedColumn.length(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.segment.column.DictionaryEncodedColumn.getSingleValueRow(int),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,          org.apache.druid.segment.column.DictionaryEncodedColumn.lookupName(int),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     ASSERT org.assertj.core.api.Assertions.assertThat(List<? extends String>),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamEndSequenceNumbers<java.lang.Integer,java.lang.Long>(String, Map<Integer,Long>)",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"NEW org.apache.druid.indexing.kafka.KafkaDataSourceMetadata(SeekableStreamSequenceNumbers<Integer,Long>)",2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.segment.indexing.DataSchema.getDataSource(),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,     org.apache.druid.indexing.overlord.IndexerMetadataStorageCoordinator.retrieveDataSourceMetadata(String),2
+KafkaIndexTaskTest,testRunBeforeDataInserted,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

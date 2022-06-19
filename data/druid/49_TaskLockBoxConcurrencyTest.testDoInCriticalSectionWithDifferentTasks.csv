@@ -1,0 +1,50 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTaskstryTimeChunkLock,org.apache.druid.java.util.common.Intervals.of(String),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.common.task.NoopTask.create(int),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.common.task.NoopTask.create(int),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.TaskLockbox.add(Task),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.TaskLockbox.add(Task),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.common.task.Task.getId(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexer.TaskStatus.running(String),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,"org.apache.druid.indexing.overlord.TaskStorage.insert(Task, TaskStatus)",0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.common.task.Task.getId(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexer.TaskStatus.running(String),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,"org.apache.druid.indexing.overlord.TaskStorage.insert(Task, TaskStatus)",0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,NEW org.apache.druid.common.guava.SettableSupplier<java.lang.Integer>(Integer),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,"     NEW org.apache.druid.indexing.overlord.TimeChunkLockRequest(TaskLockType, Task, Interval, String)",0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,"     org.apache.druid.indexing.overlord.TaskLockbox.tryLock(Task, LockRequest)",0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.LockResult.isOk(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,ASSERT org.junit.Assert.assertTrue(boolean),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.LockResult.isRevoked(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,ASSERT org.junit.Assert.assertFalse(boolean),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.CriticalAction.builder(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.CriticalAction.Builder.onValidLocks(Action<Integer>),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.CriticalAction.Builder.onInvalidLocks(Action<Integer>),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.CriticalAction.Builder.build(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,"org.apache.druid.indexing.overlord.TaskLockbox.doInCriticalSection(Task, List<Interval>, CriticalAction<Integer>)",1
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.common.guava.SettableSupplier.set(Integer),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.common.guava.SettableSupplier.get(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.common.guava.SettableSupplier.get(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,ASSERT org.junit.Assert.fail(),2
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,"     NEW org.apache.druid.indexing.overlord.TimeChunkLockRequest(TaskLockType, Task, Interval, String)",0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,"     org.apache.druid.indexing.overlord.TaskLockbox.lock(Task, LockRequest)",0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.LockResult.isOk(),2
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,ASSERT org.junit.Assert.assertTrue(boolean),2
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.LockResult.isRevoked(),2
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,ASSERT org.junit.Assert.assertFalse(boolean),2
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.CriticalAction.builder(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.CriticalAction.Builder.onValidLocks(Action<Integer>),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.CriticalAction.Builder.onInvalidLocks(Action<Integer>),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.CriticalAction.Builder.build(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,"org.apache.druid.indexing.overlord.TaskLockbox.doInCriticalSection(Task, List<Interval>, CriticalAction<Integer>)",1
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.common.guava.SettableSupplier.set(Integer),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.common.guava.SettableSupplier.get(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.common.guava.SettableSupplier.get(),0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,ASSERT org.junit.Assert.fail(),2
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,"TEST org.apache.druid.indexing.overlord.TaskLockBoxConcurrencyTest.tryTimeChunkLock(TaskLockType, Task, Interval)",0
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.LockResult.isOk(),2
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,ASSERT org.junit.Assert.assertFalse(boolean),2
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,org.apache.druid.indexing.overlord.LockResult.isRevoked(),2
+TaskLockBoxConcurrencyTest,testDoInCriticalSectionWithDifferentTasks,ASSERT org.junit.Assert.assertTrue(boolean),2

@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractSerializationTest,test_MediaContent_badStream,"org.apache.dubbo.common.serialize.Serialization.serialize(URL, OutputStream)",0
+AbstractSerializationTest,test_MediaContent_badStream,org.apache.dubbo.common.serialize.ObjectOutput.writeObject(Object),0
+AbstractSerializationTest,test_MediaContent_badStream,org.apache.dubbo.common.serialize.DataOutput.flushBuffer(),0
+AbstractSerializationTest,test_MediaContent_badStream,"org.apache.dubbo.common.serialize.Serialization.deserialize(URL, InputStream)",1
+AbstractSerializationTest,test_MediaContent_badStream,org.apache.dubbo.common.serialize.ObjectInput.readObject(),2
+AbstractSerializationTest,test_MediaContent_badStream,ASSERT org.junit.jupiter.api.Assertions.fail(),2

@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NacosMetadataReportTest,testStoreProvider,     org.apache.dubbo.common.URL.valueOf(String),0
+NacosMetadataReportTest,testStoreProvider,     org.apache.dubbo.common.utils.NetUtils.getLocalAddress(),0
+NacosMetadataReportTest,testStoreProvider,"     NEW org.apache.dubbo.metadata.report.identifier.MetadataIdentifier(String, String, String, String, String)",0
+NacosMetadataReportTest,testStoreProvider,     org.apache.dubbo.common.URL.getParameters(),0
+NacosMetadataReportTest,testStoreProvider,"     org.apache.dubbo.metadata.definition.ServiceDefinitionBuilder.buildFullDefinition(Class<?>, Map<String,String>)",0
+NacosMetadataReportTest,testStoreProvider,"     org.apache.dubbo.metadata.report.support.AbstractMetadataReport.storeProviderMetadata(MetadataIdentifier, ServiceDefinition)",1
+NacosMetadataReportTest,testStoreProvider,org.apache.dubbo.metadata.report.identifier.MetadataIdentifier.getUniqueKey(KeyTypeEnum),2
+NacosMetadataReportTest,testStoreProvider,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),2
+NacosMetadataReportTest,testStoreProvider,NEW com.google.gson.Gson(),2
+NacosMetadataReportTest,testStoreProvider,org.apache.dubbo.metadata.definition.model.FullServiceDefinition.getParameters(),2
+NacosMetadataReportTest,testStoreProvider,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+NacosMetadataReportTest,testStoreProvider,org.apache.dubbo.metadata.report.identifier.MetadataIdentifier.getUniqueKey(KeyTypeEnum),2

@@ -1,0 +1,85 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+KinesisSupervisorTest,testDatasourceMetadata,          NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testDatasourceMetadata,          NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testDatasourceMetadata,          NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testDatasourceMetadata,          NEW org.joda.time.Period(Object),0
+KinesisSupervisorTest,testDatasourceMetadata,"          NEW org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorIOConfig(String, InputFormat, String, KinesisRegion, Integer, Integer, Period, Period, Period, Boolean, Period, Period, Period, DateTime, Integer, Integer, String, String, boolean)",0
+KinesisSupervisorTest,testDatasourceMetadata,"          NEW anonymous(HttpClient, ObjectMapper)",0
+KinesisSupervisorTest,testDatasourceMetadata,"          ASSERT org.junit.Assert.assertEquals(long, long)",0
+KinesisSupervisorTest,testDatasourceMetadata,"          ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+KinesisSupervisorTest,testDatasourceMetadata,"          ASSERT org.junit.Assert.assertEquals(long, long)",0
+KinesisSupervisorTest,testDatasourceMetadata,          NEW org.apache.druid.server.metrics.NoopServiceEmitter(),0
+KinesisSupervisorTest,testDatasourceMetadata,          NEW org.apache.druid.server.metrics.DruidMonitorSchedulerConfig(),0
+KinesisSupervisorTest,testDatasourceMetadata,"          NEW org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorSpec(KinesisSupervisorIngestionSpec, DataSchema, KinesisSupervisorTuningConfig, KinesisSupervisorIOConfig, Map<String,Object>, Boolean, TaskStorage, TaskMaster, IndexerMetadataStorageCoordinator, KinesisIndexTaskClientFactory, ObjectMapper, ServiceEmitter, DruidMonitorSchedulerConfig, RowIngestionMetersFactory, AWSCredentialsConfig, SupervisorStateManagerConfig)",0
+KinesisSupervisorTest,testDatasourceMetadata,"          NEW org.apache.druid.indexing.kinesis.supervisor.KinesisSupervisorTest.TestableKinesisSupervisor(TaskStorage, TaskMaster, IndexerMetadataStorageCoordinator, KinesisIndexTaskClientFactory, ObjectMapper, KinesisSupervisorSpec, RowIngestionMetersFactory)",0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.assign(Set<StreamPartition<String>>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getPartitionIds(String),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expect(Set<String>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.util.Set<java.lang.String>>.andReturn(Set<String>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.util.Set<java.lang.String>>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getAssignment(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expect(Collection<StreamPartition<String>>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.indexing.seekablestream.common.StreamPartition<java.lang.String>>>.andReturn(Collection<StreamPartition<String>>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.indexing.seekablestream.common.StreamPartition<java.lang.String>>>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.seekToLatest(Set<StreamPartition<String>>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getEarliestSequenceNumber(StreamPartition<String>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expect(String),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getEarliestSequenceNumber(StreamPartition<String>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expect(String),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.kinesis.KinesisRecordSupplier.getLatestSequenceNumber(StreamPartition<String>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expect(String),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.anyObject(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.anyString(),0
+KinesisSupervisorTest,testDatasourceMetadata,"org.apache.druid.indexing.kinesis.KinesisRecordSupplier.seek(StreamPartition<String>, String)",0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expectLastCall(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.lang.Object>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.Capture.newInstance(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.overlord.TaskMaster.getTaskQueue(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expect(Optional<TaskQueue>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskQueue>>.andReturn(Optional<TaskQueue>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskQueue>>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.overlord.TaskMaster.getTaskRunner(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expect(Optional<TaskRunner>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskRunner>>.andReturn(Optional<TaskRunner>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<com.google.common.base.Optional<org.apache.druid.indexing.overlord.TaskRunner>>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.overlord.TaskStorage.getActiveTasksByDatasource(String),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expect(List<Task>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.common.task.Task>>.andReturn(List<Task>),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.druid.indexing.common.task.Task>>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.overlord.IndexerMetadataStorageCoordinator.retrieveDataSourceMetadata(String),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expect(DataSourceMetadata),0
+KinesisSupervisorTest,testDatasourceMetadata,"NEW org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers<java.lang.String,java.lang.String>(String, Map<String,String>, Set<String>)",0
+KinesisSupervisorTest,testDatasourceMetadata,"NEW org.apache.druid.indexing.kinesis.KinesisDataSourceMetadata(SeekableStreamSequenceNumbers<String,String>)",0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.DataSourceMetadata>.andReturn(DataSourceMetadata),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.DataSourceMetadata>.anyTimes(),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.capture(Capture<KinesisIndexTask>),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.overlord.TaskQueue.add(Task),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMock.expect(Boolean),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMockSupport.replayAll(),0
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.start(),1
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.seekablestream.supervisor.SeekableStreamSupervisor.runInternal(),2
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.EasyMockSupport.verifyAll(),2
+KinesisSupervisorTest,testDatasourceMetadata,MOCK org.easymock.Capture<org.apache.druid.indexing.kinesis.KinesisIndexTask>.getValue(),2
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.kinesis.KinesisIndexTask.getIOConfig(),2
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getBaseSequenceName(),2
+KinesisSupervisorTest,testDatasourceMetadata,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),2
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getPartitionSequenceNumberMap(),2
+KinesisSupervisorTest,testDatasourceMetadata,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.seekablestream.SeekableStreamIndexTaskIOConfig.getStartSequenceNumbers(),2
+KinesisSupervisorTest,testDatasourceMetadata,org.apache.druid.indexing.seekablestream.SeekableStreamStartSequenceNumbers.getPartitionSequenceNumberMap(),2
+KinesisSupervisorTest,testDatasourceMetadata,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

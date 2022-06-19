@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+QemuImgTest,testCreateAndInfoWithOptions,"NEW org.apache.cloudstack.utils.qemu.QemuImgFile(String, long, PhysicalDiskFormat)",0
+QemuImgTest,testCreateAndInfoWithOptions,NEW org.apache.cloudstack.utils.qemu.QemuImg(int),0
+QemuImgTest,testCreateAndInfoWithOptions,"org.apache.cloudstack.utils.qemu.QemuImg.create(QemuImgFile, Map<String,String>)",1
+QemuImgTest,testCreateAndInfoWithOptions,org.apache.cloudstack.utils.qemu.QemuImg.info(QemuImgFile),1
+QemuImgTest,testCreateAndInfoWithOptions,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+QemuImgTest,testCreateAndInfoWithOptions,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+QemuImgTest,testCreateAndInfoWithOptions,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

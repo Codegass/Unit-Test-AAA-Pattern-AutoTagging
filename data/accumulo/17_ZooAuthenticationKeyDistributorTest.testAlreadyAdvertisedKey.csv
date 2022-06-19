@@ -1,0 +1,21 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,"NEW org.apache.accumulo.server.security.delegation.ZooAuthenticationKeyDistributor(ZooReaderWriter, String)",0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,"NEW org.apache.accumulo.server.security.delegation.AuthenticationKey(int, long, long, SecretKey)",0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,org.apache.accumulo.server.security.delegation.AuthenticationKey.getKeyId(),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,org.apache.accumulo.fate.zookeeper.ZooReader.exists(String),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,MOCK org.easymock.EasyMock.expect(Boolean),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,MOCK org.easymock.EasyMock.eq(String),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,MOCK org.easymock.EasyMock.anyObject(Class<Stat>),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,"org.apache.accumulo.fate.zookeeper.ZooReader.getACL(String, Stat)",0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,MOCK org.easymock.EasyMock.expect(List<ACL>),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,"NEW org.apache.zookeeper.data.Id(String, String)",0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,"NEW org.apache.zookeeper.data.ACL(int, Id)",0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,MOCK org.easymock.IExpectationSetters<java.util.List<org.apache.zookeeper.data.ACL>>.andReturn(List<ACL>),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,org.apache.accumulo.fate.zookeeper.ZooReader.exists(String),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,MOCK org.easymock.EasyMock.expect(Boolean),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,MOCK org.easymock.IExpectationSetters<java.lang.Boolean>.andReturn(Boolean),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,MOCK org.easymock.EasyMock.replay(Object[]),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,org.apache.accumulo.server.security.delegation.ZooAuthenticationKeyDistributor.initialize(),0
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,org.apache.accumulo.server.security.delegation.ZooAuthenticationKeyDistributor.advertise(AuthenticationKey),1
+ZooAuthenticationKeyDistributorTest,testAlreadyAdvertisedKey,MOCK org.easymock.EasyMock.verify(Object[]),2

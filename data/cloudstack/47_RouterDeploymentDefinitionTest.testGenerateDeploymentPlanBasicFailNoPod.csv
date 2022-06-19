@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RouterDeploymentDefinitionTest,testGenerateDeploymentPlanBasicFailNoPod,@EXPECTED java.lang.Class<com.cloud.utils.exception.CloudRuntimeException>,0
+RouterDeploymentDefinitionTest,testGenerateDeploymentPlanBasicFailNoPod,com.cloud.deploy.DeployDestination.getPod(),0
+RouterDeploymentDefinitionTest,testGenerateDeploymentPlanBasicFailNoPod,com.cloud.dc.DataCenter.getNetworkType(),0
+RouterDeploymentDefinitionTest,testGenerateDeploymentPlanBasicFailNoPod,org.cloud.network.router.deployment.RouterDeploymentDefinition.generateDeploymentPlan(),1
+RouterDeploymentDefinitionTest,testGenerateDeploymentPlanBasicFailNoPod,"ASSERT junit.framework.Assert.assertEquals(String, Object, Object)",2
+RouterDeploymentDefinitionTest,testGenerateDeploymentPlanBasicFailNoPod,com.cloud.deploy.DeploymentPlan.getDataCenterId(),2
+RouterDeploymentDefinitionTest,testGenerateDeploymentPlanBasicFailNoPod,"ASSERT junit.framework.Assert.assertEquals(String, Object, Object)",2

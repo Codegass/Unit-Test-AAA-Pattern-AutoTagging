@@ -1,0 +1,87 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,NEW org.apache.druid.query.topn.TopNQueryBuilder(),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,org.apache.druid.query.topn.TopNQueryBuilder.dataSource(String),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,org.apache.druid.query.topn.TopNQueryBuilder.granularity(Granularity),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"org.apache.druid.query.topn.TopNQueryBuilder.dimension(String, String)",0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"NEW org.apache.druid.query.filter.BoundDimFilter(String, String, String, Boolean, Boolean, Boolean, ExtractionFn, StringComparator)",0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,org.apache.druid.query.topn.TopNQueryBuilder.filters(DimFilter),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,org.apache.druid.query.topn.TopNQueryBuilder.metric(String),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,org.apache.druid.query.topn.TopNQueryBuilder.threshold(int),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,org.apache.druid.query.topn.TopNQueryBuilder.intervals(QuerySegmentSpec),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,org.apache.druid.query.topn.TopNQueryBuilder.aggregators(AggregatorFactory[]),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,org.apache.druid.query.topn.TopNQueryBuilder.build(),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,org.apache.druid.java.util.common.DateTimes.of(String),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,NEW org.apache.druid.query.topn.TopNResultValue(List<?>),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"NEW org.apache.druid.query.Result<org.apache.druid.query.topn.TopNResultValue>(DateTime, TopNResultValue)",0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,          org.apache.druid.query.context.ResponseContext.createEmpty(),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,               NEW org.apache.druid.query.topn.TopNQueryConfig(),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,               NEW org.apache.druid.query.topn.TopNQueryQueryToolChest(TopNQueryConfig),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,               org.apache.druid.query.QueryToolChest.mergeResults(QueryRunner<Result<TopNResultValue>>),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               NEW org.apache.druid.query.FinalizeResultsQueryRunner(QueryRunner, QueryToolChest)",0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,               org.apache.druid.query.QueryPlus.wrap(Query<Result<TopNResultValue>>),0
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               org.apache.druid.query.QueryRunner.run(QueryPlus<Result<TopNResultValue>>, ResponseContext)",1
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,          org.apache.druid.java.util.common.guava.Sequence.toList(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.groupby.ResultRow.length(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.groupby.ResultRow.length(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.groupby.ResultRow.length(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.groupby.ResultRow.get(int),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.groupby.ResultRow.get(int),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               TEST org.apache.druid.segment.TestHelper.assertRow(String, ResultRow, ResultRow)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,               org.apache.druid.query.Result.getValue(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.Result.getTimestamp(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.Result.getTimestamp(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.Result.getValue(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.Result.getValue(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.Result.getTimestamp(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.Result.getTimestamp(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                         org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                         org.apache.druid.data.input.Row.getTimestamp(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                         org.apache.druid.data.input.Row.getTimestamp(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                         ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                         org.apache.druid.data.input.MapBasedRow.getEvent(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                         org.apache.druid.data.input.MapBasedRow.getEvent(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                         org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                         ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                         org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                         ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                         org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                         ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               TEST org.apache.druid.segment.TestHelper.assertTimeseriesResultValue(String, Result, Result)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,               org.apache.druid.query.Result.getValue(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.Result.getValue(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.Result.getValue(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.topn.TopNResultValue.getValue(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.Result.getTimestamp(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.topn.TopNResultValue.getValue(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.Result.getTimestamp(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,                    org.apache.druid.query.MetricValueExtractor.getBaseObject(),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    NEW org.apache.druid.data.input.MapBasedRow(DateTime, Map<String,Object>)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    TEST org.apache.druid.segment.TestHelper.assertRow(String, Row, Row)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               TEST org.apache.druid.segment.TestHelper.assertTopNResultValue(String, Result, Result)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"                    ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               TEST org.apache.druid.segment.TestHelper.assertResult(String, Result<?>, Result)",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,               ASSERT org.junit.Assert.fail(String),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,               ASSERT org.junit.Assert.fail(String),2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+TopNQueryRunnerTest,testFullOnTopNBoundFilterAndLongSumMetric,               ASSERT org.junit.Assert.fail(String),2

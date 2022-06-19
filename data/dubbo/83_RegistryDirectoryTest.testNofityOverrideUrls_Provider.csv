@@ -1,0 +1,28 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,"          NEW org.apache.dubbo.registry.integration.RegistryDirectory(Class, URL)",0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,          org.apache.dubbo.registry.integration.RegistryDirectory.setProtocol(Protocol),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,          org.apache.dubbo.registry.integration.RegistryDirectory.setRegistry(Registry),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,          org.apache.dubbo.rpc.cluster.RouterChain.buildChain(URL),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,          org.apache.dubbo.registry.integration.RegistryDirectory.subscribe(URL),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,          org.apache.dubbo.rpc.cluster.directory.AbstractDirectory.list(Invocation),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,"          ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,          org.apache.dubbo.registry.integration.RegistryDirectory.isAvailable(),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,          ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,NEW org.apache.dubbo.rpc.RpcInvocation(),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,org.apache.dubbo.common.URL.setHost(String),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,org.apache.dubbo.common.URL.setHost(String),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,org.apache.dubbo.common.URL.valueOf(String),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,org.apache.dubbo.common.URL.valueOf(String),0
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,org.apache.dubbo.rpc.cluster.directory.AbstractDirectory.list(Invocation),1
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,org.apache.dubbo.common.Node.getUrl(),2
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,org.apache.dubbo.common.Node.getUrl(),2
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,org.apache.dubbo.common.URL.getParameter(String),2
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,org.apache.dubbo.common.URL.getHost(),2
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,org.apache.dubbo.common.URL.getParameter(String),2
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RegistryDirectoryTest,testNofityOverrideUrls_Provider,org.apache.dubbo.common.URL.getHost(),2

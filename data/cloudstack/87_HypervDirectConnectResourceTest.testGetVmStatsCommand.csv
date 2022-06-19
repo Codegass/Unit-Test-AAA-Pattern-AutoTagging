@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+HypervDirectConnectResourceTest,testGetVmStatsCommand,"NEW com.cloud.agent.api.GetVmStatsCommand(List<String>, String, String)",1
+HypervDirectConnectResourceTest,testGetVmStatsCommand,com.cloud.hypervisor.hyperv.resource.HypervDirectConnectResource.executeRequest(Command),1
+HypervDirectConnectResourceTest,testGetVmStatsCommand,com.cloud.hypervisor.hyperv.resource.HypervDirectConnectResource.executeRequest(Command),1
+HypervDirectConnectResourceTest,testGetVmStatsCommand,com.cloud.agent.api.Answer.getDetails(),2
+HypervDirectConnectResourceTest,testGetVmStatsCommand,com.cloud.agent.api.Answer.getResult(),2
+HypervDirectConnectResourceTest,testGetVmStatsCommand,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2

@@ -1,0 +1,71 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.replication.ReplicationTable.getBatchWriter(AccumuloClient),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.newBuilder(),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setClosed(boolean),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setEnd(long),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setInfiniteEnd(boolean),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setCreatedTime(long),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setBegin(long),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.build(),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.protobuf.ProtobufUtil.toValue(GeneratedMessage),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,     org.apache.accumulo.core.data.TableId.of(String),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationSchema.StatusSection.add(Mutation, TableId, Value)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationSchema.OrderSection.createMutation(String, long)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,TEST org.apache.accumulo.test.replication.RemoveCompleteReplicationRecordsIT.createTableId(int),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationSchema.OrderSection.add(Mutation, TableId, Value)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.data.TableId.of(String),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"NEW org.apache.accumulo.core.replication.ReplicationTarget(String, String, TableId)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setBegin(long),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setEnd(long),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setClosed(boolean),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setCreatedTime(long),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.build(),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.protobuf.ProtobufUtil.toValue(GeneratedMessage),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.data.TableId.of(String),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationSchema.StatusSection.add(Mutation, TableId, Value)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.replication.ReplicationTarget.toText(),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationSchema.WorkSection.add(Mutation, Text, Value)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationSchema.OrderSection.createMutation(String, long)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.data.TableId.of(String),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationSchema.OrderSection.add(Mutation, TableId, Value)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setBegin(long),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setEnd(long),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setClosed(boolean),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setCreatedTime(long),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.build(),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.protobuf.ProtobufUtil.toValue(GeneratedMessage),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.data.TableId.of(String),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"NEW org.apache.accumulo.core.replication.ReplicationTarget(String, String, TableId)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.data.TableId.of(String),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationSchema.StatusSection.add(Mutation, TableId, Value)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.replication.ReplicationTarget.toText(),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationSchema.WorkSection.add(Mutation, Text, Value)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationSchema.OrderSection.createMutation(String, long)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.data.TableId.of(String),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationSchema.OrderSection.add(Mutation, TableId, Value)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.client.BatchWriter.flush(),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.replication.ReplicationTable.getScanner(AccumuloClient),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"org.apache.accumulo.core.replication.ReplicationTable.getBatchScanner(AccumuloClient, int)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,NEW org.apache.accumulo.core.data.Range(),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.client.BatchScanner.setRanges(Collection<Range>),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.replication.ReplicationSchema.StatusSection.limit(ScannerBase),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.replication.ReplicationSchema.WorkSection.limit(ScannerBase),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"NEW org.apache.accumulo.core.client.IteratorSetting(int, Class<? extends SortedKeyValueIterator<Key,Value>>)",0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.client.ScannerBase.addScanIterator(IteratorSetting),0
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"TEST org.apache.accumulo.test.replication.RemoveCompleteReplicationRecordsIT.MockRemoveCompleteReplicationRecords.removeCompleteRecords(AccumuloClient, BatchScanner, BatchWriter)",1
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.client.BatchWriter.close(),2
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.replication.ReplicationTable.getScanner(AccumuloClient),2
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,org.apache.accumulo.core.data.Key.getRow(),2
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,ASSERT org.junit.Assert.assertFalse(boolean),2
+RemoveCompleteReplicationRecordsIT,replicatedClosedRowsAreRemoved,"ASSERT org.junit.Assert.assertEquals(long, long)",2

@@ -1,0 +1,27 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GranularityTest,testBucket,org.apache.druid.java.util.common.DateTimes.of(String),2
+GranularityTest,testBucket,org.apache.druid.java.util.common.Intervals.of(String),2
+GranularityTest,testBucket,org.apache.druid.java.util.common.granularity.Granularity.bucket(DateTime),1
+GranularityTest,testBucket,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GranularityTest,testBucket,org.apache.druid.java.util.common.Intervals.of(String),2
+GranularityTest,testBucket,org.apache.druid.java.util.common.granularity.Granularity.bucket(DateTime),1
+GranularityTest,testBucket,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GranularityTest,testBucket,org.apache.druid.java.util.common.Intervals.of(String),2
+GranularityTest,testBucket,org.apache.druid.java.util.common.granularity.Granularity.bucket(DateTime),1
+GranularityTest,testBucket,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GranularityTest,testBucket,org.apache.druid.java.util.common.Intervals.of(String),2
+GranularityTest,testBucket,org.apache.druid.java.util.common.granularity.Granularity.bucket(DateTime),1
+GranularityTest,testBucket,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GranularityTest,testBucket,org.apache.druid.java.util.common.Intervals.of(String),2
+GranularityTest,testBucket,org.apache.druid.java.util.common.granularity.Granularity.bucket(DateTime),1
+GranularityTest,testBucket,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GranularityTest,testBucket,org.apache.druid.java.util.common.Intervals.of(String),2
+GranularityTest,testBucket,org.apache.druid.java.util.common.granularity.Granularity.bucket(DateTime),1
+GranularityTest,testBucket,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GranularityTest,testBucket,org.apache.druid.java.util.common.Intervals.of(String),2
+GranularityTest,testBucket,org.apache.druid.java.util.common.granularity.Granularity.bucket(DateTime),1
+GranularityTest,testBucket,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GranularityTest,testBucket,org.apache.druid.java.util.common.Intervals.of(String),2
+GranularityTest,testBucket,org.apache.druid.java.util.common.DateTimes.of(String),2
+GranularityTest,testBucket,org.apache.druid.java.util.common.granularity.Granularity.bucket(DateTime),1
+GranularityTest,testBucket,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

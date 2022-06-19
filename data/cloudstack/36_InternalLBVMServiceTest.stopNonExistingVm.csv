@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InternalLBVMServiceTest,stopNonExistingVm,@EXPECTED java.lang.Class<com.cloud.exception.InvalidParameterValueException>,0
+InternalLBVMServiceTest,stopNonExistingVm,com.cloud.user.AccountService.getAccount(long),0
+InternalLBVMServiceTest,stopNonExistingVm,"org.apache.cloudstack.network.lb.InternalLoadBalancerVMService.stopInternalLbVm(long, boolean, Account, long)",1

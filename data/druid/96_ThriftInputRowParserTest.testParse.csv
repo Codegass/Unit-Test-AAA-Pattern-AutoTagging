@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ThriftInputRowParserTest,testParse,"NEW org.apache.druid.data.input.thrift.ThriftInputRowParser(ParseSpec, String, String)",0
+ThriftInputRowParserTest,testParse,NEW org.apache.thrift.protocol.TCompactProtocol.Factory(),0
+ThriftInputRowParserTest,testParse,NEW org.apache.thrift.TSerializer(TProtocolFactory),0
+ThriftInputRowParserTest,testParse,     org.apache.druid.data.input.thrift.ThriftInputRowParser.parseBatch(Object),1
+ThriftInputRowParserTest,testParse,     org.apache.druid.data.input.Row.getDimension(String),2
+ThriftInputRowParserTest,testParse,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ThriftInputRowParserTest,testParse,     NEW org.apache.hadoop.io.BytesWritable(byte[]),0
+ThriftInputRowParserTest,testParse,     org.apache.druid.data.input.thrift.ThriftInputRowParser.parseBatch(Object),1
+ThriftInputRowParserTest,testParse,     org.apache.druid.data.input.Row.getDimension(String),2
+ThriftInputRowParserTest,testParse,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ThriftInputRowParserTest,testParse,NEW org.apache.thrift.protocol.TBinaryProtocol.Factory(),0
+ThriftInputRowParserTest,testParse,NEW org.apache.thrift.TSerializer(TProtocolFactory),0
+ThriftInputRowParserTest,testParse,org.apache.druid.java.util.common.StringUtils.encodeBase64(byte[]),0
+ThriftInputRowParserTest,testParse,"TEST org.apache.druid.data.input.thrift.ThriftInputRowParserTest.serializationAndTest(ThriftInputRowParser, byte[])",1
+ThriftInputRowParserTest,testParse,NEW org.apache.thrift.protocol.TJSONProtocol.Factory(),0
+ThriftInputRowParserTest,testParse,NEW org.apache.thrift.TSerializer(TProtocolFactory),0
+ThriftInputRowParserTest,testParse,"TEST org.apache.druid.data.input.thrift.ThriftInputRowParserTest.serializationAndTest(ThriftInputRowParser, byte[])",1

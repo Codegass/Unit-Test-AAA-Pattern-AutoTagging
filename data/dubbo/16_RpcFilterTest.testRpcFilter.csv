@@ -1,0 +1,20 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RpcFilterTest,testRpcFilter,NEW org.apache.dubbo.rpc.protocol.dubbo.support.DemoServiceImpl(),0
+RpcFilterTest,testRpcFilter,org.apache.dubbo.common.utils.NetUtils.getAvailablePort(),0
+RpcFilterTest,testRpcFilter,org.apache.dubbo.common.URL.valueOf(String),0
+RpcFilterTest,testRpcFilter,org.apache.dubbo.rpc.model.ApplicationModel.getServiceRepository(),0
+RpcFilterTest,testRpcFilter,org.apache.dubbo.rpc.model.ServiceRepository.registerService(Class<?>),0
+RpcFilterTest,testRpcFilter,"org.apache.dubbo.rpc.ProxyFactory.getInvoker(DemoService, Class<DemoService>, URL)",0
+RpcFilterTest,testRpcFilter,org.apache.dubbo.rpc.Protocol.export(Invoker<DemoService>),0
+RpcFilterTest,testRpcFilter,"org.apache.dubbo.rpc.Protocol.refer(Class<DemoService>, URL)",0
+RpcFilterTest,testRpcFilter,org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<DemoService>),0
+RpcFilterTest,testRpcFilter,TEST org.apache.dubbo.rpc.protocol.dubbo.support.DemoService.echo(String),0
+RpcFilterTest,testRpcFilter,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",0
+RpcFilterTest,testRpcFilter,"org.apache.dubbo.rpc.Protocol.refer(Class<EchoService>, URL)",1
+RpcFilterTest,testRpcFilter,org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<EchoService>),2
+RpcFilterTest,testRpcFilter,org.apache.dubbo.rpc.service.EchoService.$echo(Object),2
+RpcFilterTest,testRpcFilter,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RpcFilterTest,testRpcFilter,org.apache.dubbo.rpc.service.EchoService.$echo(Object),2
+RpcFilterTest,testRpcFilter,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RpcFilterTest,testRpcFilter,org.apache.dubbo.rpc.service.EchoService.$echo(Object),2
+RpcFilterTest,testRpcFilter,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

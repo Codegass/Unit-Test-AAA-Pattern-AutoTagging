@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+HAProxyConfiguratorTest,testGenerateConfigurationLoadBalancerProxyProtocolConfigCommand,"NEW com.cloud.network.lb.LoadBalancingRule.LbDestination(int, int, String, boolean)",0
+HAProxyConfiguratorTest,testGenerateConfigurationLoadBalancerProxyProtocolConfigCommand,"NEW com.cloud.network.lb.LoadBalancingRule.LbDestination(int, int, String, boolean)",0
+HAProxyConfiguratorTest,testGenerateConfigurationLoadBalancerProxyProtocolConfigCommand,"NEW com.cloud.agent.api.to.LoadBalancerTO(String, String, int, String, String, boolean, boolean, boolean, List<LbDestination>)",0
+HAProxyConfiguratorTest,testGenerateConfigurationLoadBalancerProxyProtocolConfigCommand,com.cloud.agent.api.to.LoadBalancerTO.setLbProtocol(String),0
+HAProxyConfiguratorTest,testGenerateConfigurationLoadBalancerProxyProtocolConfigCommand,NEW com.cloud.network.HAProxyConfigurator(),0
+HAProxyConfiguratorTest,testGenerateConfigurationLoadBalancerProxyProtocolConfigCommand,"NEW com.cloud.agent.api.routing.LoadBalancerConfigCommand(LoadBalancerTO[], String, String, String, NicTO, Long, String, boolean)",0
+HAProxyConfiguratorTest,testGenerateConfigurationLoadBalancerProxyProtocolConfigCommand,     com.cloud.network.HAProxyConfigurator.generateConfiguration(LoadBalancerConfigCommand),1
+HAProxyConfiguratorTest,testGenerateConfigurationLoadBalancerProxyProtocolConfigCommand,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2

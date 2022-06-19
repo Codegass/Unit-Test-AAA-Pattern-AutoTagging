@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InternalThreadLocalTest,testOnRemove,NEW anonymous(),0
+InternalThreadLocalTest,testOnRemove,org.apache.dubbo.common.threadlocal.InternalThreadLocal.set(Integer),0
+InternalThreadLocalTest,testOnRemove,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int, String)",0
+InternalThreadLocalTest,testOnRemove,org.apache.dubbo.common.threadlocal.InternalThreadLocal.get(),0
+InternalThreadLocalTest,testOnRemove,org.apache.dubbo.common.threadlocal.InternalThreadLocal.remove(),1
+InternalThreadLocalTest,testOnRemove,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int, String)",2

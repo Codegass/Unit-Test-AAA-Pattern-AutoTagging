@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SubstringDimExtractionFnTest,testNoLength,"NEW org.apache.druid.query.extraction.SubstringDimExtractionFn(int, Integer)",0
+SubstringDimExtractionFnTest,testNoLength,org.apache.druid.query.extraction.ExtractionFn.apply(String),1
+SubstringDimExtractionFnTest,testNoLength,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SubstringDimExtractionFnTest,testNoLength,org.apache.druid.query.extraction.ExtractionFn.apply(String),1
+SubstringDimExtractionFnTest,testNoLength,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

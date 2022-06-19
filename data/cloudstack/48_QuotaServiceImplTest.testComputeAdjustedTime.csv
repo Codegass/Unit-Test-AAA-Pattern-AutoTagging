@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+QuotaServiceImplTest,testComputeAdjustedTime,NEW org.joda.time.DateTime(DateTimeZone),0
+QuotaServiceImplTest,testComputeAdjustedTime,org.apache.cloudstack.quota.QuotaServiceImpl.computeAdjustedTime(Date),1
+QuotaServiceImplTest,testComputeAdjustedTime,NEW org.joda.time.DateTime(Object),0

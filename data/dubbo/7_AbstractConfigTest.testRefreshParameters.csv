@@ -1,0 +1,25 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractConfigTest,testRefreshParameters,NEW org.apache.dubbo.config.AbstractConfigTest.OverrideConfig(),0
+AbstractConfigTest,testRefreshParameters,"org.apache.dubbo.config.AbstractMethodConfig.setParameters(Map<String,String>)",0
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.rpc.model.ApplicationModel.getEnvironment(),0
+AbstractConfigTest,testRefreshParameters,"org.apache.dubbo.common.config.Environment.setExternalConfigMap(Map<String,String>)",0
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.rpc.model.ApplicationModel.getEnvironment(),0
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.common.config.Environment.initialize(),0
+AbstractConfigTest,testRefreshParameters,NEW org.apache.dubbo.config.ConfigCenterConfig(),0
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.config.AbstractInterfaceConfig.setConfigCenter(ConfigCenterConfig),0
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.config.AbstractConfig.refresh(),1
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.config.AbstractMethodConfig.getParameters(),2
+AbstractConfigTest,testRefreshParameters,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.config.AbstractMethodConfig.getParameters(),2
+AbstractConfigTest,testRefreshParameters,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.config.AbstractMethodConfig.getParameters(),2
+AbstractConfigTest,testRefreshParameters,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.config.AbstractMethodConfig.getParameters(),2
+AbstractConfigTest,testRefreshParameters,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.config.AbstractConfig.refresh(),1
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.config.AbstractMethodConfig.getParameters(),2
+AbstractConfigTest,testRefreshParameters,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.config.AbstractMethodConfig.getParameters(),2
+AbstractConfigTest,testRefreshParameters,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.rpc.model.ApplicationModel.getEnvironment(),2
+AbstractConfigTest,testRefreshParameters,org.apache.dubbo.common.config.Environment.clearExternalConfigs(),2

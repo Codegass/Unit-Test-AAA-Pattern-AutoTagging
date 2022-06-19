@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DbUtilTest,getColumnName,com.cloud.utils.db.DbUtil.getColumnName(Field),1
+DbUtilTest,getColumnName,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DbUtilTest,getColumnName,com.cloud.utils.db.DbUtil.getColumnName(Field),1
+DbUtilTest,getColumnName,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

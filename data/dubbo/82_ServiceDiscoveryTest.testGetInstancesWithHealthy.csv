@@ -1,0 +1,65 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"NEW org.apache.dubbo.registry.client.DefaultServiceInstance(String, String, Integer)",0
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"NEW org.apache.dubbo.registry.client.DefaultServiceInstance(String, String, Integer)",0
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"NEW org.apache.dubbo.registry.client.DefaultServiceInstance(String, String, Integer)",0
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.registry.client.DefaultServiceInstance.setHealthy(boolean),0
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.registry.client.ServiceDiscovery.register(ServiceInstance),0
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"org.apache.dubbo.registry.client.ServiceDiscovery.getInstances(String, int, int, boolean)",1
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getOffset(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getPageSize(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getTotalSize(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.hasData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"org.apache.dubbo.registry.client.ServiceDiscovery.getInstances(String, int, int, boolean)",1
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getOffset(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getPageSize(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getTotalSize(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.hasData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"org.apache.dubbo.registry.client.ServiceDiscovery.getInstances(String, int, int, boolean)",1
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getOffset(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getPageSize(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getTotalSize(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.hasData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"org.apache.dubbo.registry.client.ServiceDiscovery.getInstances(String, int, int, boolean)",1
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getOffset(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getPageSize(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getTotalSize(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.hasData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"org.apache.dubbo.registry.client.ServiceDiscovery.getInstances(String, int, int, boolean)",1
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getOffset(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getPageSize(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getTotalSize(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.getData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,org.apache.dubbo.common.utils.Page.hasData(),2
+ServiceDiscoveryTest,testGetInstancesWithHealthy,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2

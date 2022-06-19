@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractRegistryTest,testSubscribe,"org.apache.dubbo.registry.support.AbstractRegistry.subscribe(URL, NotifyListener)",1
+AbstractRegistryTest,testSubscribe,ASSERT org.junit.jupiter.api.Assertions.fail(),2
+AbstractRegistryTest,testSubscribe,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+AbstractRegistryTest,testSubscribe,"org.apache.dubbo.registry.support.AbstractRegistry.subscribe(URL, NotifyListener)",1
+AbstractRegistryTest,testSubscribe,ASSERT org.junit.jupiter.api.Assertions.fail(),2
+AbstractRegistryTest,testSubscribe,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+AbstractRegistryTest,testSubscribe,org.apache.dubbo.registry.support.AbstractRegistry.getSubscribed(),2
+AbstractRegistryTest,testSubscribe,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2
+AbstractRegistryTest,testSubscribe,"org.apache.dubbo.registry.support.AbstractRegistry.subscribe(URL, NotifyListener)",1
+AbstractRegistryTest,testSubscribe,org.apache.dubbo.registry.support.AbstractRegistry.getSubscribed(),2
+AbstractRegistryTest,testSubscribe,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),2
+AbstractRegistryTest,testSubscribe,org.apache.dubbo.registry.support.AbstractRegistry.getSubscribed(),2
+AbstractRegistryTest,testSubscribe,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

@@ -1,0 +1,117 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CompactionTaskRunTest,testWithSegmentGranularity,          TEST org.apache.druid.indexing.common.task.IngestionTestBase.getObjectMapper(),0
+CompactionTaskRunTest,testWithSegmentGranularity,"          NEW org.apache.druid.segment.indexing.granularity.UniformGranularitySpec(Granularity, Granularity, List<Interval>)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"               NEW org.apache.druid.indexing.common.task.IndexTask.IndexTuningConfig(Integer, Integer, Integer, Long, Long, Integer, Integer, List<String>, PartitionsSpec, IndexSpec, IndexSpec, Integer, Boolean, Boolean, Long, Long, SegmentWriteOutMediumFactory, Boolean, Integer, Integer)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.segment.indexing.DataSchema(String, TimestampSpec, DimensionsSpec, AggregatorFactory[], GranularitySpec, TransformSpec)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.data.input.impl.LocalInputSource(File, String)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.indexing.common.task.IndexTask.IndexIOConfig(FirehoseFactory, InputSource, InputFormat, Boolean)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.indexing.common.task.IndexTask.IndexIngestionSpec(DataSchema, IndexIOConfig, IndexTuningConfig)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+CompactionTaskRunTest,testWithSegmentGranularity,                    org.apache.druid.java.util.common.Intervals.of(String),0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.segment.indexing.granularity.UniformGranularitySpec(Granularity, Granularity, List<Interval>)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.data.input.impl.StringInputRowParser(ParseSpec, String)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.segment.indexing.DataSchema(String, Map<String,Object>, AggregatorFactory[], GranularitySpec, TransformSpec, ObjectMapper)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.segment.realtime.firehose.LocalFirehoseFactory(File, String, StringInputRowParser)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.indexing.common.task.IndexTask.IndexIOConfig(FirehoseFactory, Boolean)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.indexing.common.task.IndexTask.IndexIngestionSpec(DataSchema, IndexIOConfig, IndexTuningConfig)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+CompactionTaskRunTest,testWithSegmentGranularity,                    org.apache.druid.java.util.common.Intervals.of(String),0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.segment.indexing.granularity.UniformGranularitySpec(Granularity, Granularity, List<Interval>)",0
+CompactionTaskRunTest,testWithSegmentGranularity,          NEW org.apache.druid.segment.realtime.firehose.NoopChatHandlerProvider(),0
+CompactionTaskRunTest,testWithSegmentGranularity,"          NEW org.apache.druid.indexing.common.task.IndexTask(String, TaskResource, IndexIngestionSpec, Map<String,Object>, AuthorizerMapper, ChatHandlerProvider, RowIngestionMetersFactory, AppenderatorsManager)",0
+CompactionTaskRunTest,testWithSegmentGranularity,               TEST org.apache.druid.indexing.common.task.IngestionTestBase.getLockbox(),0
+CompactionTaskRunTest,testWithSegmentGranularity,               org.apache.druid.indexing.overlord.TaskLockbox.add(Task),0
+CompactionTaskRunTest,testWithSegmentGranularity,               TEST org.apache.druid.indexing.common.task.IngestionTestBase.getTaskStorage(),0
+CompactionTaskRunTest,testWithSegmentGranularity,               org.apache.druid.indexing.common.task.Task.getId(),0
+CompactionTaskRunTest,testWithSegmentGranularity,               org.apache.druid.indexer.TaskStatus.running(String),0
+CompactionTaskRunTest,testWithSegmentGranularity,"               org.apache.druid.indexing.overlord.TaskStorage.insert(Task, TaskStatus)",0
+CompactionTaskRunTest,testWithSegmentGranularity,               TEST org.apache.druid.indexing.common.task.IngestionTestBase.getObjectMapper(),0
+CompactionTaskRunTest,testWithSegmentGranularity,"               NEW com.fasterxml.jackson.databind.jsontype.NamedType(Class<?>, String)",0
+CompactionTaskRunTest,testWithSegmentGranularity,                         TEST org.apache.druid.indexing.common.TestUtils.getTestIndexIO(),0
+CompactionTaskRunTest,testWithSegmentGranularity,                    NEW anonymous(),0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.segment.loading.SegmentLoaderLocalCacheManager(IndexIO, SegmentLoaderConfig, ObjectMapper)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.segment.loading.StorageLocationConfig(File, Long, Double)",0
+CompactionTaskRunTest,testWithSegmentGranularity,                         NEW org.apache.druid.indexing.common.task.IngestionTestBase.TestLocalTaskActionClient(Task),0
+CompactionTaskRunTest,testWithSegmentGranularity,                    NEW org.apache.druid.segment.loading.LocalDataSegmentPusherConfig(),0
+CompactionTaskRunTest,testWithSegmentGranularity,                    NEW org.apache.druid.segment.loading.LocalDataSegmentPusher(LocalDataSegmentPusherConfig),0
+CompactionTaskRunTest,testWithSegmentGranularity,                    NEW org.apache.druid.segment.loading.NoopDataSegmentKiller(),0
+CompactionTaskRunTest,testWithSegmentGranularity,                    TEST org.apache.druid.indexing.common.task.IngestionTestBase.getIndexIO(),0
+CompactionTaskRunTest,testWithSegmentGranularity,                         TEST org.apache.druid.indexing.common.TestUtils.getTestIndexMergerV9(),0
+CompactionTaskRunTest,testWithSegmentGranularity,                    NEW org.apache.druid.indexing.common.task.NoopTestTaskReportFileWriter(),0
+CompactionTaskRunTest,testWithSegmentGranularity,"                    NEW org.apache.druid.indexing.common.TaskToolbox(TaskConfig, DruidNode, TaskActionClient, ServiceEmitter, DataSegmentPusher, DataSegmentKiller, DataSegmentMover, DataSegmentArchiver, DataSegmentAnnouncer, DataSegmentServerAnnouncer, SegmentHandoffNotifierFactory, Provider<QueryRunnerFactoryConglomerate>, ExecutorService, JoinableFactory, Provider<MonitorScheduler>, SegmentLoader, ObjectMapper, File, IndexIO, Cache, CacheConfig, CachePopulatorStats, IndexMergerV9, DruidNodeAnnouncer, DruidNode, LookupNodeService, DataNodeService, TaskReportFileWriter, IntermediaryDataManager)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"               org.apache.druid.indexing.common.task.Task.addToContext(String, Object)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"               org.apache.druid.indexing.common.task.Task.addToContext(String, Object)",0
+CompactionTaskRunTest,testWithSegmentGranularity,               org.apache.druid.indexing.common.TaskToolbox.getTaskActionClient(),0
+CompactionTaskRunTest,testWithSegmentGranularity,               org.apache.druid.indexing.common.task.Task.isReady(TaskActionClient),0
+CompactionTaskRunTest,testWithSegmentGranularity,               org.apache.druid.indexing.common.task.Task.run(TaskToolbox),1
+CompactionTaskRunTest,testWithSegmentGranularity,                    org.apache.druid.indexing.overlord.TaskLockbox.remove(Task),0
+CompactionTaskRunTest,testWithSegmentGranularity,               TEST org.apache.druid.indexing.common.task.IngestionTestBase.TestLocalTaskActionClient.getPublishedSegments(),0
+CompactionTaskRunTest,testWithSegmentGranularity,               org.apache.druid.indexing.common.TaskToolbox.getTaskActionClient(),0
+CompactionTaskRunTest,testWithSegmentGranularity,"               org.apache.druid.java.util.common.Pair.of(TaskStatus, List<DataSegment>)",0
+CompactionTaskRunTest,testWithSegmentGranularity,               org.apache.druid.indexing.common.task.Task.getId(),0
+CompactionTaskRunTest,testWithSegmentGranularity,"               NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+CompactionTaskRunTest,testWithSegmentGranularity,TEST org.apache.druid.indexing.common.task.IngestionTestBase.getObjectMapper(),0
+CompactionTaskRunTest,testWithSegmentGranularity,NEW org.apache.druid.segment.realtime.firehose.NoopChatHandlerProvider(),0
+CompactionTaskRunTest,testWithSegmentGranularity,"NEW org.apache.druid.indexing.common.task.CompactionTask.Builder(String, ObjectMapper, AuthorizerMapper, ChatHandlerProvider, RowIngestionMetersFactory, IndexingServiceClient, CoordinatorClient, SegmentLoaderFactory, RetryPolicyFactory, AppenderatorsManager)",0
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.java.util.common.Intervals.of(String),0
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.indexing.common.task.CompactionTask.Builder.interval(Interval),0
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.indexing.common.task.CompactionTask.Builder.segmentGranularity(Granularity),0
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.indexing.common.task.CompactionTask.Builder.build(),0
+CompactionTaskRunTest,testWithSegmentGranularity,          TEST org.apache.druid.indexing.common.task.IngestionTestBase.getLockbox(),0
+CompactionTaskRunTest,testWithSegmentGranularity,          org.apache.druid.indexing.overlord.TaskLockbox.add(Task),0
+CompactionTaskRunTest,testWithSegmentGranularity,          TEST org.apache.druid.indexing.common.task.IngestionTestBase.getTaskStorage(),0
+CompactionTaskRunTest,testWithSegmentGranularity,          org.apache.druid.indexing.common.task.Task.getId(),0
+CompactionTaskRunTest,testWithSegmentGranularity,          org.apache.druid.indexer.TaskStatus.running(String),0
+CompactionTaskRunTest,testWithSegmentGranularity,"          org.apache.druid.indexing.overlord.TaskStorage.insert(Task, TaskStatus)",0
+CompactionTaskRunTest,testWithSegmentGranularity,          TEST org.apache.druid.indexing.common.task.IngestionTestBase.getObjectMapper(),0
+CompactionTaskRunTest,testWithSegmentGranularity,"          NEW com.fasterxml.jackson.databind.jsontype.NamedType(Class<?>, String)",0
+CompactionTaskRunTest,testWithSegmentGranularity,                    TEST org.apache.druid.indexing.common.TestUtils.getTestIndexIO(),0
+CompactionTaskRunTest,testWithSegmentGranularity,               NEW anonymous(),0
+CompactionTaskRunTest,testWithSegmentGranularity,"               NEW org.apache.druid.segment.loading.SegmentLoaderLocalCacheManager(IndexIO, SegmentLoaderConfig, ObjectMapper)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"               NEW org.apache.druid.segment.loading.StorageLocationConfig(File, Long, Double)",0
+CompactionTaskRunTest,testWithSegmentGranularity,                    NEW org.apache.druid.indexing.common.task.IngestionTestBase.TestLocalTaskActionClient(Task),0
+CompactionTaskRunTest,testWithSegmentGranularity,               NEW org.apache.druid.segment.loading.LocalDataSegmentPusherConfig(),0
+CompactionTaskRunTest,testWithSegmentGranularity,               NEW org.apache.druid.segment.loading.LocalDataSegmentPusher(LocalDataSegmentPusherConfig),0
+CompactionTaskRunTest,testWithSegmentGranularity,               NEW org.apache.druid.segment.loading.NoopDataSegmentKiller(),0
+CompactionTaskRunTest,testWithSegmentGranularity,               TEST org.apache.druid.indexing.common.task.IngestionTestBase.getIndexIO(),0
+CompactionTaskRunTest,testWithSegmentGranularity,                    TEST org.apache.druid.indexing.common.TestUtils.getTestIndexMergerV9(),0
+CompactionTaskRunTest,testWithSegmentGranularity,               NEW org.apache.druid.indexing.common.task.NoopTestTaskReportFileWriter(),0
+CompactionTaskRunTest,testWithSegmentGranularity,"               NEW org.apache.druid.indexing.common.TaskToolbox(TaskConfig, DruidNode, TaskActionClient, ServiceEmitter, DataSegmentPusher, DataSegmentKiller, DataSegmentMover, DataSegmentArchiver, DataSegmentAnnouncer, DataSegmentServerAnnouncer, SegmentHandoffNotifierFactory, Provider<QueryRunnerFactoryConglomerate>, ExecutorService, JoinableFactory, Provider<MonitorScheduler>, SegmentLoader, ObjectMapper, File, IndexIO, Cache, CacheConfig, CachePopulatorStats, IndexMergerV9, DruidNodeAnnouncer, DruidNode, LookupNodeService, DataNodeService, TaskReportFileWriter, IntermediaryDataManager)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"          org.apache.druid.indexing.common.task.Task.addToContext(String, Object)",0
+CompactionTaskRunTest,testWithSegmentGranularity,"          org.apache.druid.indexing.common.task.Task.addToContext(String, Object)",0
+CompactionTaskRunTest,testWithSegmentGranularity,          org.apache.druid.indexing.common.TaskToolbox.getTaskActionClient(),0
+CompactionTaskRunTest,testWithSegmentGranularity,          org.apache.druid.indexing.common.task.Task.isReady(TaskActionClient),0
+CompactionTaskRunTest,testWithSegmentGranularity,          org.apache.druid.indexing.common.task.Task.run(TaskToolbox),1
+CompactionTaskRunTest,testWithSegmentGranularity,               org.apache.druid.indexing.overlord.TaskLockbox.remove(Task),2
+CompactionTaskRunTest,testWithSegmentGranularity,          TEST org.apache.druid.indexing.common.task.IngestionTestBase.TestLocalTaskActionClient.getPublishedSegments(),2
+CompactionTaskRunTest,testWithSegmentGranularity,          org.apache.druid.indexing.common.TaskToolbox.getTaskActionClient(),2
+CompactionTaskRunTest,testWithSegmentGranularity,"          org.apache.druid.java.util.common.Pair.of(TaskStatus, List<DataSegment>)",2
+CompactionTaskRunTest,testWithSegmentGranularity,          org.apache.druid.indexing.common.task.Task.getId(),2
+CompactionTaskRunTest,testWithSegmentGranularity,"          NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.indexer.TaskStatus.isSuccess(),2
+CompactionTaskRunTest,testWithSegmentGranularity,ASSERT org.junit.Assert.assertTrue(boolean),2
+CompactionTaskRunTest,testWithSegmentGranularity,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.java.util.common.Intervals.of(String),2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.timeline.DataSegment.getInterval(),2
+CompactionTaskRunTest,testWithSegmentGranularity,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CompactionTaskRunTest,testWithSegmentGranularity,"NEW org.apache.druid.timeline.partition.NumberedShardSpec(int, int)",2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.timeline.DataSegment.getShardSpec(),2
+CompactionTaskRunTest,testWithSegmentGranularity,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.timeline.DataSegment.getLastCompactionState(),2
+CompactionTaskRunTest,testWithSegmentGranularity,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.java.util.common.Intervals.of(String),2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.indexing.common.task.CompactionTask.Builder.interval(Interval),2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.indexing.common.task.CompactionTask.Builder.segmentGranularity(Granularity),2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.indexing.common.task.CompactionTask.Builder.build(),2
+CompactionTaskRunTest,testWithSegmentGranularity,TEST org.apache.druid.indexing.common.task.CompactionTaskRunTest.runTask(Task),2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.indexer.TaskStatus.isSuccess(),2
+CompactionTaskRunTest,testWithSegmentGranularity,ASSERT org.junit.Assert.assertTrue(boolean),2
+CompactionTaskRunTest,testWithSegmentGranularity,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+CompactionTaskRunTest,testWithSegmentGranularity,"org.apache.druid.java.util.common.Intervals.of(String, Object[])",2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.timeline.DataSegment.getInterval(),2
+CompactionTaskRunTest,testWithSegmentGranularity,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CompactionTaskRunTest,testWithSegmentGranularity,"NEW org.apache.druid.timeline.partition.NumberedShardSpec(int, int)",2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.timeline.DataSegment.getShardSpec(),2
+CompactionTaskRunTest,testWithSegmentGranularity,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CompactionTaskRunTest,testWithSegmentGranularity,org.apache.druid.timeline.DataSegment.getLastCompactionState(),2
+CompactionTaskRunTest,testWithSegmentGranularity,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

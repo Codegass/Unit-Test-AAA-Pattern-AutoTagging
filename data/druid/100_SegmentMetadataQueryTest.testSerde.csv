@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SegmentMetadataQueryTest,testSerde,ASSERT org.junit.Assert.assertTrue(boolean),2
+SegmentMetadataQueryTest,testSerde,org.apache.druid.query.Query.getDataSource(),2
+SegmentMetadataQueryTest,testSerde,org.apache.druid.query.DataSource.getTableNames(),2
+SegmentMetadataQueryTest,testSerde,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SegmentMetadataQueryTest,testSerde,org.apache.druid.java.util.common.Intervals.of(String),2
+SegmentMetadataQueryTest,testSerde,org.apache.druid.query.Query.getIntervals(),2
+SegmentMetadataQueryTest,testSerde,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SegmentMetadataQueryTest,testSerde,org.apache.druid.query.metadata.metadata.SegmentMetadataQuery.getAnalysisTypes(),2
+SegmentMetadataQueryTest,testSerde,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SegmentMetadataQueryTest,testSerde,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

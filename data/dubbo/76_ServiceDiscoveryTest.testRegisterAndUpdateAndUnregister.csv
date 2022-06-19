@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,"NEW org.apache.dubbo.registry.client.DefaultServiceInstance(String, String, Integer)",0
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,org.apache.dubbo.registry.client.ServiceDiscovery.register(ServiceInstance),1
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,org.apache.dubbo.registry.client.ServiceDiscovery.getInstances(String),2
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,org.apache.dubbo.registry.client.DefaultServiceInstance.setEnabled(boolean),0
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,org.apache.dubbo.registry.client.DefaultServiceInstance.setHealthy(boolean),0
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,org.apache.dubbo.registry.client.DefaultServiceInstance.setPort(Integer),0
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,org.apache.dubbo.registry.client.ServiceDiscovery.update(ServiceInstance),1
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,org.apache.dubbo.registry.client.ServiceDiscovery.getInstances(String),2
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,org.apache.dubbo.registry.client.ServiceDiscovery.unregister(ServiceInstance),1
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,org.apache.dubbo.registry.client.ServiceDiscovery.getInstances(String),2
+ServiceDiscoveryTest,testRegisterAndUpdateAndUnregister,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

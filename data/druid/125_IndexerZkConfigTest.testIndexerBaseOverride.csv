@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+IndexerZkConfigTest,testIndexerBaseOverride,org.apache.druid.guice.GuiceInjectors.makeStartupInjector(),0
+IndexerZkConfigTest,testIndexerBaseOverride,"org.apache.druid.initialization.Initialization.makeInjectorWithModules(Injector, Iterable<? extends Module>)",0
+IndexerZkConfigTest,testIndexerBaseOverride,"org.apache.druid.guice.JsonConfigProvider.of(String, Class<IndexerZkConfig>)",0
+IndexerZkConfigTest,testIndexerBaseOverride,"org.apache.druid.guice.JsonConfigProvider.inject(Properties, JsonConfigurator)",0
+IndexerZkConfigTest,testIndexerBaseOverride,org.apache.druid.guice.JsonConfigProvider.get(),0
+IndexerZkConfigTest,testIndexerBaseOverride,org.apache.druid.server.initialization.IndexerZkConfig.getBase(),2
+IndexerZkConfigTest,testIndexerBaseOverride,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+IndexerZkConfigTest,testIndexerBaseOverride,org.apache.druid.server.initialization.IndexerZkConfig.getAnnouncementsPath(),2
+IndexerZkConfigTest,testIndexerBaseOverride,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

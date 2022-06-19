@@ -1,0 +1,48 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InstanceIpModelTest,testCreateInstanceIp,"NEW net.juniper.contrail.api.ApiConnectorMock(String, int)",0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.ModelController.getApiAccessor(),0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.ModelController.getManager(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.network.dao.NetworkVO.getName(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.network.dao.NetworkVO.getState(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.network.dao.NetworkVO.getGateway(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.network.dao.NetworkVO.getCidr(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.network.dao.NetworkVO.getPhysicalNetworkId(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.network.dao.NetworkVO.getDomainId(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.network.dao.NetworkVO.getAccountId(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.utils.db.GenericDao.findById(Long),0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.ModelController.getNetworkDao(),0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.management.ContrailManagerImpl.getCanonicalName(Network),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.network.dao.NetworkVO.getDomainId(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.network.dao.NetworkVO.getAccountId(),0
+InstanceIpModelTest,testCreateInstanceIp,"org.apache.cloudstack.network.contrail.management.ContrailManagerImpl.getProjectId(long, long)",0
+InstanceIpModelTest,testCreateInstanceIp,"NEW org.apache.cloudstack.network.contrail.model.VirtualNetworkModel(Network, String, String, TrafficType)",0
+InstanceIpModelTest,testCreateInstanceIp,"org.apache.cloudstack.network.contrail.model.VirtualNetworkModel.build(ModelController, Network)",0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.VirtualNetworkModel.update(ModelController),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.VMInstanceVO.getInstanceName(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.VMInstanceVO.getState(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.VMInstanceVO.getDomainId(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.VMInstanceVO.getAccountId(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.utils.db.GenericDao.findById(Long),0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.ModelController.getVmDao(),0
+InstanceIpModelTest,testCreateInstanceIp,"NEW org.apache.cloudstack.network.contrail.model.VirtualMachineModel(VMInstanceVO, String)",0
+InstanceIpModelTest,testCreateInstanceIp,"org.apache.cloudstack.network.contrail.model.VirtualMachineModel.build(ModelController, VMInstanceVO)",0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.VirtualMachineModel.update(ModelController),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.NicVO.getIPv4Address(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.NicVO.getMacAddress(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.NicVO.getDeviceId(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.NicVO.getState(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.NicVO.getNetworkId(),0
+InstanceIpModelTest,testCreateInstanceIp,"org.apache.cloudstack.network.contrail.management.ContrailManagerImpl.getVifNameByVmName(String, Integer)",0
+InstanceIpModelTest,testCreateInstanceIp,NEW org.apache.cloudstack.network.contrail.model.VMInterfaceModel(String),0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.VMInterfaceModel.addToVirtualMachine(VirtualMachineModel),0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.VMInterfaceModel.addToVirtualNetwork(VirtualNetworkModel),0
+InstanceIpModelTest,testCreateInstanceIp,"org.apache.cloudstack.network.contrail.model.VMInterfaceModel.build(ModelController, VMInstanceVO, NicVO)",0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.VMInterfaceModel.setActive(),0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.VMInterfaceModel.update(ModelController),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.VMInstanceVO.getInstanceName(),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.NicVO.getDeviceId(),0
+InstanceIpModelTest,testCreateInstanceIp,"NEW org.apache.cloudstack.network.contrail.model.InstanceIpModel(String, int)",1
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.InstanceIpModel.addToVMInterface(VMInterfaceModel),0
+InstanceIpModelTest,testCreateInstanceIp,com.cloud.vm.NicVO.getIPv4Address(),0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.InstanceIpModel.setAddress(String),0
+InstanceIpModelTest,testCreateInstanceIp,org.apache.cloudstack.network.contrail.model.InstanceIpModel.update(ModelController),1

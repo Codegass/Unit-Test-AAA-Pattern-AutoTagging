@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InfluxdbEmitterTest,testMetricIsInDefaultDimensionWhitelist,"NEW org.joda.time.DateTime(int, int, int, int, int, DateTimeZone)",0
+InfluxdbEmitterTest,testMetricIsInDefaultDimensionWhitelist,org.apache.druid.java.util.emitter.service.ServiceMetricEvent.builder(),0
+InfluxdbEmitterTest,testMetricIsInDefaultDimensionWhitelist,"org.apache.druid.java.util.emitter.service.ServiceMetricEvent.Builder.build(DateTime, String, Number)",0
+InfluxdbEmitterTest,testMetricIsInDefaultDimensionWhitelist,"org.apache.druid.java.util.emitter.service.ServiceMetricEvent.Builder.setDimension(String, Object)",0
+InfluxdbEmitterTest,testMetricIsInDefaultDimensionWhitelist,"org.apache.druid.java.util.emitter.service.ServiceMetricEvent.Builder.setDimension(String, Object)",0
+InfluxdbEmitterTest,testMetricIsInDefaultDimensionWhitelist,"NEW org.apache.druid.emitter.influxdb.InfluxdbEmitterConfig(String, Integer, String, Integer, Integer, Integer, String, String, Set<String>)",0
+InfluxdbEmitterTest,testMetricIsInDefaultDimensionWhitelist,NEW org.apache.druid.emitter.influxdb.InfluxdbEmitter(InfluxdbEmitterConfig),0
+InfluxdbEmitterTest,testMetricIsInDefaultDimensionWhitelist,org.apache.druid.emitter.influxdb.InfluxdbEmitter.transformForInfluxSystems(ServiceMetricEvent),1
+InfluxdbEmitterTest,testMetricIsInDefaultDimensionWhitelist,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

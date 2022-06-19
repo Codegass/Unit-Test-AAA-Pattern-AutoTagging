@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TelnetCodecTest,testDecode_Person_WithEnter,          org.apache.dubbo.common.URL.getAddress(),0
+TelnetCodecTest,testDecode_Person_WithEnter,"          org.apache.dubbo.common.URL.addParameter(String, String)",0
+TelnetCodecTest,testDecode_Person_WithEnter,"          org.apache.dubbo.common.URL.addParameter(String, String)",0
+TelnetCodecTest,testDecode_Person_WithEnter,          NEW org.apache.dubbo.remoting.codec.AbstractMockChannel(URL),0
+TelnetCodecTest,testDecode_Person_WithEnter,     NEW org.apache.dubbo.remoting.codec.TelnetCodecTest.Person(),0
+TelnetCodecTest,testDecode_Person_WithEnter,     TEST org.apache.dubbo.remoting.codec.TelnetCodecTest.objectToByte(Object),0
+TelnetCodecTest,testDecode_Person_WithEnter,"     TEST org.apache.dubbo.remoting.codec.TelnetCodecTest.join(byte[], byte[])",0
+TelnetCodecTest,testDecode_Person_WithEnter,     org.apache.dubbo.remoting.buffer.ChannelBuffers.wrappedBuffer(byte[]),0
+TelnetCodecTest,testDecode_Person_WithEnter,"     org.apache.dubbo.remoting.Codec2.decode(Channel, ChannelBuffer)",1
+TelnetCodecTest,testDecode_Person_WithEnter,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+TelnetCodecTest,testDecode_Person_WithEnter,"     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+TelnetCodecTest,testDecode_Person_WithEnter,"TEST org.apache.dubbo.remoting.codec.TelnetCodecTest.testDecode_PersonWithEnterByte(byte[], boolean)",2
+TelnetCodecTest,testDecode_Person_WithEnter,"TEST org.apache.dubbo.remoting.codec.TelnetCodecTest.testDecode_PersonWithEnterByte(byte[], boolean)",2
+TelnetCodecTest,testDecode_Person_WithEnter,"TEST org.apache.dubbo.remoting.codec.TelnetCodecTest.testDecode_PersonWithEnterByte(byte[], boolean)",2
+TelnetCodecTest,testDecode_Person_WithEnter,"TEST org.apache.dubbo.remoting.codec.TelnetCodecTest.testDecode_PersonWithEnterByte(byte[], boolean)",2

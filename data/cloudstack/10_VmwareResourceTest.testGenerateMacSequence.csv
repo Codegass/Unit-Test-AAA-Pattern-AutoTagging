@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VmwareResourceTest,testGenerateMacSequence,NEW com.cloud.agent.api.to.NicTO(),0
+VmwareResourceTest,testGenerateMacSequence,com.cloud.agent.api.to.NetworkTO.setMac(String),0
+VmwareResourceTest,testGenerateMacSequence,com.cloud.agent.api.to.NicTO.setDeviceId(int),0
+VmwareResourceTest,testGenerateMacSequence,NEW com.cloud.agent.api.to.NicTO(),0
+VmwareResourceTest,testGenerateMacSequence,com.cloud.agent.api.to.NetworkTO.setMac(String),0
+VmwareResourceTest,testGenerateMacSequence,com.cloud.agent.api.to.NicTO.setDeviceId(int),0
+VmwareResourceTest,testGenerateMacSequence,com.cloud.hypervisor.vmware.resource.VmwareResource.generateMacSequence(NicTO[]),1
+VmwareResourceTest,testGenerateMacSequence,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

@@ -1,0 +1,33 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"          NEW org.apache.druid.timeline.partition.OvershadowableInteger(String, int, int)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"          NEW org.apache.druid.timeline.partition.NumberedPartitionChunk<org.apache.druid.timeline.partition.OvershadowableInteger>(int, int, OvershadowableInteger)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,     org.apache.druid.java.util.common.Intervals.of(String),0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"          org.apache.druid.timeline.VersionedIntervalTimeline.add(Interval, String, PartitionChunk<OvershadowableInteger>)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumbered(String, int, int)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.add(String, String, PartitionChunk<OvershadowableInteger>)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumbered(String, int, int)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.add(String, String, PartitionChunk<OvershadowableInteger>)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumbered(String, int, int)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.add(String, String, PartitionChunk<OvershadowableInteger>)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumbered(String, int, int)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.add(String, String, PartitionChunk<OvershadowableInteger>)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"     NEW org.apache.druid.timeline.partition.OvershadowableInteger(String, int, int, int, int, int, int)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"     NEW org.apache.druid.timeline.partition.NumberedOverwritingPartitionChunk<org.apache.druid.timeline.partition.OvershadowableInteger>(int, OvershadowableInteger)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.add(String, String, PartitionChunk<OvershadowableInteger>)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumberedOverwriting(String, int, int, int, int, int, int)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.add(String, String, PartitionChunk<OvershadowableInteger>)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumbered(String, int, int)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.add(String, String, PartitionChunk<OvershadowableInteger>)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumbered(String, int, int)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.add(String, String, PartitionChunk<OvershadowableInteger>)",0
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumbered(String, int, int)",2
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumbered(String, int, int)",2
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumbered(String, int, int)",2
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumberedOverwriting(String, int, int, int, int, int, int)",2
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"TEST org.apache.druid.timeline.VersionedIntervalTimelineTestBase.makeNumberedOverwriting(String, int, int, int, int, int, int)",2
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,     org.apache.druid.java.util.common.Intervals.of(String),2
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,     org.apache.druid.java.util.common.Intervals.of(String),2
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,     NEW org.apache.druid.timeline.partition.PartitionHolder<org.apache.druid.timeline.partition.OvershadowableInteger>(List<PartitionChunk<OvershadowableInteger>>),2
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"     NEW org.apache.druid.timeline.TimelineObjectHolder<java.lang.String,org.apache.druid.timeline.partition.OvershadowableInteger>(Interval, Interval, String, PartitionHolder<OvershadowableInteger>)",2
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,org.apache.druid.timeline.VersionedIntervalTimeline.findFullyOvershadowed(),1
+VersionedIntervalTimelineTest,testOvershadowedByReferenceAndThenVersion,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

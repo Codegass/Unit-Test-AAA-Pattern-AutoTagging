@@ -1,0 +1,98 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BrokerServerViewTest,testMultipleServerAndBroker,"     NEW anonymous(ZkPathsConfig, CuratorFramework, ObjectMapper, Predicate<Pair<DruidServerMetadata,DataSegment>>)",0
+BrokerServerViewTest,testMultipleServerAndBroker,     NEW anonymous(),0
+BrokerServerViewTest,testMultipleServerAndBroker,"     org.apache.druid.client.ServerView.SegmentCallback.segmentAdded(DruidServerMetadata, DataSegment)",0
+BrokerServerViewTest,testMultipleServerAndBroker,"     org.apache.druid.client.ServerView.SegmentCallback.segmentRemoved(DruidServerMetadata, DataSegment)",0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.ServerView.SegmentCallback.segmentViewInitialized(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     MOCK org.easymock.EasyMock.createMock(Class<?>),0
+BrokerServerViewTest,testMultipleServerAndBroker,     MOCK org.easymock.EasyMock.createMock(Class<?>),0
+BrokerServerViewTest,testMultipleServerAndBroker,          NEW com.fasterxml.jackson.dataformat.smile.SmileFactory(),0
+BrokerServerViewTest,testMultipleServerAndBroker,          NEW org.apache.druid.jackson.DefaultObjectMapper(JsonFactory),0
+BrokerServerViewTest,testMultipleServerAndBroker,     MOCK org.easymock.EasyMock.createMock(Class<?>),0
+BrokerServerViewTest,testMultipleServerAndBroker,     NEW org.apache.druid.client.selector.RandomServerSelectorStrategy(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     NEW org.apache.druid.client.selector.HighestPriorityTierSelectorStrategy(ServerSelectorStrategy),0
+BrokerServerViewTest,testMultipleServerAndBroker,     NEW org.apache.druid.server.metrics.NoopServiceEmitter(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     NEW org.apache.druid.client.BrokerSegmentWatcherConfig(),0
+BrokerServerViewTest,testMultipleServerAndBroker,"     NEW org.apache.druid.client.BrokerServerView(QueryToolChestWarehouse, QueryWatcher, ObjectMapper, HttpClient, FilteredServerInventoryView, TierSelectorStrategy, ServiceEmitter, BrokerSegmentWatcherConfig)",1
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.AbstractCuratorServerInventoryView.start(),1
+BrokerServerViewTest,testMultipleServerAndBroker,"NEW org.apache.druid.client.DruidServer(String, String, String, long, ServerType, String, int)",0
+BrokerServerViewTest,testMultipleServerAndBroker,"NEW org.apache.druid.client.DruidServer(String, String, String, long, ServerType, String, int)",0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.server.initialization.ZkPathsConfig.getAnnouncementsPath(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.server.initialization.ZkPathsConfig.getLiveSegmentsPath(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.DruidServer.getHost(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.DruidServer.getMetadata(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.DruidServer.getHost(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.DruidServer.getMetadata(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.DruidServer.getHost(),0
+BrokerServerViewTest,testMultipleServerAndBroker,"TEST org.apache.druid.curator.CuratorTestBase.setupZNodeForServer(DruidServer, ZkPathsConfig, ObjectMapper)",0
+BrokerServerViewTest,testMultipleServerAndBroker,"org.apache.druid.java.util.common.Pair.of(String, String)",0
+BrokerServerViewTest,testMultipleServerAndBroker,"org.apache.druid.java.util.common.Pair.of(String, String)",0
+BrokerServerViewTest,testMultipleServerAndBroker,"org.apache.druid.java.util.common.Pair.of(String, String)",0
+BrokerServerViewTest,testMultipleServerAndBroker,"org.apache.druid.java.util.common.Pair.of(String, String)",0
+BrokerServerViewTest,testMultipleServerAndBroker,"org.apache.druid.java.util.common.Pair.of(String, String)",0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.builder(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.Builder.dataSource(String),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.java.util.common.Intervals.of(String),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.Builder.interval(Interval),0
+BrokerServerViewTest,testMultipleServerAndBroker,"     org.apache.druid.timeline.DataSegment.Builder.loadSpec(Map<String,Object>)",0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.Builder.version(String),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.Builder.dimensions(List<String>),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.Builder.metrics(List<String>),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.partition.NoneShardSpec.instance(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.Builder.shardSpec(ShardSpec),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.Builder.binaryVersion(Integer),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.Builder.size(long),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.Builder.build(),0
+BrokerServerViewTest,testMultipleServerAndBroker,"TEST org.apache.druid.client.BrokerServerViewTest.dataSegmentWithIntervalAndVersion(String, String)",0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.server.initialization.ZkPathsConfig.getLiveSegmentsPath(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.DruidServer.getHost(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.getId(),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.SegmentId.toString(),0
+BrokerServerViewTest,testMultipleServerAndBroker,"TEST org.apache.druid.curator.CuratorTestBase.announceSegmentForServer(DruidServer, DataSegment, ZkPathsConfig, ObjectMapper)",0
+BrokerServerViewTest,testMultipleServerAndBroker,ASSERT org.junit.Assert.assertTrue(boolean),0
+BrokerServerViewTest,testMultipleServerAndBroker,ASSERT org.junit.Assert.assertTrue(boolean),0
+BrokerServerViewTest,testMultipleServerAndBroker,NEW org.apache.druid.query.TableDataSource(String),0
+BrokerServerViewTest,testMultipleServerAndBroker,org.apache.druid.query.planning.DataSourceAnalysis.forDataSource(DataSource),0
+BrokerServerViewTest,testMultipleServerAndBroker,org.apache.druid.client.BrokerServerView.getTimeline(DataSourceAnalysis),0
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.java.util.common.Intervals.of(String),2
+BrokerServerViewTest,testMultipleServerAndBroker,"     org.apache.druid.java.util.common.Pair.of(DruidServer, DataSegment)",2
+BrokerServerViewTest,testMultipleServerAndBroker,"     org.apache.druid.java.util.common.Pair.of(String, Pair<DruidServer,DataSegment>)",2
+BrokerServerViewTest,testMultipleServerAndBroker,"     org.apache.druid.java.util.common.Pair.of(Interval, Pair<String,Pair<DruidServer,DataSegment>>)",2
+BrokerServerViewTest,testMultipleServerAndBroker,"TEST org.apache.druid.client.BrokerServerViewTest.createExpected(String, String, DruidServer, DataSegment)",2
+BrokerServerViewTest,testMultipleServerAndBroker,"TEST org.apache.druid.client.BrokerServerViewTest.createExpected(String, String, DruidServer, DataSegment)",2
+BrokerServerViewTest,testMultipleServerAndBroker,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.TimelineObjectHolder.getInterval(),2
+BrokerServerViewTest,testMultipleServerAndBroker,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.TimelineObjectHolder.getVersion(),2
+BrokerServerViewTest,testMultipleServerAndBroker,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.TimelineObjectHolder.getObject(),2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.partition.PartitionHolder.isComplete(),2
+BrokerServerViewTest,testMultipleServerAndBroker,     ASSERT org.junit.Assert.assertTrue(boolean),2
+BrokerServerViewTest,testMultipleServerAndBroker,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.partition.SingleElementPartitionChunk.getObject(),2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.partition.PartitionHolder.iterator(),2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.selector.ServerSelector.isEmpty(),2
+BrokerServerViewTest,testMultipleServerAndBroker,     ASSERT org.junit.Assert.assertFalse(boolean),2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.selector.ServerSelector.pick(),2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.selector.QueryableDruidServer.getServer(),2
+BrokerServerViewTest,testMultipleServerAndBroker,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.selector.ServerSelector.getSegment(),2
+BrokerServerViewTest,testMultipleServerAndBroker,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+BrokerServerViewTest,testMultipleServerAndBroker,org.apache.druid.java.util.common.Intervals.of(String),2
+BrokerServerViewTest,testMultipleServerAndBroker,org.apache.druid.timeline.TimelineLookup.lookup(Interval),2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.server.initialization.ZkPathsConfig.getLiveSegmentsPath(),2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.client.DruidServer.getHost(),2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.DataSegment.getId(),2
+BrokerServerViewTest,testMultipleServerAndBroker,     org.apache.druid.timeline.SegmentId.toString(),2
+BrokerServerViewTest,testMultipleServerAndBroker,ASSERT org.junit.Assert.assertTrue(boolean),2
+BrokerServerViewTest,testMultipleServerAndBroker,NEW org.apache.druid.query.TableDataSource(String),2
+BrokerServerViewTest,testMultipleServerAndBroker,org.apache.druid.query.planning.DataSourceAnalysis.forDataSource(DataSource),2
+BrokerServerViewTest,testMultipleServerAndBroker,org.apache.druid.client.BrokerServerView.getTimeline(DataSourceAnalysis),2
+BrokerServerViewTest,testMultipleServerAndBroker,"TEST org.apache.druid.client.BrokerServerViewTest.createExpected(String, String, DruidServer, DataSegment)",2
+BrokerServerViewTest,testMultipleServerAndBroker,"TEST org.apache.druid.client.BrokerServerViewTest.createExpected(String, String, DruidServer, DataSegment)",2
+BrokerServerViewTest,testMultipleServerAndBroker,"TEST org.apache.druid.client.BrokerServerViewTest.createExpected(String, String, DruidServer, DataSegment)",2
+BrokerServerViewTest,testMultipleServerAndBroker,"TEST org.apache.druid.client.BrokerServerViewTest.assertValues(List<Pair<Interval,Pair<String,Pair<DruidServer,DataSegment>>>>, List<TimelineObjectHolder>)",2
+BrokerServerViewTest,testMultipleServerAndBroker,org.apache.druid.java.util.common.Intervals.of(String),2
+BrokerServerViewTest,testMultipleServerAndBroker,org.apache.druid.timeline.TimelineLookup.lookup(Interval),2
+BrokerServerViewTest,testMultipleServerAndBroker,"TEST org.apache.druid.curator.CuratorTestBase.unannounceSegmentForServer(DruidServer, DataSegment, ZkPathsConfig)",2
+BrokerServerViewTest,testMultipleServerAndBroker,ASSERT org.junit.Assert.assertTrue(boolean),2

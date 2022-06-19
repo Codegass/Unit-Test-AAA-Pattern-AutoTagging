@@ -1,0 +1,52 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.dc.dao.AccountVlanMapDao.listAccountVlanMapsByAccount(long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,"     NEW com.cloud.dc.DataCenterVO(String, String, String, String, String, String, String, String, Long, NetworkType, String, String, boolean, boolean, String, String)",0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     NEW com.cloud.utils.net.Ip(String),0
+ConfigurationManagerTest,testDedicatePublicIpRange,"     NEW com.cloud.network.dao.IPAddressVO(Ip, long, long, long, boolean)",0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.network.dao.IPAddressDao.listByVlanId(long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.configuration.ConfigurationManagerImpl.dedicatePublicIpRange(DedicatePublicIpRangeCmd),1
+ConfigurationManagerTest,testDedicatePublicIpRange,     ASSERT org.junit.Assert.assertNotNull(Object),2
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.TransactionLegacy.close(String),2
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.configuration.ConfigurationManagerImpl.dedicatePublicIpRange(DedicatePublicIpRangeCmd),1
+ConfigurationManagerTest,testDedicatePublicIpRange,     ASSERT org.junit.Assert.assertTrue(boolean),2
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.TransactionLegacy.close(String),2
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,"     NEW com.cloud.dc.AccountVlanMapVO(long, long)",0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.dc.dao.AccountVlanMapDao.listAccountVlanMapsByVlan(long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,"     NEW com.cloud.dc.DataCenterVO(String, String, String, String, String, String, String, String, Long, NetworkType, String, String, boolean, boolean, String, String)",0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     NEW com.cloud.utils.net.Ip(String),0
+ConfigurationManagerTest,testDedicatePublicIpRange,"     NEW com.cloud.network.dao.IPAddressVO(Ip, long, long, long, boolean)",0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.network.dao.IPAddressDao.listByVlanId(long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.configuration.ConfigurationManagerImpl.dedicatePublicIpRange(DedicatePublicIpRangeCmd),1
+ConfigurationManagerTest,testDedicatePublicIpRange,     ASSERT org.junit.Assert.assertTrue(boolean),2
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.TransactionLegacy.close(String),2
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.dc.dao.AccountVlanMapDao.listAccountVlanMapsByVlan(long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,"     NEW com.cloud.dc.DataCenterVO(String, String, String, String, String, String, String, String, Long, NetworkType, String, String, boolean, boolean, String, String)",0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     NEW com.cloud.utils.net.Ip(String),0
+ConfigurationManagerTest,testDedicatePublicIpRange,"     NEW com.cloud.network.dao.IPAddressVO(Ip, long, long, long, boolean)",0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.network.dao.IPAddressDao.listByVlanId(long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.configuration.ConfigurationManagerImpl.dedicatePublicIpRange(DedicatePublicIpRangeCmd),1
+ConfigurationManagerTest,testDedicatePublicIpRange,     ASSERT org.junit.Assert.assertTrue(boolean),2
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.TransactionLegacy.close(String),2
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.TransactionLegacy.open(String),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.dc.dao.AccountVlanMapDao.listAccountVlanMapsByAccount(long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,"     NEW com.cloud.dc.DataCenterVO(String, String, String, String, String, String, String, String, Long, NetworkType, String, String, boolean, boolean, String, String)",0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.GenericDao.findById(Long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     NEW com.cloud.utils.net.Ip(String),0
+ConfigurationManagerTest,testDedicatePublicIpRange,"     NEW com.cloud.network.dao.IPAddressVO(Ip, long, long, long, boolean)",0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.network.dao.IPAddressVO.setAllocatedToAccountId(Long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.network.dao.IPAddressDao.listByVlanId(long),0
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.configuration.ConfigurationManagerImpl.dedicatePublicIpRange(DedicatePublicIpRangeCmd),1
+ConfigurationManagerTest,testDedicatePublicIpRange,     ASSERT org.junit.Assert.assertTrue(boolean),2
+ConfigurationManagerTest,testDedicatePublicIpRange,     com.cloud.utils.db.TransactionLegacy.close(String),2

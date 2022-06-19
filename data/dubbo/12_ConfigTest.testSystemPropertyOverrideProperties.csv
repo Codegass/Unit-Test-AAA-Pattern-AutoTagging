@@ -1,0 +1,28 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigTest,testSystemPropertyOverrideProperties,NEW org.apache.dubbo.config.ApplicationConfig(),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.ApplicationConfig.setName(String),0
+ConfigTest,testSystemPropertyOverrideProperties,NEW org.apache.dubbo.config.RegistryConfig(),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.RegistryConfig.setAddress(String),0
+ConfigTest,testSystemPropertyOverrideProperties,NEW org.apache.dubbo.config.ProtocolConfig(),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.ProtocolConfig.setName(String),0
+ConfigTest,testSystemPropertyOverrideProperties,NEW org.apache.dubbo.config.ServiceConfig<org.apache.dubbo.config.spring.api.DemoService>(),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.ServiceConfigBase.setInterface(Class<?>),0
+ConfigTest,testSystemPropertyOverrideProperties,NEW org.apache.dubbo.config.spring.impl.DemoServiceImpl(),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.ServiceConfigBase.setRef(DemoService),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.AbstractInterfaceConfig.setApplication(ApplicationConfig),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.AbstractInterfaceConfig.setRegistry(RegistryConfig),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.AbstractServiceConfig.setProtocol(ProtocolConfig),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.bootstrap.DubboBootstrap.getInstance(),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.bootstrap.DubboBootstrap.application(ApplicationConfig),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.bootstrap.DubboBootstrap.registry(RegistryConfig),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.bootstrap.DubboBootstrap.protocol(ProtocolConfig),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.bootstrap.DubboBootstrap.service(ServiceConfig<?>),0
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.bootstrap.DubboBootstrap.start(),1
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.AbstractInterfaceConfig.getExportedUrls(),2
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.common.URL.getParameter(String),2
+ConfigTest,testSystemPropertyOverrideProperties,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.common.URL.getParameter(String),2
+ConfigTest,testSystemPropertyOverrideProperties,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.common.URL.getPort(),2
+ConfigTest,testSystemPropertyOverrideProperties,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+ConfigTest,testSystemPropertyOverrideProperties,org.apache.dubbo.config.bootstrap.DubboBootstrap.stop(),2

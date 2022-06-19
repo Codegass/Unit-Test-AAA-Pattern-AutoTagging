@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ZooKeeperPropertiesIT,testNoFiles,@EXPECTED java.lang.Class<org.apache.accumulo.core.client.AccumuloException>,0
+ZooKeeperPropertiesIT,testNoFiles,org.apache.accumulo.core.client.Accumulo.newClient(),0
+ZooKeeperPropertiesIT,testNoFiles,     TEST org.apache.accumulo.harness.AccumuloClusterHarness.getCluster(),0
+ZooKeeperPropertiesIT,testNoFiles,     org.apache.accumulo.cluster.AccumuloCluster.getClientProperties(),0
+ZooKeeperPropertiesIT,testNoFiles,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+ZooKeeperPropertiesIT,testNoFiles,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+ZooKeeperPropertiesIT,testNoFiles,org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+ZooKeeperPropertiesIT,testNoFiles,org.apache.accumulo.core.conf.Property.getKey(),0
+ZooKeeperPropertiesIT,testNoFiles,"org.apache.accumulo.core.client.admin.InstanceOperations.setProperty(String, String)",1

@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DubboProtocolTest,testDubboProtocolMultiService,NEW org.apache.dubbo.rpc.protocol.dubbo.support.RemoteServiceImpl(),0
+DubboProtocolTest,testDubboProtocolMultiService,org.apache.dubbo.rpc.model.ApplicationModel.getServiceRepository(),0
+DubboProtocolTest,testDubboProtocolMultiService,org.apache.dubbo.rpc.model.ServiceRepository.registerService(Class<?>),0
+DubboProtocolTest,testDubboProtocolMultiService,org.apache.dubbo.common.utils.NetUtils.getAvailablePort(),0
+DubboProtocolTest,testDubboProtocolMultiService,org.apache.dubbo.common.URL.valueOf(String),0
+DubboProtocolTest,testDubboProtocolMultiService,"org.apache.dubbo.rpc.ProxyFactory.getInvoker(RemoteService, Class<RemoteService>, URL)",0
+DubboProtocolTest,testDubboProtocolMultiService,org.apache.dubbo.rpc.Protocol.export(Invoker<RemoteService>),0
+DubboProtocolTest,testDubboProtocolMultiService,org.apache.dubbo.common.URL.valueOf(String),0
+DubboProtocolTest,testDubboProtocolMultiService,"org.apache.dubbo.common.URL.addParameter(String, long)",0
+DubboProtocolTest,testDubboProtocolMultiService,"org.apache.dubbo.rpc.Protocol.refer(Class<RemoteService>, URL)",1
+DubboProtocolTest,testDubboProtocolMultiService,org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<RemoteService>),2
+DubboProtocolTest,testDubboProtocolMultiService,TEST org.apache.dubbo.rpc.protocol.dubbo.support.RemoteService.sayHello(String),2
+DubboProtocolTest,testDubboProtocolMultiService,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DubboProtocolTest,testDubboProtocolMultiService,org.apache.dubbo.rpc.service.EchoService.$echo(Object),2
+DubboProtocolTest,testDubboProtocolMultiService,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

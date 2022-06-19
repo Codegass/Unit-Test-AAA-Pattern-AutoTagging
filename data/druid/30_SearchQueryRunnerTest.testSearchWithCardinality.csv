@@ -1,0 +1,50 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.Druids.newSearchQueryBuilder(),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.Druids.SearchQueryBuilder.dataSource(String),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.Druids.SearchQueryBuilder.granularity(Granularity),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.Druids.SearchQueryBuilder.intervals(QuerySegmentSpec),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.Druids.SearchQueryBuilder.query(String),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.Druids.SearchQueryBuilder.build(),0
+SearchQueryRunnerTest,testSearchWithCardinality,NEW anonymous(),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.QueryToolChest.mergeResults(QueryRunner<Result<SearchResultValue>>),1
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.QueryPlus.getQuery(),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.java.util.common.Intervals.of(String),0
+SearchQueryRunnerTest,testSearchWithCardinality,NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.Query.withQuerySegmentSpec(QuerySegmentSpec),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.QueryPlus.withQuery(Query<Result<SearchResultValue>>),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.QueryPlus.getQuery(),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.java.util.common.Intervals.of(String),0
+SearchQueryRunnerTest,testSearchWithCardinality,NEW org.apache.druid.query.spec.MultipleIntervalSegmentSpec(List<Interval>),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.Query.withQuerySegmentSpec(QuerySegmentSpec),0
+SearchQueryRunnerTest,testSearchWithCardinality,org.apache.druid.query.QueryPlus.withQuery(Query<Result<SearchResultValue>>),0
+SearchQueryRunnerTest,testSearchWithCardinality,"NEW org.apache.druid.query.search.SearchHit(String, String, Integer)",2
+SearchQueryRunnerTest,testSearchWithCardinality,"NEW org.apache.druid.query.search.SearchHit(String, String, Integer)",2
+SearchQueryRunnerTest,testSearchWithCardinality,"NEW org.apache.druid.query.search.SearchHit(String, String, Integer)",2
+SearchQueryRunnerTest,testSearchWithCardinality,"NEW org.apache.druid.query.search.SearchHit(String, String, Integer)",2
+SearchQueryRunnerTest,testSearchWithCardinality,"NEW org.apache.druid.query.search.SearchHit(String, String, Integer)",2
+SearchQueryRunnerTest,testSearchWithCardinality,"NEW org.apache.druid.query.search.SearchHit(String, String, Integer)",2
+SearchQueryRunnerTest,testSearchWithCardinality,"NEW org.apache.druid.query.search.SearchHit(String, String, Integer)",2
+SearchQueryRunnerTest,testSearchWithCardinality,"NEW org.apache.druid.query.search.SearchHit(String, String, Integer)",2
+SearchQueryRunnerTest,testSearchWithCardinality,     org.apache.druid.query.QueryPlus.wrap(Query<Object>),2
+SearchQueryRunnerTest,testSearchWithCardinality,     org.apache.druid.java.util.common.guava.Sequence.toList(),2
+SearchQueryRunnerTest,testSearchWithCardinality,     org.apache.druid.java.util.common.DateTimes.of(String),2
+SearchQueryRunnerTest,testSearchWithCardinality,     org.apache.druid.query.Result.getTimestamp(),2
+SearchQueryRunnerTest,testSearchWithCardinality,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+SearchQueryRunnerTest,testSearchWithCardinality,     ASSERT org.junit.Assert.assertTrue(boolean),2
+SearchQueryRunnerTest,testSearchWithCardinality,     org.apache.druid.query.Result.getValue(),2
+SearchQueryRunnerTest,testSearchWithCardinality,     org.apache.druid.query.Result.getValue(),2
+SearchQueryRunnerTest,testSearchWithCardinality,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+SearchQueryRunnerTest,testSearchWithCardinality,          org.apache.druid.query.search.SearchHit.toString(),2
+SearchQueryRunnerTest,testSearchWithCardinality,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+SearchQueryRunnerTest,testSearchWithCardinality,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+SearchQueryRunnerTest,testSearchWithCardinality,          org.apache.druid.query.Result.getValue(),2
+SearchQueryRunnerTest,testSearchWithCardinality,          org.apache.druid.query.search.SearchHit.toString(),2
+SearchQueryRunnerTest,testSearchWithCardinality,"          org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+SearchQueryRunnerTest,testSearchWithCardinality,          ASSERT org.junit.Assert.fail(String),2
+SearchQueryRunnerTest,testSearchWithCardinality,     org.apache.druid.query.search.SearchHit.getDimension(),2
+SearchQueryRunnerTest,testSearchWithCardinality,     org.apache.druid.query.search.SearchHit.getValue(),2
+SearchQueryRunnerTest,testSearchWithCardinality,     org.apache.druid.query.search.SearchHit.toString(),2
+SearchQueryRunnerTest,testSearchWithCardinality,     org.apache.druid.query.search.SearchHit.toString(),2
+SearchQueryRunnerTest,testSearchWithCardinality,"     TEST org.apache.druid.query.search.SearchQueryRunnerTest.fail(List<SearchHit>, Iterable<Result<SearchResultValue>>, String)",2
+SearchQueryRunnerTest,testSearchWithCardinality,     org.apache.druid.query.search.SearchHit.getCount(),2
+SearchQueryRunnerTest,testSearchWithCardinality,"     TEST org.apache.druid.query.search.SearchQueryRunnerTest.fail(List<SearchHit>, Iterable<Result<SearchResultValue>>, String)",2

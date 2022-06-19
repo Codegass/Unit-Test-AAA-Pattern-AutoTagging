@@ -1,0 +1,41 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.schema.DruidSchema.getTableMap(),1
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertNotNull(Object),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertTrue(boolean),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.getDataSource(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertFalse(boolean),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.getDataSource(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.isJoinable(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertFalse(boolean),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.isBroadcast(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertFalse(boolean),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.java.util.common.Intervals.of(String),0
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,"NEW org.apache.druid.timeline.partition.NumberedShardSpec(int, int)",0
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,"NEW org.apache.druid.timeline.DataSegment(String, Interval, String, Map<String,Object>, List<String>, List<String>, ShardSpec, CompactionState, Integer, long, PruneSpecsHolder)",0
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,"          NEW org.apache.druid.java.util.common.Pair<org.apache.druid.server.coordination.DruidServerMetadata,java.util.List<org.apache.druid.timeline.DataSegment>>(DruidServerMetadata, List<DataSegment>)",0
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,"     org.apache.druid.client.ServerView.SegmentCallback.segmentAdded(DruidServerMetadata, DataSegment)",0
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,"     org.apache.druid.client.TimelineServerView.TimelineCallback.segmentAdded(DruidServerMetadata, DataSegment)",0
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.schema.DruidSchema.getTableMap(),1
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertNotNull(Object),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertTrue(boolean),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.getDataSource(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertFalse(boolean),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.getDataSource(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.isBroadcast(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertTrue(boolean),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.isJoinable(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertFalse(boolean),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,     TEST org.apache.druid.sql.calcite.util.TestServerInventoryView.getDummyServerAndSegmentsForType(ServerType),0
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,"     org.apache.druid.client.ServerView.SegmentCallback.segmentRemoved(DruidServerMetadata, DataSegment)",0
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,"     org.apache.druid.client.TimelineServerView.TimelineCallback.serverSegmentRemoved(DruidServerMetadata, DataSegment)",0
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,     org.apache.druid.client.TimelineServerView.TimelineCallback.segmentRemoved(DataSegment),0
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.schema.DruidSchema.getTableMap(),1
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertNotNull(Object),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertTrue(boolean),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.getDataSource(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertFalse(boolean),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.getDataSource(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.isBroadcast(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertFalse(boolean),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,org.apache.druid.sql.calcite.table.DruidTable.isJoinable(),2
+DruidSchemaTest,testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,ASSERT org.junit.Assert.assertFalse(boolean),2

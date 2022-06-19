@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FileUtilTest,testCleanupIndexOpWithDfsDir,ASSERT org.junit.Assert.assertTrue(boolean),0
+FileUtilTest,testCleanupIndexOpWithDfsDir,NEW org.apache.hadoop.fs.Path(URI),0
+FileUtilTest,testCleanupIndexOpWithDfsDir,org.apache.accumulo.server.fs.VolumeManagerImpl.getLocal(String),0
+FileUtilTest,testCleanupIndexOpWithDfsDir,"org.apache.accumulo.server.util.FileUtil.cleanupIndexOp(Path, VolumeManager, ArrayList<FileSKVIterator>)",1
+FileUtilTest,testCleanupIndexOpWithDfsDir,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2

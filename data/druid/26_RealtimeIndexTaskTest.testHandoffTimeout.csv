@@ -1,0 +1,83 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RealtimeIndexTaskTest,testHandoffTimeout,@EXPECTED java.lang.Class<java.util.concurrent.ExecutionException>,0
+RealtimeIndexTaskTest,testHandoffTimeout,NEW org.apache.druid.indexing.test.TestIndexerMetadataStorageCoordinator(),0
+RealtimeIndexTaskTest,testHandoffTimeout,     NEW org.apache.druid.jackson.DefaultObjectMapper(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.jackson.DefaultObjectMapper(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW com.fasterxml.jackson.databind.InjectableValues.Std(),0
+RealtimeIndexTaskTest,testHandoffTimeout,"     NEW org.apache.druid.data.input.impl.TimestampSpec(String, String, DateTime)",0
+RealtimeIndexTaskTest,testHandoffTimeout,     org.apache.druid.data.input.impl.DimensionsSpec.getDefaultSchemas(List<String>),0
+RealtimeIndexTaskTest,testHandoffTimeout,"     NEW org.apache.druid.data.input.impl.DimensionsSpec(List<DimensionSchema>, List<String>, List<SpatialDimensionSchema>)",0
+RealtimeIndexTaskTest,testHandoffTimeout,"     NEW org.apache.druid.data.input.impl.TimeAndDimsParseSpec(TimestampSpec, DimensionsSpec)",0
+RealtimeIndexTaskTest,testHandoffTimeout,     NEW org.apache.druid.data.input.impl.MapInputRowParser(ParseSpec),0
+RealtimeIndexTaskTest,testHandoffTimeout,"     NEW org.apache.druid.segment.indexing.granularity.UniformGranularitySpec(Granularity, Granularity, List<Interval>)",0
+RealtimeIndexTaskTest,testHandoffTimeout,"     NEW org.apache.druid.segment.indexing.DataSchema(String, Map<String,Object>, AggregatorFactory[], GranularitySpec, TransformSpec, ObjectMapper)",0
+RealtimeIndexTaskTest,testHandoffTimeout,     NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+RealtimeIndexTaskTest,testHandoffTimeout,"     NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+RealtimeIndexTaskTest,testHandoffTimeout,     NEW org.apache.druid.indexing.common.TestFirehose.TestFirehoseFactory(),0
+RealtimeIndexTaskTest,testHandoffTimeout,"     NEW org.apache.druid.segment.indexing.RealtimeIOConfig(FirehoseFactory, PlumberSchool)",0
+RealtimeIndexTaskTest,testHandoffTimeout,     NEW org.joda.time.Period(Object),0
+RealtimeIndexTaskTest,testHandoffTimeout,     NEW org.joda.time.Period(Object),0
+RealtimeIndexTaskTest,testHandoffTimeout,     NEW org.apache.druid.segment.realtime.plumber.ServerTimeRejectionPolicyFactory(),0
+RealtimeIndexTaskTest,testHandoffTimeout,"     NEW org.apache.druid.segment.indexing.RealtimeTuningConfig(Integer, Long, Period, Period, File, VersioningPolicy, RejectionPolicyFactory, Integer, ShardSpec, IndexSpec, IndexSpec, Boolean, int, int, Boolean, Long, Long, SegmentWriteOutMediumFactory, String)",0
+RealtimeIndexTaskTest,testHandoffTimeout,"     NEW org.apache.druid.segment.realtime.FireDepartment(DataSchema, RealtimeIOConfig, RealtimeTuningConfig)",0
+RealtimeIndexTaskTest,testHandoffTimeout,"     NEW anonymous(String, TaskResource, FireDepartment, Map<String,Object>)",0
+RealtimeIndexTaskTest,testHandoffTimeout,     NEW org.apache.druid.indexing.common.config.TaskStorageConfig(Period),0
+RealtimeIndexTaskTest,testHandoffTimeout,     NEW org.apache.druid.indexing.overlord.HeapMemoryTaskStorage(TaskStorageConfig),0
+RealtimeIndexTaskTest,testHandoffTimeout,"          NEW org.apache.druid.indexing.common.config.TaskConfig(String, String, String, Integer, List<String>, boolean, Period, Period, List<StorageLocationConfig>)",0
+RealtimeIndexTaskTest,testHandoffTimeout,"          NEW org.apache.druid.indexing.overlord.TaskLockbox(TaskStorage, IndexerMetadataStorageCoordinator)",0
+RealtimeIndexTaskTest,testHandoffTimeout,          org.apache.druid.indexing.common.task.Task.getId(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          org.apache.druid.indexer.TaskStatus.running(String),0
+RealtimeIndexTaskTest,testHandoffTimeout,"          org.apache.druid.indexing.overlord.TaskStorage.insert(Task, TaskStatus)",0
+RealtimeIndexTaskTest,testHandoffTimeout,          org.apache.druid.indexing.overlord.TaskLockbox.syncFromStorage(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          MOCK org.easymock.EasyMock.createMock(Class<?>),0
+RealtimeIndexTaskTest,testHandoffTimeout,"          NEW org.apache.druid.indexing.common.actions.TaskActionToolbox(TaskLockbox, TaskStorage, IndexerMetadataStorageCoordinator, ServiceEmitter, SupervisorManager)",0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.indexing.common.actions.TaskAuditLogConfig(boolean),0
+RealtimeIndexTaskTest,testHandoffTimeout,"          NEW org.apache.druid.indexing.common.actions.LocalTaskActionClientFactory(TaskStorage, TaskActionToolbox, TaskAuditLogConfig)",0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.query.timeseries.TimeseriesQueryQueryToolChest(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.query.timeseries.TimeseriesQueryEngine(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW anonymous(),0
+RealtimeIndexTaskTest,testHandoffTimeout,"          NEW org.apache.druid.query.timeseries.TimeseriesQueryRunnerFactory(TimeseriesQueryQueryToolChest, TimeseriesQueryEngine, QueryWatcher)",0
+RealtimeIndexTaskTest,testHandoffTimeout,"          NEW org.apache.druid.query.DefaultQueryRunnerFactoryConglomerate(Map<Class<? extends Query>,QueryRunnerFactory>)",0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW anonymous(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW anonymous(),0
+RealtimeIndexTaskTest,testHandoffTimeout,"          NEW org.apache.druid.java.util.common.Pair<java.util.concurrent.Executor,java.lang.Runnable>(Executor, Runnable)",0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.indexing.common.TestUtils(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW anonymous(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.indexing.test.TestDataSegmentPusher(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.indexing.test.TestDataSegmentKiller(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.indexing.test.TestDataSegmentAnnouncer(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          MOCK org.easymock.EasyMock.createNiceMock(Class<?>),0
+RealtimeIndexTaskTest,testHandoffTimeout,          org.apache.druid.java.util.common.concurrent.Execs.directExecutor(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          TEST org.apache.druid.indexing.common.TestUtils.getTestObjectMapper(),0
+RealtimeIndexTaskTest,testHandoffTimeout,"          NEW org.apache.druid.indexing.common.SegmentLoaderFactory(IndexIO, ObjectMapper)",0
+RealtimeIndexTaskTest,testHandoffTimeout,          TEST org.apache.druid.indexing.common.TestUtils.getTestObjectMapper(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          TEST org.apache.druid.indexing.common.TestUtils.getTestIndexIO(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          org.apache.druid.client.cache.MapCache.create(long),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.client.cache.CacheConfig(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.client.cache.CachePopulatorStats(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          TEST org.apache.druid.indexing.common.TestUtils.getTestIndexMergerV9(),0
+RealtimeIndexTaskTest,testHandoffTimeout,          MOCK org.easymock.EasyMock.createNiceMock(Class<?>),0
+RealtimeIndexTaskTest,testHandoffTimeout,          MOCK org.easymock.EasyMock.createNiceMock(Class<?>),0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.discovery.LookupNodeService(String),0
+RealtimeIndexTaskTest,testHandoffTimeout,"          NEW org.apache.druid.discovery.DataNodeService(String, long, ServerType, int)",0
+RealtimeIndexTaskTest,testHandoffTimeout,          NEW org.apache.druid.indexing.common.task.NoopTestTaskReportFileWriter(),0
+RealtimeIndexTaskTest,testHandoffTimeout,"          NEW org.apache.druid.indexing.common.TaskToolboxFactory(TaskConfig, DruidNode, TaskActionClientFactory, ServiceEmitter, DataSegmentPusher, DataSegmentKiller, DataSegmentMover, DataSegmentArchiver, DataSegmentAnnouncer, DataSegmentServerAnnouncer, SegmentHandoffNotifierFactory, Provider<QueryRunnerFactoryConglomerate>, ExecutorService, JoinableFactory, Provider<MonitorScheduler>, SegmentLoaderFactory, ObjectMapper, IndexIO, Cache, CacheConfig, CachePopulatorStats, IndexMergerV9, DruidNodeAnnouncer, DruidNode, LookupNodeService, DataNodeService, TaskReportFileWriter, IntermediaryDataManager)",0
+RealtimeIndexTaskTest,testHandoffTimeout,          MOCK org.easymock.EasyMock.createMock(Class<?>),0
+RealtimeIndexTaskTest,testHandoffTimeout,          org.apache.druid.indexing.common.TaskToolboxFactory.build(Task),0
+RealtimeIndexTaskTest,testHandoffTimeout,     NEW anonymous(),0
+RealtimeIndexTaskTest,testHandoffTimeout,     org.apache.druid.indexing.common.TaskToolbox.getTaskActionClient(),0
+RealtimeIndexTaskTest,testHandoffTimeout,     org.apache.druid.indexing.common.task.Task.isReady(TaskActionClient),0
+RealtimeIndexTaskTest,testHandoffTimeout,     org.apache.druid.indexing.common.task.Task.run(TaskToolbox),1
+RealtimeIndexTaskTest,testHandoffTimeout,"     NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+RealtimeIndexTaskTest,testHandoffTimeout,"     org.apache.druid.java.util.common.logger.Logger.warn(Throwable, String, Object[])",0
+RealtimeIndexTaskTest,testHandoffTimeout,org.apache.druid.indexing.common.task.RealtimeIndexTask.getFirehose(),0
+RealtimeIndexTaskTest,testHandoffTimeout,org.apache.druid.indexing.common.task.RealtimeIndexTask.getFirehose(),0
+RealtimeIndexTaskTest,testHandoffTimeout,     java.util.Optional.ofNullable(Object),0
+RealtimeIndexTaskTest,testHandoffTimeout,     java.util.Deque<java.util.Optional<java.lang.Object>>.add(Optional<Object>),0
+RealtimeIndexTaskTest,testHandoffTimeout,TEST org.apache.druid.indexing.common.TestFirehose.close(),0
+RealtimeIndexTaskTest,testHandoffTimeout,TEST org.apache.druid.indexing.test.TestIndexerMetadataStorageCoordinator.getPublished(),2
+RealtimeIndexTaskTest,testHandoffTimeout,org.apache.druid.indexing.common.task.RealtimeIndexTask.getMetrics(),2
+RealtimeIndexTaskTest,testHandoffTimeout,org.apache.druid.segment.realtime.FireDepartmentMetrics.processed(),2
+RealtimeIndexTaskTest,testHandoffTimeout,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+RealtimeIndexTaskTest,testHandoffTimeout,TEST org.apache.druid.indexing.test.TestIndexerMetadataStorageCoordinator.getPublished(),2
+RealtimeIndexTaskTest,testHandoffTimeout,ASSERT org.junit.Assert.assertNotNull(Object),2

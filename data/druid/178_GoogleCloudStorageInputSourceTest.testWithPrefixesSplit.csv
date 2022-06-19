@@ -1,0 +1,42 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,MOCK org.easymock.EasyMock.reset(Object[]),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,MOCK org.easymock.EasyMock.reset(Object[]),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.EasyMock.createMock(Class<?>),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.EasyMock.eq(String),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     org.apache.druid.storage.google.GoogleStorage.list(String),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.EasyMock.expect(List),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<com.google.api.services.storage.Storage.Objects.List>.andReturn(List),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<com.google.api.services.storage.Storage.Objects.List>.once(),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.EasyMock.anyString(),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.EasyMock.expect(List),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<com.google.api.services.storage.Storage.Objects.List>.andReturn(List),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<com.google.api.services.storage.Storage.Objects.List>.once(),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.EasyMock.expect(List),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<com.google.api.services.storage.Storage.Objects.List>.andReturn(List),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<com.google.api.services.storage.Storage.Objects.List>.once(),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     org.apache.druid.java.util.common.StringUtils.maybeRemoveLeadingSlash(String),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.EasyMock.eq(String),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.EasyMock.expect(List),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<com.google.api.services.storage.Storage.Objects.List>.andReturn(List),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<com.google.api.services.storage.Storage.Objects.List>.once(),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     NEW com.google.api.services.storage.model.StorageObject(),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     NEW com.google.api.services.storage.model.Objects(),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.EasyMock.expect(Objects),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<com.google.api.services.storage.model.Objects>.andReturn(Objects),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<com.google.api.services.storage.model.Objects>.once(),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.EasyMock.expect(List<StorageObject>),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<java.util.List<com.google.api.services.storage.model.StorageObject>>.andReturn(List<StorageObject>),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.IExpectationSetters<java.util.List<com.google.api.services.storage.model.StorageObject>>.once(),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,     MOCK org.easymock.EasyMock.replay(Object[]),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,"TEST org.apache.druid.data.input.google.GoogleCloudStorageInputSourceTest.addExpectedPrefixObjects(URI, List<URI>)",0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,org.apache.druid.storage.google.GoogleInputDataConfig.getMaxListingLength(),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,MOCK org.easymock.EasyMock.expect(Integer),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,MOCK org.easymock.EasyMock.replay(Object[]),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,MOCK org.easymock.EasyMock.replay(Object[]),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,"NEW org.apache.druid.data.input.google.GoogleCloudStorageInputSource(GoogleStorage, GoogleInputDataConfig, List<URI>, List<URI>, List<CloudObjectLocation>)",0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,"NEW org.apache.druid.data.input.impl.JsonInputFormat(JSONPathSpec, Map<String,Boolean>, Boolean)",0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,NEW org.apache.druid.data.input.MaxSizeSplitHintSpec(Long),0
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,"org.apache.druid.data.input.impl.CloudObjectInputSource.createSplits(InputFormat, SplitHintSpec)",1
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,org.apache.druid.data.input.InputSplit<java.util.List<org.apache.druid.data.input.impl.CloudObjectLocation>>.get(),2
+GoogleCloudStorageInputSourceTest,testWithPrefixesSplit,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

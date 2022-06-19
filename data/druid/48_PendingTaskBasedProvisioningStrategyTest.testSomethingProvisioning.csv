@@ -1,0 +1,63 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.AutoScaler.getMinNumWorkers(),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.expect(Integer),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.times(int),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.AutoScaler.getMaxNumWorkers(),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.expect(Integer),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.andReturn(Integer),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<java.lang.Integer>.times(int),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.anyObject(),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.expect(List),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<java.util.List>.andReturn(List),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<java.util.List>.times(int),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.AutoScaler.provision(),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.expect(AutoScalingData),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,NEW org.apache.druid.indexing.overlord.autoscaling.AutoScalingData(List<String>),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.autoscaling.AutoScalingData>.andReturn(AutoScalingData),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.RemoteTaskRunner.getPendingTaskPayloads(),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.expect(Collection<Task>),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.common.task.NoopTask.create(),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.indexing.common.task.Task>>.andReturn(Collection<Task>),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.indexing.common.task.Task>>.times(int),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.RemoteTaskRunner.getWorkers(),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.expect(Collection<ImmutableWorkerInfo>),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,NEW org.apache.druid.indexing.overlord.autoscaling.PendingTaskBasedProvisioningStrategyTest.TestZkWorker(Task),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.ZkWorker.toImmutable(),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,"NEW org.apache.druid.indexing.overlord.autoscaling.PendingTaskBasedProvisioningStrategyTest.TestZkWorker(Task, String, String, String, String)",0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.ZkWorker.toImmutable(),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.indexing.overlord.ImmutableWorkerInfo>>.andReturn(Collection<ImmutableWorkerInfo>),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.indexing.overlord.ImmutableWorkerInfo>>.times(int),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.RemoteTaskRunner.getConfig(),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.expect(RemoteTaskRunnerConfig),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,NEW org.apache.druid.indexing.overlord.config.RemoteTaskRunnerConfig(),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.config.RemoteTaskRunnerConfig>.andReturn(RemoteTaskRunnerConfig),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.IExpectationSetters<org.apache.druid.indexing.overlord.config.RemoteTaskRunnerConfig>.times(int),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.replay(Object[]),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.replay(Object[]),0
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.PendingTaskBasedWorkerProvisioningStrategy.makeProvisioner(WorkerTaskRunner),1
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.Provisioner.doProvision(),1
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,ASSERT org.junit.Assert.assertTrue(boolean),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,ASSERT org.junit.Assert.assertTrue(boolean),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.Provisioner.getStats(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.ScalingStats.toList(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.Provisioner.getStats(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.ScalingStats.toList(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.ScalingStats.ScalingEvent.getTimestamp(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,ASSERT org.junit.Assert.assertTrue(boolean),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.Provisioner.getStats(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.ScalingStats.toList(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.ScalingStats.ScalingEvent.getEvent(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.Provisioner.doProvision(),1
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,ASSERT org.junit.Assert.assertFalse(boolean),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,ASSERT org.junit.Assert.assertTrue(boolean),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.Provisioner.getStats(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.ScalingStats.toList(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.ScalingStats.ScalingEvent.getEvent(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.Provisioner.getStats(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.ScalingStats.toList(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,org.apache.druid.indexing.overlord.autoscaling.ScalingStats.ScalingEvent.getTimestamp(),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,ASSERT org.junit.Assert.assertTrue(boolean),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.verify(Object[]),2
+PendingTaskBasedProvisioningStrategyTest,testSomethingProvisioning,MOCK org.easymock.EasyMock.verify(Object[]),2

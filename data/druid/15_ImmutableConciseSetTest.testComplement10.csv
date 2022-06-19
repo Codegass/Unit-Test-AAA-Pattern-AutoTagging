@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ImmutableConciseSetTest,testComplement10,NEW org.apache.druid.extendedset.intset.ImmutableConciseSet(),0
+ImmutableConciseSetTest,testComplement10,     org.apache.druid.extendedset.intset.ImmutableConciseSet.complement(ImmutableConciseSet),1
+ImmutableConciseSetTest,testComplement10,"     org.apache.druid.extendedset.intset.ImmutableConciseSet.complement(ImmutableConciseSet, int)",1
+ImmutableConciseSetTest,testComplement10,     org.apache.druid.extendedset.intset.ImmutableConciseSet.iterator(),2
+ImmutableConciseSetTest,testComplement10,     org.apache.druid.extendedset.intset.IntSet.IntIterator.hasNext(),2
+ImmutableConciseSetTest,testComplement10,     org.apache.druid.extendedset.intset.IntSet.IntIterator.next(),2
+ImmutableConciseSetTest,testComplement10,"     ASSERT junit.framework.Assert.assertEquals(Object, Object)",2

@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+LinkDomainToLdapCmdTest,execute,"NEW org.apache.cloudstack.api.response.LinkDomainToLdapResponse(String, String, String, short)",0
+LinkDomainToLdapCmdTest,execute,org.apache.cloudstack.ldap.LdapManager.linkDomainToLdap(LinkDomainToLdapCmd),0
+LinkDomainToLdapCmdTest,execute,"org.apache.cloudstack.ldap.LdapManager.getUser(String, String, String, Long)",0
+LinkDomainToLdapCmdTest,execute,"NEW org.apache.cloudstack.ldap.LdapUser(String, String, String, String, String, String, boolean, List<String>)",0
+LinkDomainToLdapCmdTest,execute,"com.cloud.user.AccountService.getActiveAccountByName(String, Long)",0
+LinkDomainToLdapCmdTest,execute,NEW com.cloud.user.UserAccountVO(),0
+LinkDomainToLdapCmdTest,execute,com.cloud.user.UserAccountVO.setAccountId(long),0
+LinkDomainToLdapCmdTest,execute,org.apache.cloudstack.acl.RoleType.getId(),0
+LinkDomainToLdapCmdTest,execute,"com.cloud.user.AccountService.createUserAccount(String, String, String, String, String, String, String, short, Long, Long, String, Map<String,String>, String, String, Source)",0
+LinkDomainToLdapCmdTest,execute,org.apache.cloudstack.api.BaseResponse.getObjectName(),2
+LinkDomainToLdapCmdTest,execute,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LinkDomainToLdapCmdTest,execute,org.apache.cloudstack.api.BaseResponse.getResponseName(),2
+LinkDomainToLdapCmdTest,execute,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LinkDomainToLdapCmdTest,execute,org.apache.cloudstack.api.response.LinkDomainToLdapResponse.getDomainId(),2
+LinkDomainToLdapCmdTest,execute,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LinkDomainToLdapCmdTest,execute,org.apache.cloudstack.api.response.LinkDomainToLdapResponse.getType(),2
+LinkDomainToLdapCmdTest,execute,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LinkDomainToLdapCmdTest,execute,org.apache.cloudstack.api.response.LinkDomainToLdapResponse.getLdapDomain(),2
+LinkDomainToLdapCmdTest,execute,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+LinkDomainToLdapCmdTest,execute,org.apache.cloudstack.api.response.LinkDomainToLdapResponse.getAdminId(),2
+LinkDomainToLdapCmdTest,execute,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2

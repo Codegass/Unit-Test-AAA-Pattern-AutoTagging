@@ -1,0 +1,52 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AgeOffStoreTest,testNonEmpty,NEW org.apache.accumulo.fate.AgeOffStoreTest.TestTimeSource(),0
+AgeOffStoreTest,testNonEmpty,NEW org.apache.accumulo.fate.SimpleStore<java.lang.String>(),0
+AgeOffStoreTest,testNonEmpty,TEST org.apache.accumulo.fate.SimpleStore.create(),0
+AgeOffStoreTest,testNonEmpty,TEST org.apache.accumulo.fate.SimpleStore.reserve(long),0
+AgeOffStoreTest,testNonEmpty,"TEST org.apache.accumulo.fate.SimpleStore.setStatus(long, TStatus)",0
+AgeOffStoreTest,testNonEmpty,"TEST org.apache.accumulo.fate.SimpleStore.unreserve(long, long)",0
+AgeOffStoreTest,testNonEmpty,TEST org.apache.accumulo.fate.SimpleStore.create(),0
+AgeOffStoreTest,testNonEmpty,TEST org.apache.accumulo.fate.SimpleStore.reserve(long),0
+AgeOffStoreTest,testNonEmpty,"TEST org.apache.accumulo.fate.SimpleStore.setStatus(long, TStatus)",0
+AgeOffStoreTest,testNonEmpty,"TEST org.apache.accumulo.fate.SimpleStore.setStatus(long, TStatus)",0
+AgeOffStoreTest,testNonEmpty,"TEST org.apache.accumulo.fate.SimpleStore.unreserve(long, long)",0
+AgeOffStoreTest,testNonEmpty,TEST org.apache.accumulo.fate.SimpleStore.create(),0
+AgeOffStoreTest,testNonEmpty,TEST org.apache.accumulo.fate.SimpleStore.reserve(long),0
+AgeOffStoreTest,testNonEmpty,"TEST org.apache.accumulo.fate.SimpleStore.setStatus(long, TStatus)",0
+AgeOffStoreTest,testNonEmpty,"TEST org.apache.accumulo.fate.SimpleStore.setStatus(long, TStatus)",0
+AgeOffStoreTest,testNonEmpty,"TEST org.apache.accumulo.fate.SimpleStore.unreserve(long, long)",0
+AgeOffStoreTest,testNonEmpty,TEST org.apache.accumulo.fate.SimpleStore.create(),0
+AgeOffStoreTest,testNonEmpty,"NEW org.apache.accumulo.fate.AgeOffStore<java.lang.String>(TStore<String>, long, TimeSource)",0
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.list(),0
+AgeOffStoreTest,testNonEmpty,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.list(),0
+AgeOffStoreTest,testNonEmpty,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.ageOff(),1
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.list(),2
+AgeOffStoreTest,testNonEmpty,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.list(),2
+AgeOffStoreTest,testNonEmpty,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.ageOff(),1
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.list(),2
+AgeOffStoreTest,testNonEmpty,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.list(),2
+AgeOffStoreTest,testNonEmpty,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.reserve(long),0
+AgeOffStoreTest,testNonEmpty,"org.apache.accumulo.fate.AgeOffStore.setStatus(long, TStatus)",0
+AgeOffStoreTest,testNonEmpty,"org.apache.accumulo.fate.AgeOffStore.unreserve(long, long)",0
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.ageOff(),1
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.list(),2
+AgeOffStoreTest,testNonEmpty,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.list(),2
+AgeOffStoreTest,testNonEmpty,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.reserve(long),0
+AgeOffStoreTest,testNonEmpty,"org.apache.accumulo.fate.AgeOffStore.setStatus(long, TStatus)",0
+AgeOffStoreTest,testNonEmpty,"org.apache.accumulo.fate.AgeOffStore.unreserve(long, long)",0
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.ageOff(),1
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.list(),2
+AgeOffStoreTest,testNonEmpty,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.list(),2
+AgeOffStoreTest,testNonEmpty,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.ageOff(),1
+AgeOffStoreTest,testNonEmpty,org.apache.accumulo.fate.AgeOffStore.list(),2
+AgeOffStoreTest,testNonEmpty,"ASSERT org.junit.Assert.assertEquals(long, long)",2

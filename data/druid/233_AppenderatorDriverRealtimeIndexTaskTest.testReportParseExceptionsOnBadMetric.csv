@@ -1,0 +1,44 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,TEST org.apache.druid.indexing.common.task.AppenderatorDriverRealtimeIndexTaskTest.expectPublishedSegments(int),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,                    NEW org.apache.druid.jackson.DefaultObjectMapper(),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,                    NEW com.fasterxml.jackson.databind.InjectableValues.Std(),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"               NEW org.apache.druid.data.input.impl.TimestampSpec(String, String, DateTime)",0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,               NEW org.apache.druid.data.input.impl.StringDimensionSchema(String),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,               NEW org.apache.druid.data.input.impl.StringDimensionSchema(String),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,               NEW org.apache.druid.data.input.impl.StringDimensionSchema(String),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,               NEW org.apache.druid.data.input.impl.LongDimensionSchema(String),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,               NEW org.apache.druid.data.input.impl.FloatDimensionSchema(String),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"               NEW org.apache.druid.data.input.impl.DimensionsSpec(List<DimensionSchema>, List<String>, List<SpatialDimensionSchema>)",0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"               NEW org.apache.druid.data.input.impl.TimeAndDimsParseSpec(TimestampSpec, DimensionsSpec)",0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,               NEW org.apache.druid.data.input.impl.MapInputRowParser(ParseSpec),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"               NEW org.apache.druid.segment.indexing.granularity.UniformGranularitySpec(Granularity, Granularity, List<Interval>)",0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"               NEW org.apache.druid.segment.indexing.DataSchema(String, Map<String,Object>, AggregatorFactory[], GranularitySpec, TransformSpec, ObjectMapper)",0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,               NEW org.apache.druid.query.aggregation.CountAggregatorFactory(String),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"               NEW org.apache.druid.query.aggregation.LongSumAggregatorFactory(String, String)",0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,               NEW org.apache.druid.indexing.common.task.AppenderatorDriverRealtimeIndexTaskTest.TestFirehoseFactory(),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"               NEW org.apache.druid.segment.indexing.RealtimeIOConfig(FirehoseFactory, PlumberSchool)",0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"               NEW org.apache.druid.indexing.common.index.RealtimeAppenderatorTuningConfig(Integer, Long, Integer, Long, Period, File, Integer, ShardSpec, IndexSpec, IndexSpec, Boolean, Long, Long, SegmentWriteOutMediumFactory, Boolean, Integer, Integer)",0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"               NEW org.apache.druid.indexing.common.index.RealtimeAppenderatorIngestionSpec(DataSchema, RealtimeIOConfig, RealtimeAppenderatorTuningConfig)",0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"               NEW anonymous(String, TaskResource, RealtimeAppenderatorIngestionSpec, Map<String,Object>, ChatHandlerProvider, AuthorizerMapper, RowIngestionMetersFactory, AppenderatorsManager)",0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,     org.apache.druid.indexing.common.task.Task.getId(),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,     org.apache.druid.indexer.TaskStatus.running(String),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"     org.apache.druid.indexing.overlord.TaskStorage.insert(Task, TaskStatus)",0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,     org.apache.druid.indexing.overlord.TaskLockbox.syncFromStorage(),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,     org.apache.druid.indexing.common.TaskToolboxFactory.build(Task),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,     org.apache.druid.indexing.common.TaskToolbox.getTaskActionClient(),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,     org.apache.druid.indexing.common.task.Task.isReady(TaskActionClient),0
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,     org.apache.druid.indexing.common.task.Task.run(TaskToolbox),1
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"     NEW org.apache.druid.java.util.common.ISE(String, Object[])",2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"     org.apache.druid.java.util.common.logger.Logger.warn(Throwable, String, Object[])",2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,org.apache.druid.indexing.common.task.AppenderatorDriverRealtimeIndexTask.getFirehose(),2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,org.apache.druid.indexing.common.task.AppenderatorDriverRealtimeIndexTask.getFirehose(),2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,NEW org.joda.time.Period(Object),2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"     java.util.Optional.ofNullable(Map<String,Object>)",2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"     java.util.Deque<java.util.Optional<java.util.Map<java.lang.String,java.lang.Object>>>.add(Optional<Map<String,Object>>)",2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,TEST org.apache.druid.indexing.common.task.AppenderatorDriverRealtimeIndexTaskTest.TestFirehose.close(),2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,org.apache.druid.indexer.TaskStatus.getErrorMsg(),2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,ASSERT org.junit.Assert.assertTrue(boolean),2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,     NEW anonymous(),2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"     org.apache.druid.indexing.common.IngestionStatsAndErrorsTaskReportData.getPayloadFromTaskReports(Map<String,TaskReport>)",2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,org.apache.druid.indexing.common.IngestionStatsAndErrorsTaskReportData.getUnparseableEvents(),2
+AppenderatorDriverRealtimeIndexTaskTest,testReportParseExceptionsOnBadMetric,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

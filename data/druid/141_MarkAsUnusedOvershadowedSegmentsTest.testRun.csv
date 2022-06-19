@@ -1,0 +1,61 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.server.coordination.ServerType.fromString(String),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,NEW org.apache.druid.server.coordinator.duty.MarkAsUnusedOvershadowedSegments(DruidCoordinator),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.server.coordinator.LoadQueuePeon.getLoadQueueSize(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.expect(Long),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.Long>.andReturn(Long),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.Long>.anyTimes(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.client.ImmutableDruidServer.getMaxSize(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.expect(Long),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.Long>.andReturn(Long),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.Long>.anyTimes(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.client.ImmutableDruidServer.getCurrSize(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.expect(Long),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.Long>.andReturn(Long),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.Long>.anyTimes(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.client.ImmutableDruidServer.getName(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.expect(String),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.client.ImmutableDruidServer.getHost(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.expect(String),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.client.ImmutableDruidServer.getTier(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.expect(String),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.client.ImmutableDruidServer.getType(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.expect(ServerType),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<org.apache.druid.server.coordination.ServerType>.andReturn(ServerType),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<org.apache.druid.server.coordination.ServerType>.anyTimes(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.client.ImmutableDruidServer.getDataSources(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.expect(Iterable<ImmutableDruidDataSource>),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.Iterable<org.apache.druid.client.ImmutableDruidDataSource>>.andReturn(Iterable<ImmutableDruidDataSource>),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.Iterable<org.apache.druid.client.ImmutableDruidDataSource>>.anyTimes(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.client.ImmutableDruidDataSource.getSegments(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.expect(Collection<DataSegment>),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.timeline.DataSegment>>.andReturn(Collection<DataSegment>),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.util.Collection<org.apache.druid.timeline.DataSegment>>.anyTimes(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.client.ImmutableDruidDataSource.getName(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.expect(String),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.String>.andReturn(String),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.IExpectationSetters<java.lang.String>.anyTimes(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.server.coordinator.DruidCoordinator.markSegmentAsUnused(DataSegment),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.server.coordinator.DruidCoordinator.markSegmentAsUnused(DataSegment),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.expectLastCall(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.replay(Object[]),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,     NEW org.apache.druid.server.coordinator.DruidClusterBuilder(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,"NEW org.apache.druid.server.coordinator.ServerHolder(ImmutableDruidServer, LoadQueuePeon)",0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,"TEST org.apache.druid.server.coordinator.DruidClusterBuilder.addTier(String, ServerHolder[])",0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,"     org.apache.druid.server.coordinator.DruidCluster.createDruidClusterFromBuilderInTest(Set<ServerHolder>, Map<String,Iterable<ServerHolder>>, Set<ServerHolder>)",0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,     org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.newBuilder(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,     org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withStartTimeNanos(long),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withUsedSegmentsInTest(Collection<DataSegment>),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,NEW org.apache.druid.server.coordinator.CoordinatorStats(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withCoordinatorStats(CoordinatorStats),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withDruidCluster(DruidCluster),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.withDynamicConfigs(CoordinatorDynamicConfig),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.server.coordinator.DruidCoordinatorRuntimeParams.Builder.build(),0
+MarkAsUnusedOvershadowedSegmentsTest,testRun,org.apache.druid.server.coordinator.duty.MarkAsUnusedOvershadowedSegments.run(DruidCoordinatorRuntimeParams),1
+MarkAsUnusedOvershadowedSegmentsTest,testRun,MOCK org.easymock.EasyMock.verify(Object[]),2

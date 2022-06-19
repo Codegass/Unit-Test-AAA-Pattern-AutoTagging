@@ -1,0 +1,21 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NetUtilsTest,testisNetworkorBroadCastIP,"com.cloud.utils.net.NetUtils.isNetworkorBroadcastIP(String, String)",1
+NetUtilsTest,testisNetworkorBroadCastIP,ASSERT org.junit.Assert.assertTrue(boolean),2
+NetUtilsTest,testisNetworkorBroadCastIP,"com.cloud.utils.net.NetUtils.isNetworkorBroadcastIP(String, String)",1
+NetUtilsTest,testisNetworkorBroadCastIP,ASSERT org.junit.Assert.assertTrue(boolean),2
+NetUtilsTest,testisNetworkorBroadCastIP,"com.cloud.utils.net.NetUtils.isNetworkorBroadcastIP(String, String)",1
+NetUtilsTest,testisNetworkorBroadCastIP,ASSERT org.junit.Assert.assertTrue(boolean),2
+NetUtilsTest,testisNetworkorBroadCastIP,"com.cloud.utils.net.NetUtils.isNetworkorBroadcastIP(String, String)",1
+NetUtilsTest,testisNetworkorBroadCastIP,ASSERT org.junit.Assert.assertTrue(boolean),2
+NetUtilsTest,testisNetworkorBroadCastIP,"com.cloud.utils.net.NetUtils.isNetworkorBroadcastIP(String, String)",1
+NetUtilsTest,testisNetworkorBroadCastIP,ASSERT org.junit.Assert.assertFalse(boolean),2
+NetUtilsTest,testisNetworkorBroadCastIP,"com.cloud.utils.net.NetUtils.isNetworkorBroadcastIP(String, String)",1
+NetUtilsTest,testisNetworkorBroadCastIP,ASSERT org.junit.Assert.assertFalse(boolean),2
+NetUtilsTest,testisNetworkorBroadCastIP,"com.cloud.utils.net.NetUtils.isNetworkorBroadcastIP(String, String)",1
+NetUtilsTest,testisNetworkorBroadCastIP,ASSERT org.junit.Assert.assertFalse(boolean),2
+NetUtilsTest,testisNetworkorBroadCastIP,"com.cloud.utils.net.NetUtils.isNetworkorBroadcastIP(String, String)",1
+NetUtilsTest,testisNetworkorBroadCastIP,ASSERT org.junit.Assert.assertFalse(boolean),2
+NetUtilsTest,testisNetworkorBroadCastIP,"com.cloud.utils.net.NetUtils.isNetworkorBroadcastIP(String, String)",1
+NetUtilsTest,testisNetworkorBroadCastIP,ASSERT org.junit.Assert.assertTrue(boolean),2
+NetUtilsTest,testisNetworkorBroadCastIP,"com.cloud.utils.net.NetUtils.isNetworkorBroadcastIP(String, String)",1
+NetUtilsTest,testisNetworkorBroadCastIP,ASSERT org.junit.Assert.assertFalse(boolean),2

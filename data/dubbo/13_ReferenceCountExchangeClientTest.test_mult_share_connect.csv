@@ -1,0 +1,45 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ReferenceCountExchangeClientTest,test_mult_share_connect,     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     org.apache.dubbo.common.utils.NetUtils.getAvailablePort(),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     org.apache.dubbo.common.URL.valueOf(String),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     org.apache.dubbo.common.URL.valueOf(String),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     NEW org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.DemoServiceImpl(),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,"          org.apache.dubbo.rpc.ProxyFactory.getInvoker(T, Class<T>, URL)",0
+ReferenceCountExchangeClientTest,test_mult_share_connect,          org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.export(Invoker<T>),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     NEW org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.HelloServiceImpl(),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,"          org.apache.dubbo.rpc.ProxyFactory.getInvoker(T, Class<T>, URL)",0
+ReferenceCountExchangeClientTest,test_mult_share_connect,          org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.export(Invoker<T>),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,"          org.apache.dubbo.rpc.protocol.AbstractProtocol.refer(Class<>, URL)",0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<IDemoService>),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.IDemoService.demo(),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",0
+ReferenceCountExchangeClientTest,test_mult_share_connect,"     TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.referInvoker(Class<?>, URL)",0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<IHelloService>),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.IHelloService.hello(),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",0
+ReferenceCountExchangeClientTest,test_mult_share_connect,          org.apache.dubbo.common.Node.getUrl(),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,"          org.apache.dubbo.common.URL.getParameter(String, int)",0
+ReferenceCountExchangeClientTest,test_mult_share_connect,                    org.apache.dubbo.rpc.protocol.AsyncToSyncInvoker.getInvoker(),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,                    ASSERT org.junit.jupiter.api.Assertions.fail(String),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,                    TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.getInvokerClientList(Invoker<?>),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,          ASSERT org.junit.jupiter.api.Assertions.fail(String),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.getClient(Invoker<?>),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,          org.apache.dubbo.rpc.protocol.AsyncToSyncInvoker.getInvoker(),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,          ASSERT org.junit.jupiter.api.Assertions.fail(String),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",0
+ReferenceCountExchangeClientTest,test_mult_share_connect,TEST org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClientTest.getReferenceClientList(Invoker<?>),0
+ReferenceCountExchangeClientTest,test_mult_share_connect,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",0
+ReferenceCountExchangeClientTest,test_mult_share_connect,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",0
+ReferenceCountExchangeClientTest,test_mult_share_connect,org.apache.dubbo.remoting.Endpoint.getLocalAddress(),1
+ReferenceCountExchangeClientTest,test_mult_share_connect,org.apache.dubbo.remoting.Endpoint.getLocalAddress(),1
+ReferenceCountExchangeClientTest,test_mult_share_connect,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ReferenceCountExchangeClientTest,test_mult_share_connect,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ReferenceCountExchangeClientTest,test_mult_share_connect,     org.apache.dubbo.common.Node.destroy(),2
+ReferenceCountExchangeClientTest,test_mult_share_connect,     org.apache.dubbo.common.Node.destroy(),2
+ReferenceCountExchangeClientTest,test_mult_share_connect,     org.apache.dubbo.rpc.Exporter.getInvoker(),2
+ReferenceCountExchangeClientTest,test_mult_share_connect,     org.apache.dubbo.common.Node.destroy(),2
+ReferenceCountExchangeClientTest,test_mult_share_connect,     org.apache.dubbo.rpc.Exporter.getInvoker(),2
+ReferenceCountExchangeClientTest,test_mult_share_connect,     org.apache.dubbo.common.Node.destroy(),2

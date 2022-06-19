@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+LookupExtractionFnTest,testEqualsAndHash,org.apache.druid.common.config.NullHandling.isNullOrEquivalent(String),0
+LookupExtractionFnTest,testEqualsAndHash,"NEW org.apache.druid.query.extraction.MapLookupExtractor(Map<String,String>, boolean)",0
+LookupExtractionFnTest,testEqualsAndHash,"NEW org.apache.druid.query.lookup.LookupExtractionFn(LookupExtractor, boolean, String, Boolean, Boolean)",1
+LookupExtractionFnTest,testEqualsAndHash,"NEW org.apache.druid.query.extraction.MapLookupExtractor(Map<String,String>, boolean)",0
+LookupExtractionFnTest,testEqualsAndHash,"NEW org.apache.druid.query.lookup.LookupExtractionFn(LookupExtractor, boolean, String, Boolean, Boolean)",1
+LookupExtractionFnTest,testEqualsAndHash,"NEW org.apache.druid.query.extraction.MapLookupExtractor(Map<String,String>, boolean)",0
+LookupExtractionFnTest,testEqualsAndHash,"NEW org.apache.druid.query.lookup.LookupExtractionFn(LookupExtractor, boolean, String, Boolean, Boolean)",1
+LookupExtractionFnTest,testEqualsAndHash,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+LookupExtractionFnTest,testEqualsAndHash,org.apache.druid.query.lookup.LookupExtractionFn.hashCode(),1
+LookupExtractionFnTest,testEqualsAndHash,org.apache.druid.query.lookup.LookupExtractionFn.hashCode(),1
+LookupExtractionFnTest,testEqualsAndHash,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+LookupExtractionFnTest,testEqualsAndHash,"ASSERT org.junit.Assert.assertNotEquals(Object, Object)",2
+LookupExtractionFnTest,testEqualsAndHash,org.apache.druid.query.lookup.LookupExtractionFn.hashCode(),1
+LookupExtractionFnTest,testEqualsAndHash,org.apache.druid.query.lookup.LookupExtractionFn.hashCode(),1
+LookupExtractionFnTest,testEqualsAndHash,"ASSERT org.junit.Assert.assertNotEquals(long, long)",2

@@ -1,0 +1,51 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TaskSerdeTest,testIndexTaskwithResourceSerde,"NEW org.apache.druid.indexing.common.task.TaskResource(String, int)",0
+TaskSerdeTest,testIndexTaskwithResourceSerde,"NEW org.apache.druid.data.input.impl.TimestampSpec(String, String, DateTime)",0
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.java.util.common.Intervals.of(String),0
+TaskSerdeTest,testIndexTaskwithResourceSerde,"NEW org.apache.druid.segment.indexing.granularity.UniformGranularitySpec(Granularity, Granularity, List<Interval>)",0
+TaskSerdeTest,testIndexTaskwithResourceSerde,"NEW org.apache.druid.segment.indexing.DataSchema(String, TimestampSpec, DimensionsSpec, AggregatorFactory[], GranularitySpec, TransformSpec)",0
+TaskSerdeTest,testIndexTaskwithResourceSerde,"NEW org.apache.druid.data.input.impl.LocalInputSource(File, String)",0
+TaskSerdeTest,testIndexTaskwithResourceSerde,NEW org.apache.druid.data.input.impl.NoopInputFormat(),0
+TaskSerdeTest,testIndexTaskwithResourceSerde,"NEW org.apache.druid.indexing.common.task.IndexTask.IndexIOConfig(FirehoseFactory, InputSource, InputFormat, Boolean)",0
+TaskSerdeTest,testIndexTaskwithResourceSerde,"NEW org.apache.druid.indexer.partitions.DynamicPartitionsSpec(Integer, Long)",0
+TaskSerdeTest,testIndexTaskwithResourceSerde,"NEW org.apache.druid.indexing.common.task.IndexTask.IndexTuningConfig(Integer, Integer, Integer, Long, Long, Integer, Integer, List<String>, PartitionsSpec, IndexSpec, IndexSpec, Integer, Boolean, Boolean, Long, Long, SegmentWriteOutMediumFactory, Boolean, Integer, Integer)",0
+TaskSerdeTest,testIndexTaskwithResourceSerde,"NEW org.apache.druid.indexing.common.task.IndexTask.IndexIngestionSpec(DataSchema, IndexIOConfig, IndexTuningConfig)",0
+TaskSerdeTest,testIndexTaskwithResourceSerde,"NEW org.apache.druid.indexing.common.task.IndexTask(String, TaskResource, IndexIngestionSpec, Map<String,Object>, AuthorizerMapper, ChatHandlerProvider, RowIngestionMetersFactory, AppenderatorsManager)",1
+TaskSerdeTest,testIndexTaskwithResourceSerde,"NEW org.apache.druid.query.aggregation.DoubleSumAggregatorFactory(String, String)",0
+TaskSerdeTest,testIndexTaskwithResourceSerde,NEW org.apache.druid.guice.FirehoseModule(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.guice.FirehoseModule.getJacksonModules(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getDataSource(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getId(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getId(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getTaskResource(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.TaskResource.getRequiredCapacity(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getTaskResource(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.TaskResource.getAvailabilityGroup(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getTaskResource(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.TaskResource.getRequiredCapacity(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getTaskResource(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.TaskResource.getRequiredCapacity(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getTaskResource(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.TaskResource.getAvailabilityGroup(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getTaskResource(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.TaskResource.getAvailabilityGroup(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getGroupId(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getGroupId(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getDataSource(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.AbstractTask.getDataSource(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+TaskSerdeTest,testIndexTaskwithResourceSerde,ASSERT org.junit.Assert.assertTrue(boolean),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.IndexTask.getIngestionSchema(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.IndexTask.IndexIngestionSpec.getIOConfig(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.IndexTask.IndexIOConfig.getInputSource(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,ASSERT org.junit.Assert.assertTrue(boolean),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.IndexTask.getIngestionSchema(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.IndexTask.IndexIngestionSpec.getIOConfig(),2
+TaskSerdeTest,testIndexTaskwithResourceSerde,org.apache.druid.indexing.common.task.IndexTask.IndexIOConfig.getInputSource(),2

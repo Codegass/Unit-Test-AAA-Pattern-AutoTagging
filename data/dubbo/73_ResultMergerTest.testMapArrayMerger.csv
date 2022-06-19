@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ResultMergerTest,testMapArrayMerger,NEW anonymous(),0
+ResultMergerTest,testMapArrayMerger,NEW anonymous(),0
+ResultMergerTest,testMapArrayMerger,org.apache.dubbo.rpc.cluster.merger.MergerFactory.getMerger(Class<Map>),0
+ResultMergerTest,testMapArrayMerger,org.apache.dubbo.rpc.cluster.Merger.merge(Map[]),1
+ResultMergerTest,testMapArrayMerger,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ResultMergerTest,testMapArrayMerger,NEW anonymous(),0
+ResultMergerTest,testMapArrayMerger,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ResultMergerTest,testMapArrayMerger,org.apache.dubbo.rpc.cluster.merger.MergerFactory.getMerger(Class<Map>),0
+ResultMergerTest,testMapArrayMerger,org.apache.dubbo.rpc.cluster.Merger.merge(Map[]),1
+ResultMergerTest,testMapArrayMerger,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+ResultMergerTest,testMapArrayMerger,org.apache.dubbo.rpc.cluster.merger.MergerFactory.getMerger(Class<Map>),0
+ResultMergerTest,testMapArrayMerger,org.apache.dubbo.rpc.cluster.Merger.merge(Map[]),1
+ResultMergerTest,testMapArrayMerger,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

@@ -1,0 +1,17 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,NEW org.apache.druid.query.aggregation.TestFloatColumnSelector(float[]),0
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,"NEW org.apache.druid.query.aggregation.histogram.FixedBucketsHistogramAggregatorFactory(String, String, Integer, double, double, OutlierHandlingMode, Boolean)",0
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,"NEW org.apache.druid.query.aggregation.histogram.FixedBucketsHistogramBufferAggregator(BaseObjectColumnValueSelector, double, double, int, OutlierHandlingMode)",0
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,org.apache.druid.query.aggregation.AggregatorFactory.getMaxIntermediateSizeWithNulls(),0
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,"org.apache.druid.query.aggregation.histogram.FixedBucketsHistogramBufferAggregator.init(ByteBuffer, int)",0
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,"     org.apache.druid.query.aggregation.BufferAggregator.aggregate(ByteBuffer, int)",1
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,     TEST org.apache.druid.query.aggregation.TestFloatColumnSelector.increment(),0
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,"org.apache.druid.query.aggregation.histogram.FixedBucketsHistogramBufferAggregator.get(ByteBuffer, int)",2
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,org.apache.druid.query.aggregation.histogram.FixedBucketsHistogram.getHistogram(),2
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,"ASSERT org.junit.Assert.assertArrayEquals(String, long[], long[])",2
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,org.apache.druid.query.aggregation.histogram.FixedBucketsHistogram.getMin(),2
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,"ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,org.apache.druid.query.aggregation.histogram.FixedBucketsHistogram.getMax(),2
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,"ASSERT org.junit.Assert.assertEquals(String, double, double, double)",2
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,org.apache.druid.query.aggregation.histogram.FixedBucketsHistogram.getCount(),2
+FixedBucketsHistogramBufferAggregatorTest,testBufferAggregate,"ASSERT org.junit.Assert.assertEquals(String, long, long)",2

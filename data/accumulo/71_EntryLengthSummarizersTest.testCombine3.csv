@@ -1,0 +1,19 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+EntryLengthSummarizersTest,testCombine3,org.apache.accumulo.core.client.summary.SummarizerConfiguration.builder(Class<? extends Summarizer>),0
+EntryLengthSummarizersTest,testCombine3,org.apache.accumulo.core.client.summary.SummarizerConfiguration.Builder.build(),0
+EntryLengthSummarizersTest,testCombine3,NEW org.apache.accumulo.core.client.summary.summarizers.EntryLengthSummarizer(),0
+EntryLengthSummarizersTest,testCombine3,org.apache.accumulo.core.client.summary.summarizers.EntryLengthSummarizer.collector(SummarizerConfiguration),0
+EntryLengthSummarizersTest,testCombine3,"NEW org.apache.accumulo.core.data.Key(CharSequence, CharSequence)",0
+EntryLengthSummarizersTest,testCombine3,NEW org.apache.accumulo.core.data.Value(CharSequence),0
+EntryLengthSummarizersTest,testCombine3,"org.apache.accumulo.core.client.summary.Summarizer.Collector.accept(Key, Value)",0
+EntryLengthSummarizersTest,testCombine3,"java.util.HashMap<java.lang.String,java.lang.Long>.put(String, Long)",0
+EntryLengthSummarizersTest,testCombine3,org.apache.accumulo.core.client.summary.Summarizer.Collector.summarize(StatisticConsumer),0
+EntryLengthSummarizersTest,testCombine3,org.apache.accumulo.core.client.summary.summarizers.EntryLengthSummarizer.collector(SummarizerConfiguration),0
+EntryLengthSummarizersTest,testCombine3,"NEW org.apache.accumulo.core.data.Key(CharSequence, CharSequence, CharSequence)",0
+EntryLengthSummarizersTest,testCombine3,NEW org.apache.accumulo.core.data.Value(CharSequence),0
+EntryLengthSummarizersTest,testCombine3,"org.apache.accumulo.core.client.summary.Summarizer.Collector.accept(Key, Value)",0
+EntryLengthSummarizersTest,testCombine3,"java.util.HashMap<java.lang.String,java.lang.Long>.put(String, Long)",0
+EntryLengthSummarizersTest,testCombine3,org.apache.accumulo.core.client.summary.Summarizer.Collector.summarize(StatisticConsumer),0
+EntryLengthSummarizersTest,testCombine3,org.apache.accumulo.core.client.summary.summarizers.EntryLengthSummarizer.combiner(SummarizerConfiguration),1
+EntryLengthSummarizersTest,testCombine3,"org.apache.accumulo.core.client.summary.Summarizer.Combiner.merge(Map<String,Long>, Map<String,Long>)",2
+EntryLengthSummarizersTest,testCombine3,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

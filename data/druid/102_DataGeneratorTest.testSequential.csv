@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DataGeneratorTest,testSequential,NEW org.apache.druid.segment.generator.DataGeneratorTest.RowValueTracker(),0
+DataGeneratorTest,testSequential,"org.apache.druid.segment.generator.GeneratorColumnSchema.makeSequential(String, ValueType, boolean, int, Double, int, int)",1
+DataGeneratorTest,testSequential,"org.apache.druid.segment.generator.GeneratorColumnSchema.makeEnumeratedSequential(String, ValueType, boolean, int, Double, List<Object>)",1
+DataGeneratorTest,testSequential,"org.apache.druid.segment.generator.GeneratorColumnSchema.makeSequential(String, ValueType, boolean, int, Double, int, int)",1
+DataGeneratorTest,testSequential,"NEW org.apache.druid.segment.generator.DataGenerator(List<GeneratorColumnSchema>, long, long, int, Double)",2
+DataGeneratorTest,testSequential,org.apache.druid.segment.generator.DataGenerator.nextRow(),2
+DataGeneratorTest,testSequential,     org.apache.druid.data.input.InputRow.getDimensions(),2
+DataGeneratorTest,testSequential,     org.apache.druid.data.input.Row.getRaw(String),2
+DataGeneratorTest,testSequential,TEST org.apache.druid.segment.generator.DataGeneratorTest.RowValueTracker.printStuff(),2

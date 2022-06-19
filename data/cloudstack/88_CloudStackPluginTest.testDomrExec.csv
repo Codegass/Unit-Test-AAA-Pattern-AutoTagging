@@ -1,0 +1,21 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CloudStackPluginTest,testDomrExec,TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setResult(String),0
+CloudStackPluginTest,testDomrExec,"com.cloud.hypervisor.ovm3.objects.CloudstackPlugin.domrExec(String, String)",1
+CloudStackPluginTest,testDomrExec,ASSERT org.junit.Assert.assertNotNull(Object),2
+CloudStackPluginTest,testDomrExec,com.cloud.hypervisor.ovm3.objects.CloudstackPlugin.ReturnCode.getExit(),2
+CloudStackPluginTest,testDomrExec,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CloudStackPluginTest,testDomrExec,com.cloud.hypervisor.ovm3.objects.CloudstackPlugin.ReturnCode.getRc(),2
+CloudStackPluginTest,testDomrExec,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CloudStackPluginTest,testDomrExec,com.cloud.hypervisor.ovm3.objects.CloudstackPlugin.ReturnCode.getExit(),2
+CloudStackPluginTest,testDomrExec,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CloudStackPluginTest,testDomrExec,com.cloud.hypervisor.ovm3.objects.CloudstackPlugin.ReturnCode.getStdOut(),2
+CloudStackPluginTest,testDomrExec,ASSERT org.junit.Assert.assertNotNull(Object),2
+CloudStackPluginTest,testDomrExec,TEST com.cloud.hypervisor.ovm3.objects.ConnectionTest.setResult(String),0
+CloudStackPluginTest,testDomrExec,"com.cloud.hypervisor.ovm3.objects.CloudstackPlugin.domrExec(String, String)",1
+CloudStackPluginTest,testDomrExec,ASSERT org.junit.Assert.assertNotNull(Object),2
+CloudStackPluginTest,testDomrExec,com.cloud.hypervisor.ovm3.objects.CloudstackPlugin.ReturnCode.getRc(),2
+CloudStackPluginTest,testDomrExec,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CloudStackPluginTest,testDomrExec,com.cloud.hypervisor.ovm3.objects.CloudstackPlugin.ReturnCode.getExit(),2
+CloudStackPluginTest,testDomrExec,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+CloudStackPluginTest,testDomrExec,com.cloud.hypervisor.ovm3.objects.CloudstackPlugin.ReturnCode.getStdErr(),2
+CloudStackPluginTest,testDomrExec,ASSERT org.junit.Assert.assertNotNull(Object),2

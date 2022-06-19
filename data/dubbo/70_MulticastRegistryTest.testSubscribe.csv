@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MulticastRegistryTest,testSubscribe,NEW anonymous(),0
+MulticastRegistryTest,testSubscribe,"org.apache.dubbo.registry.multicast.MulticastRegistry.subscribe(URL, NotifyListener)",1
+MulticastRegistryTest,testSubscribe,org.apache.dubbo.common.URL.toFullString(),2
+MulticastRegistryTest,testSubscribe,org.apache.dubbo.common.URL.toFullString(),2
+MulticastRegistryTest,testSubscribe,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+MulticastRegistryTest,testSubscribe,org.apache.dubbo.registry.support.AbstractRegistry.getSubscribed(),2
+MulticastRegistryTest,testSubscribe,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

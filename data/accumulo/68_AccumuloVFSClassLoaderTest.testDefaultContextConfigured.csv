@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AccumuloVFSClassLoaderTest,testDefaultContextConfigured,org.apache.accumulo.start.classloader.vfs.AccumuloVFSClassLoader.getClassLoader(),0
+AccumuloVFSClassLoaderTest,testDefaultContextConfigured,ASSERT org.junit.Assert.assertTrue(boolean),2
+AccumuloVFSClassLoaderTest,testDefaultContextConfigured,ASSERT org.junit.Assert.assertTrue(boolean),2
+AccumuloVFSClassLoaderTest,testDefaultContextConfigured,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+AccumuloVFSClassLoaderTest,testDefaultContextConfigured,ASSERT org.junit.Assert.assertTrue(boolean),2
+AccumuloVFSClassLoaderTest,testDefaultContextConfigured,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

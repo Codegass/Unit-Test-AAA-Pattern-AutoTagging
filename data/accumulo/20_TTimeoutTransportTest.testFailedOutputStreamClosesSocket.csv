@@ -1,0 +1,29 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.EasyMock.createMock(Class<?>),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.EasyMock.createMockBuilder(Class<?>),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.IMockBuilder<java.lang.Object>.addMockedMethod(String),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.IMockBuilder<java.lang.Object>.addMockedMethod(String),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.IMockBuilder<java.lang.Object>.addMockedMethod(String),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.IMockBuilder<java.lang.Object>.createMock(),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,org.apache.accumulo.core.rpc.TTimeoutTransport.openSocketChannel(),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.EasyMock.expect(Socket),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.IExpectationSetters<java.net.Socket>.andReturn(Socket),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.IExpectationSetters<java.net.Socket>.once(),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,     MOCK org.easymock.EasyMock.expectLastCall(),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.once(),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,     MOCK org.easymock.EasyMock.expectLastCall(),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,     MOCK org.easymock.IExpectationSetters<java.lang.Object>.once(),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.EasyMock.expectLastCall(),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.IExpectationSetters<java.lang.Object>.once(),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,"org.apache.accumulo.core.rpc.TTimeoutTransport.wrapInputStream(Socket, long)",0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.EasyMock.expect(InputStream),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.IExpectationSetters<java.io.InputStream>.andReturn(InputStream),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,"org.apache.accumulo.core.rpc.TTimeoutTransport.wrapOutputStream(Socket, long)",0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.EasyMock.expect(OutputStream),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.IExpectationSetters<java.io.OutputStream>.andThrow(Throwable),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.EasyMock.replay(Object[]),0
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,"org.apache.accumulo.core.rpc.TTimeoutTransport.createInternal(SocketAddress, long)",1
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,ASSERT org.junit.Assert.fail(String),2
+TTimeoutTransportTest,testFailedOutputStreamClosesSocket,MOCK org.easymock.EasyMock.verify(Object[]),2

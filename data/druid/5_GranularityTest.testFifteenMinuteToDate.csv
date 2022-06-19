@@ -1,0 +1,53 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.joda.time.DateTime(int, int, int, int, int, int, int, Chronology)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"NEW org.apache.druid.java.util.common.GranularityTest.PathDate(DateTime, Class<? extends Exception>, String)",0
+GranularityTest,testFifteenMinuteToDate,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+GranularityTest,testFifteenMinuteToDate,"     org.apache.druid.java.util.common.granularity.Granularity.toDate(String, Formatter)",1
+GranularityTest,testFifteenMinuteToDate,"     ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+GranularityTest,testFifteenMinuteToDate,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+GranularityTest,testFifteenMinuteToDate,     org.apache.druid.java.util.common.granularity.Granularity.toDate(String),1
+GranularityTest,testFifteenMinuteToDate,"     org.apache.druid.java.util.common.granularity.Granularity.toDate(String, Formatter)",1
+GranularityTest,testFifteenMinuteToDate,"     ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+GranularityTest,testFifteenMinuteToDate,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+GranularityTest,testFifteenMinuteToDate,"     org.apache.druid.java.util.common.granularity.Granularity.toDate(String, Formatter)",1
+GranularityTest,testFifteenMinuteToDate,"     ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+GranularityTest,testFifteenMinuteToDate,     org.apache.druid.java.util.common.granularity.Granularity.getFormatter(Formatter),2
+GranularityTest,testFifteenMinuteToDate,"     org.apache.druid.java.util.common.granularity.Granularity.toDate(String, Formatter)",1
+GranularityTest,testFifteenMinuteToDate,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",2
+GranularityTest,testFifteenMinuteToDate,"     ASSERT org.junit.Assert.assertTrue(String, boolean)",2

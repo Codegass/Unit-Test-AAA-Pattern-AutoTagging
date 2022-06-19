@@ -1,0 +1,27 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RpcUtilsTest,testGetParameterTypes,"NEW org.apache.dubbo.rpc.RpcInvocation(String, String, Class<?>[], Object[], Map<String,Object>, Invoker<?>, Map<Object,Object>)",0
+RpcUtilsTest,testGetParameterTypes,org.apache.dubbo.rpc.support.RpcUtils.getParameterTypes(Invocation),1
+RpcUtilsTest,testGetParameterTypes,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),2
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RpcUtilsTest,testGetParameterTypes,"NEW org.apache.dubbo.rpc.RpcInvocation(String, String, Class<?>[], Object[], Map<String,Object>, Invoker<?>, Map<Object,Object>)",0
+RpcUtilsTest,testGetParameterTypes,org.apache.dubbo.rpc.support.RpcUtils.getParameterTypes(Invocation),1
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+RpcUtilsTest,testGetParameterTypes,"NEW org.apache.dubbo.rpc.RpcInvocation(String, String, Class<?>[], Object[], Map<String,Object>, Invoker<?>, Map<Object,Object>)",0
+RpcUtilsTest,testGetParameterTypes,org.apache.dubbo.rpc.support.RpcUtils.getParameterTypes(Invocation),1
+RpcUtilsTest,testGetParameterTypes,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),2
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RpcUtilsTest,testGetParameterTypes,"NEW org.apache.dubbo.rpc.RpcInvocation(String, String, Class<?>[], Object[], Map<String,Object>, Invoker<?>, Map<Object,Object>)",0
+RpcUtilsTest,testGetParameterTypes,org.apache.dubbo.rpc.support.RpcUtils.getParameterTypes(Invocation),1
+RpcUtilsTest,testGetParameterTypes,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),2
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RpcUtilsTest,testGetParameterTypes,"NEW org.apache.dubbo.rpc.RpcInvocation(String, String, Class<?>[], Object[], Map<String,Object>, Invoker<?>, Map<Object,Object>)",0
+RpcUtilsTest,testGetParameterTypes,org.apache.dubbo.rpc.support.RpcUtils.getParameterTypes(Invocation),1
+RpcUtilsTest,testGetParameterTypes,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),2
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+RpcUtilsTest,testGetParameterTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

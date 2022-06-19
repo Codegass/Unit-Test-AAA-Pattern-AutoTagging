@@ -1,0 +1,19 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.post.ConstantPostAggregator(String, Number)",0
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.datasketches.tuple.ArrayOfDoublesSketchToEstimateAndBoundsPostAggregator(String, PostAggregator, Integer)",0
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertFalse(boolean),2
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertTrue(boolean),2
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.post.ConstantPostAggregator(String, Number)",0
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.datasketches.tuple.ArrayOfDoublesSketchToEstimateAndBoundsPostAggregator(String, PostAggregator, Integer)",0
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertTrue(boolean),2
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.post.ConstantPostAggregator(String, Number)",0
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.datasketches.tuple.ArrayOfDoublesSketchToEstimateAndBoundsPostAggregator(String, PostAggregator, Integer)",0
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertFalse(boolean),2
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.post.ConstantPostAggregator(String, Number)",0
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.datasketches.tuple.ArrayOfDoublesSketchToEstimateAndBoundsPostAggregator(String, PostAggregator, Integer)",0
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertFalse(boolean),2
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.post.ConstantPostAggregator(String, Number)",0
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,"NEW org.apache.druid.query.aggregation.datasketches.tuple.ArrayOfDoublesSketchToEstimatePostAggregator(String, PostAggregator)",0
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest,equalsAndHashCode,ASSERT org.junit.Assert.assertFalse(boolean),2

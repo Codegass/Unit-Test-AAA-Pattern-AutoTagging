@@ -1,0 +1,30 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MultipleRegistry2S2RTest,testSubscription,org.apache.dubbo.common.URL.valueOf(String),0
+MultipleRegistry2S2RTest,testSubscription,org.apache.dubbo.registry.multiple.MultipleRegistry.register(URL),0
+MultipleRegistry2S2RTest,testSubscription,org.apache.dubbo.remoting.zookeeper.ZookeeperClient.getChildren(String),0
+MultipleRegistry2S2RTest,testSubscription,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),0
+MultipleRegistry2S2RTest,testSubscription,org.apache.dubbo.common.URL.toFullString(),0
+MultipleRegistry2S2RTest,testSubscription,"     NEW redis.clients.jedis.Jedis(String, int)",0
+MultipleRegistry2S2RTest,testSubscription,"     NEW org.apache.dubbo.rpc.RpcException(String, Throwable)",0
+MultipleRegistry2S2RTest,testSubscription,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),0
+MultipleRegistry2S2RTest,testSubscription,NEW anonymous(),0
+MultipleRegistry2S2RTest,testSubscription,"org.apache.dubbo.registry.multiple.MultipleRegistry.subscribe(URL, NotifyListener)",1
+MultipleRegistry2S2RTest,testSubscription,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+MultipleRegistry2S2RTest,testSubscription,org.apache.dubbo.registry.multiple.MultipleRegistry.getServiceRegistries(),2
+MultipleRegistry2S2RTest,testSubscription,org.apache.dubbo.registry.RegistryService.unregister(URL),2
+MultipleRegistry2S2RTest,testSubscription,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+MultipleRegistry2S2RTest,testSubscription,     java.util.Objects.nonNull(Object),2
+MultipleRegistry2S2RTest,testSubscription,     org.apache.dubbo.registry.multiple.MultipleRegistryTestUtil.isValidCategory(URL),2
+MultipleRegistry2S2RTest,testSubscription,     org.apache.dubbo.registry.multiple.MultipleRegistryTestUtil.isNotCompatibleFor26x(URL),2
+MultipleRegistry2S2RTest,testSubscription,     org.apache.dubbo.common.utils.UrlUtils.isConfigurator(URL),2
+MultipleRegistry2S2RTest,testSubscription,     org.apache.dubbo.common.utils.UrlUtils.isRoute(URL),2
+MultipleRegistry2S2RTest,testSubscription,     org.apache.dubbo.common.utils.UrlUtils.isProvider(URL),2
+MultipleRegistry2S2RTest,testSubscription,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+MultipleRegistry2S2RTest,testSubscription,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+MultipleRegistry2S2RTest,testSubscription,org.apache.dubbo.common.URL.getProtocol(),2
+MultipleRegistry2S2RTest,testSubscription,org.apache.dubbo.registry.RegistryService.unregister(URL),2
+MultipleRegistry2S2RTest,testSubscription,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+MultipleRegistry2S2RTest,testSubscription,TEST org.apache.dubbo.registry.multiple.MultipleRegistryTestUtil.getProviderURLsFromNotifyURLS(List<URL>),2
+MultipleRegistry2S2RTest,testSubscription,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+MultipleRegistry2S2RTest,testSubscription,org.apache.dubbo.common.URL.getProtocol(),2
+MultipleRegistry2S2RTest,testSubscription,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
