@@ -23,6 +23,7 @@ ArgumentCallbackTest,TestCallbackNormal,          org.apache.dubbo.rpc.model.Ser
 ArgumentCallbackTest,TestCallbackNormal,"               org.apache.dubbo.rpc.Protocol.refer(Class<T>, URL)",0
 ArgumentCallbackTest,TestCallbackNormal,               org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<T>),0
 ArgumentCallbackTest,TestCallbackNormal,NEW anonymous(),1
+ArgumentCallbackTest,TestCallbackNormal,NEW anonymous(),1
 ArgumentCallbackTest,TestCallbackNormal,"TEST org.apache.dubbo.rpc.protocol.dubbo.ArgumentCallbackTest.IDemoService.xxx(IDemoCallback, String, int, int)",0
 ArgumentCallbackTest,TestCallbackNormal,     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
 ArgumentCallbackTest,TestCallbackNormal,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

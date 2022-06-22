@@ -5,6 +5,13 @@ MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
 MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
 MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
 MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
 MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,streamer.debug.MockServer.start(),1
 MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,streamer.debug.MockServer.getAddress(),1
 MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,streamer.debug.MockServer.waitUntilShutdowned(long),1

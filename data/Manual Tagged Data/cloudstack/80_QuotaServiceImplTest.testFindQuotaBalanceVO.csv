@@ -9,3 +9,4 @@ QuotaServiceImplTest,testFindQuotaBalanceVO,"org.apache.cloudstack.quota.dao.Quo
 QuotaServiceImplTest,testFindQuotaBalanceVO,"org.apache.cloudstack.quota.dao.QuotaBalanceDao.lastQuotaBalanceVO(Long, Long, Date)",0
 QuotaServiceImplTest,testFindQuotaBalanceVO,"org.apache.cloudstack.quota.QuotaServiceImpl.findQuotaBalanceVO(Long, String, Long, Date, Date)",1
 QuotaServiceImplTest,testFindQuotaBalanceVO,"org.apache.cloudstack.quota.QuotaServiceImpl.findQuotaBalanceVO(Long, String, Long, Date, Date)",1
+QuotaServiceImplTest,testFindQuotaBalanceVO,"org.apache.cloudstack.quota.QuotaServiceImpl.findQuotaBalanceVO(Long, String, Long, Date, Date)",1
